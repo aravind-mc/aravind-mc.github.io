@@ -1,41 +1,8 @@
-function getSpeakers(sents) {
-    speakers = {};
-    for (i = 0; i < sents.length; i++) {
-        sent = sents[i];
-        if (sent.toString().startsWith('Speaker')) {
-            splitted = sent.toString().split(':');
-            speaker_num = splitted[0].replace('Speaker', '').trim();
-            speaker_name = splitted[1].trim();
-            speakers[`Speaker ${speaker_num}`] = speaker_name;
-        }
-    }
-    return speakers;
-}
-
-function getChapters(sents) {
-    chapter_map = {};
-    for (i = 0; i < sents.length; i++) {
-        sent = sents[i];
-        sent_str = sent.toString();
-        if (sent_str.includes('|')) {
-            before = sent_str.split('|')[0];
-            before_split = before.split(':');
-            seconds = -1;
-            if (before_split.length === 3) {
-                seconds = (+before_split[0]) * 60 * 60 + (+before_split[1]) * 60 + (+before_split[2]);
-            } else if (before_split.length === 2) {
-                seconds = (+before_split[0]) * 60 + (+before_split[1]);
-            }
-            chapter_map[seconds] = sent_str.split('|')[1];
-        }
-    }
-    return chapter_map;
-}
-
 window.totalColumns = 0;
 $(function () {
+    
     // The event listener for the file upload
-    document.getElementById('txtFileUpload').addEventListener('change', upload, false);
+    document.getElementById('btnFileUpload').addEventListener('change', upload, false);
 
     $('#btnDownload').prop("disabled", true);
 
@@ -406,8 +373,7 @@ function populate_dose_info(dose_num, mid_phrase, checkin) {
     }
 }
 
-function display(json_data) {
-    data = JSON.parse(json_data);
+function display_json(data){
     $('#preJSON').text(JSON.stringify(data, undefined, 2));
     sex = data['sex'];
     $('#tdSex').html(sex);
@@ -442,6 +408,11 @@ function display(json_data) {
             populate_dose_info(2, mid_phrase, checkin);
         }
     });
+}
+
+function display(json_data) {
+    data = JSON.parse(json_data);
+    display_json(data);
 }
 
 String.prototype.isEmpty = function () {
