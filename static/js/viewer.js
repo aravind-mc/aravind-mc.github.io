@@ -1,100 +1,7 @@
 window.totalColumns = 0;
 $(function () {
-
     // The event listener for the file upload
     document.getElementById('btnFileUpload').addEventListener('change', upload, false);
-
-    $('#btnDownload').prop("disabled", true);
-
-    $('#divError').hide();
-
-    $("#btnDownload").on('click', function () {
-        if (window.zipObject) {
-            downloadZIPFile();
-        } else {
-            alert('There was an error creating the ZIP file');
-        }
-    });
-
-    $('#btnGenerateOutScript').on('click', function () {
-        data = window.csvData;
-        full_md_str = '';
-        url = $('#txtURL').val();
-        title = $('#txtTitle').val();
-        description = $('#txtDescription').val();
-        full_md_str += `\n\n### ${title}\n\n${url}\n\n${description}\n\n`;
-        var firstRow = data[0];
-        if (firstRow.length < 3) {
-            alert('There is an error in your CSV file. It must have at least 3 columns!');
-        } else {
-            col1 = firstRow[0];
-            col2 = firstRow[1];
-            col3 = firstRow[2];
-            hasSpeaker = false;
-            if (firstRow.length > 3) {
-                col4 = firstRow[3];
-                hasSpeaker = true;
-            }
-            prev_speaker = '';
-            curr_speaker = '';
-            prev_min = 0;
-            curr_min = 0;
-            if ((col1 === 'start') && (col2 === 'end') && (col3 === 'text')) {
-                llm_response = $('#txtLLMResponse').val();
-                sents = llm_response.toString().split('\n');
-                speakers = getSpeakers(sents);
-                chapters = getChapters(sents);
-                heading_added = [];
-                $(data).each(function (index, value) {
-                    col1 = value[0];
-                    col2 = value[1];
-                    col3 = value[2];
-                    if (hasSpeaker) {
-                        col4 = value[3].toString();
-                    }
-                    if (index > 0) {
-                        start_sec = Math.floor(parseInt(col1) / 1000);
-                        end_sec = Math.floor(parseInt(col2) / 1000);
-                        curr_min = Math.floor(start_sec / 60);
-                        const date = new Date(null);
-                        date.setSeconds(start_sec); // specify value for SECONDS here
-                        const result = date.toISOString().slice(11, 19);
-                        if (curr_min > prev_min) {
-                            full_md_str += `\n\n[${result}]\n\n`;
-                            prev_min = curr_min;
-                        }
-                        if (hasSpeaker) {
-                            curr_speaker = speakers[col4];
-                            if (curr_speaker !== prev_speaker) {
-                                full_md_str += `\n\n[${curr_speaker}]\n\n`;
-                                prev_speaker = curr_speaker;
-                            }
-                        }
-                        chapter_heading = null;
-
-                        for (const [key, objvalue] of Object.entries(chapter_map)) {
-                            index = key;
-                            if (Math.abs(index - start_sec) < 2) {
-                                if (!heading_added.includes(index)) {
-                                    chapter_heading = objvalue;
-                                    heading_added.push(index);
-                                    break;
-                                }
-                            }
-                        }
-                        if (chapter_heading !== null) {
-                            full_md_str += `\n\n### ${chapter_heading}\n\n`
-                        }
-                        full_md_str += col3;
-                    }
-                });
-                $('#txtOutput').text(full_md_str);
-            } else {
-                alert('Please make sure your CSV file is in the correct format!');
-            }
-        }
-
-    });
 
     // Method that checks that the browser supports the HTML5 File API
     function browserSupportFileUpload() {
@@ -110,7 +17,6 @@ $(function () {
         if (!browserSupportFileUpload()) {
             alert('The File APIs are not fully supported in this browser!');
         } else {
-            $('#btnDownload').prop("disabled", true);
             var data = null;
             var file = evt.target.files[0];
             var reader = new FileReader();
