@@ -1,6 +1,6 @@
 window.totalColumns = 0;
 $(function () {
-    
+
     // The event listener for the file upload
     document.getElementById('btnFileUpload').addEventListener('change', upload, false);
 
