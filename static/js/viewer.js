@@ -66,6 +66,11 @@ function populate_post_daily_checkin(dose_num, day_num, checkin) {
     $(duration).html(checkin['DURATION_MINS']);
     feeling_today = `#td${dose_num}aDay${day_num}FeelingToday`;
     $(feeling_today).html(get_badge(checkin['FEELING_TODAY']));
+    //td1aDay14DescribeSymptoms
+    symptoms_description = `#td${dose_num}aDay${day_num}DescribeSymptoms`;
+
+    $(symptoms_description).html(checkin['SD_MEDDRA']);
+
     //td1aDay0Work, td1aDay0Activities, td1aDay0Doctor
     health_impact = checkin['HEALTH_IMPACT'].toString();
     missed_work = '';
@@ -114,6 +119,8 @@ function populate_post_daily_checkin(dose_num, day_num, checkin) {
     $(care_emergency_cell).html(care_emergency);
     care_hospitalization_cell = `#td${dose_num}aDay${day_num}Hospitalization`
     $(care_hospitalization_cell).html(care_hospitalization);
+    care_other = `#td${dose_num}aDay${day_num}Other`;
+    $(care_other).html(checkin['HCVO_MEDDRA']);
 
     //td1aDay14CovidPositive, td1aDay14CovidPositiveDate, td1aDay14Pregnant,
 
@@ -178,6 +185,9 @@ function populate_daily_checkin(dose_num, day_num, checkin) {
     $(abdominal_pain).html(get_badge(checkin['ABDOMINAL_PAIN']));
     rash_other = `#td${dose_num}Day${day_num}RashOther`;
     $(rash_other).html(get_badge(checkin['RASH_OUTSIDE_INJECTION_SITE']));
+    //td4Day0AnyOther
+    any_other = `#td${dose_num}Day${day_num}AnyOther`
+    $(any_other).html(checkin['SRO_MEDDRA']);
 
     //td1Day0Work, td1Day0Activities, td1Day0Doctor
     health_impact = checkin['HEALTH_IMPACT'].toString();
@@ -227,6 +237,9 @@ function populate_daily_checkin(dose_num, day_num, checkin) {
     $(care_emergency_cell).html(care_emergency);
     care_hospitalization_cell = `#td${dose_num}Day${day_num}Hospitalization`
     $(care_hospitalization_cell).html(care_hospitalization);
+    //td4Day0Other
+    care_other = `#td${dose_num}Day${day_num}Other`;
+    $(care_other).html(checkin['HCVO_MEDDRA']);
 }
 
 function populate_dose_info(dose_num, mid_phrase, checkin) {
@@ -279,7 +292,7 @@ function populate_dose_info(dose_num, mid_phrase, checkin) {
     }
 }
 
-function display_json(data){
+function display_json(data) {
     $('#preJSON').text(JSON.stringify(data, undefined, 2));
     sex = data['sex'];
     $('#tdSex').html(sex);
@@ -294,7 +307,7 @@ function display_json(data){
     vax1_coadministered_vax = data['vaccine_info'][0]['COADMINISTERED_VAX'];
     $('#tdDose1CoadministeredVaccine').html(vax1_coadministered_vax);
     vaccine_info_list = data['vaccine_info']
-    if (vaccine_info_list.length > 1){
+    if (vaccine_info_list.length > 1) {
         vax2_date = vaccine_info_list[1]['VACCINATION_DATE'];
         $('#tdDose2VaxDate').html(vax2_date);
         vax2_coadministered = vaccine_info_list[1]['COADMINISTERED'];
@@ -302,7 +315,7 @@ function display_json(data){
         vax2_coadministered_vax = vaccine_info_list[1]['COADMINISTERED_VAX']
         $('#tdDose2CoadministeredVaccine').html(vax2_coadministered_vax);
     }
-    if (vaccine_info_list.length > 2){
+    if (vaccine_info_list.length > 2) {
         vax3_date = vaccine_info_list[2]['VACCINATION_DATE'];
         $('#tdDose3VaxDate').html(vax3_date);
         vax3_coadministered = vaccine_info_list[2]['COADMINISTERED'];
@@ -310,7 +323,7 @@ function display_json(data){
         vax3_coadministered_vax = vaccine_info_list[2]['COADMINISTERED_VAX']
         $('#tdDose3CoadministeredVaccine').html(vax3_coadministered_vax);
     }
-    if (vaccine_info_list.length > 3){
+    if (vaccine_info_list.length > 3) {
         vax4_date = vaccine_info_list[3]['VACCINATION_DATE'];
         $('#tdDose4VaxDate').html(vax4_date);
         vax4_coadministered = vaccine_info_list[3]['COADMINISTERED'];
@@ -330,10 +343,13 @@ function display_json(data){
             populate_dose_info(2, mid_phrase, checkin);
         } else if (dose_num === 'dose3') {
             populate_dose_info(3, mid_phrase, checkin);
-        }
-        else if (dose_num === 'dose4') {
+        } else if (dose_num === 'dose4') {
             populate_dose_info(4, mid_phrase, checkin);
         }
+    });
+    sro_meddra = data['sro_meddra'];
+    sro_meddra.forEach((sro, i) => {
+
     });
 }
 
