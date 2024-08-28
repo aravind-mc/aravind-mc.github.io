@@ -1429,7 +1429,669 @@
                 Dose 3
             </div>
             <div class="card-body">
-                Coming soon...
+                <div>
+                    <table id="dose3Info" class="mt-3 ml-3 table table-bordered table-striped">
+                        <tr>
+                            <td style="width:30%;">Vaccination Date</td>
+                            <td id="tdDose3VaxDate"></td>
+                        </tr>
+                        <tr>
+                            <td>Coadministered</td>
+                            <td id="tdDose3Coadministered"></td>
+                        </tr>
+                        <tr>
+                            <td>Coadministered Vaccine</td>
+                            <td id="tdDose3CoadministeredVaccine"></td>
+                        </tr>
+                    </table>
+                    <h5>Daily Checkins</h5>
+                    <table id="checkins_dose3_daily" class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th class="width:20%;max-width:20%;">Field</th>
+                            <th class="width:10%;">Day0</th>
+                            <th class="width:10%;">Day1</th>
+                            <th class="width:10%;">Day2</th>
+                            <th class="width:10%;">Day3</th>
+                            <th class="width:10%;">Day4</th>
+                            <th class="width:10%;">Day5</th>
+                            <th class="width:10%;">Day6</th>
+                            <th class="width:10%;">Day7</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>Started On</td>
+                            <td id="td3Day0StartedOn"></td>
+                            <td id="td3Day1StartedOn"></td>
+                            <td id="td3Day2StartedOn"></td>
+                            <td id="td3Day3StartedOn"></td>
+                            <td id="td3Day4StartedOn"></td>
+                            <td id="td3Day5StartedOn"></td>
+                            <td id="td3Day6StartedOn"></td>
+                            <td id="td3Day7StartedOn"></td>
+                        </tr>
+                        <tr>
+                            <td>Duration (mins)</td>
+                            <td id="td3Day0Duration"></td>
+                            <td id="td3Day1Duration"></td>
+                            <td id="td3Day2Duration"></td>
+                            <td id="td3Day3Duration"></td>
+                            <td id="td3Day4Duration"></td>
+                            <td id="td3Day5Duration"></td>
+                            <td id="td3Day6Duration"></td>
+                            <td id="td3Day7Duration"></td>
+                        </tr>
+                        <tr>
+                            <td>How are you feeling today?</td>
+                            <td id="td3Day0FeelingToday"></td>
+                            <td id="td3Day1FeelingToday"></td>
+                            <td id="td3Day2FeelingToday"></td>
+                            <td id="td3Day3FeelingToday"></td>
+                            <td id="td3Day4FeelingToday"></td>
+                            <td id="td3Day5FeelingToday"></td>
+                            <td id="td3Day6FeelingToday"></td>
+                            <td id="td3Day7FeelingToday"></td>
+                        </tr>
+                        <tr>
+                            <td>Have you had a fever or felt feverish today?</td>
+                            <td id="td3Day0Fever"></td>
+                            <td id="td3Day1Fever"></td>
+                            <td id="td3Day2Fever"></td>
+                            <td id="td3Day3Fever"></td>
+                            <td id="td3Day4Fever"></td>
+                            <td id="td3Day5Fever"></td>
+                            <td id="td3Day6Fever"></td>
+                            <td id="td3Day7Fever"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Do you know your highest temperature reading from today?</td>
+                            <td id="td3Day0Temperature"></td>
+                            <td id="td3Day1Temperature"></td>
+                            <td id="td3Day2Temperature"></td>
+                            <td id="td3Day3Temperature"></td>
+                            <td id="td3Day4Temperature"></td>
+                            <td id="td3Day5Temperature"></td>
+                            <td id="td3Day6Temperature"></td>
+                            <td id="td3Day7Temperature"></td>
+                        </tr>
+                        <tr>
+                            <td>--> ---> Enter your highest temperature reading from today (degrees
+                                Fahrenheit)
+                            </td>
+                            <td id="td3Day0TempValue"></td>
+                            <td id="td3Day1TempValue"></td>
+                            <td id="td3Day2TempValue"></td>
+                            <td id="td3Day3TempValue"></td>
+                            <td id="td3Day4TempValue"></td>
+                            <td id="td3Day5TempValue"></td>
+                            <td id="td3Day6TempValue"></td>
+                            <td id="td3Day7TempValue"></td>
+                        </tr>
+                        <tr>
+                            <td>Have you had any of these symptoms today where you got the shot (injection
+                                site)?
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Pain</td>
+                            <td id="td3Day0Pain"></td>
+                            <td id="td3Day1Pain"></td>
+                            <td id="td3Day2Pain"></td>
+                            <td id="td3Day3Pain"></td>
+                            <td id="td3Day4Pain"></td>
+                            <td id="td3Day5Pain"></td>
+                            <td id="td3Day6Pain"></td>
+                            <td id="td3Day7Pain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Redness</td>
+                            <td id="td3Day0Redness"></td>
+                            <td id="td3Day1Redness"></td>
+                            <td id="td3Day2Redness"></td>
+                            <td id="td3Day3Redness"></td>
+                            <td id="td3Day4Redness"></td>
+                            <td id="td3Day5Redness"></td>
+                            <td id="td3Day6Redness"></td>
+                            <td id="td3Day7Redness"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Swelling</td>
+                            <td id="td3Day0Swelling"></td>
+                            <td id="td3Day1Swelling"></td>
+                            <td id="td3Day2Swelling"></td>
+                            <td id="td3Day3Swelling"></td>
+                            <td id="td3Day4Swelling"></td>
+                            <td id="td3Day5Swelling"></td>
+                            <td id="td3Day6Swelling"></td>
+                            <td id="td3Day7Swelling"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Itching</td>
+                            <td id="td3Day0Itching"></td>
+                            <td id="td3Day1Itching"></td>
+                            <td id="td3Day2Itching"></td>
+                            <td id="td3Day3Itching"></td>
+                            <td id="td3Day4Itching"></td>
+                            <td id="td3Day5Itching"></td>
+                            <td id="td3Day6Itching"></td>
+                            <td id="td3Day7Itching"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Have you experienced any of these symptoms today?</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Chills</td>
+                            <td id="td3Day0Chills"></td>
+                            <td id="td3Day1Chills"></td>
+                            <td id="td3Day2Chills"></td>
+                            <td id="td3Day3Chills"></td>
+                            <td id="td3Day4Chills"></td>
+                            <td id="td3Day5Chills"></td>
+                            <td id="td3Day6Chills"></td>
+                            <td id="td3Day7Chills"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Headache</td>
+                            <td id="td3Day0Headache"></td>
+                            <td id="td3Day1Headache"></td>
+                            <td id="td3Day2Headache"></td>
+                            <td id="td3Day3Headache"></td>
+                            <td id="td3Day4Headache"></td>
+                            <td id="td3Day5Headache"></td>
+                            <td id="td3Day6Headache"></td>
+                            <td id="td3Day7Headache"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Joint pain</td>
+                            <td id="td3Day0JointPain"></td>
+                            <td id="td3Day1JointPain"></td>
+                            <td id="td3Day2JointPain"></td>
+                            <td id="td3Day3JointPain"></td>
+                            <td id="td3Day4JointPain"></td>
+                            <td id="td3Day5JointPain"></td>
+                            <td id="td3Day6JointPain"></td>
+                            <td id="td3Day7JointPain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Muscle or body aches</td>
+                            <td id="td3Day0MuscleAche"></td>
+                            <td id="td3Day1MuscleAche"></td>
+                            <td id="td3Day2MuscleAche"></td>
+                            <td id="td3Day3MuscleAche"></td>
+                            <td id="td3Day4MuscleAche"></td>
+                            <td id="td3Day5MuscleAche"></td>
+                            <td id="td3Day6MuscleAche"></td>
+                            <td id="td3Day7MuscleAche"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Fatigue or tiredness</td>
+                            <td id="td3Day0Fatigue"></td>
+                            <td id="td3Day1Fatigue"></td>
+                            <td id="td3Day2Fatigue"></td>
+                            <td id="td3Day3Fatigue"></td>
+                            <td id="td3Day4Fatigue"></td>
+                            <td id="td3Day5Fatigue"></td>
+                            <td id="td3Day6Fatigue"></td>
+                            <td id="td3Day7Fatigue"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Nausea</td>
+                            <td id="td3Day0Nausea"></td>
+                            <td id="td3Day1Nausea"></td>
+                            <td id="td3Day2Nausea"></td>
+                            <td id="td3Day3Nausea"></td>
+                            <td id="td3Day4Nausea"></td>
+                            <td id="td3Day5Nausea"></td>
+                            <td id="td3Day6Nausea"></td>
+                            <td id="td3Day7Nausea"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Vomiting</td>
+                            <td id="td3Day0Vomiting"></td>
+                            <td id="td3Day1Vomiting"></td>
+                            <td id="td3Day2Vomiting"></td>
+                            <td id="td3Day3Vomiting"></td>
+                            <td id="td3Day4Vomiting"></td>
+                            <td id="td3Day5Vomiting"></td>
+                            <td id="td3Day6Vomiting"></td>
+                            <td id="td3Day7Vomiting"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Diarrhea</td>
+                            <td id="td3Day0Diarrhea"></td>
+                            <td id="td3Day1Diarrhea"></td>
+                            <td id="td3Day2Diarrhea"></td>
+                            <td id="td3Day3Diarrhea"></td>
+                            <td id="td3Day4Diarrhea"></td>
+                            <td id="td3Day5Diarrhea"></td>
+                            <td id="td3Day6Diarrhea"></td>
+                            <td id="td3Day7Diarrhea"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Abdominal pain</td>
+                            <td id="td3Day0AbdominalPain"></td>
+                            <td id="td3Day1AbdominalPain"></td>
+                            <td id="td3Day2AbdominalPain"></td>
+                            <td id="td3Day3AbdominalPain"></td>
+                            <td id="td3Day4AbdominalPain"></td>
+                            <td id="td3Day5AbdominalPain"></td>
+                            <td id="td3Day6AbdominalPain"></td>
+                            <td id="td3Day7AbdominalPain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Rash, not including the immediate area around the injection site</td>
+                            <td id="td3Day0RashOther"></td>
+                            <td id="td3Day1RashOther"></td>
+                            <td id="td3Day2RashOther"></td>
+                            <td id="td3Day3RashOther"></td>
+                            <td id="td3Day4RashOther"></td>
+                            <td id="td3Day5RashOther"></td>
+                            <td id="td3Day6RashOther"></td>
+                            <td id="td3Day7RashOther"></td>
+                        </tr>
+                        <tr>
+                            <td>Did any of the symptoms or health conditions you reported today cause you to
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to work or attend school</td>
+                            <td id="td3Day0Work"></td>
+                            <td id="td3Day1Work"></td>
+                            <td id="td3Day2Work"></td>
+                            <td id="td3Day3Work"></td>
+                            <td id="td3Day4Work"></td>
+                            <td id="td3Day5Work"></td>
+                            <td id="td3Day6Work"></td>
+                            <td id="td3Day7Work"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to do your normal daily activities</td>
+                            <td id="td3Day0Activities"></td>
+                            <td id="td3Day1Activities"></td>
+                            <td id="td3Day2Activities"></td>
+                            <td id="td3Day3Activities"></td>
+                            <td id="td3Day4Activities"></td>
+                            <td id="td3Day5Activities"></td>
+                            <td id="td3Day6Activities"></td>
+                            <td id="td3Day7Activities"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Get care from a doctor or other healthcare professional</td>
+                            <td id="td3Day0Doctor"></td>
+                            <td id="td3Day1Doctor"></td>
+                            <td id="td3Day2Doctor"></td>
+                            <td id="td3Day3Doctor"></td>
+                            <td id="td3Day4Doctor"></td>
+                            <td id="td3Day5Doctor"></td>
+                            <td id="td3Day6Doctor"></td>
+                            <td id="td3Day7Doctor"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Telehealth, virtual health, or email health consultation</td>
+                            <td id="td3Day0HealthConsultation"></td>
+                            <td id="td3Day1HealthConsultation"></td>
+                            <td id="td3Day2HealthConsultation"></td>
+                            <td id="td3Day3HealthConsultation"></td>
+                            <td id="td3Day4HealthConsultation"></td>
+                            <td id="td3Day5HealthConsultation"></td>
+                            <td id="td3Day6HealthConsultation"></td>
+                            <td id="td3Day7HealthConsultation"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Outpatient clinic or urgent care clinic visit</td>
+                            <td id="td3Day0Clinic"></td>
+                            <td id="td3Day1Clinic"></td>
+                            <td id="td3Day2Clinic"></td>
+                            <td id="td3Day3Clinic"></td>
+                            <td id="td3Day4Clinic"></td>
+                            <td id="td3Day5Clinic"></td>
+                            <td id="td3Day6Clinic"></td>
+                            <td id="td3Day7Clinic"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Emergency room or emergency department visit</td>
+                            <td id="td3Day0Emergency"></td>
+                            <td id="td3Day1Emergency"></td>
+                            <td id="td3Day2Emergency"></td>
+                            <td id="td3Day3Emergency"></td>
+                            <td id="td3Day4Emergency"></td>
+                            <td id="td3Day5Emergency"></td>
+                            <td id="td3Day6Emergency"></td>
+                            <td id="td3Day7Emergency"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Hospitalization</td>
+                            <td id="td3Day0Hospitalization"></td>
+                            <td id="td3Day1Hospitalization"></td>
+                            <td id="td3Day2Hospitalization"></td>
+                            <td id="td3Day3Hospitalization"></td>
+                            <td id="td3Day4Hospitalization"></td>
+                            <td id="td3Day5Hospitalization"></td>
+                            <td id="td3Day6Hospitalization"></td>
+                            <td id="td3Day7Hospitalization"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Other, describe:</td>
+                            <td id="td3Day0Other"></td>
+                            <td id="td3Day1Other"></td>
+                            <td id="td3Day2Other"></td>
+                            <td id="td3Day3Other"></td>
+                            <td id="td3Day4Other"></td>
+                            <td id="td3Day5Other"></td>
+                            <td id="td3Day6Other"></td>
+                            <td id="td3Day7Other"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None of the above</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <h5>Post-daily Checkins</h5>
+                    <table id="checkins_dose3_post_daily" class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th class="width:20%;max-width:20%;">Field</th>
+                            <th class="width:10%;">Day14</th>
+                            <th class="width:10%;">Day21</th>
+                            <th class="width:10%;">Day28</th>
+                            <th class="width:10%;">Day35</th>
+                            <th class="width:10%;">Day42</th>
+                            <th class="width:10%;">Day90</th>
+                            <th class="width:10%;">Day180</th>
+                            <th class="width:10%;">Day365</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>Started On</td>
+                            <td id="td3aDay14StartedOn"></td>
+                            <td id="td3aDay21StartedOn"></td>
+                            <td id="td3aDay28StartedOn"></td>
+                            <td id="td3aDay35StartedOn"></td>
+                            <td id="td3aDay42StartedOn"></td>
+                            <td id="td3aDay90StartedOn"></td>
+                            <td id="td3aDay180StartedOn"></td>
+                            <td id="td3aDay365StartedOn"></td>
+                        </tr>
+                        <tr>
+                            <td>Duration (mins)</td>
+                            <td id="td3aDay14Duration"></td>
+                            <td id="td3aDay21Duration"></td>
+                            <td id="td3aDay28Duration"></td>
+                            <td id="td3aDay35Duration"></td>
+                            <td id="td3aDay42Duration"></td>
+                            <td id="td3aDay90Duration"></td>
+                            <td id="td3aDay180Duration"></td>
+                            <td id="td3aDay365Duration"></td>
+                        </tr>
+                        <tr>
+                            <td>How are you feeling today?</td>
+                            <td id="td3aDay14FeelingToday"></td>
+                            <td id="td3aDay21FeelingToday"></td>
+                            <td id="td3aDay28FeelingToday"></td>
+                            <td id="td3aDay35FeelingToday"></td>
+                            <td id="td3aDay42FeelingToday"></td>
+                            <td id="td3aDay90FeelingToday"></td>
+                            <td id="td3aDay180FeelingToday"></td>
+                            <td id="td3aDay365FeelingToday"></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last check-in, have you experienced any new or worsening symptoms or
+                                health conditions?
+                            </td>
+                            <td id="td3aDay14NewSymptoms"></td>
+                            <td id="td3aDay21NewSymptoms"></td>
+                            <td id="td3aDay28NewSymptoms"></td>
+                            <td id="td3aDay35NewSymptoms"></td>
+                            <td id="td3aDay42NewSymptoms"></td>
+                            <td id="td3aDay90NewSymptoms"></td>
+                            <td id="td3aDay180NewSymptoms"></td>
+                            <td id="td3aDay365NewSymptoms"></td>
+                        </tr>
+                        <tr>
+                            <td>If Yes, Please describe the symptoms or health conditions
+                            </td>
+                            <td id="td3aDay14DescribeSymptoms"></td>
+                            <td id="td3aDay21DescribeSymptoms"></td>
+                            <td id="td3aDay28DescribeSymptoms"></td>
+                            <td id="td3aDay35DescribeSymptoms"></td>
+                            <td id="td3aDay42DescribeSymptoms"></td>
+                            <td id="td3aDay90DescribeSymptoms"></td>
+                            <td id="td3aDay180DescribeSymptoms"></td>
+                            <td id="td3aDay365DescribeSymptoms"></td>
+                        </tr>
+                        <tr>
+                            <td>If Yes, Did any of the symptoms or health conditions you reported today cause
+                                you to
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to work or attend school</td>
+                            <td id="td3aDay14Work"></td>
+                            <td id="td3aDay21Work"></td>
+                            <td id="td3aDay28Work"></td>
+                            <td id="td3aDay35Work"></td>
+                            <td id="td3aDay42Work"></td>
+                            <td id="td3aDay90Work"></td>
+                            <td id="td3aDay180Work"></td>
+                            <td id="td3aDay365Work"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to do your normal daily activities</td>
+                            <td id="td3aDay14Activities"></td>
+                            <td id="td3aDay21Activities"></td>
+                            <td id="td3aDay28Activities"></td>
+                            <td id="td3aDay35Activities"></td>
+                            <td id="td3aDay42Activities"></td>
+                            <td id="td3aDay90Activities"></td>
+                            <td id="td3aDay180Activities"></td>
+                            <td id="td3aDay365Activities"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Get care from a doctor or other healthcare professional</td>
+                            <td id="td3aDay14Doctor"></td>
+                            <td id="td3aDay21Doctor"></td>
+                            <td id="td3aDay28Doctor"></td>
+                            <td id="td3aDay35Doctor"></td>
+                            <td id="td3aDay42Doctor"></td>
+                            <td id="td3aDay90Doctor"></td>
+                            <td id="td3aDay180Doctor"></td>
+                            <td id="td3aDay365Doctor"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Telehealth, virtual health, or email health consultation</td>
+                            <td id="td3aDay14HealthConsultation"></td>
+                            <td id="td3aDay21HealthConsultation"></td>
+                            <td id="td3aDay28HealthConsultation"></td>
+                            <td id="td3aDay35HealthConsultation"></td>
+                            <td id="td3aDay42HealthConsultation"></td>
+                            <td id="td3aDay90HealthConsultation"></td>
+                            <td id="td3aDay180HealthConsultation"></td>
+                            <td id="td3aDay365HealthConsultation"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Outpatient clinic or urgent care clinic visit</td>
+                            <td id="td3aDay14Clinic"></td>
+                            <td id="td3aDay21Clinic"></td>
+                            <td id="td3aDay28Clinic"></td>
+                            <td id="td3aDay35Clinic"></td>
+                            <td id="td3aDay42Clinic"></td>
+                            <td id="td3aDay90Clinic"></td>
+                            <td id="td3aDay180Clinic"></td>
+                            <td id="td3aDay365Clinic"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Emergency room or emergency department visit</td>
+                            <td id="td3aDay14Emergency"></td>
+                            <td id="td3aDay21Emergency"></td>
+                            <td id="td3aDay28Emergency"></td>
+                            <td id="td3aDay35Emergency"></td>
+                            <td id="td3aDay42Emergency"></td>
+                            <td id="td3aDay90Emergency"></td>
+                            <td id="td3aDay180Emergency"></td>
+                            <td id="td3aDay365Emergency"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Hospitalization</td>
+                            <td id="td3aDay14Hospitalization"></td>
+                            <td id="td3aDay21Hospitalization"></td>
+                            <td id="td3aDay28Hospitalization"></td>
+                            <td id="td3aDay35Hospitalization"></td>
+                            <td id="td3aDay42Hospitalization"></td>
+                            <td id="td3aDay90Hospitalization"></td>
+                            <td id="td3aDay180Hospitalization"></td>
+                            <td id="td3aDay365Hospitalization"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Other, describe:</td>
+                            <td id="td3aDay14Other"></td>
+                            <td id="td3aDay21Other"></td>
+                            <td id="td3aDay28Other"></td>
+                            <td id="td3aDay35Other"></td>
+                            <td id="td3aDay42Other"></td>
+                            <td id="td3aDay90Other"></td>
+                            <td id="td3aDay180Other"></td>
+                            <td id="td3aDay365Other"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None of the above</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last check-in, did you have a positive COVID-19 test or were you told
+                                by a health care provider that you had COVID-19?
+                            </td>
+                            <td id="td3aDay14CovidPositive"></td>
+                            <td id="td3aDay21CovidPositive"></td>
+                            <td id="td3aDay28CovidPositive"></td>
+                            <td id="td3aDay35CovidPositive"></td>
+                            <td id="td3aDay42CovidPositive"></td>
+                            <td id="td3aDay90CovidPositive"></td>
+                            <td id="td3aDay180CovidPositive"></td>
+                            <td id="td3aDay365CovidPositive"></td>
+                        </tr>
+                        <tr>
+                            <td>If yes, when were you diagnosed?
+                            </td>
+                            <td id="td3aDay14CovidPositiveDate"></td>
+                            <td id="td3aDay21CovidPositiveDate"></td>
+                            <td id="td3aDay28CovidPositiveDate"></td>
+                            <td id="td3aDay35CovidPositiveDate"></td>
+                            <td id="td3aDay42CovidPositiveDate"></td>
+                            <td id="td3aDay90CovidPositiveDate"></td>
+                            <td id="td3aDay180CovidPositiveDate"></td>
+                            <td id="td3aDay365CovidPositiveDate"></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last COVID-19 vaccination, have you had a home or laboratory
+                                pregnancy test that was positive?
+                            </td>
+                            <td id="td3aDay14Pregnant"></td>
+                            <td id="td3aDay21Pregnant"></td>
+                            <td id="td3aDay28Pregnant"></td>
+                            <td id="td3aDay35Pregnant"></td>
+                            <td id="td3aDay42Pregnant"></td>
+                            <td id="td3aDay90Pregnant"></td>
+                            <td id="td3aDay180Pregnant"></td>
+                            <td id="td3aDay365Pregnant"></td>
+                        </tr>
+                        <tr>
+                            <td>How would you describe your current state of health?
+                            </td>
+                            <td id="td3aDay14HealthNow"></td>
+                            <td id="td3aDay21HealthNow"></td>
+                            <td id="td3aDay28HealthNow"></td>
+                            <td id="td3aDay35HealthNow"></td>
+                            <td id="td3aDay42HealthNow"></td>
+                            <td id="td3aDay90HealthNow"></td>
+                            <td id="td3aDay180HealthNow"></td>
+                            <td id="td3aDay365HealthNow"></td>
+                        </tr>
+                        <tr>
+                            <td>How is your health now compared to your heath before your last
+                                COVID-19 vaccination?
+                            </td>
+                            <td id="td3aDay14HealthNowComparison"></td>
+                            <td id="td3aDay21HealthNowComparison"></td>
+                            <td id="td3aDay28HealthNowComparison"></td>
+                            <td id="td3aDay35HealthNowComparison"></td>
+                            <td id="td3aDay42HealthNowComparison"></td>
+                            <td id="td3aDay90HealthNowComparison"></td>
+                            <td id="td3aDay180HealthNowComparison"></td>
+                            <td id="td3aDay365HealthNowComparison"></td>
+                        </tr>
+                        <tr>
+                            <td>If worse, do you believe your health problems might be related to
+                                your COVID-19 vaccination?
+                            </td>
+                            <td id="td3aDay14VaccineRelated"></td>
+                            <td id="td3aDay21VaccineRelated"></td>
+                            <td id="td3aDay28VaccineRelated"></td>
+                            <td id="td3aDay35VaccineRelated"></td>
+                            <td id="td3aDay42VaccineRelated"></td>
+                            <td id="td3aDay90VaccineRelated"></td>
+                            <td id="td3aDay180VaccineRelated"></td>
+                            <td id="td3aDay365VaccineRelated"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
         <p></p>
@@ -1438,7 +2100,669 @@
                 Dose 4
             </div>
             <div class="card-body">
-                Coming soon...
+                <div>
+                    <table id="dose4Info" class="mt-3 ml-3 table table-bordered table-striped">
+                        <tr>
+                            <td style="width:30%;">Vaccination Date</td>
+                            <td id="tdDose4VaxDate"></td>
+                        </tr>
+                        <tr>
+                            <td>Coadministered</td>
+                            <td id="tdDose4Coadministered"></td>
+                        </tr>
+                        <tr>
+                            <td>Coadministered Vaccine</td>
+                            <td id="tdDose4CoadministeredVaccine"></td>
+                        </tr>
+                    </table>
+                    <h5>Daily Checkins</h5>
+                    <table id="checkins_dose4_daily" class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th class="width:20%;max-width:20%;">Field</th>
+                            <th class="width:10%;">Day0</th>
+                            <th class="width:10%;">Day1</th>
+                            <th class="width:10%;">Day2</th>
+                            <th class="width:10%;">Day3</th>
+                            <th class="width:10%;">Day4</th>
+                            <th class="width:10%;">Day5</th>
+                            <th class="width:10%;">Day6</th>
+                            <th class="width:10%;">Day7</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>Started On</td>
+                            <td id="td4Day0StartedOn"></td>
+                            <td id="td4Day1StartedOn"></td>
+                            <td id="td4Day2StartedOn"></td>
+                            <td id="td4Day3StartedOn"></td>
+                            <td id="td4Day4StartedOn"></td>
+                            <td id="td4Day5StartedOn"></td>
+                            <td id="td4Day6StartedOn"></td>
+                            <td id="td4Day7StartedOn"></td>
+                        </tr>
+                        <tr>
+                            <td>Duration (mins)</td>
+                            <td id="td4Day0Duration"></td>
+                            <td id="td4Day1Duration"></td>
+                            <td id="td4Day2Duration"></td>
+                            <td id="td4Day3Duration"></td>
+                            <td id="td4Day4Duration"></td>
+                            <td id="td4Day5Duration"></td>
+                            <td id="td4Day6Duration"></td>
+                            <td id="td4Day7Duration"></td>
+                        </tr>
+                        <tr>
+                            <td>How are you feeling today?</td>
+                            <td id="td4Day0FeelingToday"></td>
+                            <td id="td4Day1FeelingToday"></td>
+                            <td id="td4Day2FeelingToday"></td>
+                            <td id="td4Day3FeelingToday"></td>
+                            <td id="td4Day4FeelingToday"></td>
+                            <td id="td4Day5FeelingToday"></td>
+                            <td id="td4Day6FeelingToday"></td>
+                            <td id="td4Day7FeelingToday"></td>
+                        </tr>
+                        <tr>
+                            <td>Have you had a fever or felt feverish today?</td>
+                            <td id="td4Day0Fever"></td>
+                            <td id="td4Day1Fever"></td>
+                            <td id="td4Day2Fever"></td>
+                            <td id="td4Day3Fever"></td>
+                            <td id="td4Day4Fever"></td>
+                            <td id="td4Day5Fever"></td>
+                            <td id="td4Day6Fever"></td>
+                            <td id="td4Day7Fever"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Do you know your highest temperature reading from today?</td>
+                            <td id="td4Day0Temperature"></td>
+                            <td id="td4Day1Temperature"></td>
+                            <td id="td4Day2Temperature"></td>
+                            <td id="td4Day3Temperature"></td>
+                            <td id="td4Day4Temperature"></td>
+                            <td id="td4Day5Temperature"></td>
+                            <td id="td4Day6Temperature"></td>
+                            <td id="td4Day7Temperature"></td>
+                        </tr>
+                        <tr>
+                            <td>--> ---> Enter your highest temperature reading from today (degrees
+                                Fahrenheit)
+                            </td>
+                            <td id="td4Day0TempValue"></td>
+                            <td id="td4Day1TempValue"></td>
+                            <td id="td4Day2TempValue"></td>
+                            <td id="td4Day3TempValue"></td>
+                            <td id="td4Day4TempValue"></td>
+                            <td id="td4Day5TempValue"></td>
+                            <td id="td4Day6TempValue"></td>
+                            <td id="td4Day7TempValue"></td>
+                        </tr>
+                        <tr>
+                            <td>Have you had any of these symptoms today where you got the shot (injection
+                                site)?
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Pain</td>
+                            <td id="td4Day0Pain"></td>
+                            <td id="td4Day1Pain"></td>
+                            <td id="td4Day2Pain"></td>
+                            <td id="td4Day3Pain"></td>
+                            <td id="td4Day4Pain"></td>
+                            <td id="td4Day5Pain"></td>
+                            <td id="td4Day6Pain"></td>
+                            <td id="td4Day7Pain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Redness</td>
+                            <td id="td4Day0Redness"></td>
+                            <td id="td4Day1Redness"></td>
+                            <td id="td4Day2Redness"></td>
+                            <td id="td4Day3Redness"></td>
+                            <td id="td4Day4Redness"></td>
+                            <td id="td4Day5Redness"></td>
+                            <td id="td4Day6Redness"></td>
+                            <td id="td4Day7Redness"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Swelling</td>
+                            <td id="td4Day0Swelling"></td>
+                            <td id="td4Day1Swelling"></td>
+                            <td id="td4Day2Swelling"></td>
+                            <td id="td4Day3Swelling"></td>
+                            <td id="td4Day4Swelling"></td>
+                            <td id="td4Day5Swelling"></td>
+                            <td id="td4Day6Swelling"></td>
+                            <td id="td4Day7Swelling"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Itching</td>
+                            <td id="td4Day0Itching"></td>
+                            <td id="td4Day1Itching"></td>
+                            <td id="td4Day2Itching"></td>
+                            <td id="td4Day3Itching"></td>
+                            <td id="td4Day4Itching"></td>
+                            <td id="td4Day5Itching"></td>
+                            <td id="td4Day6Itching"></td>
+                            <td id="td4Day7Itching"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Have you experienced any of these symptoms today?</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Chills</td>
+                            <td id="td4Day0Chills"></td>
+                            <td id="td4Day1Chills"></td>
+                            <td id="td4Day2Chills"></td>
+                            <td id="td4Day3Chills"></td>
+                            <td id="td4Day4Chills"></td>
+                            <td id="td4Day5Chills"></td>
+                            <td id="td4Day6Chills"></td>
+                            <td id="td4Day7Chills"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Headache</td>
+                            <td id="td4Day0Headache"></td>
+                            <td id="td4Day1Headache"></td>
+                            <td id="td4Day2Headache"></td>
+                            <td id="td4Day3Headache"></td>
+                            <td id="td4Day4Headache"></td>
+                            <td id="td4Day5Headache"></td>
+                            <td id="td4Day6Headache"></td>
+                            <td id="td4Day7Headache"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Joint pain</td>
+                            <td id="td4Day0JointPain"></td>
+                            <td id="td4Day1JointPain"></td>
+                            <td id="td4Day2JointPain"></td>
+                            <td id="td4Day3JointPain"></td>
+                            <td id="td4Day4JointPain"></td>
+                            <td id="td4Day5JointPain"></td>
+                            <td id="td4Day6JointPain"></td>
+                            <td id="td4Day7JointPain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Muscle or body aches</td>
+                            <td id="td4Day0MuscleAche"></td>
+                            <td id="td4Day1MuscleAche"></td>
+                            <td id="td4Day2MuscleAche"></td>
+                            <td id="td4Day3MuscleAche"></td>
+                            <td id="td4Day4MuscleAche"></td>
+                            <td id="td4Day5MuscleAche"></td>
+                            <td id="td4Day6MuscleAche"></td>
+                            <td id="td4Day7MuscleAche"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Fatigue or tiredness</td>
+                            <td id="td4Day0Fatigue"></td>
+                            <td id="td4Day1Fatigue"></td>
+                            <td id="td4Day2Fatigue"></td>
+                            <td id="td4Day3Fatigue"></td>
+                            <td id="td4Day4Fatigue"></td>
+                            <td id="td4Day5Fatigue"></td>
+                            <td id="td4Day6Fatigue"></td>
+                            <td id="td4Day7Fatigue"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Nausea</td>
+                            <td id="td4Day0Nausea"></td>
+                            <td id="td4Day1Nausea"></td>
+                            <td id="td4Day2Nausea"></td>
+                            <td id="td4Day3Nausea"></td>
+                            <td id="td4Day4Nausea"></td>
+                            <td id="td4Day5Nausea"></td>
+                            <td id="td4Day6Nausea"></td>
+                            <td id="td4Day7Nausea"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Vomiting</td>
+                            <td id="td4Day0Vomiting"></td>
+                            <td id="td4Day1Vomiting"></td>
+                            <td id="td4Day2Vomiting"></td>
+                            <td id="td4Day3Vomiting"></td>
+                            <td id="td4Day4Vomiting"></td>
+                            <td id="td4Day5Vomiting"></td>
+                            <td id="td4Day6Vomiting"></td>
+                            <td id="td4Day7Vomiting"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Diarrhea</td>
+                            <td id="td4Day0Diarrhea"></td>
+                            <td id="td4Day1Diarrhea"></td>
+                            <td id="td4Day2Diarrhea"></td>
+                            <td id="td4Day3Diarrhea"></td>
+                            <td id="td4Day4Diarrhea"></td>
+                            <td id="td4Day5Diarrhea"></td>
+                            <td id="td4Day6Diarrhea"></td>
+                            <td id="td4Day7Diarrhea"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Abdominal pain</td>
+                            <td id="td4Day0AbdominalPain"></td>
+                            <td id="td4Day1AbdominalPain"></td>
+                            <td id="td4Day2AbdominalPain"></td>
+                            <td id="td4Day3AbdominalPain"></td>
+                            <td id="td4Day4AbdominalPain"></td>
+                            <td id="td4Day5AbdominalPain"></td>
+                            <td id="td4Day6AbdominalPain"></td>
+                            <td id="td4Day7AbdominalPain"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Rash, not including the immediate area around the injection site</td>
+                            <td id="td4Day0RashOther"></td>
+                            <td id="td4Day1RashOther"></td>
+                            <td id="td4Day2RashOther"></td>
+                            <td id="td4Day3RashOther"></td>
+                            <td id="td4Day4RashOther"></td>
+                            <td id="td4Day5RashOther"></td>
+                            <td id="td4Day6RashOther"></td>
+                            <td id="td4Day7RashOther"></td>
+                        </tr>
+                        <tr>
+                            <td>Did any of the symptoms or health conditions you reported today cause you to
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to work or attend school</td>
+                            <td id="td4Day0Work"></td>
+                            <td id="td4Day1Work"></td>
+                            <td id="td4Day2Work"></td>
+                            <td id="td4Day3Work"></td>
+                            <td id="td4Day4Work"></td>
+                            <td id="td4Day5Work"></td>
+                            <td id="td4Day6Work"></td>
+                            <td id="td4Day7Work"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to do your normal daily activities</td>
+                            <td id="td4Day0Activities"></td>
+                            <td id="td4Day1Activities"></td>
+                            <td id="td4Day2Activities"></td>
+                            <td id="td4Day3Activities"></td>
+                            <td id="td4Day4Activities"></td>
+                            <td id="td4Day5Activities"></td>
+                            <td id="td4Day6Activities"></td>
+                            <td id="td4Day7Activities"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Get care from a doctor or other healthcare professional</td>
+                            <td id="td4Day0Doctor"></td>
+                            <td id="td4Day1Doctor"></td>
+                            <td id="td4Day2Doctor"></td>
+                            <td id="td4Day3Doctor"></td>
+                            <td id="td4Day4Doctor"></td>
+                            <td id="td4Day5Doctor"></td>
+                            <td id="td4Day6Doctor"></td>
+                            <td id="td4Day7Doctor"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Telehealth, virtual health, or email health consultation</td>
+                            <td id="td4Day0HealthConsultation"></td>
+                            <td id="td4Day1HealthConsultation"></td>
+                            <td id="td4Day2HealthConsultation"></td>
+                            <td id="td4Day3HealthConsultation"></td>
+                            <td id="td4Day4HealthConsultation"></td>
+                            <td id="td4Day5HealthConsultation"></td>
+                            <td id="td4Day6HealthConsultation"></td>
+                            <td id="td4Day7HealthConsultation"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Outpatient clinic or urgent care clinic visit</td>
+                            <td id="td4Day0Clinic"></td>
+                            <td id="td4Day1Clinic"></td>
+                            <td id="td4Day2Clinic"></td>
+                            <td id="td4Day3Clinic"></td>
+                            <td id="td4Day4Clinic"></td>
+                            <td id="td4Day5Clinic"></td>
+                            <td id="td4Day6Clinic"></td>
+                            <td id="td4Day7Clinic"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Emergency room or emergency department visit</td>
+                            <td id="td4Day0Emergency"></td>
+                            <td id="td4Day1Emergency"></td>
+                            <td id="td4Day2Emergency"></td>
+                            <td id="td4Day3Emergency"></td>
+                            <td id="td4Day4Emergency"></td>
+                            <td id="td4Day5Emergency"></td>
+                            <td id="td4Day6Emergency"></td>
+                            <td id="td4Day7Emergency"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Hospitalization</td>
+                            <td id="td4Day0Hospitalization"></td>
+                            <td id="td4Day1Hospitalization"></td>
+                            <td id="td4Day2Hospitalization"></td>
+                            <td id="td4Day3Hospitalization"></td>
+                            <td id="td4Day4Hospitalization"></td>
+                            <td id="td4Day5Hospitalization"></td>
+                            <td id="td4Day6Hospitalization"></td>
+                            <td id="td4Day7Hospitalization"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Other, describe:</td>
+                            <td id="td4Day0Other"></td>
+                            <td id="td4Day1Other"></td>
+                            <td id="td4Day2Other"></td>
+                            <td id="td4Day3Other"></td>
+                            <td id="td4Day4Other"></td>
+                            <td id="td4Day5Other"></td>
+                            <td id="td4Day6Other"></td>
+                            <td id="td4Day7Other"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None of the above</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <h5>Post-daily Checkins</h5>
+                    <table id="checkins_dose4_post_daily" class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th class="width:20%;max-width:20%;">Field</th>
+                            <th class="width:10%;">Day14</th>
+                            <th class="width:10%;">Day21</th>
+                            <th class="width:10%;">Day28</th>
+                            <th class="width:10%;">Day35</th>
+                            <th class="width:10%;">Day42</th>
+                            <th class="width:10%;">Day90</th>
+                            <th class="width:10%;">Day180</th>
+                            <th class="width:10%;">Day365</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>Started On</td>
+                            <td id="td4aDay14StartedOn"></td>
+                            <td id="td4aDay21StartedOn"></td>
+                            <td id="td4aDay28StartedOn"></td>
+                            <td id="td4aDay35StartedOn"></td>
+                            <td id="td4aDay42StartedOn"></td>
+                            <td id="td4aDay90StartedOn"></td>
+                            <td id="td4aDay180StartedOn"></td>
+                            <td id="td4aDay365StartedOn"></td>
+                        </tr>
+                        <tr>
+                            <td>Duration (mins)</td>
+                            <td id="td4aDay14Duration"></td>
+                            <td id="td4aDay21Duration"></td>
+                            <td id="td4aDay28Duration"></td>
+                            <td id="td4aDay35Duration"></td>
+                            <td id="td4aDay42Duration"></td>
+                            <td id="td4aDay90Duration"></td>
+                            <td id="td4aDay180Duration"></td>
+                            <td id="td4aDay365Duration"></td>
+                        </tr>
+                        <tr>
+                            <td>How are you feeling today?</td>
+                            <td id="td4aDay14FeelingToday"></td>
+                            <td id="td4aDay21FeelingToday"></td>
+                            <td id="td4aDay28FeelingToday"></td>
+                            <td id="td4aDay35FeelingToday"></td>
+                            <td id="td4aDay42FeelingToday"></td>
+                            <td id="td4aDay90FeelingToday"></td>
+                            <td id="td4aDay180FeelingToday"></td>
+                            <td id="td4aDay365FeelingToday"></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last check-in, have you experienced any new or worsening symptoms or
+                                health conditions?
+                            </td>
+                            <td id="td4aDay14NewSymptoms"></td>
+                            <td id="td4aDay21NewSymptoms"></td>
+                            <td id="td4aDay28NewSymptoms"></td>
+                            <td id="td4aDay35NewSymptoms"></td>
+                            <td id="td4aDay42NewSymptoms"></td>
+                            <td id="td4aDay90NewSymptoms"></td>
+                            <td id="td4aDay180NewSymptoms"></td>
+                            <td id="td4aDay365NewSymptoms"></td>
+                        </tr>
+                        <tr>
+                            <td>If Yes, Please describe the symptoms or health conditions
+                            </td>
+                            <td id="td4aDay14DescribeSymptoms"></td>
+                            <td id="td4aDay21DescribeSymptoms"></td>
+                            <td id="td4aDay28DescribeSymptoms"></td>
+                            <td id="td4aDay35DescribeSymptoms"></td>
+                            <td id="td4aDay42DescribeSymptoms"></td>
+                            <td id="td4aDay90DescribeSymptoms"></td>
+                            <td id="td4aDay180DescribeSymptoms"></td>
+                            <td id="td4aDay365DescribeSymptoms"></td>
+                        </tr>
+                        <tr>
+                            <td>If Yes, Did any of the symptoms or health conditions you reported today cause
+                                you to
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to work or attend school</td>
+                            <td id="td4aDay14Work"></td>
+                            <td id="td4aDay21Work"></td>
+                            <td id="td4aDay28Work"></td>
+                            <td id="td4aDay35Work"></td>
+                            <td id="td4aDay42Work"></td>
+                            <td id="td4aDay90Work"></td>
+                            <td id="td4aDay180Work"></td>
+                            <td id="td4aDay365Work"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Be unable to do your normal daily activities</td>
+                            <td id="td4aDay14Activities"></td>
+                            <td id="td4aDay21Activities"></td>
+                            <td id="td4aDay28Activities"></td>
+                            <td id="td4aDay35Activities"></td>
+                            <td id="td4aDay42Activities"></td>
+                            <td id="td4aDay90Activities"></td>
+                            <td id="td4aDay180Activities"></td>
+                            <td id="td4aDay365Activities"></td>
+                        </tr>
+                        <tr>
+                            <td>--> Get care from a doctor or other healthcare professional</td>
+                            <td id="td4aDay14Doctor"></td>
+                            <td id="td4aDay21Doctor"></td>
+                            <td id="td4aDay28Doctor"></td>
+                            <td id="td4aDay35Doctor"></td>
+                            <td id="td4aDay42Doctor"></td>
+                            <td id="td4aDay90Doctor"></td>
+                            <td id="td4aDay180Doctor"></td>
+                            <td id="td4aDay365Doctor"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Telehealth, virtual health, or email health consultation</td>
+                            <td id="td4aDay14HealthConsultation"></td>
+                            <td id="td4aDay21HealthConsultation"></td>
+                            <td id="td4aDay28HealthConsultation"></td>
+                            <td id="td4aDay35HealthConsultation"></td>
+                            <td id="td4aDay42HealthConsultation"></td>
+                            <td id="td4aDay90HealthConsultation"></td>
+                            <td id="td4aDay180HealthConsultation"></td>
+                            <td id="td4aDay365HealthConsultation"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Outpatient clinic or urgent care clinic visit</td>
+                            <td id="td4aDay14Clinic"></td>
+                            <td id="td4aDay21Clinic"></td>
+                            <td id="td4aDay28Clinic"></td>
+                            <td id="td4aDay35Clinic"></td>
+                            <td id="td4aDay42Clinic"></td>
+                            <td id="td4aDay90Clinic"></td>
+                            <td id="td4aDay180Clinic"></td>
+                            <td id="td4aDay365Clinic"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Emergency room or emergency department visit</td>
+                            <td id="td4aDay14Emergency"></td>
+                            <td id="td4aDay21Emergency"></td>
+                            <td id="td4aDay28Emergency"></td>
+                            <td id="td4aDay35Emergency"></td>
+                            <td id="td4aDay42Emergency"></td>
+                            <td id="td4aDay90Emergency"></td>
+                            <td id="td4aDay180Emergency"></td>
+                            <td id="td4aDay365Emergency"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Hospitalization</td>
+                            <td id="td4aDay14Hospitalization"></td>
+                            <td id="td4aDay21Hospitalization"></td>
+                            <td id="td4aDay28Hospitalization"></td>
+                            <td id="td4aDay35Hospitalization"></td>
+                            <td id="td4aDay42Hospitalization"></td>
+                            <td id="td4aDay90Hospitalization"></td>
+                            <td id="td4aDay180Hospitalization"></td>
+                            <td id="td4aDay365Hospitalization"></td>
+                        </tr>
+                        <tr>
+                            <td>--> --> Other, describe:</td>
+                            <td id="td4aDay14Other"></td>
+                            <td id="td4aDay21Other"></td>
+                            <td id="td4aDay28Other"></td>
+                            <td id="td4aDay35Other"></td>
+                            <td id="td4aDay42Other"></td>
+                            <td id="td4aDay90Other"></td>
+                            <td id="td4aDay180Other"></td>
+                            <td id="td4aDay365Other"></td>
+                        </tr>
+                        <tr>
+                            <td>--> None of the above</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last check-in, did you have a positive COVID-19 test or were you told
+                                by a health care provider that you had COVID-19?
+                            </td>
+                            <td id="td4aDay14CovidPositive"></td>
+                            <td id="td4aDay21CovidPositive"></td>
+                            <td id="td4aDay28CovidPositive"></td>
+                            <td id="td4aDay35CovidPositive"></td>
+                            <td id="td4aDay42CovidPositive"></td>
+                            <td id="td4aDay90CovidPositive"></td>
+                            <td id="td4aDay180CovidPositive"></td>
+                            <td id="td4aDay365CovidPositive"></td>
+                        </tr>
+                        <tr>
+                            <td>If yes, when were you diagnosed?
+                            </td>
+                            <td id="td4aDay14CovidPositiveDate"></td>
+                            <td id="td4aDay21CovidPositiveDate"></td>
+                            <td id="td4aDay28CovidPositiveDate"></td>
+                            <td id="td4aDay35CovidPositiveDate"></td>
+                            <td id="td4aDay42CovidPositiveDate"></td>
+                            <td id="td4aDay90CovidPositiveDate"></td>
+                            <td id="td4aDay180CovidPositiveDate"></td>
+                            <td id="td4aDay365CovidPositiveDate"></td>
+                        </tr>
+                        <tr>
+                            <td>Since your last COVID-19 vaccination, have you had a home or laboratory
+                                pregnancy test that was positive?
+                            </td>
+                            <td id="td4aDay14Pregnant"></td>
+                            <td id="td4aDay21Pregnant"></td>
+                            <td id="td4aDay28Pregnant"></td>
+                            <td id="td4aDay35Pregnant"></td>
+                            <td id="td4aDay42Pregnant"></td>
+                            <td id="td4aDay90Pregnant"></td>
+                            <td id="td4aDay180Pregnant"></td>
+                            <td id="td4aDay365Pregnant"></td>
+                        </tr>
+                        <tr>
+                            <td>How would you describe your current state of health?
+                            </td>
+                            <td id="td4aDay14HealthNow"></td>
+                            <td id="td4aDay21HealthNow"></td>
+                            <td id="td4aDay28HealthNow"></td>
+                            <td id="td4aDay35HealthNow"></td>
+                            <td id="td4aDay42HealthNow"></td>
+                            <td id="td4aDay90HealthNow"></td>
+                            <td id="td4aDay180HealthNow"></td>
+                            <td id="td4aDay365HealthNow"></td>
+                        </tr>
+                        <tr>
+                            <td>How is your health now compared to your heath before your last
+                                COVID-19 vaccination?
+                            </td>
+                            <td id="td4aDay14HealthNowComparison"></td>
+                            <td id="td4aDay21HealthNowComparison"></td>
+                            <td id="td4aDay28HealthNowComparison"></td>
+                            <td id="td4aDay35HealthNowComparison"></td>
+                            <td id="td4aDay42HealthNowComparison"></td>
+                            <td id="td4aDay90HealthNowComparison"></td>
+                            <td id="td4aDay180HealthNowComparison"></td>
+                            <td id="td4aDay365HealthNowComparison"></td>
+                        </tr>
+                        <tr>
+                            <td>If worse, do you believe your health problems might be related to
+                                your COVID-19 vaccination?
+                            </td>
+                            <td id="td4aDay14VaccineRelated"></td>
+                            <td id="td4aDay21VaccineRelated"></td>
+                            <td id="td4aDay28VaccineRelated"></td>
+                            <td id="td4aDay35VaccineRelated"></td>
+                            <td id="td4aDay42VaccineRelated"></td>
+                            <td id="td4aDay90VaccineRelated"></td>
+                            <td id="td4aDay180VaccineRelated"></td>
+                            <td id="td4aDay365VaccineRelated"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

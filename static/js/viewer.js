@@ -302,6 +302,22 @@ function display_json(data){
         vax2_coadministered_vax = vaccine_info_list[1]['COADMINISTERED_VAX']
         $('#tdDose2CoadministeredVaccine').html(vax2_coadministered_vax);
     }
+    if (vaccine_info_list.length > 2){
+        vax3_date = vaccine_info_list[2]['VACCINATION_DATE'];
+        $('#tdDose3VaxDate').html(vax3_date);
+        vax3_coadministered = vaccine_info_list[2]['COADMINISTERED'];
+        $('#tdDose3Coadministered').html(vax3_coadministered);
+        vax3_coadministered_vax = vaccine_info_list[2]['COADMINISTERED_VAX']
+        $('#tdDose3CoadministeredVaccine').html(vax3_coadministered_vax);
+    }
+    if (vaccine_info_list.length > 3){
+        vax4_date = vaccine_info_list[3]['VACCINATION_DATE'];
+        $('#tdDose4VaxDate').html(vax4_date);
+        vax4_coadministered = vaccine_info_list[3]['COADMINISTERED'];
+        $('#tdDose4Coadministered').html(vax4_coadministered);
+        vax4_coadministered_vax = vaccine_info_list[3]['COADMINISTERED_VAX']
+        $('#tdDose4CoadministeredVaccine').html(vax4_coadministered_vax);
+    }
     checkins = data['checkin_info'];
     checkins.forEach((checkin, i) => {
         dose_num = checkin['DOSE_NUM'];
@@ -312,6 +328,11 @@ function display_json(data){
             populate_dose_info(1, mid_phrase, checkin);
         } else if (dose_num === 'dose2') {
             populate_dose_info(2, mid_phrase, checkin);
+        } else if (dose_num === 'dose3') {
+            populate_dose_info(3, mid_phrase, checkin);
+        }
+        else if (dose_num === 'dose4') {
+            populate_dose_info(4, mid_phrase, checkin);
         }
     });
 }
