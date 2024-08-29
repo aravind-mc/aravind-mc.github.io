@@ -45,10 +45,11 @@ $(function () {
                 display_json(data);
             },
             error: function(){
-                alert(`json not found at ${$('#txtURLJSON').text}`);
+                alert(`json not found at ${json_url}`);
             }
         });
     });
+
 });
 
 function get_badge(text) {
