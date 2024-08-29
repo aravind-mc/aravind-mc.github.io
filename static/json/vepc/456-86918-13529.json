@@ -552,12 +552,12 @@
       "DURATION_MINS": "1.2",
       "PREFERRED_LANGUAGE": "English",
       "REG_PREFIX": 456,
-      "DOSE_NUM": NaN,
-      "TYPE": NaN,
-      "MID_PHRASE": NaN,
-      "SRO_MEDDRA": NaN,
-      "SD_MEDDRA": NaN,
-      "HCVO_MEDDRA": NaN
+      "DOSE_NUM": "pfr",
+      "TYPE": "monthly",
+      "MID_PHRASE": "-21-day-dose1",
+      "SRO_MEDDRA": "",
+      "SD_MEDDRA": "Premature labour * Premature labor | Premature delivery * Premature delivery | Premature rupture of membranes * Premature rupture of membranes",
+      "HCVO_MEDDRA": "Premature delivery * Premature delivery | Premature labour * Premature labor | Delivery * Delivery"
     },
     {
       "SURVEY_STATIC_ID": "vsafe-0-day-dose2",

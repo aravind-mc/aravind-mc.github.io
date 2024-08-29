@@ -510,12 +510,12 @@
       "DURATION_MINS": "",
       "PREFERRED_LANGUAGE": "English",
       "REG_PREFIX": "2C2",
-      "DOSE_NUM": NaN,
-      "TYPE": NaN,
-      "MID_PHRASE": NaN,
-      "SRO_MEDDRA": NaN,
-      "SD_MEDDRA": NaN,
-      "HCVO_MEDDRA": NaN
+      "DOSE_NUM": "pfr",
+      "TYPE": "monthly",
+      "MID_PHRASE": "-21-day-dose1",
+      "SRO_MEDDRA": "",
+      "SD_MEDDRA": "Bacterial infection * Infection bacterial | Urinary tract infection * UTI",
+      "HCVO_MEDDRA": "Unevaluable event * Unevaluable event"
     },
     {
       "SURVEY_STATIC_ID": "vsafe-12-month-dose2",
