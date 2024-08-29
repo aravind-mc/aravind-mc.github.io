@@ -347,10 +347,6 @@ function display_json(data) {
             populate_dose_info(4, mid_phrase, checkin);
         }
     });
-    sro_meddra = data['sro_meddra'];
-    sro_meddra.forEach((sro, i) => {
-
-    });
 }
 
 function display(json_data) {
