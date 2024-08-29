@@ -34,6 +34,21 @@ $(function () {
             };
         }
     }
+
+    $('#btnLoadURLJSON').click(function(){
+        json_url = $('#txtURLJSON').val();
+        $.ajax({
+            type: "get",
+            url: json_url,
+            dataType: "json",
+            success: function(data) {
+                display_json(data);
+            },
+            error: function(){
+                alert(`json not found at ${$('#txtURLJSON').text}`);
+            }
+        });
+    });
 });
 
 function get_badge(text) {

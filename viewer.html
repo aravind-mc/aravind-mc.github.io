@@ -49,11 +49,26 @@
 <div id="section" class="container">
     <p></p>
     <div class="row">
-        <div id="dvImportSegments" class="fileupload ">
-            <fieldset>
-                <input class="btn" type="file" name="File Upload" id="btnFileUpload"
-                       accept=".json"/>
-            </fieldset>
+        <div class="col-lg-6">
+            <h5>Load JSON from local file</h5>
+            <div class="row">
+                <div id="dvImportSegments" class="fileupload ">
+                    <fieldset>
+                        <input class="btn" type="file" name="File Upload" id="btnFileUpload"
+                               accept=".json"/>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <label for="txtURLJSON">Load JSON from URL</label>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="URL of the JSON file"
+                       aria-label="Recipient's username" aria-describedby="basic-addon2" id="txtURLJSON">
+                <div class="input-group-append">
+                    <button id="btnLoadURLJSON" class="btn btn-outline-secondary" type="button">Show timeline</button>
+                </div>
+            </div>
         </div>
     </div>
     <details id="dtRawJSON">
