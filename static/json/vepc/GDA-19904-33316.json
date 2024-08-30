@@ -479,15 +479,6 @@
       "HCVO_MEDDRA": "Surgery * Surgery"
     }
   ],
-  "feeling_today": [
-    "Good|vsafe-0-day-dose1",
-    "Good|vsafe-1-6-daily-dose1",
-    "Good|vsafe-1-6-daily-dose1",
-    "Poor|vsafe-1-6-daily-dose1",
-    "Good|vsafe-1-6-daily-dose2",
-    "Poor|vsafe-21-day-dose2",
-    "Good|vsafe-42-day-dose2"
-  ],
   "has_free_text": true,
   "num_free_text_checkins": 5,
   "num_unpublished": 5,

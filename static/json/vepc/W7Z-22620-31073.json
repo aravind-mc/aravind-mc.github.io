@@ -325,12 +325,6 @@
       "HCVO_MEDDRA": "Pneumonia aspiration * Aspiration pneumonia"
     }
   ],
-  "feeling_today": [
-    "Good|vsafe-0-day-dose1",
-    "Fair|vsafe-1-6-daily-dose1",
-    "Poor|vsafe-1-6-daily-dose1",
-    "Poor|vsafe-7-day-dose1"
-  ],
   "has_free_text": true,
   "num_free_text_checkins": 3,
   "num_unpublished": 3,

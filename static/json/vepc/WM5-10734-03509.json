@@ -658,17 +658,6 @@
       "HCVO_MEDDRA": "Office visit * Office visit"
     }
   ],
-  "feeling_today": [
-    "Good|vsafe-0-day-dose1",
-    "Good|vsafe-1-6-daily-dose1",
-    "Good|vsafe-1-6-daily-dose1",
-    "Poor|vsafe-1-6-daily-dose1",
-    "Fair|vsafe-1-6-daily-dose1",
-    "Fair|vsafe-1-6-daily-dose1",
-    "Fair|vsafe-7-day-dose1",
-    "Fair|vsafe-14-day-dose1",
-    "Fair|vsafe-21-day-dose1-nvx-pfr"
-  ],
   "has_free_text": true,
   "num_free_text_checkins": 5,
   "num_unpublished": 2,
