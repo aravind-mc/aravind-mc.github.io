@@ -274,11 +274,11 @@ function populate_dose_info(dose_num, mid_phrase, checkin) {
             populate_daily_checkin(dose_num, 3, checkin);
         } else if (days_since === 4) {
             populate_daily_checkin(dose_num, 4, checkin);
-        } else if (days_since === '5') {
+        } else if (days_since === 5) {
             populate_daily_checkin(dose_num, 5, checkin);
-        } else if (days_since === '6') {
+        } else if (days_since === 6) {
             populate_daily_checkin(dose_num, 6, checkin);
-        } else if (days_since === '7') {
+        } else if (days_since === 7) {
             populate_daily_checkin(dose_num, 7, checkin);
         }
     }
