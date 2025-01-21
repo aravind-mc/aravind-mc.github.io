@@ -1,0 +1,1166 @@
+REGISTRANT_CODE,SURVEYSTATICID,MANUFACTURER,ISVACCINEVALID,UPDATEDVACCINE,DOSENBR,DAYSSINCEVACCINATION,REPORTEDDATE,FINALOUTCOME,SUCCESSDATE,CALL1DATE,CALL1OUTCOME,CALL2DATE,CALL2OUTCOME,CALL3DATE,CALL3OUTCOME,CALLXDATE,CALLXOUTCOME,CALLBACKDATE,CALLBACKTIME,ALLREPORTOUTCOMES,DONOTCONTACTREGISTRANT,UPDATEDPREGNANCY,POSSIBLEISSUES,AGE_AT_VX,REG_CODE_PREFIX
+GHK-95368-75664,vsafe-14-day-dose3,Moderna,,,3,14,01/05/2022,Unsuccessful,,01/07/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GHF-28766-50284,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/07/2021,Unsuccessful,,02/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-28766-50284,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/08/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHU-78761-54104,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,01/09/2021,Unsuccessful,,01/11/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHB-16357-25953,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,01/15/2021,Unsuccessful,,03/12/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH9-20393-44903,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/15/2021,Unsuccessful,,03/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHV-15095-06930,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,23,01/18/2021,Successful,03/18/2021,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,,GH
+GH7-11008-43885,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/26/2021,Successful,06/04/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHX-22577-29600,vsafe-1-6-daily-dose2,Moderna,,,2,2,01/27/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHX-22577-29600,vsafe-1-6-daily-dose2,Moderna,,,2,3,01/28/2021,Unsuccessful,,04/21/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHV-33402-78497,vsafe-14-day-dose1,Moderna,,,1,16,01/30/2021,Unsuccessful,,06/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH4-25645-68139,vsafe-14-day-dose1,Moderna,Correct,,1,15,02/15/2021,Successful,08/01/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH3-27192-05427,vsafe-12-month-dose2,Pfizer-BioNTech,,,3,48,02/15/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GHA-24844-47040,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,92,02/18/2022,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GH5-25487-54577,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/18/2022,Successful,02/24/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,30,GH
+GH2-73418-88664,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,03/01/2021,Unsuccessful,,,,,,,,,,,,,,,,71,GH
+GHN-32828-81095,vsafe-1-6-daily-dose3,Moderna,Correct,,3,6,03/03/2022,Successful,03/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,GH
+GHU-78761-54104,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/05/2021,Unsuccessful,,06/03/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHE-33972-00945,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/10/2022,Successful,03/11/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,GH
+GHK-85092-08696,vsafe-1-6-daily-dose1,Moderna,,,1,5,03/18/2021,Unsuccessful,,12/17/2021,Left Voicemail,12/20/2021,Left Voicemail,,,,,,,,,,,54,GH
+GH2-73418-88664,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/26/2022,Unsuccessful,,03/29/2022,Could Not Reach Participant,04/01/2022,Could Not Reach Participant,,,,,,,,,,,71,GH
+GHP-20419-17690,vsafe-12-month-dose2,Pfizer-BioNTech,,,3,99,03/27/2022,Unsuccessful,,03/31/2022,Left Voicemail,06/21/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,,,,,71,GH
+GHC-31077-37414,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/30/2022,Successful,04/01/2022,03/31/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,55,GH
+GHP-20419-17690,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,04/01/2021,Unsuccessful,,06/07/2021,Left Voicemail,06/21/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,,,,,71,GH
+GH9-15925-65773,vsafe-35-day-dose2,Moderna,,,2,35,04/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHX-22870-62632,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/09/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,48,GH
+GHA-26620-15855,vsafe-7-day-dose1,Janssen/Johnson & Johnson,,,1,8,04/13/2021,Unsuccessful,,04/19/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHS-33371-61292,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,365,04/14/2022,Unsuccessful,,04/20/2022,Left Voicemail,,,,,,,,,,,,,50,GH
+GHC-19470-77734,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/15/2021,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,71,GH
+GHC-48159-71512,vsafe-3-month-dose2,Moderna,,,2,91,04/20/2021,Unsuccessful,,11/11/2021,Left Voicemail,,,,,,,,,,,,,34,GH
+GHG-22961-18838,vsafe-6-month-dose3,Moderna,,,3,184,04/20/2022,Unsuccessful,,04/25/2022,Requested Callback,04/26/2022,Requested Callback,05/10/2022,Left Voicemail,,,05/10/2022,anytime,,,,,78,GH
+GHD-33447-51657,vsafe-28-day-single,Janssen/Johnson & Johnson,,,1,28,04/22/2021,Unsuccessful,,05/20/2021,Left Voicemail,05/27/2021,Left Voicemail,,,,,,,,,,,,GH
+GH2-73418-88664,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,04/23/2021,Unsuccessful,,12/14/2021,Left Voicemail,,,,,,,,,,,,,71,GH
+GHC-31132-75103,vsafe-14-day-dose2,Moderna,Correct,,2,14,04/29/2021,Successful,,07/25/2022,Could Not Reach Participant,07/28/2022,Requested Callback,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,63,GH
+GHC-31132-75103,vsafe-7-day-dose4,Pfizer-BioNTech,Correct,,4,9,04/30/2022,Successful,05/02/2022,07/25/2022,Could Not Reach Participant,07/28/2022,Requested Callback,,,,,,,Completed over the phone,,,,63,GH
+GHY-33480-14949,vsafe-7-day-dose4,Other-Unknown,Correct,,4,9,05/04/2022,Successful,06/13/2022,05/05/2022,Left Voicemail,06/09/2022,Left Voicemail,,,,,,,Does not wish to fill out VAERS report,,,,57,GH
+GHG-85756-50060,vsafe-6-month-dose3,Moderna,,,3,182,05/06/2022,Unsuccessful,,05/09/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GHZ-20864-82128,vsafe-3-month-dose2,Moderna,,,2,91,05/09/2021,Unsuccessful,,05/05/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GHQ-28499-39043,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/10/2021,Successful,08/13/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,65,GH
+GHZ-33281-24061,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,30,05/11/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,GH
+GHE-67101-83505,vsafe-21-day-dose4,Moderna,Correct,,4,21,05/14/2022,Successful,05/16/2022,05/16/2022,Could Not Reach Participant,,,,,,,05/16/2022,11:20AM ET,Participant prefers to complete VAERS report online,,,,53,GH
+GHZ-33281-24061,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,05/16/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,GH
+GHM-27976-56341,vsafe-1-6-daily-dose1,Moderna,,,1,1,05/17/2021,Unsuccessful,,04/28/2022,Left Voicemail,,,,,,,,,,,,,59,GH
+GHD-33638-38204,vsafe-6-month-dose1,Janssen/Johnson & Johnson,Correct,,1,184,05/20/2022,Successful,05/26/2022,05/23/2022,Could Not Reach Participant,,,,,,,,,Does not wish to fill out VAERS report,,,,66,GH
+GHQ-28499-39043,vsafe-6-month-dose6,Pfizer-BioNTech,,,6,184,05/20/2023,Unsuccessful,,05/23/2023,Could Not Reach Participant,05/26/2023,Could Not Reach Participant,,,,,,,,,,,65,GH
+GHZ-33281-24061,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,05/23/2021,Successful,01/04/2022,01/04/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,GH
+GHS-11955-46087,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,05/24/2022,Successful,05/25/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,63,GH
+GH9-15925-65773,vsafe-3-month-dose2,Moderna,,,2,91,06/01/2021,Unsuccessful,,07/09/2021,Could Not Reach Participant,,,,,,,,,,,,,77,GH
+GHC-31132-75103,vsafe-42-day-dose4,Pfizer-BioNTech,Correct,,4,42,06/02/2022,Successful,06/03/2022,07/25/2022,Could Not Reach Participant,07/28/2022,Requested Callback,,,,,,,Completed over the phone,,,,63,GH
+GHV-29312-60656,vsafe-6-month-dose3,Moderna,Correct,,3,182,06/03/2022,Successful,06/06/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,56,GH
+GHC-30010-42915,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,92,06/04/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GHY-33480-14949,vsafe-42-day-dose4,Other-Unknown,Correct,,4,44,06/08/2022,Successful,06/13/2022,06/09/2022,Requested Callback,,,,,,,06/13/2022,,Does not wish to fill out VAERS report,,,,57,GH
+GHW-20202-28650,vsafe-42-day-dose4,Moderna,Correct,,4,42,06/09/2022,Successful,06/10/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,67,GH
+GHE-33972-00945,vsafe-3-month-dose2,Moderna,Correct,,2,93,06/11/2021,Successful,06/22/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,GH
+GHP-20419-17690,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,06/18/2022,Unsuccessful,,06/21/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,,,,,,,71,GH
+GHX-31952-88013,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/29/2021,Unsuccessful,,07/23/2021,Left Voicemail,,,,,,,,,,,,,69,GH
+GH6-21070-18676,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/05/2022,Unsuccessful,,07/06/2022,Left Voicemail,,,,,,,,,,,,,73,GH
+GHU-18639-36582,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/07/2021,Unsuccessful,,07/09/2021,Left Voicemail,,,,,,,,,,,,,42,GH
+GH9-11801-05888,vsafe-3-month-dose4,Moderna,,,4,91,07/08/2022,Unsuccessful,,07/11/2022,Left Voicemail,,,,,,,,,,,,,51,GH
+GHB-10383-59166,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/08/2022,Unsuccessful,,07/11/2022,Left Voicemail,,,,,,,,,,,,,60,GH
+GHD-22785-12250,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,07/13/2022,Successful,07/14/2022,07/14/2022,Left Voicemail,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,41,GH
+GHC-31132-75103,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/15/2021,Successful,,07/22/2021,Left Voicemail,07/25/2022,Could Not Reach Participant,07/28/2022,Requested Callback,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,63,GH
+GHC-31132-75103,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,93,07/23/2022,Successful,07/29/2022,07/25/2022,Could Not Reach Participant,07/28/2022,Requested Callback,,,,,07/29/2022,02:00PM ET,Completed over the phone,,,,63,GH
+GHL-20265-09174,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,08/06/2021,Successful,11/21/2021,,,,,,,,,,,Completed over the phone,,,,53,GH
+GHQ-28499-39043,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/09/2021,Successful,08/13/2021,08/13/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,65,GH
+GH7-23717-45001,vsafe-6-month-dose2,Moderna,,,2,182,08/11/2021,Unsuccessful,,08/17/2021,Left Voicemail,,,,,,,,,,,,,61,GH
+GHH-11623-20076,vsafe-6-month-dose2,Moderna,,,2,182,08/12/2021,Unsuccessful,,08/20/2021,Left Voicemail,08/25/2021,Left Voicemail,08/30/2021,Left Voicemail,10/21/2022,Left Voicemail,,,,,,,54,GH
+GHL-30063-61885,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/17/2021,Successful,08/24/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,44,GH
+GHB-19809-44629,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/26/2021,Unsuccessful,,10/07/2021,Left Voicemail,,,,,,,,,,,,,33,GH
+GHQ-28499-39043,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,08/26/2022,Unsuccessful,,05/23/2023,Could Not Reach Participant,05/26/2023,Could Not Reach Participant,08/29/2022,Left Voicemail,12/16/2022,Left Voicemail,,,,,,,65,GH
+GHB-17579-88086,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/09/2021,Left Voicemail,,,,,,,,,,,,,64,GH
+GHM-13514-54153,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/08/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHC-30010-42915,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,184,09/04/2021,Successful,09/07/2021,09/07/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GH3-28174-47488,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/17/2021,Successful,09/24/2021,09/21/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,GH
+GHD-33447-51657,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/23/2021,Unsuccessful,,,,,,,,,,,,,,,,40,GH
+GHR-11842-38861,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/24/2021,Successful,09/28/2021,,,,,,,,,,,Completed over the phone,,,,66,GH
+GHV-29312-60656,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/04/2021,Successful,11/15/2021,10/11/2021,Left Voicemail,10/25/2021,Could Not Reach Participant,10/29/2021,Could Not Reach Participant,11/05/2021,Could Not Reach Participant,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,56,GH
+GHK-33213-11795,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,10/14/2021,Unsuccessful,,10/18/2021,Left Voicemail,10/22/2021,Could Not Reach Participant,,,,,,,,,,,56,GH
+GHH-11623-20076,vsafe-42-day-dose5,Moderna,,,5,42,10/20/2022,Unsuccessful,,10/21/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHC-31132-75103,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,10/20/2022,Unsuccessful,,10/21/2022,Left Voicemail,,,,,,,,,,,,,63,GH
+GHZ-82583-64647,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,10/23/2021,Unsuccessful,,10/27/2021,Left Voicemail,,,,,,,,,,,,,55,GH
+GHS-26737-24141,vsafe-6-month-dose2,Moderna,Correct,,2,186,10/30/2021,Successful,11/02/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,55,GH
+GHQ-28499-39043,vsafe-1-6-daily-dose6,Pfizer-BioNTech,,,6,5,11/22/2022,Unsuccessful,,05/23/2023,Could Not Reach Participant,05/26/2023,Left Voicemail,11/23/2022,Left Voicemail,12/16/2022,Left Voicemail,,,,,,,65,GH
+GHY-37209-24103,vsafe-14-day-dose1-dep,Pfizer-BioNTech,,,1,14,11/27/2021,Unsuccessful,,12/06/2021,Left Voicemail,,,,,,,,,,,,,5,GH
+GHV-29312-60656,vsafe-12-month-dose3,Moderna,Correct,,3,365,12/03/2022,Unsuccessful,,12/05/2022,Requested Callback,12/19/2022,Left Voicemail,,,,,12/19/2022,11:00AM ET,,,,,56,GH
+GHQ-28499-39043,vsafe-21-day-dose6,Pfizer-BioNTech,,,6,21,12/08/2022,Unsuccessful,,05/23/2023,Could Not Reach Participant,05/26/2023,Could Not Reach Participant,12/09/2022,Left Voicemail,12/16/2022,Left Voicemail,,,,,,,65,GH
+GHQ-28499-39043,vsafe-28-day-dose6,Pfizer-BioNTech,,,6,28,12/15/2022,Unsuccessful,,05/23/2023,Could Not Reach Participant,05/26/2023,Could Not Reach Participant,12/16/2022,Left Voicemail,,,,,,,,,65,GH
+GHP-20419-17690,vsafe-12-month-dose3,Other-Unknown,,,4,0,12/18/2022,Unsuccessful,,12/20/2022,Left Voicemail,,,,,,,,,,,,,71,GH
+GHU-78761-54104,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,8,12/27/2020,Unsuccessful,,01/11/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHP-33105-67764,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,92,01/05/2022,Successful,01/06/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,54,GH
+GH3-26336-37163,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/12/2021,Unsuccessful,,02/25/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH7-42591-65626,vsafe-14-day-dose1,Moderna,,,1,14,01/14/2021,Unsuccessful,,03/08/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH6-25326-45261,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/21/2022,Successful,01/27/2022,01/26/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,GH
+GHK-11459-87240,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,01/23/2022,Unsuccessful,,01/25/2022,Could Not Reach Participant,01/28/2022,Could Not Reach Participant,,,,,,,,,,,46,GH
+GHV-24501-74329,vsafe-12-month-dose2,Moderna,,,2,365,01/25/2022,Unsuccessful,,01/27/2022,Left Voicemail,,,,,,,,,,,,,37,GH
+GHT-16836-67053,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/28/2021,Unsuccessful,,05/27/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-27221-25172,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,Correct,,1,21,01/29/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,GH
+GHX-15320-99415,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/09/2022,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,73,GH
+GHF-16250-62338,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,02/11/2021,Unsuccessful,,07/21/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHN-20296-13937,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,02/11/2021,Successful,06/01/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHH-27221-25172,vsafe-35-day-dose1,Pfizer-BioNTech,Correct,,1,35,02/12/2021,Successful,05/29/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GHW-13891-37477,vsafe-1-6-daily-dose2,Moderna,Correct,,2,1,02/12/2021,Successful,07/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHC-47293-13121,vsafe-12-month-dose1,Moderna,,,1,367,02/24/2022,Unsuccessful,,02/28/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GH5-97202-65736,vsafe-1-6-daily-dose2,Moderna,Correct,,2,3,03/01/2021,Successful,09/20/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),yes,,,,GH
+GHH-10720-16149,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,03/03/2021,Unsuccessful,,01/22/2022,Could Not Reach Participant,01/28/2022,Left Voicemail,,,,,,,,,,,28,GH
+GH2-29422-98093,vsafe-12-month-dose2,Moderna,,,2,365,03/05/2022,Unsuccessful,,03/08/2022,Left Voicemail,,,,,,,,,,,,,75,GH
+GHS-70723-20558,vsafe-12-month-dose1,Pfizer-BioNTech,,,2,343,03/20/2022,Unsuccessful,,03/24/2022,Left Voicemail,,,,,,,,,,,,,63,GH
+GH4-30788-36241,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/27/2022,Unsuccessful,,03/29/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH6-85442-49221,vsafe-6-month-dose5,Moderna,Correct,,5,184,03/29/2023,Successful,03/31/2023,03/30/2023,Requested Callback,,,,,,,03/31/2023,2:30PM ET,Completed over the phone,,,,67,GH
+GHJ-31647-68626,vsafe-28-day-dose1,Moderna,,,1,28,03/30/2021,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHK-19085-92600,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/30/2022,Unsuccessful,,04/04/2022,Left Voicemail,04/07/2022,Left Voicemail,,,,,,,,,,,59,GH
+GHP-21845-41723,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,04/01/2022,Unsuccessful,,04/13/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHN-17890-61401,vsafe-12-month-dose2,Moderna,,,2,366,04/01/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GH2-73584-43593,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/01/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,59,GH
+GH8-10973-74109,vsafe-12-month-dose2,Moderna,,,2,367,04/01/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHN-17890-61401,vsafe-7-day-dose2,Moderna,,,2,7,04/07/2021,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GHN-20296-13937,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/08/2021,Successful,06/01/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHM-24350-18236,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,186,04/10/2022,Successful,04/14/2022,04/14/2022,Left Voicemail,,,,,,,04/15/2022,,Participant prefers to complete VAERS report online,,,,59,GH
+GHY-19167-74744,vsafe-7-day-dose2,Moderna,,,2,7,04/15/2021,Unsuccessful,,,,,,,,,,,,,,,,39,GH
+GHB-32618-99435,vsafe-42-day-dose2,Moderna,,,2,42,04/20/2021,Unsuccessful,,02/27/2022,Left Voicemail,,,,,,,,,,,,,60,GH
+GHY-19167-74744,vsafe-14-day-dose2,Moderna,,,2,14,04/22/2021,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GH7-86242-78275,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,04/23/2022,Successful,04/28/2022,04/26/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,41,GH
+GH7-22615-88225,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,13,04/30/2021,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,56,GH
+GHU-50603-69253,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,05/03/2022,Successful,05/04/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,68,GH
+GHX-16343-17387,vsafe-0-day-dose2,Pfizer-BioNTech,Correct,,2,0,05/15/2021,Successful,06/03/2021,06/02/2021,Left Voicemail,06/03/2021,Left Voicemail,,,,,,,Does not wish to fill out VAERS report,,,,16,GH
+GH6-95747-27838,vsafe-42-day-dose4,Pfizer-BioNTech,,,4,42,05/19/2022,Unsuccessful,,05/20/2022,Could Not Reach Participant,05/25/2022,Left Voicemail,,,,,,,,,,,74,GH
+GHK-20447-19709,vsafe-3-month-dose2,Moderna,,,2,91,05/21/2021,Unsuccessful,,04/29/2022,Left Voicemail,,,,,,,,,,,,,69,GH
+GHX-32163-33156,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,05/21/2022,Successful,05/23/2022,05/23/2022,Could Not Reach Participant,,,,,,,,,Does not wish to fill out VAERS report,,,,50,GH
+GHX-32163-33156,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,5,05/26/2021,Successful,06/08/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,50,GH
+GHN-54995-58103,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,15,06/01/2021,Successful,06/03/2021,,,,,,,,,,,,,,,15,GH
+GHS-32622-58089,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,06/06/2022,Successful,06/07/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,26,GH
+GHL-15967-08167,vsafe-28-day-dose4,Pfizer-BioNTech,Correct,,4,28,06/24/2022,Successful,06/27/2022,,,,,,,,,,,Completed over the phone,,,,74,GH
+GHE-17527-79365,vsafe-3-month-dose4,Moderna,,,4,91,07/07/2022,Unsuccessful,,07/08/2022,Left Voicemail,,,,,,,,,,,,,61,GH
+GHL-15967-08167,vsafe-42-day-dose4,Pfizer-BioNTech,Correct,,4,42,07/08/2022,Successful,07/12/2022,,,,,,,,,,,Completed over the phone,,,,74,GH
+GH8-23115-00077,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/11/2021,Successful,07/21/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,35,GH
+GH6-85442-49221,vsafe-3-month-dose4,Moderna,Correct,,4,91,07/11/2022,Successful,07/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,67,GH
+GH7-57376-29468,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/12/2021,Successful,07/22/2021,07/21/2021,Left Voicemail,,,,,,,,,,,,,66,GH
+GHV-11013-24071,vsafe-42-day-dose4,Moderna,Correct,,4,42,07/15/2022,Successful,07/18/2022,07/18/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,66,GH
+GHP-21193-49305,vsafe-3-month-dose2,Moderna,,,2,91,07/17/2021,Unsuccessful,,07/25/2021,Left Voicemail,,,,,,,,,,,,,62,GH
+GHK-21989-65632,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,91,08/14/2021,Unsuccessful,,08/22/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH3-29320-95239,vsafe-6-month-dose2,Moderna,,,2,183,08/15/2021,Unsuccessful,,08/23/2021,Left Voicemail,,,,,,,,,,,,,65,GH
+GHW-10892-65541,vsafe-6-month-dose2,Moderna,,,2,184,08/22/2021,Unsuccessful,,10/08/2021,Could Not Reach Participant,10/13/2021,Left Voicemail,,,,,,,,,,,85,GH
+GHL-15967-08167,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,08/26/2022,Successful,08/30/2022,08/30/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,74,GH
+GHT-16064-90447,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/28/2021,Unsuccessful,,10/11/2021,Left Voicemail,,,,,,,,,,,,,31,GH
+GH6-12975-53272,vsafe-6-month-dose2,Moderna,,,2,182,09/09/2021,Unsuccessful,,09/11/2021,Left Voicemail,,,,,,,,,,,,,68,GH
+GHL-26052-21037,vsafe-6-month-dose1,Moderna,,,1,182,09/15/2021,Unsuccessful,,09/17/2021,Left Voicemail,,,,,,,,,,,,,56,GH
+GHS-70723-20558,vsafe-6-month-dose1,Pfizer-BioNTech,Correct,,1,182,09/18/2021,Successful,09/21/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GH9-12719-92483,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,09/20/2021,Unsuccessful,,09/22/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHP-33105-67764,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/05/2021,Successful,,10/12/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GHL-52945-41677,vsafe-21-day-dose3,Pfizer-BioNTech,Correct,,3,21,10/23/2021,Successful,10/28/2021,10/28/2021,Requested Callback,,,,,,,10/28/2021,03:00PM ET,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,GH
+GH6-85442-49221,vsafe-28-day-dose5,Moderna,Correct,,5,28,10/24/2022,Successful,03/31/2023,10/25/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,67,GH
+GHC-51661-71673,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,11/20/2021,Unsuccessful,,11/24/2021,Left Voicemail,,,,,,,,,,,,,45,GH
+GHV-11013-24071,vsafe-6-month-dose4,Moderna,,,4,184,12/04/2022,Unsuccessful,,12/06/2022,Left Voicemail,,,,,,,,,,,,,66,GH
+GHQ-37620-71891,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,2,12/25/2021,Unsuccessful,,12/27/2021,Left Voicemail,,,,,,,,,,,,,39,GH
+GH6-85442-49221,vsafe-3-month-dose5,Moderna,Correct,,5,91,12/26/2022,Successful,03/31/2023,,,,,,,,,,,Completed over the phone,,,,67,GH
+GHK-11459-87240,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,01/01/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHK-11459-87240,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHH-27221-25172,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,01/08/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHN-20296-13937,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/09/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHH-27221-25172,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,01/10/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHW-13891-37477,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/17/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHN-21477-92013,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/12/2022,Unsuccessful,,01/13/2022,Could Not Reach Participant,01/18/2022,Could Not Reach Participant,,,,,,,,,,,60,GH
+GHE-74811-88566,vsafe-12-month-dose2,Moderna,,,2,365,01/20/2022,Unsuccessful,,01/21/2022,Left Voicemail,,,,,,,,,,,,,64,GH
+GHW-18570-81989,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,01/30/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHD-17648-14883,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,365,02/02/2022,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,69,GH
+GHJ-65253-74755,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/10/2022,Unsuccessful,,02/14/2022,Left Voicemail,,,,,,,,,,,,,49,GH
+GHP-97281-35502,vsafe-12-month-dose2,Moderna,,,2,369,02/15/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,28,GH
+GHB-22713-14562,vsafe-14-day-dose1,Moderna,,,1,14,02/19/2021,Unsuccessful,,08/10/2021,Could Not Reach Participant,08/23/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GHR-15596-74723,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/27/2022,Unsuccessful,,03/18/2022,Left Voicemail,,,,,,,,,,,,,29,GH
+GHH-62234-56792,vsafe-3-month-dose3,Moderna,Correct,,3,91,03/22/2022,Successful,03/23/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,32,GH
+GHU-73418-81853,vsafe-14-day-dose2,Moderna,,,2,14,03/24/2021,Unsuccessful,,12/15/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHK-99902-68872,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,03/25/2021,Unsuccessful,,04/07/2021,Left Voicemail,04/09/2021,Left Voicemail,,,,,04/09/2021,5:30P EST,,,,,,GH
+GHM-81445-27708,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/25/2022,Successful,03/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,57,GH
+GHK-24770-86954,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,184,03/30/2022,Successful,03/31/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,80,GH
+GH3-29724-98504,vsafe-12-month-dose4,Pfizer-BioNTech,Correct,,4,365,03/31/2023,Successful,04/04/2023,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,GH
+GHS-16308-88149,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,366,04/07/2022,Successful,04/11/2022,04/11/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,39,GH
+GHT-23249-18488,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/14/2021,Successful,02/22/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,GH
+GHK-99902-68872,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,04/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHV-15273-85700,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,1,04/16/2021,Successful,01/04/2022,12/22/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,45,GH
+GH7-83377-65550,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/16/2022,Successful,04/20/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,28,GH
+GHW-18570-81989,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/17/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHX-18163-17369,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,23,04/20/2022,Successful,04/22/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,70,GH
+GHB-89557-25004,vsafe-35-day-dose2,Moderna,,,2,35,04/22/2021,Unsuccessful,,06/01/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-26849-99775,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/24/2021,Unsuccessful,,04/07/2022,Could Not Reach Participant,04/12/2022,Could Not Reach Participant,,,,,,,,,,,58,GH
+GH3-29724-98504,vsafe-28-day-dose4,Pfizer-BioNTech,Correct,,4,28,04/28/2022,Successful,04/29/2022,05/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,74,GH
+GHW-11984-78279,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,30,05/10/2021,Successful,01/12/2022,,,,,,,,,,,Completed over the phone,,,,55,GH
+GHS-20081-40020,vsafe-6-month-dose3,Moderna,,,3,182,05/10/2022,Unsuccessful,,05/11/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH3-29724-98504,vsafe-42-day-dose4,Pfizer-BioNTech,Correct,,4,42,05/12/2022,Successful,05/18/2022,05/13/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,GH
+GHE-18151-63085,vsafe-12-month-dose1,Pfizer-BioNTech,Correct,,1,365,05/13/2022,Successful,05/16/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,32,GH
+GHE-18151-63085,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,1,05/14/2021,Successful,,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,32,GH
+GHE-18151-63085,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,2,05/15/2021,Successful,04/07/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,32,GH
+GH5-13010-73006,vsafe-6-month-dose3,Moderna,Correct,,3,184,05/22/2022,Successful,05/23/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,50,GH
+GHF-10066-57485,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,05/27/2021,Successful,05/29/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,17,GH
+GHH-26263-20451,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/01/2021,Successful,04/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,GH
+GHF-14340-41783,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,06/06/2021,Unsuccessful,,09/08/2021,Left Voicemail,,,,,,,,,,,,,28,GH
+GH8-25084-53964,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,06/08/2022,Successful,06/09/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,65,GH
+GHC-15900-80423,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/16/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GHP-32235-01288,vsafe-3-month-dose2,Moderna,,,2,93,06/28/2021,Unsuccessful,,07/02/2021,Left Voicemail,,,,,,,,,,,,,71,GH
+GH7-11873-30857,vsafe-3-month-dose2,Moderna,,,2,91,07/08/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,31,GH
+GHE-97600-61340,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/16/2021,Successful,10/08/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,GH
+GHL-12741-72094,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/08/2021,Unsuccessful,,09/11/2021,Could Not Reach Participant,09/16/2021,Could Not Reach Participant,,,,,,,,,,,64,GH
+GHA-27882-52698,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,6,09/13/2021,Unsuccessful,,09/15/2021,Requested Callback,09/16/2021,Left Voicemail,,,,,09/16/2021,10:00AM ET,,,,,16,GH
+GHC-15900-80423,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/15/2021,Successful,09/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GHK-16599-87774,vsafe-6-month-dose2,Moderna,,,2,182,09/25/2021,Unsuccessful,,09/29/2021,Left Voicemail,,,,,,,,,,,,,28,GH
+GH3-29724-98504,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,09/29/2022,Successful,09/30/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,GH
+GHH-26263-20451,vsafe-12-month-dose3,Moderna,Correct,,3,365,09/30/2022,Successful,10/03/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,73,GH
+GH3-26311-04373,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/08/2021,Successful,10/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,24,GH
+GHS-25303-57337,vsafe-28-day-dose3,Pfizer-BioNTech,,,3,30,10/18/2021,Unsuccessful,,10/20/2021,Left Voicemail,,,,,,,,,,,,,47,GH
+GHT-13549-75322,vsafe-6-month-dose2,Moderna,,,2,185,10/23/2021,Unsuccessful,,10/26/2021,Left Voicemail,10/27/2021,Could Not Reach Participant,,,,,,,,,,,45,GH
+GH7-83377-65550,vsafe-28-day-dose4,Pfizer-BioNTech,,,4,30,11/01/2022,Unsuccessful,,11/02/2022,Left Voicemail,,,,,,,,,,,,,28,GH
+GHY-95512-56857,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,184,11/09/2021,Successful,11/17/2021,11/10/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,33,GH
+GHZ-87513-73656,vsafe-42-day-dose3,Moderna,Correct,,3,42,12/21/2021,Successful,12/22/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,GH
+GHS-25303-57337,vsafe-0-day-dose2,Pfizer-BioNTech,,,2,0,01/13/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHP-97281-35502,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHS-25303-57337,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GH3-13106-92968,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/04/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHS-76014-70625,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH3-13106-92968,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,01/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHK-13456-77485,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,18,01/08/2021,Unsuccessful,,02/12/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHC-32418-70508,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/08/2022,Successful,01/10/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,34,GH
+GHE-68751-13232,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/12/2022,Unsuccessful,,01/13/2022,Left Voicemail,,,,,,,,,,,,,61,GH
+GH8-49222-65239,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/17/2021,Unsuccessful,,03/17/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-18368-95128,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/23/2021,Unsuccessful,,06/22/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHF-14941-76153,vsafe-12-month-dose2,Moderna,,,2,365,01/26/2022,Unsuccessful,,01/28/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH9-11677-11051,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,01/27/2021,Successful,06/08/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHP-91391-09940,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/10/2022,Successful,02/14/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,GH
+GHK-69921-80962,vsafe-1-6-daily-dose2,Moderna,,,2,5,02/11/2021,Unsuccessful,,07/28/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-18368-95128,vsafe-35-day-dose1,Pfizer-BioNTech,,,1,35,02/13/2021,Unsuccessful,,06/02/2021,Left Voicemail,06/22/2022,Left Voicemail,,,,,,,,,,,58,GH
+GH6-20790-50714,vsafe-3-month-dose5,Pfizer-BioNTech,,,5,93,02/14/2023,Unsuccessful,,02/15/2023,Left Voicemail,05/17/2023,Left Voicemail,,,,,,,,,,,69,GH
+GHD-11337-29766,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,02/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHZ-17207-87878,vsafe-35-day-dose3,Pfizer-BioNTech,Correct,,3,35,02/16/2022,Successful,02/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,GH
+GHD-11337-29766,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,02/22/2021,Unsuccessful,,08/01/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHW-15710-24542,vsafe-21-day-dose2,Moderna,,,2,25,02/24/2021,Unsuccessful,,05/24/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHZ-18388-64252,vsafe-12-month-dose2,Moderna,,,2,367,02/26/2022,Unsuccessful,,03/17/2022,Left Voicemail,,,,,,,,,,,,,48,GH
+GHC-21886-10003,vsafe-28-day-dose2,Moderna,,,2,28,03/10/2021,Unsuccessful,,12/16/2021,Left Voicemail,,,,,,,,,,,,,56,GH
+GHA-20944-99459,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/10/2021,Successful,02/28/2022,02/28/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,GH
+GH6-20790-50714,vsafe-14-day-dose2,Moderna,Correct,,2,14,03/11/2021,Successful,03/02/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,69,GH
+GHW-16379-81008,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,184,03/11/2022,Successful,03/15/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,63,GH
+GHQ-59326-17226,vsafe-12-month-dose2,Moderna,,,2,365,03/18/2022,Unsuccessful,,03/21/2022,Left Voicemail,,,,,,,,,,,,,72,GH
+GHP-99336-22265,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/28/2022,Successful,03/31/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,GH
+GHP-99336-22265,vsafe-6-month-dose5,Moderna,Correct,,5,182,03/28/2023,Successful,03/30/2023,03/29/2023,Requested Callback,03/30/2023,Requested Callback,,,,,03/30/2023,,Completed over the phone,,,,67,GH
+GHQ-29577-18912,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/06/2021,Unsuccessful,,03/18/2022,Left Voicemail,,,,,,,,,,,,,56,GH
+GHM-92680-34627,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,04/07/2022,Unsuccessful,,04/15/2022,Left Voicemail,,,,,,,,,,,,,59,GH
+GH4-19407-88129,vsafe-21-day-single,Janssen/Johnson & Johnson,Correct,,1,21,04/09/2021,Successful,04/14/2021,04/13/2021,Left Voicemail,,,,,,,04/15/2021,05:00P EST,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH6-11400-84245,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/10/2021,Unsuccessful,,12/15/2021,Left Voicemail,,,,,,,,,,,,,32,GH
+GHU-31855-78754,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,04/11/2021,Unsuccessful,,02/10/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHD-15067-12526,vsafe-7-day-dose1,Janssen/Johnson & Johnson,,,1,9,04/15/2021,Unsuccessful,,04/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHU-89115-61215,vsafe-1-6-daily-dose2,Moderna,,,2,1,04/15/2021,Unsuccessful,,02/21/2022,Could Not Reach Participant,05/13/2022,Left Voicemail,,,,,,,,,,,53,GH
+GHL-62537-00021,vsafe-3-month-dose2,Moderna,,,2,91,04/26/2021,Unsuccessful,,04/11/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GHS-76014-70625,vsafe-3-month-dose2,Moderna,,,2,94,05/07/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH6-20790-50714,vsafe-6-month-dose5,Pfizer-BioNTech,,,5,184,05/16/2023,Unsuccessful,,05/17/2023,Left Voicemail,,,,,,,,,,,,,69,GH
+GHP-28627-78889,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,5,05/17/2021,Unsuccessful,,,,,,,,,,,,,,,,69,GH
+GHP-28627-78889,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,6,05/18/2021,Unsuccessful,,06/03/2021,Left Voicemail,,,,,,,,,,,,,69,GH
+GHR-15348-48374,vsafe-3-month-dose2,Moderna,,,2,91,05/21/2021,Unsuccessful,,,,,,,,,,,,,,,,53,GH
+GHB-69589-75880,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,92,05/25/2022,Unsuccessful,,05/26/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHD-95433-06843,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,05/26/2021,Unsuccessful,,,,,,,,,,,,,,,,33,GH
+GHE-29451-59964,vsafe-3-month-dose2,Moderna,,,2,91,06/08/2021,Unsuccessful,,09/04/2021,Left Voicemail,,,,,,,,,,,,,51,GH
+GH4-38299-86442,vsafe-12-month-dose4,Moderna,,,4,365,06/13/2023,Unsuccessful,,06/14/2023,Left Voicemail,,,,,,,,,,,,,39,GH
+GHH-18368-95128,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,06/21/2022,Unsuccessful,,06/22/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHZ-17207-87878,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,06/25/2021,Successful,,07/01/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,GH
+GH4-38299-86442,vsafe-21-day-dose4,Moderna,,,4,21,07/04/2022,Unsuccessful,,06/14/2023,Left Voicemail,07/05/2022,Left Voicemail,,,,,,,,,,,39,GH
+GHR-12235-14239,vsafe-3-month-dose2,Moderna,,,2,91,07/06/2021,Unsuccessful,,07/12/2021,Left Voicemail,,,,,,,,,,,,,32,GH
+GHG-21427-36058,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/20/2022,Successful,07/21/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,62,GH
+GHB-69589-75880,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/22/2021,Unsuccessful,,07/28/2021,Left Voicemail,07/31/2021,Left Voicemail,,,,,,,,,,,58,GH
+GHT-28804-34571,vsafe-6-month-dose2,Moderna,,,2,182,07/30/2021,Unsuccessful,,08/11/2021,Left Voicemail,,,,,,,,,,,,,56,GH
+GHD-95433-06843,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/04/2021,Unsuccessful,,08/13/2021,Could Not Reach Participant,08/18/2021,Could Not Reach Participant,,,,,,,,,,,33,GH
+GH9-11677-11051,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,08/08/2021,Unsuccessful,,10/13/2021,Could Not Reach Participant,10/18/2021,Left Voicemail,,,,,,,,,,,47,GH
+GHN-29009-02342,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/12/2021,Successful,08/20/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,GH
+GHR-15348-48374,vsafe-6-month-dose2,Moderna,,,2,182,08/20/2021,Unsuccessful,,08/27/2021,Left Voicemail,,,,,,,,,,,,,53,GH
+GHQ-59326-17226,vsafe-6-month-dose1,Moderna,Correct,,2,155,08/20/2021,Successful,08/27/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,72,GH
+GH4-38299-86442,vsafe-6-month-dose2,Moderna,,,2,184,08/22/2021,Unsuccessful,,06/14/2023,Left Voicemail,07/05/2022,Left Voicemail,08/25/2021,Left Voicemail,,,,,,,,,39,GH
+GHU-28140-41506,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,08/29/2021,Unsuccessful,,12/09/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHH-18368-95128,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,189,09/01/2021,Unsuccessful,,06/22/2022,Left Voicemail,09/02/2021,Left Voicemail,,,,,,,,,,,58,GH
+GHW-16379-81008,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,367,09/10/2022,Successful,09/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,63,GH
+GHM-16303-53095,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,10/02/2021,Unsuccessful,,11/11/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHP-12557-03883,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,10/08/2021,Unsuccessful,,10/13/2021,Could Not Reach Participant,10/18/2021,Left Voicemail,,,,,,,,,,,31,GH
+GH3-61793-66274,vsafe-28-day-dose2-dep,Pfizer-BioNTech,Correct,,2,28,10/10/2021,Successful,10/12/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,14,GH
+GHB-22044-27385,vsafe-6-month-dose1,Moderna,,,1,182,10/20/2021,Unsuccessful,,10/21/2021,Left Voicemail,,,,,,,,,,,,,43,GH
+GHX-23140-06384,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,28,10/29/2021,Successful,11/04/2021,11/04/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,GH
+GHB-61608-15501,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,11/03/2022,Unsuccessful,,11/04/2022,Left Voicemail,,,,,,,,,,,,,55,GH
+GHB-61608-15501,vsafe-42-day-dose3,Pfizer-BioNTech,,,3,42,12/15/2021,Unsuccessful,,11/04/2022,Left Voicemail,12/16/2021,Left Voicemail,,,,,,,,,,,55,GH
+GHW-15710-24542,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/05/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHE-68751-13232,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/13/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHE-68751-13232,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GH3-13106-92968,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,01/03/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHK-86539-33834,vsafe-1-6-daily-dose1,Moderna,,,1,6,01/12/2021,Successful,02/24/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH3-10024-14116,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,93,01/13/2023,Successful,04/13/2023,,,,,,,,,,,Completed over the phone,,,,54,GH
+GHL-12213-48900,vsafe-14-day-dose3,Moderna,,,3,14,01/20/2022,Unsuccessful,,01/21/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GH7-20249-58395,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/29/2022,Unsuccessful,,03/31/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHT-13591-13835,vsafe-12-month-dose2,Moderna,,,2,365,01/30/2022,Unsuccessful,,02/01/2022,Left Voicemail,,,,,,,,,,,,,81,GH
+GHV-63296-25727,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/09/2022,Successful,02/11/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,GH
+GHD-28416-12295,vsafe-42-day-dose1,Moderna,,,1,43,02/11/2021,Unsuccessful,,07/20/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHG-34378-94527,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,02/24/2021,Unsuccessful,,08/31/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-50025-88782,vsafe-1-6-daily-dose1,Moderna,,,1,6,02/26/2021,Unsuccessful,,09/04/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHK-33778-24082,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,02/27/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHK-33778-24082,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,02/28/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHK-33778-24082,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,03/01/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH3-10024-14116,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,3,03/02/2021,Successful,09/22/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,54,GH
+GH8-23984-18290,vsafe-28-day-dose1,Moderna,,,1,28,03/03/2021,Unsuccessful,,02/18/2022,Left Voicemail,,,,,,,,,,,,,59,GH
+GH3-10024-14116,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,4,03/03/2021,Successful,09/22/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,54,GH
+GHT-13591-13835,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/06/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHK-33778-24082,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,8,03/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHB-15992-19149,vsafe-12-month-dose2,Moderna,Correct,,2,367,03/11/2022,Successful,03/14/2022,03/14/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,GH
+GHN-76119-46999,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/12/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,51,GH
+GHC-33064-31706,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/16/2022,Unsuccessful,,03/17/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GH4-21183-15376,vsafe-12-month-dose2,Moderna,,,2,365,03/16/2022,Unsuccessful,,03/17/2022,Left Voicemail,,,,,,,,,,,,,53,GH
+GHS-32444-75996,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,44,03/19/2021,Unsuccessful,,12/28/2021,Left Voicemail,,,,,,,,,,,,,62,GH
+GHM-21937-56908,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,6,03/19/2021,Unsuccessful,,03/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHD-22136-35374,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,367,03/20/2022,Unsuccessful,,03/22/2022,Left Voicemail,,,,,,,,,,,,,63,GH
+GHY-69894-41134,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/26/2021,Unsuccessful,,11/04/2021,Left Voicemail,,,,,,,,,,,,,63,GH
+GHV-20978-14809,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,5,03/30/2021,Successful,11/11/2021,11/06/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,33,GH
+GHS-29942-77933,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,04/08/2022,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,65,GH
+GH3-10024-14116,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,04/12/2023,Successful,04/13/2023,,,,,,,,,,,Completed over the phone,,,,54,GH
+GHT-31287-70536,vsafe-3-month-dose1,Moderna,,,1,91,04/15/2021,Unsuccessful,,02/21/2022,Left Voicemail,,,,,,,,,,,,,40,GH
+GH3-10024-14116,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/16/2022,Successful,01/17/2023,04/21/2022,Left Voicemail,11/04/2022,Left Voicemail,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GHR-12919-16736,vsafe-6-month-dose3,Moderna,,,3,184,04/25/2022,Unsuccessful,,04/27/2022,Left Voicemail,,,,,,,,,,,,,56,GH
+GHD-10874-29756,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/26/2022,Unsuccessful,,04/27/2022,Left Voicemail,,,,,,,,,,,,,33,GH
+GHZ-34968-21045,vsafe-6-month-dose3,Moderna,Correct,,3,182,04/29/2022,Successful,05/06/2022,05/04/2022,Could Not Reach Participant,,,,,,,05/06/2022,11:00AM ET,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,68,GH
+GH3-51386-43774,vsafe-1-6-daily-dose1,Moderna,Correct,,1,1,04/30/2021,Successful,04/12/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,33,GH
+GH3-10024-14116,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,44,05/03/2021,Successful,09/22/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,54,GH
+GHJ-49893-66176,vsafe-21-day-dose3,Pfizer-BioNTech,Correct,,3,21,05/05/2022,Successful,06/06/2022,05/06/2022,Requested Callback,,,,,,,06/06/2022,,Does not wish to fill out VAERS report,,,,43,GH
+GHD-10874-29756,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,05/10/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,33,GH
+GHS-23182-44612,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/15/2021,Unsuccessful,,05/06/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHD-10874-29756,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,05/17/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,33,GH
+GHQ-76485-99474,vsafe-3-month-dose2,Moderna,,,2,91,05/18/2021,Unsuccessful,,,,,,,,,,,,,,,,73,GH
+GHD-10874-29756,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,05/24/2021,Successful,04/07/2022,04/07/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,33,GH
+GHL-11559-70712,vsafe-28-day-dose2,Moderna,,,2,30,05/28/2021,Unsuccessful,,04/28/2022,Could Not Reach Participant,05/03/2022,Could Not Reach Participant,,,,,,,,,,,40,GH
+GHD-26144-19254,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,29,05/31/2021,Unsuccessful,,,,,,,,,,,,,,,,49,GH
+GHP-11823-96326,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,06/09/2022,Unsuccessful,,06/10/2022,Left Voicemail,,,,,,,,,,,,,49,GH
+GHX-23231-74656,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,06/11/2021,Unsuccessful,,06/22/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHD-26144-19254,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,06/13/2021,Unsuccessful,,06/21/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GH5-19712-92675,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/17/2021,Unsuccessful,,06/24/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GHK-33778-24082,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/18/2021,Unsuccessful,,06/21/2021,Left Voicemail,,,,,,,,,,,,,66,GH
+GH6-24667-01294,vsafe-1-6-daily-dose2,Moderna,Correct,,2,4,07/02/2021,Successful,07/07/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,50,GH
+GHS-33448-74733,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/21/2021,Unsuccessful,,07/22/2021,Left Voicemail,,,,,,,,,,,,,21,GH
+GH2-12071-56896,vsafe-3-month-dose4,Moderna,Correct,,4,93,07/21/2022,Successful,07/22/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,60,GH
+GHT-13591-13835,vsafe-6-month-dose2,Moderna,Correct,,2,182,07/31/2021,Successful,08/13/2021,08/12/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,81,GH
+GH9-12040-98662,vsafe-42-day-dose3,Moderna,Correct,,3,43,08/05/2022,Successful,08/08/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,52,GH
+GHQ-76485-99474,vsafe-6-month-dose2,Moderna,,,2,182,08/17/2021,Unsuccessful,,08/19/2021,Could Not Reach Participant,08/30/2021,Could Not Reach Participant,,,,,,,,,,,73,GH
+GH5-23349-38925,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,183,08/21/2021,Successful,09/03/2021,08/27/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,80,GH
+GHN-33065-97006,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,44,08/22/2021,Unsuccessful,,12/10/2021,Could Not Reach Participant,12/15/2021,Could Not Reach Participant,,,,,,,,,,,30,GH
+GHB-15365-43076,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/25/2021,Unsuccessful,,08/31/2021,Left Voicemail,,,,,,,,,,,,,68,GH
+GHE-16459-31339,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,08/31/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,23,GH
+GHF-79584-86947,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/06/2021,Unsuccessful,,09/13/2021,Left Voicemail,,,,,,,,,,,,,83,GH
+GH4-21183-15376,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/14/2021,Successful,09/22/2021,09/21/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,GH
+GH5-19712-92675,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/16/2021,Unsuccessful,,09/21/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GH3-10024-14116,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,183,09/19/2021,Successful,09/22/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,54,GH
+GHB-30277-26504,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/30/2021,Successful,10/05/2021,10/04/2021,Requested Callback,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,62,GH
+GHX-10013-78961,vsafe-6-month-dose2,Moderna,,,2,182,10/05/2021,Unsuccessful,,10/07/2021,Left Voicemail,,,,,,,,,,,,,37,GH
+GHB-30063-28125,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/25/2021,Unsuccessful,,10/27/2021,Left Voicemail,,,,,,,,,,,,,37,GH
+GH9-12040-98662,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,91,10/31/2021,Successful,08/08/2022,11/03/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,52,GH
+GH3-10024-14116,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,22,11/03/2022,Successful,04/13/2023,11/04/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,54,GH
+GHK-28160-37239,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,11/17/2021,Unsuccessful,,11/18/2021,Left Voicemail,,,,,,,,,,,,,46,GH
+GHV-34851-35644,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,11/17/2021,Successful,11/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,74,GH
+GH3-10024-14116,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,43,11/28/2021,Successful,12/07/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GHD-28416-12295,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/02/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHS-33448-74733,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,12/30/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHS-33448-74733,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/31/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHD-28416-12295,vsafe-1-6-daily-dose1,Moderna,,,1,1,12/31/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHB-62936-42332,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/07/2022,Successful,01/12/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,GH
+GH7-29557-89251,vsafe-1-6-daily-dose1,Moderna,Correct,,1,1,01/08/2021,Successful,02/15/2021,02/15/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GH8-10668-43187,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,1,01/12/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHG-14737-16269,vsafe-3-month-dose5,Moderna,,,5,91,01/12/2023,Unsuccessful,,01/13/2023,Left Voicemail,,,,,,,,,,,,,68,GH
+GH8-10668-43187,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,2,01/13/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHC-75813-37643,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/14/2021,Unsuccessful,,03/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHM-47165-31039,vsafe-14-day-dose1,Moderna,,,1,14,01/14/2021,Unsuccessful,,03/04/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-10668-43187,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,3,01/14/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH8-10668-43187,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,4,01/15/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH8-10668-43187,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,5,01/16/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH8-10668-43187,vsafe-7-day-dose2,Pfizer-BioNTech,Correct,,2,7,01/18/2021,Successful,,03/15/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHH-25487-71843,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,01/24/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHH-25487-71843,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,01/25/2021,Unsuccessful,,04/07/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-10668-43187,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,01/25/2021,Successful,,06/02/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHC-33359-68997,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/29/2021,Unsuccessful,,06/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH9-43313-06013,vsafe-28-day-dose1,Moderna,,,1,28,02/01/2021,Successful,,,,,,,,,,,,,,,,,GH
+GH8-28703-12891,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,02/14/2021,Unsuccessful,,08/02/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHT-11571-43853,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/17/2022,Successful,02/23/2022,02/23/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,GH
+GH9-43313-06013,vsafe-28-day-dose2,Moderna,,,2,28,03/05/2021,Successful,,,,,,,,,,,,,,,,,GH
+GHU-48691-08078,vsafe-12-month-dose2,Moderna,Correct,,3,0,03/06/2022,Successful,03/08/2022,,,,,,,,,,,Completed over the phone,,,,65,GH
+GHK-17000-85007,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,6,03/07/2021,Unsuccessful,,,,,,,,,,,,,,,,71,GH
+GHK-17000-85007,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,03/08/2021,Unsuccessful,,11/30/2021,Left Voicemail,,,,,,,,,,,,,71,GH
+GHB-81494-35006,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,03/10/2022,Unsuccessful,,03/11/2022,Left Voicemail,,,,,,,,,,,,,31,GH
+GHD-39860-68458,vsafe-12-month-dose1,Moderna,,,1,365,03/11/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,60,GH
+GHC-30546-31441,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,03/12/2021,Unsuccessful,,,,,,,,,,,,,,,,42,GH
+GH9-43313-06013,vsafe-35-day-dose2,Moderna,,,2,37,03/14/2021,Successful,,,,,,,,,,,,,,,,,GH
+GHQ-10742-85957,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/18/2021,Unsuccessful,,12/23/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHC-30546-31441,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,03/19/2021,Unsuccessful,,12/16/2021,Could Not Reach Participant,12/21/2021,Could Not Reach Participant,,,,,,,,,,,42,GH
+GH9-43313-06013,vsafe-42-day-dose2,Moderna,,,2,42,03/19/2021,Successful,06/16/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHQ-10742-85957,vsafe-12-month-dose2,Moderna,,,2,365,03/26/2022,Unsuccessful,,03/29/2022,Left Voicemail,,,,,,,,,,,,,73,GH
+GHK-31347-86388,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/29/2022,Unsuccessful,,03/31/2022,Left Voicemail,,,,,,,,,,,,,71,GH
+GHJ-91358-31212,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/30/2022,Unsuccessful,,04/01/2022,Left Voicemail,,,,,,,,,,,,,72,GH
+GHC-51200-40374,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,04/02/2021,Unsuccessful,,06/14/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHK-20392-62680,vsafe-1-6-daily-dose3,Moderna,,,3,2,04/04/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,23,GH
+GHK-24270-14610,vsafe-12-month-dose2,Moderna,,,3,153,04/13/2022,Unsuccessful,,04/19/2022,Left Voicemail,,,,,,,,,,,,,46,GH
+GHN-18359-78960,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/14/2021,Unsuccessful,,04/15/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHG-14737-16269,vsafe-14-day-dose4,Moderna,,,4,15,04/14/2022,Unsuccessful,,01/13/2023,Left Voicemail,04/20/2022,Left Voicemail,,,,,,,,,,,68,GH
+GHF-21227-43952,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,04/16/2021,Successful,04/26/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH8-23743-15782,vsafe-6-month-dose3,Moderna,Correct,,3,182,04/25/2022,Successful,04/29/2022,,,,,,,,,,,Completed over the phone,,,,67,GH
+GHY-10336-25375,vsafe-3-month-dose2,Moderna,,,2,91,05/01/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHC-11669-38041,vsafe-21-day-dose2,Moderna,,,2,27,05/06/2021,Unsuccessful,,05/06/2022,Could Not Reach Participant,05/11/2022,Could Not Reach Participant,,,,,,,,,,,67,GH
+GHL-14395-41557,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,05/08/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,58,GH
+GHK-26486-59932,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,05/16/2021,Unsuccessful,,04/08/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GHT-30057-72382,vsafe-21-day-dose4,Moderna,,,4,23,05/19/2022,Unsuccessful,,05/20/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GH8-16407-36455,vsafe-6-month-dose3,Moderna,,,3,182,05/25/2022,Unsuccessful,,05/26/2022,Left Voicemail,11/10/2022,Left Voicemail,,,,,,,,,,,39,GH
+GHJ-88434-93991,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,93,05/25/2022,Successful,05/26/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,71,GH
+GHF-43944-45334,vsafe-1-6-daily-dose2,Moderna,,,2,4,05/29/2021,Unsuccessful,,02/16/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHL-14395-41557,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,05/29/2021,Successful,04/08/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,58,GH
+GHY-22457-88782,vsafe-42-day-dose2,Moderna,,,2,42,06/03/2021,Unsuccessful,,01/20/2022,Left Voicemail,,,,,,,,,,,,,31,GH
+GHR-25910-67791,vsafe-1-6-daily-dose4,Pfizer-BioNTech,,,4,2,06/04/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,55,GH
+GHF-67642-33760,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/12/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,27,GH
+GH8-10668-43187,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/12/2021,Successful,07/15/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,46,GH
+GHK-24270-14610,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/13/2021,Successful,07/22/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,46,GH
+GHH-12177-90279,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/15/2021,Successful,,07/23/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,GH
+GHN-92692-88064,vsafe-6-month-dose2,Moderna,,,2,184,07/25/2021,Unsuccessful,,07/27/2021,Left Voicemail,,,,,,,,,,,,,55,GH
+GHU-98153-64277,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/29/2021,Successful,08/10/2021,08/10/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GHY-10336-25375,vsafe-6-month-dose2,Moderna,,,2,182,07/31/2021,Unsuccessful,,08/05/2021,Left Voicemail,,,,,,,,,,,,,61,GH
+GHU-21119-39300,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,08/06/2021,Unsuccessful,,11/22/2021,Left Voicemail,,,,,,,,,,,,,53,GH
+GHF-11808-03851,vsafe-6-month-dose2,Moderna,,,2,182,08/14/2021,Unsuccessful,,08/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH9-13121-78139,vsafe-6-month-dose1,Moderna,,,1,182,08/14/2021,Unsuccessful,,08/22/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHM-11827-09324,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,08/17/2021,Unsuccessful,,08/24/2021,Left Voicemail,,,,,,,,,,,,,59,GH
+GHX-27660-95274,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,33,08/23/2021,Unsuccessful,,08/30/2021,Left Voicemail,,,,,,,,,,,,,37,GH
+GHU-48691-08078,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/04/2021,Successful,,12/02/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,65,GH
+GH7-76579-83120,vsafe-6-month-dose1,Moderna,,,1,182,09/08/2021,Unsuccessful,,09/13/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GHU-27386-53274,vsafe-6-month-dose2,Moderna,,,2,182,09/13/2021,Unsuccessful,,09/16/2021,Left Voicemail,,,,,,,,,,,,,32,GH
+GHE-30973-14061,vsafe-6-month-dose2,Moderna,Correct,,2,183,09/21/2021,Successful,09/23/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,GH
+GHB-14870-81913,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,10/09/2021,Unsuccessful,,12/08/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GHH-12177-90279,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/14/2021,Successful,10/21/2021,10/19/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,GH
+GHU-98153-64277,vsafe-6-month-dose2,Moderna,,,2,182,10/28/2021,Unsuccessful,,11/01/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GH8-16407-36455,vsafe-42-day-dose4,Moderna,,,4,42,11/09/2022,Unsuccessful,,11/10/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GHF-67642-33760,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,12/27/2020,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHN-18359-78960,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHN-92692-88064,vsafe-1-6-daily-dose1,Moderna,,,1,4,12/28/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHF-67642-33760,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/01/2021,Successful,01/11/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHA-11178-46854,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/04/2023,Unsuccessful,,01/05/2023,Left Voicemail,,,,,,,,,,,,,68,GH
+GH5-25473-61165,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/05/2022,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,57,GH
+GHJ-33433-14261,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/08/2022,Successful,01/10/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,49,GH
+GHV-27642-81045,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/13/2022,Unsuccessful,,01/17/2022,Left Voicemail,,,,,,,,,,,,,55,GH
+GHP-21895-48013,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/14/2022,Unsuccessful,,,,,,,,,,,,,,,,30,GH
+GHP-21895-48013,vsafe-7-day-dose1,Moderna,,,1,7,01/17/2022,Unsuccessful,,01/21/2022,Could Not Reach Participant,01/25/2022,Could Not Reach Participant,,,,,,,,,,,30,GH
+GHA-11178-46854,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,01/18/2022,Unsuccessful,,01/05/2023,Left Voicemail,01/19/2022,Left Voicemail,07/07/2022,Left Voicemail,,,,,,,,,68,GH
+GHL-16743-41353,vsafe-3-month-dose2-dep,Pfizer-BioNTech,,,2,91,01/24/2022,Unsuccessful,,01/25/2022,Left Voicemail,,,,,,,,,,,,,12,GH
+GHP-21895-48013,vsafe-14-day-dose1,Moderna,,,1,14,01/24/2022,Unsuccessful,,,,,,,,,,,,,,,,30,GH
+GHG-19557-76819,vsafe-3-month-dose3,Moderna,Correct,,3,92,01/26/2022,Successful,02/02/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GHR-68988-12314,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/27/2021,Successful,04/21/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHC-12676-54114,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,3,126,02/16/2022,Successful,02/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,78,GH
+GHC-24433-06885,vsafe-1-6-daily-dose1,Moderna,,,1,3,02/19/2021,Unsuccessful,,08/06/2021,Could Not Reach Participant,08/11/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GHY-23192-09474,vsafe-12-month-dose2,Moderna,,,2,365,02/19/2022,Unsuccessful,,02/22/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GHU-14662-85108,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,02/23/2021,Unsuccessful,,08/27/2021,Could Not Reach Participant,09/01/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GHC-12676-54114,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,03/02/2021,Successful,,09/22/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,78,GH
+GHG-23087-74644,vsafe-28-day-dose2,Moderna,Correct,,2,31,03/04/2021,Successful,10/04/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH8-27988-31951,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/04/2022,Unsuccessful,,03/07/2022,Left Voicemail,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,71,GH
+GHC-26575-38247,vsafe-0-day-dose1,Moderna,,,1,0,03/06/2021,Unsuccessful,,02/12/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHS-13640-75310,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,2,03/08/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,GH
+GHS-13640-75310,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,4,03/10/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,GH
+GHS-13640-75310,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,5,03/11/2021,Successful,06/17/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,GH
+GH5-25898-07574,vsafe-12-month-dose2,Moderna,,,3,126,03/14/2022,Unsuccessful,,03/16/2022,Left Voicemail,,,,,,,,,,,,,24,GH
+GH8-27988-31951,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,03/18/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHM-44830-42816,vsafe-12-month-dose2,Moderna,,,2,365,03/19/2022,Unsuccessful,,03/23/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GHF-20316-64602,vsafe-6-month-dose5,Moderna,Correct,,5,182,03/20/2023,Successful,03/24/2023,03/22/2023,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,66,GH
+GHA-11178-46854,vsafe-14-day-dose1,Janssen/Johnson & Johnson,,,1,14,03/25/2021,Unsuccessful,,01/05/2023,Left Voicemail,05/03/2021,Left Voicemail,06/15/2021,Left Voicemail,07/07/2022,Left Voicemail,,,,,,,68,GH
+GHK-33391-72632,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,03/25/2022,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHC-18710-21289,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,03/27/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHT-14566-14867,vsafe-3-month-dose3,Moderna,Correct,,3,91,03/30/2022,Successful,03/31/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,55,GH
+GH4-19715-23805,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,04/01/2021,Successful,06/10/2021,06/09/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH4-29681-28463,vsafe-1-6-daily-dose1,Moderna,,,1,3,04/02/2021,Unsuccessful,,06/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH4-31141-84569,vsafe-14-day-dose1,Moderna,Correct,,1,14,04/02/2021,Successful,06/18/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHA-94887-82858,vsafe-1-6-daily-dose2,Moderna,,,2,1,04/13/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GHB-18163-21703,vsafe-35-day-single,Janssen/Johnson & Johnson,,,1,35,04/15/2021,Unsuccessful,,04/20/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHA-11178-46854,vsafe-35-day-single,Janssen/Johnson & Johnson,,,1,36,04/16/2021,Unsuccessful,,01/05/2023,Left Voicemail,07/07/2022,Left Voicemail,,,,,,,,,,,68,GH
+GHS-13640-75310,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,04/17/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,GH
+GHZ-32117-93476,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/17/2021,Unsuccessful,,,,,,,,,,,,,,,,37,GH
+GHP-30450-37566,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/18/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH5-25932-88877,vsafe-14-day-dose4,Moderna,,,4,15,04/19/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,72,GH
+GHY-17395-29227,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,04/21/2021,Unsuccessful,,,,,,,,,,,,,,,,20,GH
+GHZ-32117-93476,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,04/24/2021,Unsuccessful,,02/09/2022,Could Not Reach Participant,02/14/2022,Left Voicemail,,,,,,,,,,,37,GH
+GHV-49297-32889,vsafe-28-day-dose1,Moderna,Correct,,1,28,04/27/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHK-33391-72632,vsafe-35-day-single,Janssen/Johnson & Johnson,,,1,35,04/29/2021,Unsuccessful,,05/27/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-70075-21147,vsafe-1-6-daily-dose4,Pfizer-BioNTech,,,4,4,05/02/2022,Unsuccessful,,05/03/2022,Left Voicemail,,,,,,,,,,,,,71,GH
+GHT-15261-18851,vsafe-12-month-dose2,Moderna,,,2,365,05/04/2022,Unsuccessful,,05/05/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GHY-17395-29227,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,05/05/2021,Unsuccessful,,04/01/2022,Left Voicemail,,,,,,,,,,,,,20,GH
+GH4-31984-00578,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,05/06/2021,Unsuccessful,,01/05/2022,Left Voicemail,,,,,,,,,,,,,25,GH
+GH5-54425-17109,vsafe-21-day-dose2,Moderna,Correct,,2,22,05/11/2021,Successful,04/18/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,GH
+GHN-17988-34299,vsafe-35-day-dose4,Pfizer-BioNTech,Correct,,4,35,05/16/2022,Successful,05/17/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,60,GH
+GHB-80594-59936,vsafe-28-day-dose2,Moderna,Correct,,2,28,05/22/2021,Successful,,04/07/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,42,GH
+GHB-80594-59936,vsafe-35-day-dose2,Moderna,Correct,,2,35,05/29/2021,Successful,04/13/2022,04/07/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,42,GH
+GH8-27988-31951,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,92,06/04/2021,Unsuccessful,,06/19/2021,Could Not Reach Participant,06/23/2021,Could Not Reach Participant,,,,,,,,,,,71,GH
+GHA-11178-46854,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,93,06/12/2021,Unsuccessful,,01/05/2023,Left Voicemail,07/07/2022,Left Voicemail,,,,,,,,,,,68,GH
+GHP-30450-37566,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/04/2021,Unsuccessful,,07/08/2021,Left Voicemail,,,,,,,,,,,,,58,GH
+GHA-11178-46854,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,07/06/2022,Unsuccessful,,01/05/2023,Left Voicemail,07/07/2022,Left Voicemail,,,,,,,,,,,68,GH
+GH6-32957-19193,vsafe-6-month-dose1,Moderna,,,1,184,07/28/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,77,GH
+GH4-25699-51406,vsafe-6-month-dose2,Moderna,,,2,182,07/29/2021,Unsuccessful,,08/11/2021,Left Voicemail,,,,,,,,,,,,,47,GH
+GH9-76573-14198,vsafe-3-month-dose2,Moderna,,,2,91,08/07/2021,Unsuccessful,,11/24/2021,Left Voicemail,,,,,,,,,,,,,43,GH
+GHV-49297-32889,vsafe-3-month-dose2,Moderna,Correct,,2,91,08/09/2021,Successful,08/13/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,24,GH
+GH8-27988-31951,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/02/2021,Unsuccessful,,09/07/2021,Could Not Reach Participant,,,,,,,,,,,,,71,GH
+GHJ-60988-69476,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/02/2021,Successful,09/24/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,49,GH
+GHC-18710-21289,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,09/18/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,60,GH
+GHF-20316-64602,vsafe-28-day-dose3,Moderna,Correct,,3,28,11/19/2021,Successful,11/30/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GHZ-17637-54863,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,12/30/2020,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHZ-17637-54863,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,12/31/2020,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHZ-17637-54863,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/01/2021,Unsuccessful,,01/25/2021,Could Not Reach Participant,01/28/2021,Left Voicemail,,,,,,,,,,,,GH
+GHD-10153-99865,vsafe-7-day-dose1,Moderna,,,1,9,01/07/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHD-10153-99865,vsafe-14-day-dose1,Moderna,,,1,14,01/12/2021,Unsuccessful,,02/11/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-22240-17185,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,01/18/2021,Unsuccessful,,03/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHM-18453-69323,vsafe-14-day-dose1,Moderna,,,1,14,01/23/2021,Successful,06/01/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHF-28230-78400,vsafe-12-month-dose2,Moderna,,,2,367,01/23/2022,Unsuccessful,,01/26/2022,Left Voicemail,,,,,,,,,,,,,36,GH
+GHF-22240-17185,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/24/2022,Unsuccessful,,01/26/2022,Left Voicemail,,,,,,,,,,,,,62,GH
+GHZ-86789-83841,vsafe-7-day-dose1,Moderna,,,1,8,01/26/2021,Unsuccessful,,04/12/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-12855-75119,vsafe-1-6-daily-dose2,Moderna,Correct,,2,3,01/28/2021,Successful,06/07/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GHF-12855-75119,vsafe-12-month-dose2,Moderna,,,2,370,01/30/2022,Unsuccessful,,01/31/2022,Left Voicemail,,,,,,,,,,,,,52,GH
+GH5-26891-28030,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,19,02/08/2021,Unsuccessful,,07/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHB-19835-96939,vsafe-12-month-dose2,Moderna,Correct,,3,111,02/12/2022,Successful,02/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,GH
+GH4-47597-64123,vsafe-12-month-dose2,Moderna,,,2,365,02/15/2022,Unsuccessful,,02/16/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHZ-86789-83841,vsafe-1-6-daily-dose2,Moderna,,,2,1,02/16/2021,Unsuccessful,,08/05/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-24703-96253,vsafe-12-month-dose2,Moderna,,,2,365,02/19/2022,Unsuccessful,,02/22/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GH5-20098-52123,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/27/2022,Successful,03/01/2022,03/01/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,51,GH
+GHG-71219-48583,vsafe-14-day-dose2,Moderna,Correct,,2,15,03/06/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,65,GH
+GHJ-90647-04427,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/10/2022,Unsuccessful,,03/11/2022,Left Voicemail,,,,,,,,,,,,,79,GH
+GHE-18320-14081,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/11/2022,Successful,03/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,77,GH
+GHH-35256-26307,vsafe-12-month-dose2,Moderna,,,2,365,03/12/2022,Unsuccessful,,03/14/2022,Left Voicemail,,,,,,,,,,,,,71,GH
+GH4-22940-65965,vsafe-12-month-dose1,Moderna,,,1,365,03/16/2022,Unsuccessful,,03/17/2022,Left Voicemail,,,,,,,,,,,,,75,GH
+GH2-41785-61431,vsafe-21-day-dose2,Moderna,,,2,21,03/18/2021,Unsuccessful,,,,,,,,,,,,,,,,49,GH
+GH2-79875-89570,vsafe-14-day-dose1,Moderna,,,1,14,03/25/2021,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,46,GH
+GHP-14841-95103,vsafe-12-month-dose2,Moderna,,,2,365,03/25/2022,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,50,GH
+GHG-71219-48583,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/26/2021,Successful,11/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,65,GH
+GH2-41785-61431,vsafe-28-day-dose2,Moderna,,,2,30,03/27/2021,Unsuccessful,,12/16/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GHK-57717-89103,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,03/29/2022,Successful,03/30/2022,03/30/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,42,GH
+GHJ-28122-68738,vsafe-12-month-dose2,Moderna,Correct,,3,122,03/31/2022,Successful,04/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GH4-32714-50029,vsafe-1-6-daily-dose2,Moderna,Correct,,2,5,04/05/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GH4-32714-50029,vsafe-7-day-dose2,Moderna,Correct,,2,7,04/07/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GH7-30943-88471,vsafe-6-month-dose5,Moderna,,,5,182,04/07/2023,Unsuccessful,,04/11/2023,Left Voicemail,,,,,,,,,,,,,68,GH
+GHQ-21638-21022,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,04/13/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,27,GH
+GH5-26370-10488,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,3,04/13/2021,Successful,03/25/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,34,GH
+GHG-13893-19796,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,2,04/14/2021,Unsuccessful,,05/24/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH7-33939-67539,vsafe-12-month-dose2,Moderna,Correct,,2,367,04/14/2022,Successful,04/20/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,53,GH
+GHX-18492-18508,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,04/15/2022,Unsuccessful,,04/19/2022,Left Voicemail,,,,,,,,,,,,,46,GH
+GH4-32714-50029,vsafe-14-day-dose2,Moderna,Correct,,2,16,04/16/2021,Successful,06/17/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHK-10782-24151,vsafe-12-month-dose2,Moderna,Correct,,2,365,04/16/2022,Successful,04/20/2022,08/08/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,53,GH
+GHW-12766-47130,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,04/20/2021,Unsuccessful,,,,,,,,,,,,,,,,40,GH
+GH4-25622-68118,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,04/20/2022,Unsuccessful,,04/21/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GHW-12766-47130,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,04/21/2021,Unsuccessful,,11/15/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHF-12855-75119,vsafe-3-month-dose2,Moderna,Correct,,2,91,04/26/2021,Successful,06/07/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GH5-39206-25562,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/27/2022,Successful,06/10/2022,04/28/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,38,GH
+GHE-39401-17167,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,4,04/28/2021,Unsuccessful,,04/08/2022,Left Voicemail,,,,,,,,,,,,,55,GH
+GHG-13734-46193,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,21,04/28/2021,Successful,04/08/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,GH
+GHA-29974-11652,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,05/04/2022,Unsuccessful,,05/05/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GH2-25705-10372,vsafe-3-month-dose2,Moderna,,,2,91,05/11/2021,Unsuccessful,,05/06/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GH3-23173-26944,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,05/16/2022,Unsuccessful,,05/17/2022,Left Voicemail,,,,,,,,,,,,,51,GH
+GHZ-14771-65296,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,92,05/19/2021,Unsuccessful,,,,,,,,,,,,,,,,65,GH
+GHS-15994-35750,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,05/21/2022,Unsuccessful,,05/24/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GH9-14141-45837,vsafe-12-month-dose2,Moderna,,,2,367,05/21/2022,Unsuccessful,,05/23/2022,Left Voicemail,,,,,,,,,,,,,27,GH
+GHT-32224-54790,vsafe-3-month-dose2,Moderna,,,2,91,05/24/2021,Unsuccessful,,05/12/2022,Left Voicemail,,,,,,,,,,,,,76,GH
+GHS-15994-35750,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,8,05/29/2021,Unsuccessful,,05/24/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GH5-39206-25562,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,06/09/2022,Successful,06/10/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,38,GH
+GHS-84254-36627,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,8,06/11/2021,Unsuccessful,,06/23/2021,Left Voicemail,,,,,,,,,,,,,20,GH
+GHH-35256-26307,vsafe-3-month-dose2,Moderna,,,2,91,06/11/2021,Unsuccessful,,06/25/2021,Left Voicemail,,,,,,,,,,,,,71,GH
+GHK-10782-24151,vsafe-42-day-dose4,Pfizer-BioNTech,Correct,,4,42,06/19/2022,Successful,06/21/2022,08/08/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,53,GH
+GHP-15129-77596,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,93,07/01/2021,Successful,07/07/2021,07/06/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,82,GH
+GHF-95854-40462,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/06/2022,Unsuccessful,,07/07/2022,Left Voicemail,,,,,,,,,,,,,70,GH
+GHM-30729-00263,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/08/2021,Unsuccessful,,07/13/2021,Left Voicemail,,,,,,,,,,,,,39,GH
+GHL-23262-30252,vsafe-6-month-dose2,Moderna,,,2,182,07/22/2021,Unsuccessful,,07/28/2021,Left Voicemail,,,,,,,,,,,,,67,GH
+GHT-71782-42664,vsafe-6-month-dose2,Moderna,Correct,,2,182,07/27/2021,Successful,08/05/2020,,,,,,,,,,,Does not wish to fill out VAERS report,,,,53,GH
+GHL-22527-70117,vsafe-6-month-dose3,Moderna,Correct,,3,182,07/30/2022,Successful,08/01/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,50,GH
+GHF-22240-17185,vsafe-6-month-dose2,Moderna,,,2,182,07/31/2021,Unsuccessful,,01/15/2022,Left Voicemail,08/03/2021,Left Voicemail,,,,,,,,,,,62,GH
+GHM-18453-69323,vsafe-6-month-dose2,Moderna,,,2,182,08/07/2021,Unsuccessful,,08/15/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHK-10782-24151,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,08/07/2022,Successful,08/10/2022,08/08/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,53,GH
+GHZ-14771-65296,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/17/2021,Unsuccessful,,08/19/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHS-15994-35750,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/20/2021,Unsuccessful,,05/24/2022,Left Voicemail,08/24/2021,Left Voicemail,,,,,,,,,,,44,GH
+GHZ-11152-51455,vsafe-42-day-dose1,Pfizer-BioNTech,Correct,,1,45,09/09/2021,Successful,09/14/2021,09/12/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,46,GH
+GH8-16845-99883,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,09/10/2021,Unsuccessful,,09/15/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GH7-30943-88471,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/12/2021,Unsuccessful,,04/11/2023,Left Voicemail,09/16/2021,Left Voicemail,,,,,,,,,,,68,GH
+GH4-22940-65965,vsafe-6-month-dose1,Moderna,,,1,184,09/16/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,75,GH
+GH4-30709-34386,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,91,09/17/2021,Unsuccessful,,09/21/2021,Left Voicemail,,,,,,,,,,,,,27,GH
+GHC-33549-60660,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/26/2021,Successful,09/29/2021,,,,,,,,,,,Completed over the phone,,,,52,GH
+GHP-15129-77596,vsafe-6-month-dose1,Pfizer-BioNTech,Correct,,1,185,10/01/2021,Successful,12/30/2021,10/04/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,82,GH
+GHX-17103-79094,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/04/2021,Successful,10/11/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,39,GH
+GHV-98857-98938,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,10/08/2021,Unsuccessful,,10/15/2021,Left Voicemail,,,,,,,,,,,,,37,GH
+GHG-34905-96467,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,10/12/2021,Unsuccessful,,10/19/2021,Left Voicemail,,,,,,,,,,,,,35,GH
+GH5-39206-25562,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/26/2021,Successful,11/02/2021,10/28/2021,Could Not Reach Participant,,,,,,,,,Not applicable - Accidental Reporting,,,,38,GH
+GHQ-18185-90713,vsafe-42-day-dose3,Pfizer-BioNTech,,,3,42,11/16/2021,Unsuccessful,,11/17/2021,Could Not Reach Participant,11/22/2021,Could Not Reach Participant,,,,,,,,,,,32,GH
+GHD-10153-99865,vsafe-14-day-dose3,Moderna,,,3,14,11/17/2021,Unsuccessful,,11/19/2021,Left Voicemail,,,,,,,,,,,,,42,GH
+GHD-28047-51394,vsafe-35-day-dose3,Pfizer-BioNTech,Correct,,3,35,11/22/2021,Successful,11/29/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,70,GH
+GHD-28047-51394,vsafe-42-day-dose3,Pfizer-BioNTech,,,3,42,11/29/2021,Unsuccessful,,12/02/2021,Left Voicemail,,,,,,,,,,,,,70,GH
+GHB-19835-96939,vsafe-3-month-dose5,Pfizer-BioNTech,Correct,,5,91,12/16/2022,Successful,12/19/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,68,GH
+GHD-23483-02443,vsafe-12-month-dose1,Moderna,,,1,365,12/29/2021,Unsuccessful,,01/03/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHX-18492-18508,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHF-12855-75119,vsafe-1-6-daily-dose1,Moderna,,,1,3,12/31/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHC-22237-68693,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,01/04/2021,Successful,02/04/2021,02/03/2021,Requested Callback,,,,,,,02/04/2021,,Completed over the phone,,,,,GH
+GH5-24293-16114,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/07/2022,Successful,01/12/2022,01/11/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,38,GH
+GHA-14662-47810,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,01/10/2022,Unsuccessful,,01/11/2022,Could Not Reach Participant,01/14/2022,Could Not Reach Participant,,,,,,,,,,,49,GH
+GH5-24293-16114,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,4,01/11/2021,Successful,,02/19/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,38,GH
+GHX-33898-79488,vsafe-14-day-dose1,Moderna,,,1,14,01/13/2021,Unsuccessful,,03/04/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHZ-11321-61213,vsafe-14-day-dose1,Moderna,,,1,15,01/15/2021,Unsuccessful,,03/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-33899-76742,vsafe-35-day-dose3,Pfizer-BioNTech,,,3,35,01/22/2022,Unsuccessful,,01/24/2022,Left Voicemail,06/21/2022,Left Voicemail,,,,,,,,,,,66,GH
+GHC-22237-68693,vsafe-3-month-dose5,Moderna,,,5,91,01/24/2023,Unsuccessful,,01/25/2023,Left Voicemail,,,,,,,,,,,,,63,GH
+GHR-12117-67435,vsafe-12-month-dose2,Moderna,,,2,368,01/25/2022,Unsuccessful,,01/26/2022,Left Voicemail,,,,,,,,,,,,,22,GH
+GHL-24596-34488,vsafe-12-month-dose2,Moderna,,,2,365,01/26/2022,Unsuccessful,,01/27/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GHC-29485-49441,vsafe-3-month-dose2,Moderna,Correct,,2,91,01/26/2022,Successful,01/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,65,GH
+GH2-33534-42117,vsafe-14-day-dose1,Moderna,,,1,15,01/30/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH3-19578-32146,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,369,02/08/2022,Successful,02/10/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,43,GH
+GHJ-12641-79837,vsafe-1-6-daily-dose1,Moderna,Correct,,1,5,02/10/2021,Successful,07/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GH2-33534-42117,vsafe-28-day-dose1,Moderna,,,1,28,02/12/2021,Unsuccessful,,05/26/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-25729-63899,vsafe-1-6-daily-dose1,Moderna,,,1,6,02/19/2021,Unsuccessful,,08/11/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH6-26375-22820,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/24/2021,Unsuccessful,,08/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHY-20997-32529,vsafe-3-month-dose2-dep,Pfizer-BioNTech,Correct,,2,91,02/28/2022,Successful,,03/02/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,10,GH
+GH6-18311-00535,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,02/28/2022,Successful,,03/04/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GH5-11860-10903,vsafe-28-day-dose2,Moderna,,,2,28,03/01/2021,Unsuccessful,,,,,,,,,,,,,,,,33,GH
+GHA-11189-08052,vsafe-3-month-dose3,Moderna,Correct,,3,91,03/02/2022,Unsuccessful,,03/03/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,26,GH
+GHV-13821-59214,vsafe-28-day-dose2,Moderna,,,2,28,03/08/2021,Unsuccessful,,,,,,,,,,,,,,,,46,GH
+GHZ-24687-34909,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,03/11/2021,Unsuccessful,,12/15/2021,Could Not Reach Participant,12/20/2021,Could Not Reach Participant,,,,,12/20/2021,,,,,,32,GH
+GHV-13821-59214,vsafe-35-day-dose2,Moderna,,,2,35,03/15/2021,Unsuccessful,,,,,,,,,,,,,,,,46,GH
+GHB-45067-23366,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,03/15/2023,Unsuccessful,,03/16/2023,Left Voicemail,,,,,,,,,,,,,44,GH
+GHJ-26801-19734,vsafe-28-day-dose2,Moderna,Correct,,2,28,03/16/2021,Successful,03/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,GH
+GHV-13821-59214,vsafe-42-day-dose2,Moderna,,,2,42,03/22/2021,Unsuccessful,,12/03/2021,Left Voicemail,,,,,,,,,,,,,46,GH
+GHP-31329-92145,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/22/2022,Unsuccessful,,03/23/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GHU-26353-47539,vsafe-1-6-daily-dose2,Moderna,Correct,,2,1,03/25/2021,Successful,01/13/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,33,GH
+GHX-31452-62385,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/25/2022,Successful,03/28/2022,,,,,,,,,,,Completed over the phone,,,,58,GH
+GH9-28863-01132,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/28/2022,Unsuccessful,,03/30/2022,Left Voicemail,,,,,,,,,,,,,66,GH
+GHV-12540-57256,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/29/2021,Unsuccessful,,01/19/2022,Left Voicemail,,,,,,,,,,,,,76,GH
+GHB-45067-23366,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/07/2021,Unsuccessful,,03/16/2023,Left Voicemail,,,,,,,,,,,,,44,GH
+GHX-64917-86242,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/08/2021,Unsuccessful,,02/09/2022,Could Not Reach Participant,02/14/2022,Left Voicemail,,,,,,,,,,,51,GH
+GHK-78703-89790,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/08/2021,Unsuccessful,,05/31/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHS-19461-27353,vsafe-1-6-daily-dose1,Moderna,,,1,3,04/09/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHW-33368-84381,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/19/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHX-27637-11009,vsafe-6-month-dose3,Moderna,,,3,182,04/26/2022,Unsuccessful,,04/27/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GH5-11860-10903,vsafe-3-month-dose2,Moderna,,,2,91,05/03/2021,Unsuccessful,,02/04/2022,Left Voicemail,,,,,,,,,,,,,33,GH
+GH3-31644-96171,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,30,05/05/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH8-25863-39242,vsafe-0-day-dose1,Pfizer-BioNTech,Correct,,1,0,05/07/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,GH
+GHW-33368-84381,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,05/10/2021,Unsuccessful,,06/02/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-29740-89491,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,05/11/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,42,GH
+GH3-31644-96171,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,37,05/12/2021,Unsuccessful,,,,,,,,,,,,,,,,48,GH
+GHG-23884-87300,vsafe-21-day-dose2,Moderna,Correct,,2,21,05/15/2021,Successful,05/06/2022,05/06/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,76,GH
+GHP-20396-64793,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/28/2021,Successful,05/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,71,GH
+GHY-20997-32529,vsafe-6-month-dose2-dep,Pfizer-BioNTech,Correct,,2,182,05/30/2022,Successful,06/01/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,10,GH
+GH8-25863-39242,vsafe-28-day-dose1,Pfizer-BioNTech,Correct,,1,28,06/04/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,38,GH
+GH8-25863-39242,vsafe-42-day-dose1,Pfizer-BioNTech,Correct,,1,42,06/18/2021,Successful,,06/24/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,38,GH
+GHF-29460-62196,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,06/19/2021,Unsuccessful,,06/22/2021,Left Voicemail,,,,,,,,,,,,,24,GH
+GH8-33899-76742,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,183,06/19/2022,Unsuccessful,,06/21/2022,Left Voicemail,,,,,,,,,,,,,66,GH
+GHX-31452-62385,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,93,06/20/2021,Successful,07/01/2021,06/29/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,58,GH
+GHC-29958-37723,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,91,06/24/2021,Unsuccessful,,06/30/2021,Left Voicemail,,,,,,,,,,,,,62,GH
+GH3-83124-00783,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/27/2021,Unsuccessful,,07/01/2021,Left Voicemail,,,,,,,,,,,,,43,GH
+GH3-31644-96171,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/05/2021,Unsuccessful,,07/08/2021,Left Voicemail,,,,,,,,,,,,,48,GH
+GHB-45067-23366,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/07/2021,Unsuccessful,,03/16/2023,Left Voicemail,07/13/2021,Could Not Reach Participant,07/16/2021,Left Voicemail,,,,,,,,,44,GH
+GHW-28276-68353,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,07/17/2021,Unsuccessful,,07/25/2021,Left Voicemail,,,,,,,,,,,,,32,GH
+GHR-12117-67435,vsafe-6-month-dose2,Moderna,,,2,182,07/23/2021,Successful,07/29/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,22,GH
+GHV-28823-13639,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,16,07/26/2021,Unsuccessful,,08/04/2021,Left Voicemail,,,,,,,,,,,,,50,GH
+GH6-26375-22820,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/04/2021,Unsuccessful,,08/10/2021,Could Not Reach Participant,08/16/2021,Left Voicemail,,,,,,,,,,,54,GH
+GHM-52871-75938,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/06/2021,Unsuccessful,,10/14/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GH8-25863-39242,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,91,08/06/2021,Successful,08/19/2021,,,,,,,,,,,Completed over the phone,,,,38,GH
+GH5-32255-70997,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,08/07/2021,Unsuccessful,,11/21/2021,Left Voicemail,,,,,,,,,,,,,59,GH
+GHN-15054-99669,vsafe-14-day-dose1,Moderna,,,1,14,09/03/2021,Unsuccessful,,09/10/2021,Left Voicemail,,,,,,,,,,,,,36,GH
+GHC-29958-37723,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/23/2021,Unsuccessful,,09/29/2021,Left Voicemail,,,,,,,,,,,,,62,GH
+GH6-20477-23250,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,09/25/2021,Unsuccessful,,09/30/2021,Left Voicemail,10/04/2021,Left Voicemail,,,,,,,,,,,62,GH
+GHJ-26801-19734,vsafe-6-month-dose4,Moderna,,,4,182,09/27/2022,Unsuccessful,,09/28/2022,Could Not Reach Participant,,,,,,,,,,,,,71,GH
+GH3-26924-71591,vsafe-6-month-dose2,Moderna,,,2,182,09/28/2021,Unsuccessful,,09/30/2021,Left Voicemail,,,,,,,,,,,,,31,GH
+GHU-17650-92919,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/08/2021,Unsuccessful,,10/13/2021,Could Not Reach Participant,10/18/2021,Could Not Reach Participant,,,,,,,,,,,59,GH
+GHW-50217-44603,vsafe-6-month-dose2,Moderna,,,2,182,10/09/2021,Unsuccessful,,12/10/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GHL-12073-77967,vsafe-6-month-dose2,Moderna,,,2,184,10/10/2021,Unsuccessful,,10/29/2021,Left Voicemail,,,,,,,,,,,,,35,GH
+GH2-18914-43959,vsafe-1-6-daily-dose3,Pfizer-BioNTech,Correct,,3,6,10/15/2021,Successful,10/21/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,GH
+GHL-13650-34166,vsafe-6-month-dose2,Moderna,,,2,182,10/21/2021,Unsuccessful,,10/24/2021,Left Voicemail,,,,,,,,,,,,,53,GH
+GHR-67935-50754,vsafe-1-6-daily-dose3,Moderna,,,3,3,10/29/2021,Unsuccessful,,11/04/2021,Could Not Reach Participant,11/09/2021,Could Not Reach Participant,,,,,,,,,,,71,GH
+GHM-21521-76897,vsafe-7-day-dose3,Moderna,,,3,7,11/12/2021,Unsuccessful,,11/15/2021,Left Voicemail,,,,,,,,,,,,,44,GH
+GHD-22194-26050,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,11/19/2021,Unsuccessful,,11/23/2021,Left Voicemail,,,,,,,,,,,,,18,GH
+GH8-33899-76742,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,4,12/22/2021,Unsuccessful,,06/21/2022,Left Voicemail,12/23/2021,Left Voicemail,,,,,,,,,,,66,GH
+GH8-12961-63556,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/29/2021,Unsuccessful,,01/03/2022,Left Voicemail,,,,,,,,,,,,,29,GH
+GHH-18042-15126,vsafe-28-day-dose3,Moderna,,,3,28,12/31/2021,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,46,GH
+GHX-19447-56424,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,365,12/31/2021,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,57,GH
+GHK-78703-89790,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/08/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHK-78703-89790,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,12/20/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHN-16907-25292,vsafe-7-day-dose1,Moderna,Correct,,1,8,01/07/2021,Successful,02/09/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHM-11244-85329,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/08/2022,Unsuccessful,,01/10/2022,Could Not Reach Participant,01/13/2022,Left Voicemail,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,50,GH
+GHM-11244-85329,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHM-11244-85329,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,3,01/11/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHX-17656-06900,vsafe-12-month-dose2,Moderna,,,2,367,01/26/2022,Unsuccessful,,01/27/2022,Left Voicemail,,,,,,,,,,,,,30,GH
+GH6-13069-91962,vsafe-35-day-dose1,Moderna,,,1,35,01/28/2021,Unsuccessful,,04/26/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHX-17656-06900,vsafe-1-6-daily-dose2,Moderna,,,2,4,01/28/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHX-17656-06900,vsafe-1-6-daily-dose2,Moderna,,,2,5,01/29/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHQ-13187-53179,vsafe-1-6-daily-dose1,Moderna,,,1,2,02/04/2021,Unsuccessful,,06/28/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHZ-15156-63803,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,183,02/14/2022,Unsuccessful,,02/15/2022,Left Voicemail,,,,,,,,,,,,,78,GH
+GHC-33382-86145,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,02/16/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH3-56768-34016,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,02/18/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH6-25554-45251,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/24/2022,Successful,02/28/2022,02/28/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,78,GH
+GHP-27595-93974,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/02/2022,Successful,03/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,70,GH
+GHX-73880-37827,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/09/2022,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,34,GH
+GHX-28495-95714,vsafe-21-day-dose2,Moderna,Correct,,2,21,03/17/2021,Successful,12/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,39,GH
+GHX-12625-42228,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/17/2021,Successful,03/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,61,GH
+GH2-31948-97780,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,03/22/2021,Successful,01/03/2022,12/29/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,68,GH
+GHY-35096-96109,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,367,03/29/2022,Unsuccessful,,03/30/2022,Left Voicemail,,,,,,,,,,,,,74,GH
+GH4-26604-71769,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,91,03/31/2021,Unsuccessful,,01/21/2022,Left Voicemail,,,,,,,,,,,,,53,GH
+GHP-17308-82660,vsafe-12-month-dose2,Moderna,,,2,365,03/31/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,,,,,62,GH
+GHZ-25207-49081,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,04/05/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GH6-29697-75039,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,21,04/06/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GHK-27210-96089,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,04/06/2021,Successful,02/09/2022,02/09/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,63,GH
+GHU-27892-25176,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/06/2022,Successful,04/13/2022,04/13/2022,Requested Callback,,,,,,,04/13/2022,01:00PM ET,Completed over the phone,,,,59,GH
+GHC-28404-86788,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,15,04/07/2021,Unsuccessful,,02/02/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GHN-27954-14476,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/07/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,53,GH
+GHY-14665-77376,vsafe-12-month-dose2,Moderna,,,2,365,04/08/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,37,GH
+GHK-16772-13737,vsafe-12-month-dose2,Moderna,,,2,365,04/13/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHN-14317-36710,vsafe-12-month-dose2,Moderna,,,2,365,04/20/2022,Unsuccessful,,04/21/2022,Could Not Reach Participant,,,,,,,,,,,,,56,GH
+GHQ-32522-94947,vsafe-6-month-dose3,Moderna,,,3,182,04/21/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,72,GH
+GHD-10275-54453,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,04/24/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GHY-15179-66857,vsafe-42-day-dose3,Moderna,,,3,47,04/27/2022,Unsuccessful,,04/28/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GHB-13972-50010,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/29/2021,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,27,GH
+GH7-32543-49167,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,04/30/2021,Successful,04/14/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,64,GH
+GHN-33946-91750,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/30/2022,Unsuccessful,,05/03/2022,Left Voicemail,,,,,,,,,,,,,40,GH
+GH6-18992-21415,vsafe-35-day-dose4,Moderna,Correct,,4,35,05/06/2022,Successful,05/09/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,58,GH
+GHC-32025-90238,vsafe-35-day-dose2,Moderna,,,2,35,05/15/2021,Unsuccessful,,05/06/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GH6-16871-88450,vsafe-35-day-single,Janssen/Johnson & Johnson,Correct,,1,35,05/17/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,GH
+GHG-17653-91016,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,93,05/17/2021,Successful,05/10/2022,05/10/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,75,GH
+GHY-15179-66857,vsafe-3-month-dose2,Moderna,Correct,,2,93,05/18/2021,Successful,04/18/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,32,GH
+GHL-29625-41724,vsafe-12-month-dose2,Moderna,,,2,365,05/18/2022,Unsuccessful,,05/19/2022,Left Voicemail,,,,,,,,,,,,,27,GH
+GHN-30404-79027,vsafe-21-day-dose4,Moderna,Correct,,4,25,05/20/2022,Successful,05/23/2022,05/23/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,77,GH
+GHN-30404-79027,vsafe-28-day-dose4,Moderna,Correct,,4,28,05/23/2022,Successful,05/24/2022,,,,,,,,,,,Reported to VAERS during previous contact from GDIT,,,,77,GH
+GH7-12246-92521,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,34,05/24/2021,Unsuccessful,,01/21/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GH6-16871-88450,vsafe-42-day-single,Janssen/Johnson & Johnson,Correct,,1,43,05/25/2021,Successful,05/31/2021,05/30/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,GH
+GHQ-27419-43066,vsafe-3-month-dose2,Moderna,Correct,,2,91,05/27/2021,Successful,05/12/2022,05/12/2022,Could Not Reach Participant,,,,,,,,,Does not wish to fill out VAERS report,,,,68,GH
+GHP-14579-39671,vsafe-42-day-dose4,Moderna,Correct,,4,42,06/13/2022,Successful,06/14/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,78,GH
+GH3-77339-52733,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,06/27/2022,Successful,06/29/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,52,GH
+GHN-20500-31236,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,07/02/2022,Unsuccessful,,07/06/2022,Left Voicemail,,,,,,,,,,,,,70,GH
+GH7-85472-74204,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,92,07/09/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,64,GH
+GHR-36984-67623,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,96,07/27/2022,Successful,07/28/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHN-10353-45078,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/09/2021,Unsuccessful,,11/30/2021,Left Voicemail,,,,,,,,,,,,,68,GH
+GHZ-58917-44947,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,08/11/2021,Unsuccessful,,08/18/2021,Left Voicemail,,,,,,,,,,,,,24,GH
+GHC-15273-66764,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,93,08/12/2021,Successful,10/08/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,29,GH
+GHC-14291-34040,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/25/2021,Unsuccessful,,09/01/2021,Could Not Reach Participant,09/07/2021,Could Not Reach Participant,,,,,,AM,,,,,54,GH
+GH9-11027-57525,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/02/2021,Successful,09/08/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,GH
+GHH-25351-89410,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/11/2021,Successful,09/20/2021,09/20/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,GH
+GHL-25205-63735,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,09/16/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,46,GH
+GH2-14182-49804,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/20/2021,Successful,09/23/2021,09/23/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,70,GH
+GHU-12255-58930,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/27/2021,Unsuccessful,,09/29/2021,Left Voicemail,,,,,,,,,,,,,50,GH
+GH6-16871-88450,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,10/11/2021,Unsuccessful,,10/13/2021,Could Not Reach Participant,10/18/2021,Could Not Reach Participant,,,,,,,,,,,53,GH
+GH6-29697-75039,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/14/2021,Successful,10/15/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GHY-92034-04432,vsafe-6-month-dose1,Moderna,,,1,182,10/27/2021,Unsuccessful,,11/01/2021,Left Voicemail,,,,,,,,,,,,,66,GH
+GHK-20120-74126,vsafe-21-day-single,Janssen/Johnson & Johnson,,,1,21,10/28/2021,Unsuccessful,,11/01/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHP-14579-39671,vsafe-6-month-dose4,Moderna,,,4,186,11/04/2022,Unsuccessful,,11/07/2022,Left Voicemail,,,,,,,,,,,,,78,GH
+GHD-24703-58795,vsafe-1-6-daily-dose3,Moderna,,,3,4,11/16/2021,Unsuccessful,,11/17/2021,Left Voicemail,,,,,,,,,,,,,62,GH
+GH7-17727-03289,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,12/15/2021,Successful,12/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,57,GH
+GHQ-28422-04481,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/17/2021,Successful,12/21/2021,12/21/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,50,GH
+GHM-11244-85329,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,12/20/2020,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHG-17653-91016,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,93,12/29/2022,Successful,12/30/2022,12/30/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,75,GH
+GHM-11244-85329,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,12/30/2020,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHN-30404-79027,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/17/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GH6-13069-91962,vsafe-0-day-dose1,Moderna,,,1,0,12/24/2020,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHG-25275-97286,vsafe-14-day-dose1,Moderna,,,1,14,01/11/2021,Unsuccessful,,02/22/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHV-28237-30494,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/12/2022,Unsuccessful,,01/13/2022,Left Voicemail,,,,,,,,,,,,,50,GH
+GHQ-31526-30314,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,366,01/12/2022,Successful,01/13/2022,01/13/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,GH
+GHD-22805-42562,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,368,02/05/2022,Unsuccessful,,03/31/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GH7-46888-45596,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,02/08/2021,Unsuccessful,,07/27/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH7-46888-45596,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,02/09/2021,Unsuccessful,,07/27/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHP-19261-29526,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/10/2021,Unsuccessful,,07/18/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHA-28975-42665,vsafe-12-month-dose2,Moderna,,,2,371,02/10/2022,Unsuccessful,,02/14/2022,Could Not Reach Participant,02/17/2022,Could Not Reach Participant,,,,,,,,,,,87,GH
+GHW-30283-02162,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,02/18/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH4-33093-64584,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/19/2021,Unsuccessful,,08/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHR-29816-67455,vsafe-21-day-dose2,Moderna,,,2,21,03/05/2021,Unsuccessful,,10/20/2021,Left Voicemail,,,,,,,,,,,,,70,GH
+GHC-30709-54645,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/09/2021,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,31,GH
+GHU-14244-28530,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,03/10/2021,Successful,03/01/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,65,GH
+GHX-22022-30780,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/11/2022,Successful,03/14/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,65,GH
+GH9-38464-41487,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,03/13/2021,Unsuccessful,,12/04/2021,Left Voicemail,,,,,,,,,,,,,58,GH
+GHM-28843-09355,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,20,03/28/2021,Unsuccessful,,01/04/2022,Could Not Reach Participant,12/29/2021,Could Not Reach Participant,,,,,,,,,,,55,GH
+GHP-21827-90112,vsafe-12-month-dose2,Moderna,,,2,365,03/29/2022,Unsuccessful,,03/30/2022,Left Voicemail,,,,,,,,,,,,,53,GH
+GH2-56277-68612,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/31/2021,Successful,01/26/2022,01/23/2022,Left Voicemail,01/26/2022,Left Voicemail,,,,,,,Participant prefers to complete VAERS report online,,,,61,GH
+GH9-24270-00679,vsafe-1-6-daily-dose1,Moderna,Correct,,1,4,04/07/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GH9-26084-00450,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/08/2021,Unsuccessful,,,,,,,,,,,,,,,,44,GH
+GH9-24270-00679,vsafe-1-6-daily-dose1,Moderna,Correct,,1,5,04/08/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GH9-26084-00450,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/15/2021,Unsuccessful,,04/01/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHV-56202-33257,vsafe-12-month-dose2,Moderna,,,2,367,04/18/2022,Unsuccessful,,04/21/2022,Could Not Reach Participant,04/26/2022,Left Voicemail,,,,,,,,,,,56,GH
+GHE-12599-48145,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,04/23/2021,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,41,GH
+GHF-20629-29749,vsafe-3-month-dose2,Moderna,Correct,,2,91,04/26/2021,Successful,12/29/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,56,GH
+GHE-27408-94658,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,05/05/2022,Successful,05/06/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,GH
+GH9-24270-00679,vsafe-1-6-daily-dose2,Moderna,Correct,,2,5,05/06/2021,Successful,04/01/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,GH
+GHL-94611-54194,vsafe-6-month-dose3,Moderna,,,3,184,06/10/2022,Unsuccessful,,06/13/2022,Left Voicemail,,,,,,,,,,,,,49,GH
+GHP-27040-20789,vsafe-3-month-dose2,Moderna,,,2,93,06/13/2021,Unsuccessful,,06/15/2021,Left Voicemail,,,,,,,,,,,,,30,GH
+GHQ-37174-67886,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,23,07/01/2021,Successful,07/07/2021,07/07/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,13,GH
+GHW-18956-52933,vsafe-6-month-dose1,Moderna,Correct,,1,184,07/10/2021,Successful,07/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,GH
+GHH-11597-66678,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/15/2021,Successful,,07/26/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,59,GH
+GHR-20708-97955,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/15/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,55,GH
+GHM-32941-30844,vsafe-3-month-dose4,Moderna,,,4,91,07/15/2022,Unsuccessful,,07/18/2022,Left Voicemail,,,,,,,,,,,,,55,GH
+GHD-32925-71674,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/28/2021,Successful,08/05/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,71,GH
+GH6-12935-68852,vsafe-3-month-dose2,Moderna,,,2,91,07/29/2021,Unsuccessful,,08/11/2021,Left Voicemail,,,,,,,,,,,,,58,GH
+GHM-12773-22278,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/13/2021,Unsuccessful,,08/20/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH6-15146-16381,vsafe-3-month-dose2,Moderna,,,2,91,08/15/2021,Unsuccessful,,08/23/2021,Left Voicemail,,,,,,,,,,,,,38,GH
+GHG-12645-24355,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,09/07/2021,Successful,09/08/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,15,GH
+GHX-22022-30780,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,365,09/10/2022,Successful,09/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,65,GH
+GHD-32925-71674,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,09/30/2021,Successful,11/23/2022,10/05/2021,Left Voicemail,11/23/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,71,GH
+GHA-15274-11294,vsafe-0-day-dose3,Pfizer-BioNTech,Correct,,3,0,10/01/2021,Successful,11/23/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,35,GH
+GHH-11597-66678,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,183,10/15/2021,Successful,10/22/2021,10/21/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,59,GH
+GHD-32925-71674,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,11/22/2022,Successful,11/23/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,71,GH
+GHB-86849-14323,vsafe-6-month-dose2,Moderna,Correct,,2,182,12/05/2021,Successful,12/08/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,38,GH
+GH9-18166-49524,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/29/2021,Successful,01/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GHC-13489-61735,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/12/2021,Unsuccessful,,02/02/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH7-18924-14450,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,01/18/2023,Unsuccessful,,01/19/2023,Left Voicemail,,,,,,,,,,,,,66,GH
+GHA-22553-70481,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/22/2022,Successful,01/25/2022,01/25/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,GH
+GH3-48672-83423,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,Correct,,1,21,01/27/2021,Successful,06/09/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,GH
+GHB-21484-52578,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,365,02/02/2023,Successful,02/03/2023,,,,,,,,,,,Does not wish to fill out VAERS report,,,,45,GH
+GHB-69368-03847,vsafe-28-day-dose1,Moderna,Correct,,1,28,02/04/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHG-33899-76505,vsafe-14-day-dose1,Moderna,,,1,14,02/06/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH8-28802-20477,vsafe-12-month-dose2,Moderna,,,2,367,02/11/2022,Unsuccessful,,02/16/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH5-10465-06404,vsafe-12-month-dose2,Moderna,,,2,367,02/13/2022,Successful,02/18/2022,,,,,,,,,,,Completed over the phone,,,,48,GH
+GH9-22805-08053,vsafe-21-day-dose2,Moderna,,,2,21,02/16/2021,Unsuccessful,,08/03/2021,Could Not Reach Participant,08/09/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GH6-75848-71913,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,02/17/2022,Unsuccessful,,02/22/2022,Left Voicemail,05/20/2022,Left Voicemail,,,,,,,,,,,44,GH
+GH8-33337-94733,vsafe-21-day-dose1-asz-mod,Moderna,,,1,24,02/20/2021,Unsuccessful,,08/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHX-18492-35698,vsafe-12-month-dose2,Moderna,,,2,365,02/20/2022,Unsuccessful,,02/21/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHX-96731-32949,vsafe-35-day-dose2,Moderna,Correct,,2,36,03/02/2021,Successful,01/21/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,GH
+GH7-24956-32807,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/02/2022,Successful,03/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,65,GH
+GHX-18968-87932,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,03/03/2021,Unsuccessful,,03/16/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHX-15577-98276,vsafe-12-month-dose2,Moderna,,,2,365,03/11/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GHN-12103-22286,vsafe-12-month-dose2,Moderna,,,2,365,03/12/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GHB-15611-49799,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,367,03/12/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,60,GH
+GHT-16505-89474,vsafe-12-month-dose2,Janssen/Johnson & Johnson,,,2,365,03/12/2023,Unsuccessful,,03/13/2023,Left Voicemail,,,,,,,,,,,,,65,GH
+GHK-24794-28247,vsafe-14-day-dose1,Janssen/Johnson & Johnson,,,1,14,03/20/2021,Unsuccessful,,05/17/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHU-11779-69191,vsafe-12-month-dose1,Pfizer-BioNTech,Correct,,1,365,03/26/2022,Successful,03/29/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,35,GH
+GHU-91536-64368,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/29/2022,Unsuccessful,,03/30/2022,Requested Callback,04/04/2022,Left Voicemail,,,,,,,,,,,56,GH
+GHN-27239-70006,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,21,03/31/2021,Successful,03/16/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,55,GH
+GHA-33105-10184,vsafe-6-month-dose3-dep,Pfizer-BioNTech,,,3,182,03/31/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,84,GH
+GH2-33152-67636,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,04/02/2021,Unsuccessful,,06/13/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHL-36426-32629,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/02/2022,Successful,04/08/2022,04/05/2022,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,GH
+GHP-32273-10153,vsafe-7-day-dose2,Moderna,,,2,7,04/03/2021,Unsuccessful,,06/14/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHR-12880-61860,vsafe-6-month-dose3,Other-Unknown,,,3,184,04/03/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHB-21484-52578,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,04/04/2021,Successful,02/03/2023,06/16/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,45,GH
+GHU-91536-64368,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,04/05/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHS-73447-67900,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,04/07/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,29,GH
+GHX-15577-98276,vsafe-28-day-dose2,Moderna,,,2,28,04/08/2021,Successful,06/22/2021,,,,,,,,,,,,,,,,GH
+GHB-69368-03847,vsafe-3-month-dose1,Moderna,Correct,,1,91,04/08/2021,Successful,06/30/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHF-51913-38647,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,04/09/2021,Unsuccessful,,02/15/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GHJ-12087-56436,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/11/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH7-18924-14450,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/12/2022,Successful,04/14/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,66,GH
+GHM-25385-80434,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,04/13/2021,Successful,12/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,29,GH
+GHK-24204-19827,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,04/16/2021,Unsuccessful,,06/10/2021,Left Voicemail,,,,,,,,,,,,,27,GH
+GHB-30362-18278,vsafe-0-day-dose2,Pfizer-BioNTech,,,2,0,04/21/2021,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,54,GH
+GHB-30744-18463,vsafe-21-day-dose4,Moderna,,,4,22,04/26/2022,Unsuccessful,,04/29/2022,Left Voicemail,,,,,,,,,,,,,67,GH
+GHK-13358-92745,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,04/30/2022,Unsuccessful,,05/02/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GH5-16700-15153,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,05/11/2022,Successful,05/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,28,GH
+GH6-75848-71913,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,05/19/2022,Unsuccessful,,05/20/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHR-29843-67535,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,05/24/2021,Unsuccessful,,05/06/2022,Could Not Reach Participant,05/11/2022,Left Voicemail,,,,,,,,,,,51,GH
+GH7-18924-14450,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,06/03/2021,Successful,04/01/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GHM-19755-12773,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/05/2021,Successful,11/26/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,GH
+GHE-15724-29838,vsafe-6-month-dose3,Moderna,,,3,184,06/05/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,35,GH
+GHT-16505-89474,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,91,06/11/2021,Unsuccessful,,03/13/2023,Left Voicemail,06/15/2021,Left Voicemail,,,,,,,,,,,65,GH
+GHX-15577-98276,vsafe-3-month-dose2,Moderna,,,2,93,06/12/2021,Successful,06/22/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,GH
+GH5-18960-93426,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,06/20/2022,Unsuccessful,,06/21/2022,Could Not Reach Participant,06/24/2022,Left Voicemail,,,,,,,,,,,55,GH
+GH5-13708-48195,vsafe-0-day-dose3,Moderna,Correct,,3,0,06/23/2022,Successful,06/24/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,64,GH
+GH9-21420-37326,vsafe-6-month-dose3,Moderna,Correct,,3,182,06/23/2022,Successful,06/24/2022,06/24/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,64,GH
+GHB-69368-03847,vsafe-6-month-dose1,Moderna,Correct,,1,182,07/08/2021,Successful,07/13/2021,07/13/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,60,GH
+GHN-25340-10671,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/12/2021,Unsuccessful,,07/21/2021,Left Voicemail,,,,,,,,,,,,,58,GH
+GHK-24204-19827,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/14/2021,Successful,01/12/2022,01/09/2022,Left Voicemail,07/23/2021,Left Voicemail,,,,,,,Does not wish to fill out VAERS report,,,,27,GH
+GHN-25015-02833,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/22/2021,Successful,07/28/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,62,GH
+GHT-59969-62909,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/23/2021,Successful,08/03/2021,07/29/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,29,GH
+GH2-17966-39573,vsafe-3-month-dose4,Moderna,,,4,91,07/26/2022,Unsuccessful,,07/28/2022,Left Voicemail,,,,,,,,,,,,,73,GH
+GH2-12576-39430,vsafe-6-month-dose2,Moderna,Correct,,2,182,07/28/2021,Successful,,08/05/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,GH
+GH2-22575-93569,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,08/01/2022,Successful,08/02/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,58,GH
+GHT-77237-87733,vsafe-6-month-dose2,Moderna,,,2,184,08/08/2021,Unsuccessful,,11/24/2021,Could Not Reach Participant,12/01/2021,Could Not Reach Participant,,,,,,,,,,,26,GH
+GHP-20870-69152,vsafe-6-month-dose2,Moderna,,,2,182,08/10/2021,Unsuccessful,,08/12/2021,Left Voicemail,,,,,,,,,,,,,60,GH
+GHL-15514-50501,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/13/2021,Successful,08/21/2021,08/21/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,,GH
+GHR-28315-70122,vsafe-6-month-dose2,Moderna,,,2,182,08/20/2021,Unsuccessful,,08/26/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHB-31995-27758,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/31/2021,Successful,09/03/2021,09/02/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,38,GH
+GH7-24956-32807,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/31/2021,Successful,09/07/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,65,GH
+GH9-26849-30169,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/24/2021,Successful,09/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,GH
+GHN-19315-16310,vsafe-6-month-dose2,Moderna,Correct,,2,184,09/26/2021,Successful,09/30/2021,09/29/2021,Could Not Reach Participant,,,,,,,,,Completed over the phone,,,,58,GH
+GHD-14546-28148,vsafe-6-month-dose2,Moderna,,,2,182,10/01/2021,Unsuccessful,,12/02/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GH2-22575-93569,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/12/2021,Successful,11/12/2021,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,58,GH
+GHR-19138-20535,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/27/2021,Unsuccessful,,10/28/2021,Left Voicemail,,,,,,,,,,,,,61,GH
+GHU-31703-28437,vsafe-6-month-dose2,Moderna,,,2,182,11/11/2021,Unsuccessful,,11/12/2021,Left Voicemail,,,,,,,,,,,,,48,GH
+GH7-18924-14450,vsafe-28-day-dose4,Pfizer-BioNTech,Correct,,4,28,11/16/2022,Successful,11/17/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,66,GH
+GH9-26849-30169,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,11/17/2022,Successful,11/18/2022,11/18/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,73,GH
+GHA-39759-98913,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,12/02/2021,Unsuccessful,,12/03/2021,Left Voicemail,,,,,,,,,,,,,51,GH
+GH7-24956-32807,vsafe-3-month-dose5,Pfizer-BioNTech,Correct,,5,91,12/14/2022,Successful,12/15/2022,,,,,,,,,,,Completed over the phone,,,,65,GH
+GH2-12576-39430,vsafe-42-day-dose3,Moderna,Correct,,3,42,12/16/2021,Successful,12/17/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,GH
+GH5-18960-93426,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,2,12/22/2021,Unsuccessful,,06/21/2022,Could Not Reach Participant,06/24/2022,Left Voicemail,12/23/2021,Left Voicemail,,,,,,,,,55,GH
+GH5-18960-93426,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,3,12/23/2021,Unsuccessful,,06/21/2022,Could Not Reach Participant,06/24/2022,Left Voicemail,12/28/2021,Left Voicemail,,,,,,,,,55,GH
+GHR-33962-79741,vsafe-7-day-dose3,Moderna,Correct,,3,12,12/23/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,34,GH
+GH9-21420-37326,vsafe-12-month-dose3,Moderna,Correct,,4,22,12/23/2022,Successful,12/27/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,GH
+GHR-33962-79741,vsafe-14-day-dose3,Moderna,Correct,,3,14,12/25/2021,Successful,12/27/2021,,,,,,,,,,,Completed over the phone,,,,34,GH
+GHJ-12087-56436,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/11/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHK-24204-19827,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHK-24204-19827,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/15/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHP-20870-69152,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/16/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHR-33962-79741,vsafe-21-day-dose3,Moderna,Correct,,3,21,01/01/2022,Successful,01/05/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,34,GH
+GH4-13826-17422,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/04/2022,Unsuccessful,,01/06/2022,Left Voicemail,10/11/2022,Left Voicemail,,,,,,,,,,,42,GH
+GHA-23421-26818,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,01/15/2021,Unsuccessful,,03/12/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHR-19396-05986,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/17/2021,Successful,03/17/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GHT-54176-56190,vsafe-21-day-dose1-asz-mod,Moderna,,,1,22,01/21/2021,Unsuccessful,,04/01/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-94118-38979,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/22/2021,Successful,05/11/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH3-18194-52482,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/02/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHA-32304-79838,vsafe-3-month-dose3,Moderna,Correct,,3,91,02/02/2022,Successful,02/09/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,60,GH
+GHF-23626-06363,vsafe-1-6-daily-dose2,Moderna,,,2,4,02/08/2021,Unsuccessful,,07/28/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH3-18194-52482,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHS-33676-29775,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,02/14/2021,Unsuccessful,,07/30/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH3-18194-52482,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,02/16/2021,Unsuccessful,,06/16/2021,Left Voicemail,06/17/2021,Requested Callback,,,,,,,,,,,,GH
+GHX-13393-57780,vsafe-1-6-daily-dose2,Moderna,,,2,1,02/27/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHM-95444-04555,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/27/2022,Successful,02/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,84,GH
+GHX-13393-57780,vsafe-1-6-daily-dose2,Moderna,,,2,2,02/28/2021,Unsuccessful,,09/07/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHN-47569-03612,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,03/08/2022,Successful,03/10/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GHY-31979-08854,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,365,03/09/2022,Unsuccessful,,03/11/2022,Left Voicemail,,,,,,,,,,,,,37,GH
+GHR-19820-67734,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/13/2022,Unsuccessful,,03/14/2022,Left Voicemail,,,,,,,,,,,,,66,GH
+GH8-24171-71005,vsafe-6-month-dose5,Pfizer-BioNTech,Correct,,5,182,03/13/2023,Successful,03/14/2023,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,67,GH
+GHP-31675-47855,vsafe-21-day-dose2,Moderna,,,2,21,03/18/2021,Unsuccessful,,12/28/2021,Left Voicemail,,,,,,,,,,,,,70,GH
+GHF-17531-96466,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,366,03/19/2022,Unsuccessful,,03/22/2022,Left Voicemail,,,,,,,,,,,,,52,GH
+GH9-69360-68224,vsafe-7-day-dose2,Moderna,,,2,11,03/28/2021,Unsuccessful,,12/16/2021,Left Voicemail,,,,,,,,,,,,,56,GH
+GHL-13491-95053,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,368,04/04/2022,Unsuccessful,,04/06/2022,Could Not Reach Participant,04/11/2022,Left Voicemail,,,,,,,,,,,44,GH
+GHA-23756-85919,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,04/10/2022,Unsuccessful,,04/12/2022,Could Not Reach Participant,04/15/2022,Could Not Reach Participant,,,,,,,,,,,55,GH
+GH7-16860-94901,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/14/2021,Unsuccessful,,12/20/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GHH-25368-74220,vsafe-21-day-dose2,Moderna,,,2,22,04/15/2021,Unsuccessful,,04/01/2022,Left Voicemail,,,,,,,,,,,,,76,GH
+GHE-23910-37858,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,04/16/2022,Unsuccessful,,04/20/2022,Left Voicemail,,,,,,,,,,,,,42,GH
+GHA-12864-83588,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/19/2022,Successful,04/22/2022,04/22/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,55,GH
+GHJ-32632-48081,vsafe-14-day-dose1,Moderna,,,1,16,04/21/2021,Unsuccessful,,02/25/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GHT-50215-01178,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,04/22/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,42,GH
+GHJ-27293-72806,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,21,05/06/2021,Successful,05/06/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,46,GH
+GH4-27695-15177,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,05/15/2021,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH7-39152-56646,vsafe-14-day-dose2,Moderna,,,2,15,05/20/2021,Unsuccessful,,04/28/2022,Could Not Reach Participant,05/03/2022,Could Not Reach Participant,,,,,,,,,,,44,GH
+GHB-21813-69328,vsafe-1-6-daily-dose2,Moderna,,,2,3,05/23/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,28,GH
+GH7-62845-12461,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,05/27/2022,Unsuccessful,,05/31/2022,Could Not Reach Participant,06/03/2022,Could Not Reach Participant,,,,,06/03/2022,,,,,,40,GH
+GH4-21291-34364,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,06/03/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GHH-41121-41013,vsafe-14-day-dose2,Moderna,,,2,14,06/20/2021,Unsuccessful,,06/28/2021,Could Not Reach Participant,07/01/2021,Could Not Reach Participant,,,,,,,,,,,40,GH
+GHT-82102-50725,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,366,06/23/2022,Unsuccessful,,06/24/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GH4-25390-22278,vsafe-3-month-dose4,Moderna,,,4,91,07/06/2022,Unsuccessful,,07/07/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHF-22607-71810,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,93,07/08/2021,Unsuccessful,,07/12/2021,Left Voicemail,,,,,,,,,,,,,87,GH
+GHX-18633-24365,vsafe-3-month-dose2,Moderna,Correct,,2,91,08/02/2021,Successful,08/13/2021,08/13/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,61,GH
+GHG-13721-94628,vsafe-6-month-dose2,Moderna,,,2,182,08/12/2021,Unsuccessful,,08/14/2021,Left Voicemail,,,,,,,,,,,,,78,GH
+GHM-95444-04555,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/28/2021,Successful,12/15/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,84,GH
+GH6-27041-20905,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/10/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GHH-41121-41013,vsafe-3-month-dose2,Moderna,,,2,91,09/05/2021,Unsuccessful,,09/08/2021,Could Not Reach Participant,09/13/2021,Left Voicemail,,,,,,,,,,,40,GH
+GHR-31522-43084,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/06/2021,Unsuccessful,,09/09/2021,Left Voicemail,,,,,,,,,,,,,50,GH
+GHN-47569-03612,vsafe-6-month-dose1,Janssen/Johnson & Johnson,Correct,,1,184,09/08/2021,Successful,,09/12/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GHR-19820-67734,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/09/2021,Unsuccessful,,09/14/2021,Requested Callback,09/15/2021,Requested Callback,09/16/2021,Could Not Reach Participant,09/21/2021,Left Voicemail,,,,,,,66,GH
+GHY-53831-99184,vsafe-6-month-dose1,Moderna,,,1,184,09/17/2021,Unsuccessful,,09/22/2021,Left Voicemail,,,,,,,,,,,,,80,GH
+GHG-19207-56929,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/19/2021,Unsuccessful,,09/23/2021,Left Voicemail,,,,,,,,,,,,,34,GH
+GHT-82102-50725,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,09/21/2021,Successful,09/27/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,43,GH
+GHH-25397-30725,vsafe-6-month-dose2,Moderna,,,2,182,10/06/2021,Unsuccessful,,10/13/2021,Left Voicemail,,,,,,,,,,,,,35,GH
+GH4-13826-17422,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,367,10/07/2022,Unsuccessful,,10/11/2022,Left Voicemail,,,,,,,,,,,,,42,GH
+GHD-21498-81455,vsafe-35-day-dose3,Pfizer-BioNTech,Correct,,3,35,10/09/2021,Successful,10/13/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,50,GH
+GHQ-14770-16784,vsafe-6-month-dose2,Moderna,,,2,184,11/05/2021,Unsuccessful,,11/08/2021,Could Not Reach Participant,11/11/2021,Could Not Reach Participant,,,,,,,,,,,70,GH
+GHB-49806-04029,vsafe-7-day-dose1,Pfizer-BioNTech,Correct,,1,7,11/05/2021,Successful,,11/08/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,30,GH
+GHC-48074-61213,vsafe-6-month-dose2,Moderna,,,2,182,11/08/2021,Unsuccessful,,11/12/2021,Left Voicemail,,,,,,,,,,,,,42,GH
+GH8-24171-71005,vsafe-21-day-dose3,Moderna,Correct,,3,23,11/14/2021,Successful,11/15/2021,11/15/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,GH
+GH2-28272-70475,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,11/29/2021,Successful,12/02/2021,12/02/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,60,GH
+GHB-49806-04029,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,12/03/2021,Successful,12/06/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,30,GH
+GHD-21498-81455,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/04/2021,Successful,12/13/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,50,GH
+GHD-32360-14618,vsafe-28-day-dose3,Moderna,Correct,,3,28,12/15/2021,Successful,12/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,74,GH
+GHT-82102-50725,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,12/21/2021,Unsuccessful,,12/22/2021,Left Voicemail,,,,,,,,,,,,,43,GH
+GHF-94118-38979,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHG-13721-94628,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GH2-20579-96936,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/01/2022,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,45,GH
+GH7-28885-54023,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/04/2021,Successful,01/13/2021,01/05/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,,GH
+GHW-31495-24081,vsafe-21-day-dose3,Moderna,Correct,,3,22,01/08/2022,Successful,01/11/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,29,GH
+GHQ-22352-10721,vsafe-14-day-dose1,Moderna,,,1,14,01/11/2021,Unsuccessful,,02/19/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHJ-16212-67512,vsafe-3-month-dose3,Moderna,,,3,91,02/01/2022,Unsuccessful,,03/30/2022,Left Voicemail,,,,,,,,,,,,,63,GH
+GHJ-79815-53881,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/11/2022,Successful,02/14/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,GH
+GHJ-79815-53881,vsafe-7-day-dose2,Moderna,Correct,,2,7,02/18/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHJ-79815-53881,vsafe-14-day-dose2,Moderna,Correct,,2,14,02/25/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH8-24113-98590,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,02/26/2021,Unsuccessful,,09/09/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHS-12547-43528,vsafe-12-month-dose2,Moderna,,,2,367,02/27/2022,Unsuccessful,,03/03/2022,Left Voicemail,,,,,,,,,,,,,52,GH
+GHR-96356-21828,vsafe-6-month-dose3,Moderna,Correct,,3,182,03/02/2022,Successful,09/02/2022,03/03/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,83,GH
+GHJ-79815-53881,vsafe-21-day-dose2,Moderna,Correct,,2,21,03/04/2021,Successful,07/30/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH6-25116-75127,vsafe-12-month-dose2,Moderna,,,2,365,03/05/2022,Unsuccessful,,03/08/2022,Left Voicemail,,,,,,,,,,,,,37,GH
+GHV-23640-79970,vsafe-12-month-dose2,Moderna,Correct,,2,367,03/06/2022,Successful,03/08/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,74,GH
+GHW-49661-91475,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,03/09/2021,Unsuccessful,,11/26/2021,Left Voicemail,,,,,,,,,,,,,89,GH
+GHT-17679-92335,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/13/2021,Unsuccessful,,12/17/2021,Left Voicemail,,,,,,,,,,,,,57,GH
+GHP-15240-60916,vsafe-3-month-dose3,Moderna,Correct,,3,91,03/18/2022,Successful,12/20/2022,03/23/2022,Left Voicemail,03/28/2022,Requested Callback,04/05/2022,Left Voicemail,12/20/2022,Left Voicemail,04/04/2022,02:00PM ET,Completed over the phone,,,,70,GH
+GH2-22814-29851,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,185,03/31/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GH4-15594-30014,vsafe-12-month-dose2,Pfizer-BioNTech,,,3,98,03/31/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHK-26369-33426,vsafe-12-month-dose2,Moderna,,,2,367,04/01/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,,,,,50,GH
+GHU-22659-91198,vsafe-12-month-dose2,Moderna,,,2,372,04/01/2022,Unsuccessful,,04/07/2022,Could Not Reach Participant,04/12/2022,Could Not Reach Participant,,,,,,,,,,,64,GH
+GH7-44277-99452,vsafe-7-day-dose1,Moderna,,,1,7,04/02/2021,Unsuccessful,,06/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHY-21022-02166,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,04/09/2021,Unsuccessful,,02/15/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GHV-23640-79970,vsafe-35-day-dose2,Moderna,Correct,,2,37,04/10/2021,Successful,,12/17/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,74,GH
+GHE-19561-67952,vsafe-35-day-single,Janssen/Johnson & Johnson,Correct,,1,36,04/13/2021,Successful,05/18/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GH5-23041-84533,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/13/2022,Unsuccessful,,04/21/2022,Left Voicemail,,,,,,,,,,,,,34,GH
+GHT-56284-50823,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/19/2022,Unsuccessful,,04/20/2022,Left Voicemail,,,,,,,,,,,,,48,GH
+GHP-80145-89893,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,04/29/2023,Unsuccessful,,05/01/2023,Left Voicemail,,,,,,,,,,,,,45,GH
+GHE-59043-19219,vsafe-12-month-dose1,Moderna,Correct,,1,365,04/30/2022,Successful,05/03/2022,05/03/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,55,GH
+GH4-15594-30014,vsafe-35-day-dose2,Moderna,,,2,35,05/05/2021,Unsuccessful,,,,,,,,,,,,,,,,47,GH
+GHB-26670-69280,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,05/14/2021,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,58,GH
+GHK-32445-84068,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,05/16/2022,Successful,05/17/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,53,GH
+GHA-11261-32415,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/19/2021,Successful,05/11/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,81,GH
+GHB-20897-59168,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,05/22/2021,Unsuccessful,,04/07/2022,Left Voicemail,,,,,,,,,,,,,44,GH
+GHT-21030-35397,vsafe-3-month-dose2,Moderna,,,2,93,05/30/2021,Unsuccessful,,05/13/2022,Left Voicemail,,,,,,,,,,,,,36,GH
+GHS-30188-79179,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,06/06/2021,Unsuccessful,,09/05/2021,Left Voicemail,,,,,,,,,,,,,46,GH
+GHF-18692-61868,vsafe-35-day-dose2,Moderna,Correct,,2,35,06/10/2021,Successful,06/21/2021,06/21/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,26,GH
+GHP-15240-60916,vsafe-6-month-dose3,Moderna,Correct,,3,182,06/17/2022,Successful,12/20/2022,06/21/2022,Left Voicemail,12/19/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,Completed over the phone,,,,70,GH
+GHQ-12615-12081,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/22/2021,Unsuccessful,,06/29/2021,Left Voicemail,,,,,,,,,,,,,77,GH
+GHA-31369-54302,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/22/2021,Unsuccessful,,06/30/2021,Left Voicemail,,,,,,,,,,,,,52,GH
+GHX-13459-43958,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/08/2021,Unsuccessful,,07/13/2021,Left Voicemail,,,,,,,,,,,,,56,GH
+GHP-80145-89893,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/10/2021,Unsuccessful,,05/01/2023,Left Voicemail,07/19/2021,Left Voicemail,,,,,,,,,,,45,GH
+GHA-26897-36064,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/13/2022,Unsuccessful,,07/14/2022,Left Voicemail,,,,,,,,,,,,,73,GH
+GHN-21858-04791,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/14/2021,Unsuccessful,,07/22/2021,Left Voicemail,,,,,,,,,,,,,57,GH
+GHT-56284-50823,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/19/2021,Successful,07/26/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,48,GH
+GHF-18692-61868,vsafe-3-month-dose2,Moderna,,,2,93,08/07/2021,Unsuccessful,,11/17/2021,Left Voicemail,,,,,,,,,Reported to VAERS during previous contact from GDIT,,,,26,GH
+GHZ-49283-07252,vsafe-6-month-dose2,Moderna,,,2,182,08/10/2021,Unsuccessful,,08/17/2021,Left Voicemail,,,,,,,,,,,,,77,GH
+GHS-34391-31336,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/14/2021,Successful,08/18/2021,08/18/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,no,,,GH
+GHR-96356-21828,vsafe-12-month-dose3,Moderna,Correct,,3,365,09/01/2022,Successful,09/02/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,83,GH
+GHF-55123-63426,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/06/2021,Successful,09/09/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,63,GH
+GHV-18364-83325,vsafe-6-month-dose2,Moderna,Correct,,2,184,09/13/2021,Successful,09/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,39,GH
+GHA-31369-54302,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,09/22/2021,Unsuccessful,,09/23/2021,Left Voicemail,,,,,,,,,,,,,52,GH
+GH2-24618-49291,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/22/2021,Successful,09/24/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,83,GH
+GHA-11261-32415,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,09/30/2022,Successful,10/05/2022,10/04/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,81,GH
+GHX-30716-49227,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,184,10/08/2021,Successful,12/10/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,52,GH
+GH6-28768-56175,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,97,10/21/2021,Unsuccessful,,10/22/2021,Left Voicemail,,,,,,,,,,,,,36,GH
+GH2-22814-29851,vsafe-28-day-dose3,Pfizer-BioNTech,,,3,28,10/25/2021,Unsuccessful,,10/26/2021,Left Voicemail,,,,,,,,,,,,,43,GH
+GHM-10211-68252,vsafe-21-day-dose3,Moderna,,,3,23,11/17/2021,Unsuccessful,,11/24/2021,Left Voicemail,,,,,,,,,,,,,49,GH
+GHP-15240-60916,vsafe-12-month-dose3,Moderna,Correct,,3,365,12/17/2022,Successful,12/20/2022,12/19/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,,,Completed over the phone,,,,70,GH
+GH7-28885-54023,vsafe-1-6-daily-dose1,Moderna,,,1,1,12/22/2020,Successful,01/13/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GH3-37804-45722,vsafe-1-6-daily-dose3,Moderna,Correct,,3,2,12/23/2021,Successful,12/27/2021,,,,,,,,,,,Completed over the phone,,,,34,GH
+GH7-28885-54023,vsafe-1-6-daily-dose1,Moderna,Correct,,1,3,12/24/2020,Successful,01/13/2021,01/08/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,,GH
+GH2-22814-29851,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/27/2021,Unsuccessful,,01/03/2022,Could Not Reach Participant,12/28/2021,Could Not Reach Participant,,,,,,,,,,,43,GH
+GH2-22814-29851,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/10/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHT-24852-95673,vsafe-42-day-dose3,Pfizer-BioNTech,,,3,42,01/08/2022,Unsuccessful,,01/11/2022,Could Not Reach Participant,01/14/2022,Could Not Reach Participant,,,,,,,,,,,52,GH
+GHJ-17701-26931,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,01/14/2022,Successful,01/18/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,32,GH
+GH5-30470-69308,vsafe-7-day-dose1,Moderna,,,1,10,01/17/2021,Unsuccessful,,03/17/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH5-41910-67312,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,367,01/17/2022,Successful,01/19/2022,01/19/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,GH
+GH5-30470-69308,vsafe-14-day-dose1,Moderna,,,1,14,01/21/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH7-20924-50974,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/24/2021,Unsuccessful,,03/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHJ-25257-06247,vsafe-12-month-dose2,Moderna,Correct,,2,365,01/27/2022,Successful,02/09/2022,02/01/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,62,GH
+GH5-30470-69308,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,01/28/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHZ-29786-46462,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,01/29/2023,Unsuccessful,,01/30/2023,Left Voicemail,,,,,,,,,,,,,30,GH
+GHZ-17358-79967,vsafe-1-6-daily-dose2,Moderna,,,2,4,02/02/2021,Unsuccessful,,06/17/2021,Could Not Reach Participant,06/21/2021,Left Voicemail,,,,,,,,,,,,GH
+GHZ-17358-79967,vsafe-1-6-daily-dose2,Moderna,,,2,5,02/03/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHP-47721-21891,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,16,02/06/2021,Unsuccessful,,07/15/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHA-15674-06670,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,02/07/2022,Unsuccessful,,02/09/2022,Could Not Reach Participant,02/14/2022,Could Not Reach Participant,,,,,,,,,,,38,GH
+GHL-11775-40881,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/11/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHB-82543-99471,vsafe-12-month-dose1,Pfizer-BioNTech,Correct,,1,369,02/13/2022,Successful,02/16/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,59,GH
+GH3-91261-62558,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,02/18/2022,Unsuccessful,,02/22/2022,Left Voicemail,08/22/2022,Left Voicemail,,,,,,,,,,,66,GH
+GHA-26279-39425,vsafe-1-6-daily-dose2,Moderna,,,2,3,02/23/2021,Unsuccessful,,12/14/2021,Left Voicemail,,,,,,,,,,,,,30,GH
+GHV-17730-47724,vsafe-12-month-dose2,Moderna,Correct,,2,367,02/23/2022,Successful,02/24/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,GH
+GHC-30926-67597,vsafe-1-6-daily-dose2,Moderna,Correct,,2,3,02/24/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,69,GH
+GHW-19956-98831,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/24/2022,Successful,02/28/2022,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,80,GH
+GHC-30926-67597,vsafe-1-6-daily-dose2,Moderna,Correct,,2,5,02/26/2021,Successful,,09/02/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,69,GH
+GHA-28828-09498,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,03/04/2022,Unsuccessful,03/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,51,GH
+GH4-31220-09003,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,03/06/2021,Unsuccessful,,,,,,,,,,,,,,,,82,GH
+GHC-30926-67597,vsafe-6-month-dose3,Moderna,Correct,,3,182,03/11/2022,Successful,03/14/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,69,GH
+GHR-22599-59806,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,1,03/12/2021,Unsuccessful,,05/04/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH4-23817-35520,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,37,03/22/2021,Successful,12/30/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,66,GH
+GHT-22719-55343,vsafe-35-day-dose2,Moderna,Correct,,2,35,03/26/2021,Successful,05/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHV-14548-81984,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/28/2022,Unsuccessful,,03/30/2022,Could Not Reach Participant,04/04/2022,Left Voicemail,,,,,,,,,,,81,GH
+GHF-33160-10470,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/29/2022,Unsuccessful,,03/30/2022,Left Voicemail,,,,,,,,,,,,,64,GH
+GHZ-31200-68311,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/01/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,,,,,62,GH
+GHP-16383-90361,vsafe-1-6-daily-dose2,Moderna,,,2,5,04/05/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-23010-50914,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,04/05/2022,Unsuccessful,,04/11/2022,Left Voicemail,10/06/2022,Left Voicemail,,,,,,,,,,,39,GH
+GH6-11880-13904,vsafe-1-6-daily-dose2,Moderna,,,2,1,04/09/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,64,GH
+GH2-23251-65947,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/14/2022,Unsuccessful,,04/19/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GH3-91261-62558,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,93,04/22/2021,Successful,,08/22/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,GH
+GHW-15618-58639,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,04/22/2021,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHP-17404-42686,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/23/2022,Successful,05/03/2022,04/29/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,57,GH
+GHD-50245-71694,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,04/26/2021,Successful,04/08/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,55,GH
+GHZ-97515-22766,vsafe-3-month-dose2,Moderna,,,2,91,04/27/2021,Unsuccessful,,12/29/2021,Left Voicemail,,,,,,,,,,,,,82,GH
+GH4-31220-09003,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/01/2021,Unsuccessful,,12/07/2021,Left Voicemail,,,,,,,,,,,,,82,GH
+GHT-22719-55343,vsafe-21-day-dose4,Moderna,Correct,,4,21,05/04/2022,Successful,05/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHW-18547-15585,vsafe-14-day-dose2,Moderna,,,2,14,05/05/2021,Unsuccessful,,04/16/2022,Left Voicemail,,,,,,,,,,,,,42,GH
+GHB-22118-97477,vsafe-6-month-dose3,Moderna,,,3,182,05/05/2022,Successful,05/06/2022,,,,,,,,,,,Other,yes,,,54,GH
+GHJ-31067-82248,vsafe-42-day-dose2,Moderna,,,2,42,05/07/2021,Unsuccessful,,04/15/2022,Left Voicemail,,,,,,,,,,,,,76,GH
+GH5-30470-69308,vsafe-3-month-dose2,Moderna,,,2,91,05/09/2021,Unsuccessful,,05/14/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHX-12035-73175,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,05/10/2021,Successful,04/18/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,54,GH
+GHT-22719-55343,vsafe-28-day-dose4,Moderna,Correct,,4,28,05/11/2022,Successful,05/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHY-19774-46271,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,37,05/16/2021,Unsuccessful,,,,,,,,,,,,,,,,66,GH
+GHT-22719-55343,vsafe-35-day-dose4,Moderna,Correct,,4,35,05/18/2022,Successful,05/19/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHY-13236-96612,vsafe-6-month-dose3,Moderna,Correct,,3,182,05/20/2022,Successful,05/23/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,47,GH
+GH6-25040-57615,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,05/21/2021,Unsuccessful,,02/14/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHT-22719-55343,vsafe-3-month-dose2,Moderna,Correct,,2,92,05/22/2021,Successful,05/12/2022,01/20/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,GH
+GHY-26019-88129,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,05/31/2022,Successful,06/01/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,22,GH
+GHY-31798-23472,vsafe-3-month-dose2,Moderna,,,2,93,06/02/2021,Unsuccessful,,04/08/2022,Left Voicemail,,,,,,,,,,,,,68,GH
+GHC-21913-04326,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,06/14/2021,Unsuccessful,,06/23/2021,Left Voicemail,,,,,,,,,,,,,42,GH
+GHS-26134-39590,vsafe-3-month-dose2,Moderna,,,2,91,06/18/2021,Unsuccessful,,06/29/2021,Could Not Reach Participant,07/02/2021,Could Not Reach Participant,,,,,,,,,,,71,GH
+GH8-12599-06199,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/07/2021,Successful,07/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,45,GH
+GH9-24749-46079,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/12/2022,Successful,07/13/2022,07/13/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,65,GH
+GHT-22719-55343,vsafe-3-month-dose4,Moderna,,,4,92,07/14/2022,Unsuccessful,,07/15/2022,Left Voicemail,,,,,,,,,,,,,77,GH
+GH3-91261-62558,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,185,07/23/2021,Successful,,07/26/2021,Left Voicemail,08/22/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,GH
+GHS-26235-97975,vsafe-42-day-dose2,Moderna,,,2,42,07/27/2021,Unsuccessful,,08/04/2021,Left Voicemail,,,,,,,,,,,,,75,GH
+GHY-26019-88129,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/27/2021,Successful,06/01/2022,08/05/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,22,GH
+GHZ-29786-46462,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,07/30/2022,Successful,08/01/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,30,GH
+GH5-30470-69308,vsafe-6-month-dose2,Moderna,,,2,182,08/08/2021,Unsuccessful,,,,,,,,,,,,,,,,63,GH
+GHE-56998-39255,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,08/11/2021,Unsuccessful,,08/18/2021,Left Voicemail,,,,,,,,,,,,,40,GH
+GHJ-14115-63967,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/20/2021,Successful,08/27/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,GH
+GH3-91261-62558,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,08/20/2022,Unsuccessful,,08/22/2022,Left Voicemail,,,,,,,,,,,,,66,GH
+GHX-10161-57043,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,08/23/2021,Unsuccessful,,11/19/2021,Left Voicemail,,,,,,,,,,,,,74,GH
+GHE-84444-00838,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,08/27/2021,Unsuccessful,,10/07/2021,Left Voicemail,,,,,,,,,,,,,74,GH
+GHR-29818-00255,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/30/2021,Successful,09/07/2021,09/03/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,GH
+GHP-92435-02478,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/22/2021,Unsuccessful,,09/24/2021,Left Voicemail,,,,,,,,,,,,,54,GH
+GHQ-28852-71148,vsafe-6-month-dose2,Moderna,,,2,184,09/30/2021,Unsuccessful,,10/06/2021,Left Voicemail,,,,,,,,,,,,,52,GH
+GHS-23540-01470,vsafe-6-month-dose4,Moderna,,,4,182,09/30/2022,Unsuccessful,,10/04/2022,Left Voicemail,,,,,,,,,,,,,59,GH
+GHH-23010-50914,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,10/05/2022,Unsuccessful,,10/06/2022,Left Voicemail,,,,,,,,,,,,,39,GH
+GHY-19774-46271,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,10/10/2021,Unsuccessful,,10/14/2021,Left Voicemail,,,,,,,,,,,,,66,GH
+GHP-26196-41424,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,10/11/2021,Successful,10/13/2021,10/13/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,31,GH
+GHG-15820-87312,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/14/2021,Successful,10/19/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,57,GH
+GHS-23540-01470,vsafe-42-day-dose3,Moderna,Correct,,3,42,10/18/2021,Successful,10/20/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,GH
+GHD-50245-71694,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,365,10/19/2022,Successful,10/20/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,55,GH
+GH3-91261-62558,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,93,11/21/2021,Successful,11/23/2021,08/22/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,GH
+GHP-47721-21891,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/01/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHH-23010-50914,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/10/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHE-82375-69351,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/08/2021,Unsuccessful,,02/15/2021,Could Not Reach Participant,,,,,,,,,,,,,,GH
+GHA-20197-26011,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,93,01/09/2022,Unsuccessful,,01/12/2022,Could Not Reach Participant,01/17/2022,Could Not Reach Participant,,,,,,,,,,,49,GH
+GHE-82375-69351,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/11/2021,Unsuccessful,,02/26/2021,Could Not Reach Participant,03/09/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GHM-29356-54450,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/15/2021,Unsuccessful,,03/11/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-27738-08255,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,01/16/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,GH
+GHQ-67136-16550,vsafe-7-day-dose1,Moderna,,,1,13,01/19/2021,Unsuccessful,,03/23/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHH-27738-08255,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,Correct,,1,21,01/23/2021,Successful,03/22/2021,,,,,,,,,,,Completed over the phone,,,,,GH
+GH8-14680-52943,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,16,01/23/2021,Successful,04/02/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GH3-30840-99098,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,22,01/24/2021,Successful,06/03/2021,06/03/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHR-25202-71267,vsafe-1-6-daily-dose3,Moderna,,,3,4,02/09/2022,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,43,GH
+GHY-32488-67873,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,17,02/14/2021,Unsuccessful,,07/30/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHN-85813-42754,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/19/2022,Successful,02/24/2022,02/23/2022,Requested Callback,,,,,,,02/24/2022,07:00PM ET,Does not wish to fill out VAERS report,,,,69,GH
+GHE-19028-15892,vsafe-28-day-dose2,Moderna,,,2,28,02/22/2021,Unsuccessful,,09/27/2021,Could Not Reach Participant,09/30/2021,Could Not Reach Participant,,,,,,,,,,,,GH
+GHY-20147-33022,vsafe-14-day-dose1,Moderna,,,1,14,02/26/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH6-14240-60637,vsafe-12-month-dose2,Moderna,,,2,367,03/01/2022,Unsuccessful,,03/03/2022,Left Voicemail,,,,,,,,,,,,,30,GH
+GHW-24481-36920,vsafe-12-month-dose2,Moderna,,,2,365,03/05/2022,Unsuccessful,,03/08/2022,Could Not Reach Participant,03/10/2022,Could Not Reach Participant,,,,,,,,,,,71,GH
+GHT-64006-52507,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,184,03/06/2022,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,32,GH
+GH4-50066-09168,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,2,03/09/2021,Unsuccessful,,03/10/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHN-15468-13996,vsafe-14-day-dose2,Moderna,,,2,14,03/10/2021,Unsuccessful,,12/08/2021,Left Voicemail,,,,,,,,,,,,,82,GH
+GHC-79279-77993,vsafe-3-month-dose3,Moderna,Correct,,3,93,03/10/2022,Successful,03/11/2022,03/11/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,67,GH
+GHD-31721-96022,vsafe-21-day-dose2,Moderna,,,2,23,03/17/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,GH
+GH9-12194-62132,vsafe-14-day-dose1,Moderna,,,1,14,03/19/2021,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,28,GH
+GH3-25348-47842,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/31/2022,Unsuccessful,,04/01/2022,Requested Callback,04/04/2022,Left Voicemail,07/26/2022,Left Voicemail,,,04/04/2022,01:00PM ET,,,,,,GH
+GHS-24236-01268,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,04/03/2021,Unsuccessful,,06/15/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHD-31721-96022,vsafe-42-day-dose2,Moderna,,,2,43,04/06/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,GH
+GHB-10607-47245,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,04/08/2022,Unsuccessful,,04/13/2022,Left Voicemail,,,,,,,,,,,,,38,GH
+GH3-18085-74384,vsafe-35-day-dose2,Moderna,Correct,,2,35,04/09/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,44,GH
+GHE-26238-38294,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,04/10/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,60,GH
+GHW-11408-16033,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/11/2021,Successful,03/25/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,50,GH
+GH8-20596-99465,vsafe-28-day-dose1,Moderna,Correct,,1,28,04/12/2021,Successful,12/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,34,GH
+GHP-29492-84256,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,3,04/13/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GHJ-16013-34571,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,Correct,,1,2,04/14/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHY-18453-51328,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/15/2021,Unsuccessful,,,,,,,,,,,,,,,,46,GH
+GHJ-16013-34571,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,Correct,,1,3,04/15/2021,Successful,04/23/2021,04/22/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,,GH
+GHG-33565-40336,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,184,04/15/2022,Successful,04/21/2022,04/20/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,70,GH
+GH3-18085-74384,vsafe-42-day-dose2,Moderna,Correct,,2,42,04/16/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,44,GH
+GHY-18453-51328,vsafe-28-day-dose1,Moderna,,,1,28,04/22/2021,Unsuccessful,,,,,,,,,,,,,,,,46,GH
+GHY-20147-33022,vsafe-42-day-dose2,Moderna,,,2,42,04/23/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GH4-19159-11282,vsafe-35-day-dose4,Pfizer-BioNTech,,,4,36,04/25/2022,Unsuccessful,,04/26/2022,Could Not Reach Participant,04/29/2022,Could Not Reach Participant,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,,,,,,,66,GH
+GHM-28219-06922,vsafe-28-day-dose1,Moderna,,,1,28,04/28/2021,Unsuccessful,,01/11/2022,Left Voicemail,,,,,,,,,,,,,57,GH
+GHK-16385-91549,vsafe-42-day-single,Janssen/Johnson & Johnson,,,1,42,04/29/2021,Unsuccessful,,05/26/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHP-29492-84256,vsafe-21-day-single,Janssen/Johnson & Johnson,,,1,21,05/01/2021,Unsuccessful,,,,,,,,,,,,,,,,,GH
+GH4-19159-11282,vsafe-42-day-dose4,Pfizer-BioNTech,,,4,42,05/01/2022,Unsuccessful,,05/02/2022,Could Not Reach Participant,05/05/2022,Could Not Reach Participant,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,,,,,,,66,GH
+GHC-30012-67714,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,05/04/2021,Successful,,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,69,GH
+GHK-46996-37542,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,31,05/08/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,GH
+GHP-29492-84256,vsafe-28-day-single,Janssen/Johnson & Johnson,,,1,28,05/08/2021,Unsuccessful,,05/25/2021,Left Voicemail,,,,,,,,,,,,,,GH
+GHF-17705-11559,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,05/08/2021,Unsuccessful,,04/15/2022,Left Voicemail,,,,,,,,,,,,,47,GH
+GHC-30012-67714,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,05/11/2021,Successful,05/04/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,69,GH
+GHJ-31866-53046,vsafe-3-month-dose2,Moderna,,,2,93,05/13/2021,Unsuccessful,,04/18/2022,Could Not Reach Participant,04/21/2022,Left Voicemail,,,,,,,,,,,48,GH
+GHK-46996-37542,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,37,05/14/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,30,GH
+GHP-75130-29135,vsafe-28-day-dose4,Pfizer-BioNTech,Correct,,4,28,05/17/2022,Successful,05/18/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,70,GH
+GHY-18453-51328,vsafe-21-day-dose2,Moderna,,,2,23,05/20/2021,Unsuccessful,,12/13/2021,Left Voicemail,,,,,,,,,,,,,46,GH
+GHK-46996-37542,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,44,05/21/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,30,GH
+GHB-22590-20177,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,05/25/2022,Successful,05/26/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,54,GH
+GHQ-17079-38675,vsafe-6-month-dose3,Moderna,Correct,,3,182,06/01/2022,Successful,06/02/2022,06/02/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,47,GH
+GHW-24481-36920,vsafe-3-month-dose2,Moderna,,,2,91,06/04/2021,Unsuccessful,,,,,,,,,,,,,,,,71,GH
+GH3-18085-74384,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/04/2021,Successful,11/20/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,44,GH
+GHG-27380-69983,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,91,06/29/2021,Successful,07/02/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,29,GH
+GH3-25348-47842,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,06/30/2021,Successful,,07/06/2021,Left Voicemail,07/26/2022,Left Voicemail,,,,,,,Completed over the phone,,,,,GH
+GHK-46996-37542,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/07/2021,Successful,07/12/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,30,GH
+GHS-63046-79419,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,184,07/10/2021,Successful,07/20/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,33,GH
+GH9-13441-11051,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/11/2022,Unsuccessful,,07/12/2022,Left Voicemail,,,,,,,,,,,,,50,GH
+GH3-25348-47842,vsafe-3-month-dose4,Moderna,,,4,91,07/22/2022,Unsuccessful,,07/26/2022,Left Voicemail,,,,,,,,,,,,,,GH
+GHV-13564-77382,vsafe-6-month-dose2,Moderna,,,2,182,08/04/2021,Unsuccessful,,08/15/2021,Left Voicemail,,,,,,,,,,,,,73,GH
+GHS-20282-86231,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/04/2021,Unsuccessful,,,,,,,,,,,,,,,,35,GH
+GHS-46333-93983,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/10/2021,Successful,08/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,50,GH
+GHB-32248-75517,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,4,08/11/2021,Unsuccessful,,12/02/2021,Could Not Reach Participant,12/08/2021,Could Not Reach Participant,,,,,,,,,,,33,GH
+GHZ-29167-95483,vsafe-1-6-daily-dose2,Moderna,,,2,4,08/31/2021,Unsuccessful,,12/15/2021,Left Voicemail,,,,,,,,,,,,,25,GH
+GHW-24481-36920,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/07/2021,Could Not Reach Participant,09/10/2021,Could Not Reach Participant,,,,,,,,,,,71,GH
+GH4-19159-11282,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,09/18/2022,Unsuccessful,,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,,,,,,,,,,,66,GH
+GH3-25348-47842,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/29/2021,Successful,11/13/2021,07/26/2022,Left Voicemail,10/01/2021,Left Voicemail,10/13/2021,Left Voicemail,11/12/2021,Requested Callback,11/13/2021,12:00PM ET,Completed over the phone,,,,,GH
+GHP-75130-29135,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,10/18/2022,Unsuccessful,,10/19/2022,Left Voicemail,,,,,,,,,,,,,70,GH
+GHH-25558-30697,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,10/24/2021,Unsuccessful,,10/28/2021,Left Voicemail,,,,,,,,,,,,,57,GH
+GH6-17653-89970,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/25/2021,Successful,10/28/2021,,,,,,,,,,,Other,yes,,,40,GH
+GHS-20282-86231,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,11/03/2021,Unsuccessful,,11/05/2021,Left Voicemail,,,,,,,,,,,,,35,GH
+GHD-31721-96022,vsafe-21-day-dose3,Moderna,Correct,,3,22,12/22/2021,Successful,12/23/2021,,,,,,,,,,,Completed over the phone,,,,44,GH
+GHS-63046-79419,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/08/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GHS-63046-79419,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,GH
+GH3-30840-99098,vsafe-12-month-dose3,Moderna,,,3,365,01/02/2023,Unsuccessful,,01/03/2023,Could Not Reach Participant,,,,,,,,,,,,,56,GH

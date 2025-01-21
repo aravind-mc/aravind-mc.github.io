@@ -1,0 +1,1226 @@
+REGISTRANT_CODE,SURVEYSTATICID,MANUFACTURER,ISVACCINEVALID,UPDATEDVACCINE,DOSENBR,DAYSSINCEVACCINATION,REPORTEDDATE,FINALOUTCOME,SUCCESSDATE,CALL1DATE,CALL1OUTCOME,CALL2DATE,CALL2OUTCOME,CALL3DATE,CALL3OUTCOME,CALLXDATE,CALLXOUTCOME,CALLBACKDATE,CALLBACKTIME,ALLREPORTOUTCOMES,DONOTCONTACTREGISTRANT,UPDATEDPREGNANCY,POSSIBLEISSUES,AGE_AT_VX,REG_CODE_PREFIX
+5XX-58805-27066,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/08/2022,Successful,01/20/2022,01/13/2022,Could Not Reach Participant,01/18/2022,Left Voicemail,01/19/2022,Left Voicemail,,,,,Completed over the phone,,,,50,5X
+5XR-25648-75161,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,368,01/12/2022,Unsuccessful,,01/14/2022,Could Not Reach Participant,01/19/2022,Could Not Reach Participant,,,,,,,,,,,38,5X
+5XL-25962-98755,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/15/2021,Unsuccessful,,03/11/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XF-89554-85331,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/27/2022,Successful,01/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,78,5X
+5XX-32265-13688,vsafe-14-day-dose1,Moderna,,,1,14,01/28/2021,Successful,06/09/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),yes,,,,5X
+5XU-89396-19161,vsafe-1-6-daily-dose1,Moderna,Correct,,1,5,02/03/2021,Successful,03/03/2022,06/23/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5XL-67183-14886,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,02/04/2021,Unsuccessful,,06/30/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XY-31754-55011,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,02/05/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X5-10327-14518,vsafe-14-day-dose1,Moderna,Correct,,1,14,02/12/2021,Successful,07/29/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XT-13784-93081,vsafe-12-month-dose1,Moderna,,,1,367,02/12/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XF-89554-85331,vsafe-14-day-dose1,Moderna,Correct,,1,14,02/16/2021,Successful,08/04/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XL-46297-10394,vsafe-35-day-dose1,Pfizer-BioNTech,,,1,35,02/19/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XU-89396-19161,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/01/2022,Successful,03/03/2022,03/03/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,5X
+5XC-20473-48504,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/07/2022,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,63,5X
+5XR-36172-50137,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,6,03/08/2021,Unsuccessful,,12/04/2021,Left Voicemail,,,,,,,,,,,,,60,5X
+5XV-23546-94974,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/12/2022,Unsuccessful,,03/16/2022,Left Voicemail,04/18/2023,Left Voicemail,,,,,,,,,,,69,5X
+5XW-14304-61630,vsafe-3-month-dose4,Moderna,Correct,,4,91,03/17/2023,Successful,03/22/2023,03/20/2023,Left Voicemail,,,,,,,,,Completed over the phone,,,,46,5X
+5XS-16958-88777,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/02/2022,Unsuccessful,,04/06/2022,Could Not Reach Participant,,,,,,,,,,,,,44,5X
+5XE-33738-61310,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,04/03/2021,Successful,06/15/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5X6-92179-93959,vsafe-0-day-dose1,Janssen/Johnson & Johnson,,,1,0,04/11/2021,Unsuccessful,,05/18/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XZ-68228-57504,vsafe-12-month-dose4,Moderna,,,4,365,04/11/2023,Unsuccessful,,04/12/2023,Left Voicemail,,,,,,,,,,,,,51,5X
+5XL-46297-10394,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,91,04/16/2021,Unsuccessful,,08/10/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XX-41685-10136,vsafe-12-month-dose2,Moderna,,,2,365,04/17/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5XV-23546-94974,vsafe-6-month-dose5,Pfizer-BioNTech,,,5,182,04/17/2023,Unsuccessful,,04/18/2023,Left Voicemail,,,,,,,,,,,,,69,5X
+5X2-17161-03090,vsafe-35-day-single,Janssen/Johnson & Johnson,,,1,35,04/20/2021,Unsuccessful,,05/13/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X8-99409-62520,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/21/2021,Unsuccessful,,04/02/2022,Left Voicemail,,,,,,,,,,,,,49,5X
+5X2-55192-91268,vsafe-0-day-dose2,Pfizer-BioNTech,,,2,0,04/21/2021,Unsuccessful,,12/27/2021,Left Voicemail,,,,,,,,,,,,,34,5X
+5XM-20356-28324,vsafe-12-month-dose2,Pfizer-BioNTech,,,3,93,04/22/2022,Unsuccessful,,04/28/2022,Left Voicemail,,,,,,,,,,,,,35,5X
+5XU-89396-19161,vsafe-6-month-dose4,Moderna,,,4,184,04/23/2023,Unsuccessful,,04/24/2023,Left Voicemail,,,,,,,,,,,,,66,5X
+5XB-76776-66193,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/24/2022,Successful,04/26/2022,04/26/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,5X
+5XD-24618-87506,vsafe-7-day-dose3,Moderna,Correct,,3,12,04/27/2022,Successful,05/03/2022,05/02/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,75,5X
+5XY-31754-55011,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,05/07/2021,Unsuccessful,,07/15/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X2-27139-04188,vsafe-3-month-dose2,Moderna,,,2,96,05/10/2021,Unsuccessful,,05/05/2022,Left Voicemail,,,,,,,,,,,,,36,5X
+5XZ-45279-85433,vsafe-12-month-dose2,Moderna,,,2,368,05/10/2022,Unsuccessful,,05/11/2022,Left Voicemail,,,,,,,,,,,,,51,5X
+5XX-41685-10136,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,05/13/2022,Unsuccessful,,05/17/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5XD-24618-87506,vsafe-28-day-dose3,Moderna,Correct,,3,28,05/13/2022,Successful,05/17/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,75,5X
+5XH-29795-51351,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/16/2021,Unsuccessful,,02/11/2022,Could Not Reach Participant,02/16/2022,Left Voicemail,,,,,,,,,,,50,5X
+5XT-16988-98903,vsafe-3-month-dose2,Moderna,,,2,91,05/22/2021,Unsuccessful,,,,,,,,,,,,,,,,58,5X
+5XK-32190-02002,vsafe-3-month-dose2,Moderna,,,2,91,05/28/2021,Unsuccessful,,05/13/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XX-41685-10136,vsafe-42-day-dose2,Moderna,,,2,42,05/29/2021,Unsuccessful,,,,,,,,,,,,,,,,64,5X
+5X3-31287-13459,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,06/17/2021,Unsuccessful,,06/24/2021,Left Voicemail,,,,,,,,,,,,,59,5X
+5XF-39315-95424,vsafe-3-month-dose2,Moderna,,,2,93,07/01/2021,Unsuccessful,,07/08/2021,Left Voicemail,,,,,,,,,,,,,81,5X
+5X6-28631-46738,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/01/2022,Successful,07/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,5X
+5XX-58805-27066,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,183,07/10/2021,Successful,,07/12/2021,Could Not Reach Participant,07/15/2021,Could Not Reach Participant,,,,,,,Completed over the phone,,,,50,5X
+5XZ-68228-57504,vsafe-3-month-dose4,Moderna,Correct,,4,91,07/11/2022,Successful,07/12/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,51,5X
+5X3-17153-21595,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/02/2021,Unsuccessful,,08/03/2021,Could Not Reach Participant,,,,,,,,,,,,,38,5X
+5XB-71418-77231,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/13/2021,Unsuccessful,,08/20/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XT-16988-98903,vsafe-6-month-dose2,Moderna,,,2,182,08/21/2021,Unsuccessful,,08/24/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5XE-33738-61310,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,183,08/22/2021,Successful,08/24/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,65,5X
+5XR-80383-81914,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/24/2021,Successful,11/19/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,77,5X
+5XA-15029-68794,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,183,08/27/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XW-14304-61630,vsafe-3-month-dose2,Moderna,Correct,,2,91,08/27/2021,Successful,03/22/2023,03/20/2023,Left Voicemail,12/10/2021,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,46,5X
+5XL-33696-33947,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,09/15/2021,Unsuccessful,,09/17/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XW-12699-66661,vsafe-6-month-dose1,Moderna,,,1,182,09/16/2021,Unsuccessful,,09/20/2021,Could Not Reach Participant,09/23/2021,Could Not Reach Participant,,,,,,,,,,,56,5X
+5XX-41685-10136,vsafe-6-month-dose2,Moderna,,,2,182,10/16/2021,Unsuccessful,,10/19/2021,Left Voicemail,,,,,,,,,,,,,64,5X
+5X4-15890-79160,vsafe-28-day-dose3,Pfizer-BioNTech,,,3,28,10/27/2021,Unsuccessful,,10/28/2021,Left Voicemail,,,,,,,,,,,,,66,5X
+5X8-15094-26622,vsafe-1-6-daily-dose3,Moderna,Correct,,3,5,10/31/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,5X
+5XV-27241-94236,vsafe-35-day-dose3,Pfizer-BioNTech,,,3,35,11/01/2021,Unsuccessful,,11/02/2021,Could Not Reach Participant,11/05/2021,Could Not Reach Participant,,,,,,,,,,,69,5X
+5X8-15094-26622,vsafe-1-6-daily-dose3,Moderna,Correct,,3,6,11/01/2021,Successful,11/16/2021,11/12/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,5X
+5X4-28518-44639,vsafe-1-6-daily-dose2,Moderna,,,2,5,11/02/2021,Unsuccessful,,11/03/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XD-24618-87506,vsafe-28-day-dose4,Pfizer-BioNTech,Correct,,4,30,11/02/2022,Successful,11/03/2022,11/03/2022,Requested Callback,,,,,,,11/03/2022,01:30PM ET,Completed over the phone,,,,75,5X
+5X4-28518-44639,vsafe-1-6-daily-dose2,Moderna,,,2,6,11/03/2021,Unsuccessful,,11/04/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5X4-28518-44639,vsafe-7-day-dose2,Moderna,,,2,7,11/04/2021,Unsuccessful,,11/08/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XD-24618-87506,vsafe-42-day-dose4,Pfizer-BioNTech,,,4,42,11/14/2022,Unsuccessful,,11/15/2022,Left Voicemail,,,,,,,,,,,,,75,5X
+5XN-25194-24573,vsafe-6-month-dose2,Moderna,,,2,182,11/28/2021,Unsuccessful,,12/01/2021,Could Not Reach Participant,12/06/2021,Could Not Reach Participant,,,,,,,,,,,57,5X
+5X3-24930-99075,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/31/2021,Unsuccessful,,01/05/2022,Left Voicemail,,,,,,,,,,,,,47,5X
+5XX-58805-27066,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/19/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XT-12456-73842,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/02/2021,Successful,01/27/2020,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5X5-86293-65436,vsafe-0-day-dose1,Pfizer-BioNTech,Correct,,1,0,01/14/2021,Successful,03/11/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XE-23118-28020,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,01/15/2022,Unsuccessful,,01/17/2022,Left Voicemail,,,,,,,,,,,,,21,5X
+5XK-26829-16264,vsafe-14-day-dose1,Moderna,,,1,14,01/23/2021,Unsuccessful,,04/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XJ-46844-25445,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,01/25/2022,Successful,01/27/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,49,5X
+5XB-13329-21046,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,5,01/28/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XB-13329-21046,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,6,01/29/2021,Successful,04/27/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XT-22054-02616,vsafe-12-month-dose2,Moderna,,,2,367,02/04/2022,Unsuccessful,,02/09/2022,Could Not Reach Participant,02/14/2022,Could Not Reach Participant,,,,,,,,,,,57,5X
+5XG-24991-94301,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,02/05/2022,Successful,03/31/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,66,5X
+5XP-43247-28859,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/10/2022,Successful,02/14/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,76,5X
+5XT-74559-23704,vsafe-6-month-dose3,Moderna,,,3,182,02/14/2022,Unsuccessful,,02/15/2022,Left Voicemail,08/17/2022,Left Voicemail,,,,,,,,,,,62,5X
+5XE-58149-70434,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/16/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XP-11136-43494,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,02/15/2022,Successful,08/22/2022,02/21/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,49,5X
+5XD-14339-52086,vsafe-3-month-dose2,Moderna,Correct,,2,91,02/17/2022,Successful,02/28/2022,02/23/2022,Could Not Reach Participant,,,,,,,,,Participant prefers to complete VAERS report online,,,,36,5X
+5X5-27915-60942,vsafe-14-day-dose2,Moderna,,,2,14,02/23/2021,Unsuccessful,,08/18/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/23/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XQ-14048-31533,vsafe-28-day-dose2,Moderna,,,2,28,02/24/2021,Unsuccessful,,12/04/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5XZ-30903-87802,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,30,02/26/2021,Unsuccessful,,09/15/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X7-29960-01262,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,15,02/27/2021,Unsuccessful,,01/04/2022,Could Not Reach Participant,12/29/2021,Could Not Reach Participant,,,,,,,,,,,65,5X
+5XT-31506-84616,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/01/2021,Unsuccessful,,07/29/2021,Could Not Reach Participant,08/03/2021,Could Not Reach Participant,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,03/02/2021,Unsuccessful,,07/28/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XE-29980-20423,vsafe-1-6-daily-dose2,Moderna,,,2,3,03/05/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XE-29980-20423,vsafe-7-day-dose2,Moderna,,,2,7,03/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XK-14448-14657,vsafe-28-day-dose2,Moderna,,,2,28,03/10/2021,Unsuccessful,,12/08/2021,Could Not Reach Participant,12/13/2021,Could Not Reach Participant,,,,,,,,,,,46,5X
+5XH-33986-93198,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,03/12/2021,Unsuccessful,,03/02/2022,Left Voicemail,,,,,,,,,,,,,31,5X
+5XB-32966-64921,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/19/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X9-61059-10788,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,21,03/19/2021,Successful,03/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,36,5X
+5X9-13175-41449,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,03/21/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XX-32825-42411,vsafe-28-day-dose2,Pfizer-BioNTech,Correct,,2,28,03/24/2021,Successful,01/10/2022,01/04/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,60,5X
+5XU-28285-95349,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,03/28/2022,Unsuccessful,,03/29/2022,Left Voicemail,,,,,,,,,,,,,38,5X
+5X2-27732-49635,vsafe-7-day-dose1,Moderna,Correct,,1,10,03/30/2021,Successful,01/24/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,5X
+5X2-10906-64461,vsafe-12-month-dose2,Moderna,,,2,367,03/31/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,,,,,67,5X
+5X2-20879-89212,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/02/2022,Successful,04/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,54,5X
+5X6-49869-92406,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/07/2021,Unsuccessful,,08/31/2022,Left Voicemail,,,,,,,,,,,,,54,5X
+5X3-15126-27042,vsafe-12-month-dose2,Moderna,,,2,365,04/07/2022,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5X6-13449-47667,vsafe-42-day-dose2,Moderna,Correct,,2,42,04/09/2021,Successful,05/24/2022,02/16/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,83,5X
+5X9-22362-95945,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,04/09/2022,Successful,04/11/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5XX-48598-00659,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,04/11/2022,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,38,5X
+5XR-26816-51017,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/12/2021,Unsuccessful,,03/16/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5X9-23800-16934,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,04/12/2022,Successful,05/02/2022,04/13/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,29,5X
+5XQ-67629-23324,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/14/2022,Successful,04/18/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,47,5X
+5XX-31709-34599,vsafe-35-day-dose2,Moderna,,,2,37,04/15/2021,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,83,5X
+5X6-49869-92406,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,04/21/2021,Unsuccessful,,08/31/2022,Left Voicemail,,,,,,,,,,,,,54,5X
+5XK-26143-32731,vsafe-7-day-dose2,Moderna,,,2,8,04/21/2021,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,63,5X
+5X9-23800-16934,vsafe-7-day-dose1,Janssen/Johnson & Johnson,Correct,,1,11,04/23/2021,Successful,,05/20/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,29,5X
+5XQ-35152-66150,vsafe-21-day-dose2,Moderna,,,2,21,04/26/2021,Unsuccessful,,04/08/2022,Could Not Reach Participant,04/13/2022,Could Not Reach Participant,,,,,,,,,,,49,5X
+5X6-49869-92406,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,04/28/2021,Unsuccessful,,03/08/2022,Left Voicemail,08/31/2022,Left Voicemail,,,,,,,,,,,54,5X
+5XB-32966-64921,vsafe-35-day-dose2,Moderna,,,2,38,05/02/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X2-12585-18228,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,6,05/03/2021,Successful,01/04/2022,,,,,,,,,,,Completed over the phone,,,,32,5X
+5XD-17799-90701,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,05/10/2021,Unsuccessful,,04/09/2022,Left Voicemail,,,,,,,,,,,,,30,5X
+5X9-22362-95945,vsafe-35-day-single,Janssen/Johnson & Johnson,Correct,,1,35,05/14/2021,Successful,,05/29/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5XX-32305-37941,vsafe-42-day-single,Janssen/Johnson & Johnson,,,1,42,05/14/2021,Unsuccessful,,05/31/2021,Left Voicemail,,,,,,,,,,,,,45,5X
+5XA-14779-62224,vsafe-35-day-dose4,Moderna,,,4,38,05/15/2022,Unsuccessful,,05/16/2022,Left Voicemail,,,,,,,,,,,,,71,5X
+5X7-12493-59274,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,05/20/2022,Successful,05/23/2022,05/23/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,68,5X
+5X6-13449-47667,vsafe-14-day-dose4,Moderna,Correct,,4,14,05/23/2022,Successful,05/24/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,83,5X
+5XT-74559-23704,vsafe-3-month-dose2,Moderna,,,2,91,05/26/2021,Unsuccessful,,08/17/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,62,5X
+5XQ-32734-59663,vsafe-14-day-dose4,Pfizer-BioNTech,,,4,14,05/26/2022,Unsuccessful,,05/27/2022,Left Voicemail,,,,,,,,,,,,,63,5X
+5X6-83339-84888,vsafe-3-month-dose2,Moderna,,,2,91,06/05/2021,Unsuccessful,,12/17/2021,Left Voicemail,12/20/2021,Left Voicemail,,,,,,,,,,,66,5X
+5X9-13175-41449,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/06/2021,Unsuccessful,,08/16/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XU-13428-25600,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,06/21/2022,Successful,06/22/2022,,,,,,,,,,,Completed over the phone,,,,48,5X
+5XB-32966-64921,vsafe-3-month-dose2,Moderna,,,2,91,06/24/2021,Unsuccessful,,06/28/2021,Left Voicemail,,,,,,,,,,,,,47,5X
+5XL-16907-25148,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,07/09/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,48,5X
+5XM-22129-43736,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,92,07/09/2021,Successful,07/14/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,70,5X
+5XP-17857-06511,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,184,07/17/2021,Unsuccessful,,07/25/2021,Left Voicemail,,,,,,,,,,,,,71,5X
+5XT-74559-23704,vsafe-12-month-dose3,Moderna,,,3,365,08/16/2022,Unsuccessful,,08/17/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XP-11136-43494,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,367,08/19/2022,Successful,08/22/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,49,5X
+5X6-49869-92406,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,367,08/30/2022,Unsuccessful,,08/31/2022,Left Voicemail,,,,,,,,,,,,,54,5X
+5XE-29980-20423,vsafe-6-month-dose2,Moderna,,,2,182,08/31/2021,Unsuccessful,,09/01/2021,Left Voicemail,,,,,,,,,,,,,71,5X
+5X4-26681-48214,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/16/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,63,5X
+5X3-29737-42504,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/23/2021,Unsuccessful,,09/27/2021,Left Voicemail,,,,,,,,,,,,,23,5X
+5XE-23118-28020,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,09/25/2021,Unsuccessful,,12/02/2021,Left Voicemail,,,,,,,,,,,,,21,5X
+5XX-32305-37941,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,183,10/02/2021,Unsuccessful,,10/04/2021,Left Voicemail,,,,,,,,,,,,,45,5X
+5XT-88743-93556,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,10/03/2021,Unsuccessful,,11/11/2021,Left Voicemail,,,,,,,,,,,,,37,5X
+5XL-16907-25148,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,10/15/2021,Unsuccessful,,10/19/2021,Left Voicemail,,,,,,,,,,,,,48,5X
+5XW-26627-31481,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/26/2021,Successful,10/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,36,5X
+5XF-53368-16731,vsafe-35-day-dose3,Pfizer-BioNTech,,,3,35,11/01/2021,Unsuccessful,,11/03/2021,Could Not Reach Participant,11/04/2021,Could Not Reach Participant,,,,,,,,,,,70,5X
+5XT-74559-23704,vsafe-3-month-dose3,Moderna,,,3,92,11/16/2021,Unsuccessful,,08/17/2022,Left Voicemail,11/16/2021,Left Voicemail,,,,,,,,,,,62,5X
+5XU-22943-48696,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,93,11/26/2021,Unsuccessful,,11/30/2021,Left Voicemail,,,,,,,,,,,,,74,5X
+5XD-14339-52086,vsafe-14-day-dose2,Moderna,Correct,,2,14,12/02/2021,Successful,,12/03/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,36,5X
+5XA-26248-64700,vsafe-1-6-daily-dose1,Moderna,,,1,3,12/31/2020,Unsuccessful,,01/23/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,01/07/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,01/08/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XU-28285-95349,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/09/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,01/10/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,01/11/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-58149-70434,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XT-31506-84616,vsafe-0-day-dose2,Pfizer-BioNTech,,,2,0,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XU-28285-95349,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/19/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XT-31506-84616,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/29/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XA-20730-40926,vsafe-14-day-dose2-dep,Pfizer-BioNTech,Correct,,2,14,01/06/2022,Successful,01/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,8,5X
+5X7-21054-01540,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/17/2021,Successful,03/16/2021,,,,,,,,,,,Completed over the phone,,,,,5X
+5X7-21054-01540,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,01/18/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,5X
+5X7-21054-01540,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,01/19/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,5X
+5XB-24425-05511,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,01/19/2022,Unsuccessful,,01/20/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5X7-21054-01540,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,01/22/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,,5X
+5XH-14187-35447,vsafe-1-6-daily-dose2,Moderna,,,2,1,01/26/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XA-31719-83935,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,3,01/26/2021,Unsuccessful,,06/07/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XH-14187-35447,vsafe-1-6-daily-dose2,Moderna,,,2,2,01/27/2021,Unsuccessful,,05/28/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X3-15085-95869,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/27/2022,Successful,01/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,5X
+5X6-42821-40406,vsafe-3-month-dose3,Moderna,,,3,91,01/29/2022,Successful,05/02/2022,03/24/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,72,5X
+5XP-32642-44541,vsafe-14-day-dose2,Moderna,,,2,14,02/10/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XT-31883-50689,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/11/2022,Successful,02/14/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,85,5X
+5X7-37016-54557,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/12/2022,Successful,02/15/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,24,5X
+5X4-16998-76527,vsafe-12-month-dose2,Moderna,,,2,365,02/15/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,70,5X
+5X2-27704-99188,vsafe-14-day-dose2,Moderna,,,2,16,02/17/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XP-32642-44541,vsafe-28-day-dose2,Moderna,,,2,28,02/24/2021,Unsuccessful,,07/16/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X2-21015-35988,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,02/25/2022,Unsuccessful,,03/02/2022,Left Voicemail,,,,,,,,,,,,,28,5X
+5XK-16702-59565,vsafe-12-month-dose2,Moderna,,,2,365,02/27/2022,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XL-15871-49417,vsafe-12-month-dose2,Moderna,,,2,365,03/01/2022,Unsuccessful,,03/03/2022,Left Voicemail,,,,,,,,,,,,,70,5X
+5XM-13936-45491,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,03/04/2021,Unsuccessful,,,,,,,,,,,,,,,,73,5X
+5XY-20029-03554,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,11,03/05/2021,Unsuccessful,,10/26/2021,Left Voicemail,,,,,,,,,,,,,81,5X
+5XS-27417-67218,vsafe-14-day-dose2,Moderna,,,2,14,03/11/2021,Unsuccessful,,12/15/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XK-10275-43390,vsafe-12-month-dose2,Moderna,,,2,365,03/12/2022,Unsuccessful,,03/15/2022,Left Voicemail,,,,,,,,,,,,,58,5X
+5XM-13936-45491,vsafe-28-day-dose1,Pfizer-BioNTech,,,1,30,03/13/2021,Unsuccessful,,,,,,,,,,,,,,,,73,5X
+5X4-25724-73393,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,03/16/2021,Unsuccessful,,05/11/2022,Left Voicemail,06/25/2021,Left Voicemail,09/19/2022,Left Voicemail,,,,,,,,,32,5X
+5XM-13936-45491,vsafe-35-day-dose1,Pfizer-BioNTech,,,1,35,03/18/2021,Unsuccessful,,12/04/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5X4-25724-73393,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,03/24/2021,Unsuccessful,,05/11/2022,Left Voicemail,06/25/2022,Left Voicemail,09/19/2022,Left Voicemail,,,,,,,,,32,5X
+5X5-24323-35738,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/31/2022,Successful,04/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5XZ-17544-52387,vsafe-1-6-daily-dose1,Moderna,Correct,,1,3,04/08/2021,Successful,03/22/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,5X
+5XF-14492-50601,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/21/2021,Unsuccessful,,12/22/2021,Left Voicemail,,,,,,,,,,,,,55,5X
+5X6-42821-40406,vsafe-6-month-dose3,Moderna,Correct,,3,182,04/30/2022,Successful,05/02/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,72,5X
+5X8-38181-08162,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/04/2021,Unsuccessful,,05/04/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XW-20298-55106,vsafe-28-day-dose2,Moderna,,,2,28,05/05/2021,Unsuccessful,,05/05/2022,Left Voicemail,,,,,,,,,,,,,58,5X
+5X6-51416-48614,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,05/06/2022,Successful,05/09/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,68,5X
+5X4-25724-73393,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,05/10/2022,Unsuccessful,,05/11/2022,Left Voicemail,09/19/2022,Left Voicemail,,,,,,,,,,,32,5X
+5XX-33553-86057,vsafe-3-month-dose2,Moderna,,,2,92,05/14/2021,Unsuccessful,,,,,,,,,,,,,,,,83,5X
+5X2-22750-35230,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/20/2021,Unsuccessful,,01/21/2022,Left Voicemail,,,,,,,,,,,,,38,5X
+5XD-63545-41867,vsafe-3-month-dose2,Moderna,,,2,93,06/01/2021,Unsuccessful,,04/01/2022,Left Voicemail,,,,,,,,,,,,,69,5X
+5X7-90174-20349,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,06/01/2021,Successful,07/12/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,65,5X
+5XK-26628-74075,vsafe-42-day-dose2,Moderna,Correct,,2,42,06/05/2021,Successful,11/20/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,60,5X
+5XU-10772-70638,vsafe-3-month-dose2,Moderna,Correct,,2,93,06/05/2021,Successful,12/20/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,5X
+5X5-12874-86172,vsafe-3-month-dose2,Moderna,,,2,93,06/06/2021,Unsuccessful,,09/05/2021,Left Voicemail,,,,,,,,,,,,,52,5X
+5XN-18175-77559,vsafe-3-month-dose2,Moderna,,,2,91,06/07/2021,Unsuccessful,,09/05/2021,Left Voicemail,,,,,,,,,,,,,76,5X
+5X4-25724-73393,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/22/2021,Unsuccessful,,05/11/2022,Left Voicemail,06/25/2021,Left Voicemail,09/19/2022,Left Voicemail,,,,,,,,,32,5X
+5XR-10875-78118,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/04/2022,Successful,07/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,53,5X
+5XZ-79260-64311,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/05/2022,Successful,07/06/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,67,5X
+5XU-25303-28936,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/13/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,47,5X
+5XW-95403-10974,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/14/2021,Successful,07/23/2021,07/23/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,55,5X
+5XC-30510-95355,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/20/2022,Unsuccessful,,07/21/2022,Could Not Reach Participant,07/26/2022,Could Not Reach Participant,,,,,,,,,,,62,5X
+5XA-31719-83935,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,07/26/2021,Unsuccessful,,08/03/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XP-32642-44541,vsafe-6-month-dose2,Moderna,,,2,182,07/28/2021,Unsuccessful,,08/05/2021,Left Voicemail,,,,,,,,,,,,,32,5X
+5XH-28878-78469,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/30/2021,Unsuccessful,,08/05/2021,Could Not Reach Participant,08/10/2021,Left Voicemail,08/12/2021,Left Voicemail,,,,,,,,,39,5X
+5XH-18173-32613,vsafe-3-month-dose1,Moderna,,,1,91,08/04/2021,Unsuccessful,,10/18/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5X2-99887-55513,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,08/12/2021,Successful,,12/03/2021,Could Not Reach Participant,12/08/2021,Could Not Reach Participant,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5XX-33553-86057,vsafe-6-month-dose2,Moderna,,,2,182,08/12/2021,Unsuccessful,,08/16/2021,Left Voicemail,,,,,,,,,,,,,83,5X
+5X7-90174-20349,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/31/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XR-17152-18311,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/08/2021,Left Voicemail,,,,,,,,,,,,,64,5X
+5XK-10275-43390,vsafe-6-month-dose2,Moderna,,,2,182,09/10/2021,Unsuccessful,,09/14/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5X4-25724-73393,vsafe-1-6-daily-dose4,Pfizer-BioNTech,,,4,5,09/16/2022,Unsuccessful,,09/19/2022,Left Voicemail,,,,,,,,,,,,,32,5X
+5XH-16445-37297,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/25/2021,Unsuccessful,,09/29/2021,Left Voicemail,,,,,,,,,,,,,49,5X
+5XQ-19043-53554,vsafe-6-month-dose2,Moderna,Correct,,2,184,09/25/2021,Successful,09/30/2021,09/30/2021,Requested Callback,,,,,,,09/30/2021,06:30PM ET,Completed over the phone,,,,49,5X
+5XD-29547-07090,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,09/29/2022,Unsuccessful,,09/30/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5XG-15178-77936,vsafe-6-month-dose2,Moderna,,,2,184,09/30/2021,Unsuccessful,,12/08/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5XD-29547-07090,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,4,10/03/2021,Unsuccessful,,09/30/2022,Left Voicemail,11/19/2021,Left Voicemail,,,,,,,,,,,61,5X
+5XR-10875-78118,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,10/03/2022,Successful,10/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,53,5X
+5XZ-17544-52387,vsafe-6-month-dose4,Moderna,,,4,182,11/07/2022,Unsuccessful,,11/08/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XR-22137-91569,vsafe-14-day-dose3,Pfizer-BioNTech,,,3,16,11/08/2021,Unsuccessful,,11/10/2021,Could Not Reach Participant,11/15/2021,Could Not Reach Participant,,,,,,,,,,,46,5X
+5X2-99887-55513,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,12/25/2021,Successful,01/03/2022,12/28/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5XM-10408-48018,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/29/2021,Successful,01/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,17,5X
+5XP-32642-44541,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/01/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XP-32642-44541,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/03/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XP-32642-44541,vsafe-1-6-daily-dose1,Moderna,,,1,5,01/04/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X3-15085-95869,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/07/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-28878-78469,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/11/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-37016-54557,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/16/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-14187-35447,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-14187-35447,vsafe-1-6-daily-dose1,Moderna,,,1,1,12/29/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XX-67308-09233,vsafe-1-6-daily-dose1,Moderna,,,1,5,01/05/2021,Successful,02/04/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XR-21173-60065,vsafe-28-day-dose3,Moderna,Correct,,3,30,01/13/2022,Successful,01/14/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,33,5X
+5XQ-12089-66704,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/19/2022,Unsuccessful,,01/20/2022,Could Not Reach Participant,01/25/2022,Could Not Reach Participant,,,,,,,,,,,55,5X
+5XN-28286-12904,vsafe-6-month-dose2-dep,Pfizer-BioNTech,,,2,182,01/26/2022,Unsuccessful,,01/27/2022,Left Voicemail,,,,,,,,,,,,,17,5X
+5XT-13063-15395,vsafe-1-6-daily-dose2,Moderna,,,2,1,01/28/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XU-23246-75509,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/29/2022,Successful,03/25/2022,03/25/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,36,5X
+5XB-33392-31462,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/29/2022,Successful,03/31/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,5X
+5XP-15750-10960,vsafe-14-day-dose1,Moderna,,,1,16,01/30/2021,Unsuccessful,06/11/2021,,,,,,,,,,,,,,,,5X
+5X3-32336-21944,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/30/2022,Successful,01/31/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,61,5X
+5X8-28275-83361,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,02/01/2021,Successful,05/31/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5X5-23347-47783,vsafe-7-day-dose1,Moderna,Correct,,1,7,02/02/2021,Successful,06/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XN-32368-60568,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,369,02/03/2022,Unsuccessful,,03/28/2022,Left Voicemail,11/11/2022,Left Voicemail,,,,,,,,,,,24,5X
+5X5-31275-86157,vsafe-12-month-dose2,Moderna,,,2,365,02/08/2022,Unsuccessful,,02/09/2022,Left Voicemail,,,,,,,,,,,,,72,5X
+5XF-16810-50475,vsafe-12-month-dose2,Moderna,,,3,99,02/12/2022,Unsuccessful,,02/18/2022,Left Voicemail,,,,,,,,,,,,,47,5X
+5XF-26710-56407,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,23,02/19/2021,Successful,02/26/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5X7-77727-95897,vsafe-21-day-dose2,Moderna,,,2,21,02/20/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XC-33614-62047,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,02/22/2022,Successful,02/23/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5X7-10660-16627,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/02/2022,Successful,03/03/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,5X
+5X5-31275-86157,vsafe-28-day-dose2,Moderna,,,2,29,03/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X5-33561-60600,vsafe-28-day-dose1,Moderna,Correct,,1,30,03/12/2021,Successful,12/07/2021,12/05/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,5X
+5X4-17264-42395,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/13/2022,Unsuccessful,,03/16/2022,Left Voicemail,,,,,,,,,,,,,59,5X
+5XX-55083-60735,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,03/16/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XN-32260-16578,vsafe-12-month-dose1,Moderna,,,1,367,03/22/2022,Unsuccessful,,03/23/2022,Left Voicemail,,,,,,,,,,,,,78,5X
+5XX-55083-60735,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/30/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XZ-30550-80137,vsafe-12-month-dose4,Moderna,,,4,365,03/31/2023,Unsuccessful,,04/04/2023,Left Voicemail,,,,,,,,,,,,,51,5X
+5XT-10641-91416,vsafe-12-month-dose2,Moderna,Correct,,2,365,04/06/2022,Successful,04/19/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5X7-10682-36868,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/07/2022,Unsuccessful,,04/15/2022,Could Not Reach Participant,04/21/2022,Left Voicemail,,,,,,,,,,,53,5X
+5XT-27620-36613,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,04/08/2022,Successful,04/12/2022,04/12/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,34,5X
+5XJ-22820-45406,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/13/2021,Unsuccessful,,06/10/2021,Could Not Reach Participant,06/15/2021,Left Voicemail,,,,,06/15/2021,01:00PM ET,,,,,,5X
+5XF-19003-13878,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/21/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,39,5X
+5X7-77727-95897,vsafe-3-month-dose2,Moderna,,,2,91,05/01/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XB-22719-40825,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,39,05/04/2021,Unsuccessful,,09/28/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XB-15868-90215,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/06/2021,Successful,04/18/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,41,5X
+5XB-22719-40825,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,45,05/10/2021,Unsuccessful,,05/28/2021,Left Voicemail,09/28/2022,Left Voicemail,,,,,,,,,,,73,5X
+5X5-31275-86157,vsafe-3-month-dose2,Moderna,,,2,94,05/13/2021,Unsuccessful,,,,,,,,,,,,,,,,72,5X
+5X4-15013-10291,vsafe-28-day-dose2,Moderna,,,2,30,05/16/2021,Unsuccessful,,05/11/2022,Left Voicemail,,,,,,,,,,,,,45,5X
+5XX-55083-60735,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/18/2021,Unsuccessful,,,,,,,,,,,,,,,,88,5X
+5X3-32336-21944,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/02/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,61,5X
+5XB-22719-40825,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/25/2021,Unsuccessful,,07/01/2021,Left Voicemail,09/28/2022,Left Voicemail,,,,,,,,,,,73,5X
+5XP-23670-68132,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/20/2021,Unsuccessful,,07/27/2021,Left Voicemail,,,,,,,,,,,,,34,5X
+5XH-14547-64877,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,07/21/2022,Successful,07/22/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,50,5X
+5XC-33614-62047,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,184,07/22/2021,Successful,,07/28/2021,Could Not Reach Participant,08/02/2021,Could Not Reach Participant,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5X6-31061-98123,vsafe-3-month-dose4,Moderna,,,4,91,07/30/2022,Unsuccessful,,08/01/2022,Left Voicemail,,,,,,,,,,,,,50,5X
+5XG-25559-53119,vsafe-6-month-dose1,Moderna,,,1,182,08/06/2021,Unsuccessful,,10/13/2021,Left Voicemail,,,,,,,,,,,,,89,5X
+5X5-31275-86157,vsafe-6-month-dose2,Moderna,,,2,182,08/09/2021,Unsuccessful,,08/13/2021,Left Voicemail,,,,,,,,,,,,,72,5X
+5XB-86039-53940,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,08/16/2021,Unsuccessful,,08/19/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XX-55083-60735,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/17/2021,Unsuccessful,,08/22/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XV-27791-89444,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/25/2021,Successful,09/01/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,70,5X
+5X2-16112-70738,vsafe-6-month-dose2,Moderna,,,2,182,09/11/2021,Unsuccessful,,09/15/2021,Left Voicemail,,,,,,,,,,,,,80,5X
+5XM-31642-76175,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/17/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,37,5X
+5XB-22719-40825,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/24/2021,Unsuccessful,,09/28/2021,Left Voicemail,09/28/2022,Left Voicemail,,,,,,,,,,,73,5X
+5XB-22719-40825,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,09/27/2022,Unsuccessful,,09/28/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XM-28507-33916,vsafe-1-6-daily-dose3,Moderna,,,3,3,10/29/2021,Unsuccessful,,11/02/2021,Left Voicemail,12/30/2022,Left Voicemail,,,,,,,,,,,77,5X
+5XN-32368-60568,vsafe-12-month-dose3,Moderna,,,3,365,11/10/2022,Unsuccessful,,11/11/2022,Left Voicemail,,,,,,,,,,,,,24,5X
+5XZ-30550-80137,vsafe-28-day-dose3,Moderna,,,3,28,12/07/2021,Unsuccessful,,04/04/2023,Left Voicemail,12/09/2021,Left Voicemail,,,,,,,,,,,51,5X
+5XM-28507-33916,vsafe-3-month-dose4,Moderna,,,4,91,12/29/2022,Unsuccessful,,12/30/2022,Left Voicemail,,,,,,,12/30/2022,11:00AM ET,,,,,77,5X
+5X8-28275-83361,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XJ-22820-45406,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/13/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X8-62152-11592,vsafe-6-month-dose2-dep,Pfizer-BioNTech,,,2,182,01/10/2023,Unsuccessful,,01/11/2023,Left Voicemail,,,,,,,,,,,,,4,5X
+5XN-30139-13108,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,366,01/12/2022,Successful,01/14/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,41,5X
+5XR-36451-80111,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,01/18/2021,Successful,03/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XZ-27419-86743,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/22/2022,Unsuccessful,,01/24/2022,Left Voicemail,,,,,,,,,,,,,33,5X
+5XJ-16046-49516,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/26/2021,Unsuccessful,,04/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XT-13371-52806,vsafe-12-month-dose2,Moderna,,,2,365,02/01/2022,Unsuccessful,,02/03/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5XV-12546-84525,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/02/2022,Unsuccessful,,02/10/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5XJ-16046-49516,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,02/12/2022,Unsuccessful,,02/16/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XT-73351-59921,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/02/2022,Successful,03/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,5X
+5X5-27177-70740,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,13,03/11/2021,Unsuccessful,,12/16/2021,Left Voicemail,,,,,,,,,,,,,67,5X
+5XT-28126-91401,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,03/12/2023,Unsuccessful,,03/13/2023,Left Voicemail,,,,,,,,,,,,,40,5X
+5XC-71683-43233,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,03/22/2021,Unsuccessful,,12/15/2021,Left Voicemail,,,,,,,,,,,,,34,5X
+5XX-15463-09607,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,91,03/23/2021,Unsuccessful,,05/28/2021,Could Not Reach Participant,06/02/2021,Could Not Reach Participant,,,,,,,,,,,,5X
+5XC-71683-43233,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,6,03/23/2021,Unsuccessful,,,,,,,,,,,,,,,,34,5X
+5XG-83866-06159,vsafe-42-day-dose2,Moderna,,,2,44,03/24/2021,Unsuccessful,,01/14/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XC-71683-43233,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,03/24/2021,Unsuccessful,,,,,,,,,,,,,,,,34,5X
+5XK-21168-53779,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,184,03/27/2022,Successful,03/29/2022,07/05/2022,Requested Callback,,,,,,,,,Completed over the phone,,,,84,5X
+5X5-16211-88504,vsafe-35-day-dose2,Moderna,Correct,,2,35,04/02/2021,Successful,06/11/2021,06/10/2022,Could Not Reach Participant,06/15/2022,Could Not Reach Participant,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5XD-28664-72992,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,04/05/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,51,5X
+5XS-18534-33398,vsafe-35-day-dose2,Moderna,,,2,39,04/08/2021,Unsuccessful,,,,,,,,,,,,,,,,60,5X
+5X6-27391-24962,vsafe-12-month-dose2,Moderna,,,2,367,04/11/2022,Unsuccessful,,04/28/2022,Left Voicemail,,,,,,,,,,,,,57,5X
+5XK-21168-53779,vsafe-7-day-dose4,Pfizer-BioNTech,Correct,,4,13,04/14/2022,Successful,04/19/2022,07/05/2022,Requested Callback,,,,,,,,,Does not wish to fill out VAERS report,,,,84,5X
+5XS-18534-33398,vsafe-42-day-dose2,Moderna,,,2,47,04/16/2021,Unsuccessful,,,,,,,,,,,,,,,,60,5X
+5XR-72599-82465,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,16,04/18/2021,Successful,04/01/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,18,5X
+5XN-17993-56848,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,04/22/2021,Successful,02/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,39,5X
+5XE-17044-90213,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,93,04/24/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,45,5X
+5XT-71733-88942,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,16,04/27/2021,Unsuccessful,,04/08/2022,Left Voicemail,,,,,,,,,,,,,37,5X
+5X2-13783-05984,vsafe-14-day-dose4,Pfizer-BioNTech,Correct,,4,14,04/29/2022,Successful,05/03/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,73,5X
+5X2-70430-02748,vsafe-12-month-dose2,Moderna,Correct,,2,366,05/01/2022,Successful,05/02/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,73,5X
+5XE-17253-34094,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,3,05/06/2021,Successful,05/05/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,44,5X
+5XB-24771-33908,vsafe-35-day-dose4,Pfizer-BioNTech,,,4,35,05/06/2022,Unsuccessful,,05/10/2022,Could Not Reach Participant,05/13/2022,Left Voicemail,,,,,,,,,,,58,5X
+5X2-13783-05984,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,05/06/2022,Successful,05/10/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,73,5X
+5XY-18852-41437,vsafe-1-6-daily-dose4,Moderna,,,4,2,05/07/2022,Unsuccessful,,05/09/2022,Left Voicemail,06/17/2022,Left Voicemail,08/08/2022,Left Voicemail,,,,,,,,,57,5X
+5XT-28126-91401,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,05/27/2022,Unsuccessful,,03/13/2023,Left Voicemail,05/31/2022,Left Voicemail,,,,,,,,,,,40,5X
+5XS-18534-33398,vsafe-3-month-dose2,Moderna,,,2,91,05/30/2021,Unsuccessful,,,,,,,,,,,,,,,,60,5X
+5X2-45626-36484,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,05/30/2021,Successful,,,,,,,,,,,,Completed over the phone,,,,50,5X
+5XS-11134-16897,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,06/04/2022,Unsuccessful,,,,,,,,,,,,,,,,57,5X
+5X5-16211-88504,vsafe-42-day-dose4,Moderna,,,4,42,06/09/2022,Unsuccessful,,06/10/2022,Could Not Reach Participant,06/15/2022,Could Not Reach Participant,,,,,,,,,,,64,5X
+5X5-26095-70802,vsafe-42-day-dose2,Moderna,,,2,43,06/15/2021,Unsuccessful,,06/23/2021,Left Voicemail,06/29/2021,Left Voicemail,07/06/2021,Left Voicemail,,,06/29/2021,01:00PM ET,,,,,58,5X
+5XC-21705-30907,vsafe-42-day-dose4,Pfizer-BioNTech,Correct,,4,42,06/15/2022,Successful,06/16/2022,06/16/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,46,5X
+5XY-18852-41437,vsafe-42-day-dose4,Moderna,,,4,43,06/17/2022,Unsuccessful,,06/17/2022,Left Voicemail,08/08/2022,Left Voicemail,,,,,,,,,,,57,5X
+5XK-21168-53779,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/01/2022,Successful,07/06/2022,07/05/2022,Requested Callback,,,,,,,07/06/2022,03:00PM ET,Does not wish to fill out VAERS report,,,,84,5X
+5XG-11939-82876,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/12/2021,Unsuccessful,,07/20/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5XH-30644-51711,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,07/14/2021,Unsuccessful,,07/20/2021,Could Not Reach Participant,07/23/2021,Could Not Reach Participant,,,,,,,,,,,34,5X
+5XL-20302-58919,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/25/2022,Successful,07/26/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,73,5X
+5X8-62152-11592,vsafe-14-day-dose2-dep,Pfizer-BioNTech,,,2,14,07/26/2022,Unsuccessful,,01/11/2023,Left Voicemail,07/27/2022,Left Voicemail,,,,,,,,,,,4,5X
+5XT-13371-52806,vsafe-6-month-dose2,Moderna,,,2,182,08/02/2021,Unsuccessful,,08/13/2021,Left Voicemail,,,,,,,,,,,,,42,5X
+5XK-19976-52734,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/03/2021,Successful,11/04/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,69,5X
+5XY-18852-41437,vsafe-3-month-dose4,Moderna,,,4,92,08/05/2022,Unsuccessful,,08/08/2022,Left Voicemail,,,,,,,,,,,,,57,5X
+5X2-45626-36484,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,08/08/2021,Successful,08/19/2021,,,,,,,,,,,Completed over the phone,,,,50,5X
+5XD-12617-16738,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/11/2021,Successful,08/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,5X
+5XS-18534-33398,vsafe-6-month-dose2,Moderna,,,2,182,08/29/2021,Unsuccessful,,10/07/2021,Could Not Reach Participant,10/11/2021,Could Not Reach Participant,,,,,,,,,,,60,5X
+5XQ-31289-98918,vsafe-6-month-dose2,Moderna,,,2,182,09/01/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,34,5X
+5XT-13028-51295,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/30/2021,Successful,12/10/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,64,5X
+5X4-18343-19353,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/26/2021,Successful,10/27/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,29,5X
+5XH-13794-19577,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,184,11/06/2021,Unsuccessful,,11/10/2021,Could Not Reach Participant,11/15/2021,Could Not Reach Participant,,,,,,,,,,,54,5X
+5XU-12227-45447,vsafe-21-day-dose2,Janssen/Johnson & Johnson,Correct,,2,21,11/16/2021,Successful,11/17/2021,11/17/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5XX-15463-09607,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,15,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-30644-51711,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-30644-51711,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,3,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-30644-51711,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,01/16/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XH-30644-51711,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XZ-27419-86743,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,12/29/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XZ-27419-86743,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,12/30/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XL-12307-77725,vsafe-7-day-dose1,Moderna,,,1,8,01/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X2-24598-03430,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,8,01/07/2021,Successful,01/14/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XL-12307-77725,vsafe-14-day-dose1,Moderna,,,1,14,01/12/2021,Unsuccessful,,02/25/2021,Could Not Reach Participant,03/02/2021,Could Not Reach Participant,03/05/2021,Could Not Reach Participant,,,,,,,,,,5X
+5XZ-11352-01340,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/12/2022,Unsuccessful,,01/13/2022,Left Voicemail,,,,,,,,,,,,,49,5X
+5X2-24598-03430,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/13/2021,Successful,01/14/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5X6-22420-65181,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,01/14/2022,Unsuccessful,,01/17/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5X5-11013-17837,vsafe-12-month-dose1,Moderna,,,1,366,01/19/2022,Unsuccessful,,01/22/2022,Could Not Reach Participant,01/27/2022,Could Not Reach Participant,,,,,,,,,,,82,5X
+5XJ-59205-43102,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/21/2022,Successful,01/25/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,5X
+5X3-68311-03040,vsafe-14-day-dose1,Moderna,,,1,14,01/25/2021,Unsuccessful,,04/07/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X6-22420-65181,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,01/26/2021,Unsuccessful,,05/29/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XC-29072-61492,vsafe-1-6-daily-dose1,Moderna,Correct,,1,2,01/28/2021,Successful,06/04/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XN-44418-84583,vsafe-12-month-dose2,Moderna,,,2,365,01/30/2022,Unsuccessful,,02/01/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XC-29072-61492,vsafe-14-day-dose1,Moderna,Correct,,1,14,02/09/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XK-42257-32538,vsafe-14-day-dose1,Moderna,,,1,14,02/10/2021,Unsuccessful,,07/19/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X7-74292-63785,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/11/2022,Successful,02/15/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,23,5X
+5X4-23205-53141,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/12/2022,Unsuccessful,,02/15/2022,Could Not Reach Participant,02/18/2022,Could Not Reach Participant,,,,,,,,,,,54,5X
+5XJ-27295-01643,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,02/16/2021,Unsuccessful,,08/04/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X4-23205-53141,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,6,02/18/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XZ-96008-88818,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,13,02/25/2021,Unsuccessful,,09/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X4-28178-04114,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/08/2022,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XU-60808-78401,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/08/2022,Unsuccessful,,03/10/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XX-12936-19727,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/11/2022,Successful,03/14/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,63,5X
+5X8-24095-22457,vsafe-12-month-dose2,Moderna,,,2,367,03/15/2022,Unsuccessful,,03/16/2022,Left Voicemail,,,,,,,,,,,,,68,5X
+5XB-25998-91812,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/16/2022,Successful,03/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,5X
+5X5-11250-40474,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,03/18/2022,Unsuccessful,,03/22/2022,Left Voicemail,,,,,,,,,,,,,34,5X
+5X4-70810-45955,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,3,03/24/2021,Unsuccessful,,05/18/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X4-17440-11838,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,03/25/2021,Unsuccessful,,,,,,,,,,,,,,,,81,5X
+5XW-14630-50110,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/26/2021,Unsuccessful,,01/12/2022,Could Not Reach Participant,01/17/2022,Could Not Reach Participant,,,,,,,,,,,60,5X
+5X2-17333-32898,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/26/2021,Unsuccessful,,01/04/2022,Left Voicemail,05/12/2022,Left Voicemail,,,,,,,,,,,76,5X
+5XA-14387-24946,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,22,03/29/2021,Successful,01/20/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,5X
+5X2-24598-03430,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/30/2022,Unsuccessful,,03/31/2022,Left Voicemail,,,,,,,,,,,,,30,5X
+5XN-32533-12423,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/30/2022,Successful,03/31/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,62,5X
+5XF-27128-51504,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,04/01/2021,Successful,06/08/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XU-64175-98492,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,04/05/2021,Unsuccessful,,06/16/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XB-25998-91812,vsafe-12-month-dose4,Moderna,Correct,,4,367,04/08/2023,Successful,04/13/2023,04/10/2023,Requested Callback,,,,,,,04/13/2023,07:30PM ET,Completed over the phone,,,,71,5X
+5XA-10338-65249,vsafe-7-day-dose1,Pfizer-BioNTech,Correct,,1,11,04/13/2021,Unsuccessful,,11/07/2021,Requested Callback,11/17/2021,Left Voicemail,,,,,11/17/2021,04:00PM ET,,,,,56,5X
+5XZ-11352-01340,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/13/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XM-25556-07280,vsafe-42-day-dose2,Moderna,,,2,42,04/14/2021,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,27,5X
+5XS-27604-43021,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,367,04/14/2022,Unsuccessful,,04/19/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XX-12936-19727,vsafe-12-month-dose4,Moderna,,,4,365,04/14/2023,Unsuccessful,,04/17/2023,Left Voicemail,,,,,,,,,,,,,63,5X
+5XS-13221-78924,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/19/2022,Unsuccessful,,04/22/2022,Left Voicemail,,,,,,,,,,,,,65,5X
+5X6-28036-47259,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,04/21/2021,Successful,04/02/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,64,5X
+5X8-24484-06609,vsafe-42-day-dose2,Moderna,,,2,42,04/22/2021,Unsuccessful,,03/02/2022,Left Voicemail,,,,,,,,,,,,,69,5X
+5XA-25942-67044,vsafe-42-day-single,Janssen/Johnson & Johnson,,,1,44,04/24/2021,Unsuccessful,,05/25/2021,Could Not Reach Participant,,,,,,,,,,yes,,,,5X
+5XL-15069-94760,vsafe-12-month-dose2,Moderna,,,2,368,04/24/2022,Unsuccessful,,04/25/2022,Left Voicemail,,,,,,,,,,,,,49,5X
+5X3-68311-03040,vsafe-6-month-dose3,Moderna,,,3,182,04/24/2022,Unsuccessful,,04/25/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5XA-14387-24946,vsafe-6-month-dose3,Moderna,,,3,182,04/30/2022,Unsuccessful,,05/02/2022,Left Voicemail,,,,,,,,,,,,,71,5X
+5X2-29859-65032,vsafe-3-month-dose2,Moderna,,,2,91,05/05/2021,Unsuccessful,,04/15/2022,Left Voicemail,,,,,,,,,,,,,38,5X
+5XJ-95880-65823,vsafe-3-month-dose2,Moderna,,,2,91,05/05/2021,Unsuccessful,,04/15/2022,Left Voicemail,,,,,,,,,,,,,30,5X
+5XM-19446-51136,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,05/05/2021,Unsuccessful,,05/25/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X2-17333-32898,vsafe-28-day-dose4,Pfizer-BioNTech,,,4,28,05/11/2022,Unsuccessful,,05/12/2022,Left Voicemail,,,,,,,,,,,,,76,5X
+5XG-10541-99140,vsafe-3-month-dose1,Moderna,Correct,,1,93,05/14/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5X4-23205-53141,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,92,05/15/2021,Successful,06/16/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,5X
+5XQ-29041-38056,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,05/19/2021,Successful,05/11/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,40,5X
+5X5-24435-81600,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,369,05/20/2022,Unsuccessful,,05/23/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XY-30735-23273,vsafe-28-day-dose2,Moderna,,,2,28,05/24/2021,Unsuccessful,,04/27/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XU-17239-25748,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,22,05/24/2021,Unsuccessful,,02/14/2022,Left Voicemail,,,,,,,,,,,,,30,5X
+5X4-17440-11838,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/27/2021,Unsuccessful,,01/14/2022,Could Not Reach Participant,01/19/2022,Left Voicemail,,,,,,,,,,,81,5X
+5X5-24435-81600,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,05/30/2021,Unsuccessful,,05/12/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XL-14919-25878,vsafe-6-month-dose3,Moderna,,,3,182,06/03/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,25,5X
+5XY-29705-85520,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,06/12/2022,Successful,06/14/2022,06/13/2022,Left Voicemail,,,,,,,06/14/2022,03:00PM ET,Does not wish to fill out VAERS report,,,,30,5X
+5XW-16235-66478,vsafe-7-day-dose2,Pfizer-BioNTech,Correct,,2,10,06/14/2021,Successful,06/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,13,5X
+5X4-23669-69871,vsafe-6-month-dose3-dep,Pfizer-BioNTech,,,3,183,06/14/2022,Unsuccessful,,06/15/2022,Left Voicemail,12/20/2022,Left Voicemail,,,,,,,,,,,48,5X
+5XR-23069-52004,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,184,06/17/2022,Successful,06/21/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,60,5X
+5XU-33963-89511,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,06/25/2021,Unsuccessful,,06/30/2021,Left Voicemail,,,,,,,,,,,,,32,5X
+5XQ-32891-24981,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/01/2021,Successful,07/07/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,46,5X
+5XX-28256-94953,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/09/2021,Unsuccessful,,07/15/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XZ-11352-01340,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,07/15/2021,Unsuccessful,,07/23/2021,Left Voicemail,07/26/2021,Left Voicemail,,,,,,,,,,,49,5X
+5XN-13363-94975,vsafe-3-month-dose3,Moderna,Correct,,3,91,07/25/2022,Successful,07/26/2022,,,,,,,,,,,Completed over the phone,,,,68,5X
+5XG-10541-99140,vsafe-6-month-dose1,Moderna,Correct,,1,182,08/11/2021,Successful,08/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5XM-19446-51136,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,08/12/2021,Successful,01/04/2022,08/18/2021,Left Voicemail,09/29/2021,Requested Callback,10/04/2021,Left Voicemail,,,,,Completed over the phone,,,,37,5X
+5XS-24555-92189,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,08/16/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,36,5X
+5X3-26427-51538,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/19/2021,Unsuccessful,,08/26/2021,Left Voicemail,,,,,,,,,,,,,66,5X
+5XS-24555-92189,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,08/23/2021,Successful,08/27/2021,08/27/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,36,5X
+5XM-17894-42806,vsafe-6-month-dose2,Moderna,,,2,184,08/29/2021,Unsuccessful,,12/11/2021,Left Voicemail,,,,,,,,,,,,,76,5X
+5XS-24555-92189,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,08/30/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XT-20709-81949,vsafe-6-month-dose2,Moderna,,,2,182,09/03/2021,Unsuccessful,,09/10/2021,Left Voicemail,,,,,,,,,,,,,70,5X
+5XX-12936-19727,vsafe-6-month-dose2,Moderna,Correct,,2,182,09/09/2021,Successful,03/14/2022,09/13/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,63,5X
+5XE-15209-67429,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,09/16/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,50,5X
+5XB-25998-91812,vsafe-21-day-dose3,Pfizer-BioNTech,Correct,,3,21,10/06/2021,Successful,12/01/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,71,5X
+5X9-30687-55934,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/10/2021,Successful,11/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,5X
+5XS-39246-21943,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,10/21/2021,Unsuccessful,,10/26/2021,Left Voicemail,,,,,,,,,,,,,45,5X
+5X3-10036-24305,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,11/12/2021,Unsuccessful,,11/16/2021,Left Voicemail,,,,,,,,,,,,,12,5X
+5X6-23100-30503,vsafe-21-day-dose3,Pfizer-BioNTech,,,3,22,12/11/2021,Unsuccessful,,12/13/2021,Could Not Reach Participant,12/16/2021,Could Not Reach Participant,,,,,,,,,,,35,5X
+5XY-29705-85520,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,12/11/2021,Successful,12/13/2021,06/13/2022,Requested Callback,,,,,,,,,Participant prefers to complete VAERS report online,,,,30,5X
+5X4-23669-69871,vsafe-12-month-dose3-dep,Pfizer-BioNTech,,,3,368,12/16/2022,Unsuccessful,,12/20/2022,Left Voicemail,,,,,,,,,,,,,48,5X
+5XV-31672-76967,vsafe-1-6-daily-dose1,Moderna,,,1,4,12/28/2020,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XV-31672-76967,vsafe-1-6-daily-dose1,Moderna,,,1,6,12/30/2020,Unsuccessful,,01/20/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X2-24598-03430,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/31/2020,Successful,01/14/2021,01/06/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5X6-22420-65181,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,15,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X4-21345-52841,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,01/05/2023,Unsuccessful,,01/06/2023,Could Not Reach Participant,,,,,,,,,,,,,36,5X
+5X2-99456-98900,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/07/2022,Unsuccessful,,01/11/2022,Could Not Reach Participant,01/14/2022,Could Not Reach Participant,,,,,,,,,,,40,5X
+5X8-59833-00265,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/09/2022,Successful,01/11/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,32,5X
+5XC-30899-47379,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/12/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XC-30899-47379,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,01/14/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XC-30899-47379,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,01/15/2021,Successful,03/05/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XK-15198-42350,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,01/24/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XD-22612-15815,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/25/2022,Successful,01/25/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,5X
+5XF-60327-25397,vsafe-7-day-dose1,Moderna,Correct,,1,13,01/28/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XF-60327-25397,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/29/2021,Successful,05/25/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XJ-32701-11616,vsafe-12-month-dose2,Moderna,,,2,367,01/30/2022,Unsuccessful,,01/31/2022,Left Voicemail,,,,,,,,,,,,,57,5X
+5XD-26180-15888,vsafe-14-day-dose1,Moderna,Correct,,1,14,02/01/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XA-16413-99529,vsafe-14-day-dose1,Moderna,,,1,15,02/05/2021,Unsuccessful,,07/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XC-17873-81221,vsafe-1-6-daily-dose2,Moderna,,,2,3,02/13/2021,Unsuccessful,,07/31/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XA-18419-03203,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,6,02/14/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XD-26180-15888,vsafe-1-6-daily-dose2,Moderna,Correct,,2,1,02/16/2021,Successful,06/15/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XE-20924-53460,vsafe-3-month-dose3,Moderna,,,3,94,02/21/2022,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,39,5X
+5XA-18419-03203,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,02/22/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XW-18271-92852,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/23/2022,Successful,02/25/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,77,5X
+5X6-33131-88771,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,02/24/2021,Unsuccessful,,12/02/2021,Left Voicemail,,,,,,,,,,,,,39,5X
+5XK-31115-54991,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,366,03/11/2022,Unsuccessful,,03/14/2022,Left Voicemail,,,,,,,,,,,,,74,5X
+5XC-18149-61523,vsafe-1-6-daily-dose2,Moderna,,,2,3,03/17/2021,Unsuccessful,,12/05/2021,Left Voicemail,,,,,,,,,,,,,66,5X
+5XA-17369-33170,vsafe-14-day-dose2,Moderna,Correct,,2,15,03/18/2021,Successful,12/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,5X
+5X2-25096-93047,vsafe-12-month-dose1,Moderna,Correct,,1,365,03/26/2022,Successful,03/28/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,64,5X
+5XE-60795-83817,vsafe-1-6-daily-dose3,Moderna,,,3,1,04/01/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,44,5X
+5XK-15322-34289,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/03/2022,Successful,04/05/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,40,5X
+5X8-31452-14950,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/05/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,39,5X
+5X4-21345-52841,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/07/2021,Successful,12/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,36,5X
+5X4-19277-46352,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/07/2022,Successful,04/13/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,55,5X
+5X8-16963-66780,vsafe-0-day-dose1,Moderna,,,1,0,04/08/2021,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,28,5X
+5X2-25096-93047,vsafe-14-day-dose1,Moderna,Correct,,1,14,04/09/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5X9-10489-44546,vsafe-12-month-dose2,Moderna,Correct,,2,365,04/09/2022,Successful,04/13/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,53,5X
+5X9-10489-44546,vsafe-1-6-daily-dose2,Moderna,Correct,,2,6,04/15/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,5X
+5XN-32896-31335,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/16/2021,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,45,5X
+5X2-25096-93047,vsafe-21-day-dose1-asz-mod,Moderna,Correct,,1,22,04/17/2021,Successful,,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XK-19119-81326,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/17/2022,Unsuccessful,,04/19/2022,Left Voicemail,,,,,,,,,,,,,37,5X
+5XP-21052-04634,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,365,04/23/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,48,5X
+5XW-36722-56689,vsafe-14-day-dose3,Moderna,Correct,,3,18,05/02/2022,Successful,05/03/2022,05/03/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5XW-36722-56689,vsafe-1-6-daily-dose2,Moderna,Correct,,2,2,05/07/2021,Successful,,01/07/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5XU-32079-48990,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,05/08/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,41,5X
+5XA-18419-03203,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/10/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XN-16072-62778,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,05/14/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XK-89308-15412,vsafe-1-6-daily-dose2,Moderna,,,2,3,05/14/2021,Unsuccessful,,05/11/2022,Left Voicemail,,,,,,,,,,,,,44,5X
+5X8-31452-14950,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,43,05/18/2021,Unsuccessful,,,,,,,,,,,,,,,,39,5X
+5XH-31644-70562,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/27/2021,Unsuccessful,,05/12/2022,Left Voicemail,,,,,,,,,,,,,71,5X
+5XL-49636-95546,vsafe-3-month-dose2,Moderna,,,2,91,06/01/2021,Unsuccessful,,04/07/2022,Left Voicemail,,,,,,,,,,,,,72,5X
+5XS-32056-65019,vsafe-3-month-dose2,Moderna,,,2,91,06/09/2021,Unsuccessful,,11/20/2021,Left Voicemail,11/22/2021,Left Voicemail,,,,,,,,,,,71,5X
+5X2-12652-40899,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,44,06/13/2021,Unsuccessful,,06/25/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5X9-18985-58700,vsafe-6-month-dose3,Moderna,Correct,,3,182,06/22/2022,Successful,06/23/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,32,5X
+5X2-25096-93047,vsafe-3-month-dose1,Moderna,Correct,,1,93,06/27/2021,Successful,06/29/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,64,5X
+5XX-21225-02264,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,91,06/30/2021,Unsuccessful,,07/06/2021,Left Voicemail,,,,,,,,,,,,,47,5X
+5XT-16389-48356,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,07/02/2021,Unsuccessful,,07/07/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XS-51322-80998,vsafe-3-month-dose2,Moderna,,,2,93,07/09/2021,Unsuccessful,,07/19/2021,Could Not Reach Participant,07/22/2021,Could Not Reach Participant,,,,,,,,,,,51,5X
+5XG-17297-61436,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/11/2021,Unsuccessful,,07/16/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XJ-57589-14267,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/14/2021,Successful,07/23/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,39,5X
+5XT-98528-46827,vsafe-3-month-dose4,Moderna,,,4,91,07/18/2022,Unsuccessful,,07/19/2022,Left Voicemail,,,,,,,,,,,,,60,5X
+5XT-25634-48906,vsafe-6-month-dose2,Moderna,,,2,182,07/27/2021,Unsuccessful,,08/05/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5XB-27978-69653,vsafe-1-6-daily-dose2-dep,Moderna,,,2,4,07/31/2022,Successful,08/01/2022,08/01/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,4,5X
+5XG-12068-90720,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/02/2021,Unsuccessful,,08/03/2021,Left Voicemail,,,,,,,,,,,,,33,5X
+5X3-53533-50033,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/03/2021,Unsuccessful,,08/13/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5XV-26861-27309,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,93,08/04/2021,Unsuccessful,,08/09/2021,Left Voicemail,,,,,,,,,,,,,71,5X
+5X4-87756-53510,vsafe-6-month-dose2,Moderna,,,2,182,08/14/2021,Unsuccessful,,08/22/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-40052-29299,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/19/2021,Unsuccessful,,08/24/2021,Left Voicemail,,,,,,,,,,,,,57,5X
+5XM-23028-14774,vsafe-6-month-dose2,Moderna,Correct,,2,184,08/28/2021,Successful,10/07/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,5X
+5XE-50232-68194,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/01/2021,Unsuccessful,,09/03/2021,Left Voicemail,,,,,,,,,,,,,74,5X
+5XR-29972-49953,vsafe-6-month-dose1,Pfizer-BioNTech,Correct,,1,182,09/03/2021,Successful,09/13/2021,09/09/2021,Could Not Reach Participant,,,,,,,,,Participant prefers to complete VAERS report online,,,,68,5X
+5XK-31115-54991,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/08/2021,Unsuccessful,,09/14/2021,Left Voicemail,,,,,,,,,,,,,74,5X
+5XW-32155-22839,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/09/2021,Successful,09/20/2021,09/15/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,5X
+5X2-30579-62062,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/15/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5X2-25096-93047,vsafe-6-month-dose1,Moderna,Correct,,1,183,09/25/2021,Successful,09/29/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,64,5X
+5X9-10489-44546,vsafe-6-month-dose2,Moderna,Correct,,2,182,10/08/2021,Successful,10/12/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,5X
+5XB-32139-87246,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/16/2021,Successful,10/25/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,5X
+5XD-23120-37712,vsafe-28-day-dose3,Pfizer-BioNTech,,,3,28,10/27/2021,Unsuccessful,,10/28/2021,Left Voicemail,,,,,,,,,,,,,67,5X
+5X4-12126-34444,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/29/2021,Unsuccessful,,11/03/2021,Left Voicemail,,,,,,,,,,,,,20,5X
+5XA-15038-15429,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/04/2021,Unsuccessful,,12/06/2021,Left Voicemail,,,,,,,,,,,,,55,5X
+5XD-22612-15815,vsafe-42-day-dose3,Moderna,,,3,42,12/07/2021,Unsuccessful,,12/10/2021,Left Voicemail,,,,,,,,,,,,,72,5X
+5XL-37583-28657,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/15/2021,Successful,12/16/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,75,5X
+5XK-15198-42350,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/21/2020,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XJ-32701-11616,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/01/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XJ-32701-11616,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/02/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XK-15198-42350,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XK-15198-42350,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,4,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XA-15038-15429,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/17/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XK-15198-42350,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,01/17/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XA-15038-15429,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XA-15038-15429,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/27/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XZ-28573-48272,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,93,01/05/2022,Unsuccessful,,01/10/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XC-82704-72086,vsafe-1-6-daily-dose1,Moderna,Correct,,1,1,01/06/2021,Successful,02/09/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XG-70642-01594,vsafe-35-day-dose3,Moderna,Correct,,3,35,01/07/2022,Unsuccessful,,01/11/2022,Could Not Reach Participant,01/14/2022,Could Not Reach Participant,,,,,,,,,,,53,5X
+5XV-28447-90587,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X8-87320-81575,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,01/09/2022,Successful,01/11/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,55,5X
+5XZ-12033-66022,vsafe-0-day-dose2,Pfizer-BioNTech,Correct,,2,0,01/10/2021,Successful,01/12/2021,01/11/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,,5X
+5XZ-12033-66022,vsafe-12-month-dose2,Pfizer-BioNTech,Incorrect,Moderna 3rd dose,2,367,01/12/2022,Successful,01/13/2022,01/13/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,43,5X
+5XH-74511-06802,vsafe-7-day-dose3,Moderna,,,3,8,01/18/2022,Unsuccessful,,01/19/2022,Left Voicemail,,,,,,,,,,,,,36,5X
+5XU-27362-30637,vsafe-3-month-dose3,Moderna,,,3,93,01/23/2022,Unsuccessful,,01/26/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XC-16617-25995,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,01/24/2022,Unsuccessful,,01/25/2022,Left Voicemail,,,,,,,,,,,,,68,5X
+5XF-19771-74443,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,8,01/27/2021,Unsuccessful,,04/13/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XA-17074-03268,vsafe-14-day-dose1,Moderna,,,1,19,01/27/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XV-28447-90587,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,01/29/2021,Successful,06/14/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5X6-21444-55142,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/02/2022,Successful,02/03/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,70,5X
+5XN-30142-16839,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/05/2022,Successful,02/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,50,5X
+5XW-63365-68835,vsafe-12-month-dose2,Moderna,,,2,365,02/09/2022,Unsuccessful,,02/11/2022,Left Voicemail,,,,,,,,,,,,,68,5X
+5XV-12058-56783,vsafe-1-6-daily-dose1,Moderna,,,1,3,02/10/2021,Unsuccessful,,07/18/2021,Could Not Reach Participant,07/22/2021,Could Not Reach Participant,,,,,,,,,,,,5X
+5X6-33413-00580,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,02/14/2022,Unsuccessful,,02/15/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XE-15614-87925,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/23/2022,Unsuccessful,,03/03/2022,Left Voicemail,,,,,,,,,,,,,82,5X
+5XD-23689-70323,vsafe-14-day-dose1,Moderna,,,1,15,02/24/2021,Unsuccessful,,08/20/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X2-12805-70923,vsafe-28-day-dose2,Moderna,,,2,30,02/25/2021,Unsuccessful,,09/02/2021,Could Not Reach Participant,09/09/2021,Could Not Reach Participant,,,,,,,,,,,,5X
+5X2-27106-61916,vsafe-35-day-dose3,Pfizer-BioNTech,,,3,35,02/26/2022,Unsuccessful,,03/01/2022,Could Not Reach Participant,03/04/2022,Could Not Reach Participant,,,,,,,,,,,48,5X
+5XM-18567-46185,vsafe-3-month-dose2-dep,Pfizer-BioNTech,,,2,91,03/04/2022,Unsuccessful,,03/08/2022,Left Voicemail,06/06/2022,Left Voicemail,,,,,,,,,,,11,5X
+5XT-27514-91724,vsafe-12-month-dose2,Moderna,Correct,,2,367,03/20/2022,Successful,03/23/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,46,5X
+5XP-17707-74513,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/30/2022,Unsuccessful,,03/31/2022,Left Voicemail,06/08/2022,Left Voicemail,,,,,,,,,,,55,5X
+5X3-17136-43689,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,04/14/2021,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,44,5X
+5XB-17891-62449,vsafe-1-6-daily-dose2,Moderna,,,2,2,04/14/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5X3-17531-39610,vsafe-12-month-dose4,Moderna,,,4,365,04/18/2023,Unsuccessful,,04/19/2023,Could Not Reach Participant,04/24/2023,Left Voicemail,,,,,,,,,,,73,5X
+5XQ-31272-47262,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,04/22/2022,Successful,04/25/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,5X
+5XR-73096-52597,vsafe-3-month-dose2,Moderna,,,2,91,04/23/2021,Unsuccessful,,06/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XN-29593-17621,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/23/2022,Successful,04/26/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,26,5X
+5XQ-14394-90658,vsafe-1-6-daily-dose2,Moderna,,,2,5,04/26/2021,Unsuccessful,,04/07/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XB-20633-34256,vsafe-6-month-dose1,Moderna,Correct,,1,182,04/28/2022,Successful,04/29/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,31,5X
+5X8-77301-42793,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,05/03/2022,Unsuccessful,,05/04/2022,Left Voicemail,,,,,,,,,,,,,32,5X
+5X6-21444-55142,vsafe-3-month-dose2,Moderna,Correct,,2,91,05/04/2021,Successful,02/03/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,70,5X
+5XK-23622-31830,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,183,05/06/2022,Unsuccessful,,05/09/2022,Left Voicemail,,,,,,,,,,,,,66,5X
+5X9-12352-22342,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,184,05/07/2022,Unsuccessful,,05/09/2022,Left Voicemail,,,,,,,,,,,,,58,5X
+5XF-22136-32152,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,05/15/2022,Successful,05/16/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,37,5X
+5XH-25906-87443,vsafe-3-month-dose1,Pfizer-BioNTech,Correct,,1,91,05/20/2021,Successful,05/10/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,58,5X
+5XS-27344-88138,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,Correct,,1,23,05/22/2021,Successful,02/11/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,50,5X
+5XL-33086-00712,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,20,05/27/2021,Successful,04/27/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,27,5X
+5XM-18567-46185,vsafe-6-month-dose2-dep,Pfizer-BioNTech,,,2,182,06/03/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,11,5X
+5XB-10406-75836,vsafe-14-day-dose2,Moderna,Correct,,2,14,06/04/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,5X
+5XP-17707-74513,vsafe-28-day-dose4,Pfizer-BioNTech,,,4,28,06/07/2022,Unsuccessful,,06/08/2022,Left Voicemail,,,,,,,,,,,,,55,5X
+5XB-10406-75836,vsafe-21-day-dose2,Moderna,Correct,,2,21,06/11/2021,Successful,06/21/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,5X
+5XG-32324-63768,vsafe-3-month-dose4,Moderna,Correct,,4,91,06/18/2022,Successful,06/21/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,74,5X
+5XM-20762-29253,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/07/2021,Unsuccessful,,07/19/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XZ-12033-66022,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/11/2021,Successful,08/09/2021,07/13/2021,Left Voicemail,08/06/2021,Left Voicemail,,,,,,,Participant prefers to complete VAERS report online,,,,43,5X
+5XD-24838-16509,vsafe-35-day-dose4,Pfizer-BioNTech,,,4,38,07/11/2022,Unsuccessful,,07/12/2022,Left Voicemail,,,,,,,,,,,,,59,5X
+5XR-73096-52597,vsafe-6-month-dose2,Moderna,,,2,182,07/23/2021,Unsuccessful,,07/28/2021,Left Voicemail,,,,,,,,,,,,,31,5X
+5X6-16801-13032,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/13/2021,Unsuccessful,,10/08/2021,Left Voicemail,,,,,,,,,,,,,76,5X
+5XB-19434-32346,vsafe-1-6-daily-dose2,Moderna,,,2,3,08/20/2021,Unsuccessful,,,,,,,,,,,,,,,,28,5X
+5XB-19434-32346,vsafe-7-day-dose2,Moderna,,,2,9,08/26/2021,Unsuccessful,,08/27/2021,Could Not Reach Participant,09/01/2021,Left Voicemail,,,,,,,,,,,28,5X
+5XN-88975-04295,vsafe-6-month-dose2,Moderna,,,2,184,08/30/2021,Unsuccessful,,09/07/2021,Left Voicemail,,,,,,,,,,,,,57,5X
+5XB-63846-77175,vsafe-6-month-dose2,Moderna,,,2,182,09/04/2021,Successful,09/24/2021,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,47,5X
+5XB-15399-08973,vsafe-6-month-dose2,Moderna,,,2,183,09/09/2021,Unsuccessful,,09/12/2021,Left Voicemail,,,,,,,,,,,,,72,5X
+5X9-12352-22342,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,09/15/2021,Unsuccessful,,09/17/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5X2-27106-61916,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/20/2021,Unsuccessful,,10/22/2021,Left Voicemail,,,,,,,,,,,,,48,5X
+5XB-20633-34256,vsafe-1-6-daily-dose1,Moderna,Correct,,1,6,11/03/2021,Successful,11/04/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,31,5X
+5XB-10406-75836,vsafe-6-month-dose2,Moderna,,,2,182,11/19/2021,Unsuccessful,,11/22/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XM-16201-85650,vsafe-21-day-dose3,Moderna,Correct,,3,21,11/19/2021,Successful,11/29/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,66,5X
+5XB-22026-50874,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,11/27/2021,Unsuccessful,,11/30/2021,Left Voicemail,,,,,,,,,,,,,52,5X
+5X3-17531-39610,vsafe-28-day-dose3,Moderna,,,3,28,11/29/2021,Unsuccessful,,04/19/2023,Could Not Reach Participant,11/30/2021,Left Voicemail,,,,,,,,,,,73,5X
+5XM-20762-29253,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,12/19/2020,Successful,12/22/2020,12/22/2020,Left Voicemail,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,,5X
+5XZ-12033-66022,vsafe-0-day-dose1,Pfizer-BioNTech,Correct,,1,1,12/20/2020,Successful,01/12/2021,,,,,,,,,,,Completed over the phone,,,,,5X
+5XZ-12033-66022,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,1,12/21/2020,Successful,01/12/2021,,,,,,,,,,,Completed over the phone,,,,,5X
+5XF-24670-08829,vsafe-35-day-dose2-dep,Pfizer-BioNTech,,,2,35,12/29/2021,Unsuccessful,,01/03/2022,Left Voicemail,,,,,,,,,,,,,9,5X
+5XG-33582-86280,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,01/04/2021,Unsuccessful,,02/03/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XN-92136-53615,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/07/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XN-92136-53615,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,01/11/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XN-92136-53615,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,6,01/12/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XN-92136-53615,vsafe-7-day-dose2,Pfizer-BioNTech,Correct,,2,7,01/13/2021,Successful,02/28/2021,02/22/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5X7-15247-30286,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,01/26/2021,Unsuccessful,,06/04/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X4-20947-72755,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,9,01/29/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XE-16760-39373,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,367,01/31/2022,Successful,02/01/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,59,5X
+5XG-27154-29158,vsafe-1-6-daily-dose1,Moderna,,,1,5,02/04/2021,Unsuccessful,,06/28/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XS-30153-92235,vsafe-12-month-dose1,Pfizer-BioNTech,,,1,367,02/05/2022,Unsuccessful,,02/21/2022,Left Voicemail,,,,,,,,,,,,,80,5X
+5X4-20947-72755,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/10/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X7-13746-22713,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,9,02/11/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X5-60832-95107,vsafe-1-6-daily-dose1,Moderna,,,1,6,02/13/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X6-21043-96274,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X5-60832-95107,vsafe-14-day-dose1,Moderna,,,1,14,02/21/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X4-20947-72755,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,02/24/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X6-21043-96274,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,03/01/2021,Unsuccessful,,08/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X5-60832-95107,vsafe-28-day-dose1,Moderna,,,1,28,03/07/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X2-61119-94007,vsafe-42-day-dose2,Moderna,Correct,,2,44,03/09/2021,Successful,03/01/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,56,5X
+5XW-66288-98125,vsafe-6-month-dose5,Pfizer-BioNTech,Correct,,5,182,03/09/2023,Successful,03/10/2023,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,66,5X
+5XN-92136-53615,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/10/2022,Successful,03/14/2022,,,,,,,,,,,Completed over the phone,,,,48,5X
+5X5-60832-95107,vsafe-35-day-dose1,Moderna,,,1,35,03/14/2021,Unsuccessful,,07/30/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XQ-23289-99673,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,03/15/2022,Successful,03/16/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,59,5X
+5XM-84087-15926,vsafe-6-month-dose5,Pfizer-BioNTech,,,5,185,03/17/2023,Unsuccessful,,03/17/2023,Left Voicemail,,,,,,,,,,,,,72,5X
+5XH-14892-93996,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/26/2022,Successful,03/29/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,60,5X
+5XD-20794-65916,vsafe-0-day-dose2,Moderna,,,2,0,03/29/2021,Unsuccessful,,01/19/2022,Left Voicemail,,,,,,,,,,,,,70,5X
+5XL-18167-56842,vsafe-12-month-dose2,Moderna,Correct,,2,367,04/05/2022,Successful,04/26/2022,04/12/2022,Left Voicemail,04/21/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,56,5X
+5X8-19114-82895,vsafe-0-day-dose1,Janssen/Johnson & Johnson,,,1,0,04/06/2021,Unsuccessful,,05/21/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XM-62478-79791,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,368,04/08/2022,Successful,04/28/2022,04/21/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,61,5X
+5X5-26734-53508,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/09/2021,Unsuccessful,,02/12/2022,Left Voicemail,,,,,,,,,,,,,41,5X
+5X9-23591-65584,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/15/2021,Unsuccessful,,02/21/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5X4-20947-72755,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/21/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XE-19737-72856,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/21/2022,Successful,04/25/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,46,5X
+5XU-27690-82538,vsafe-21-day-dose1-asz-mod,Moderna,,,1,23,04/22/2021,Unsuccessful,,04/02/2022,Left Voicemail,,,,,,,,,,,,,31,5X
+5XP-23890-00940,vsafe-12-month-dose2,Moderna,,,2,371,04/30/2022,Unsuccessful,,05/04/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XG-99549-00533,vsafe-3-month-dose2,Moderna,,,2,91,05/06/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,24,5X
+5XG-33361-21029,vsafe-28-day-dose2,Moderna,Correct,,2,28,05/07/2021,Successful,05/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,63,5X
+5XW-27541-73361,vsafe-0-day-dose1,Pfizer-BioNTech,Correct,,1,0,05/13/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,50,5X
+5XX-32084-95366,vsafe-12-month-dose4,Moderna,Correct,,5,185,05/14/2023,Successful,05/15/2023,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,61,5X
+5XW-46540-51948,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/15/2021,Successful,05/11/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,58,5X
+5XW-27541-73361,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,3,05/16/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,50,5X
+5XW-27541-73361,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,4,05/17/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,50,5X
+5XW-27541-73361,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,6,05/19/2021,Successful,,,,,,,,,,,,Does not wish to fill out VAERS report,yes,,,50,5X
+5X5-23427-49992,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,05/20/2021,Unsuccessful,,04/28/2022,Left Voicemail,,,,,,,,,,,,,35,5X
+5XW-27541-73361,vsafe-7-day-dose1,Pfizer-BioNTech,Correct,,1,7,05/20/2021,Successful,01/10/2022,01/10/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,yes,,,50,5X
+5XJ-11935-37330,vsafe-14-day-dose4,Moderna,Correct,,4,14,05/23/2022,Successful,05/24/2022,05/24/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,67,5X
+5XW-66288-98125,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/30/2021,Successful,,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5XX-32084-95366,vsafe-21-day-dose4,Moderna,,,4,21,06/02/2022,Successful,06/03/2022,06/03/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,61,5X
+5X3-76197-07101,vsafe-3-month-dose1,Janssen/Johnson & Johnson,,,1,91,06/09/2021,Unsuccessful,,06/22/2021,Left Voicemail,,,,,,,,,,,,,39,5X
+5XS-25906-39518,vsafe-35-day-dose4,Moderna,,,4,35,06/19/2022,Unsuccessful,,06/21/2022,Left Voicemail,,,,,,,,,,,,,53,5X
+5XW-29186-37870,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,3,06/22/2021,Successful,06/29/2021,06/29/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,41,5X
+5XX-32084-95366,vsafe-42-day-dose4,Moderna,Correct,,4,42,06/23/2022,Successful,05/15/2023,06/24/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,61,5X
+5X5-29689-96068,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,06/30/2021,Unsuccessful,,07/06/2021,Left Voicemail,,,,,,,,,,,,,57,5X
+5XW-66288-98125,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/01/2022,Successful,07/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5XP-14318-26776,vsafe-3-month-dose2,Moderna,,,2,91,07/07/2021,Unsuccessful,,07/12/2021,Left Voicemail,,,,,,,,,,,,,49,5X
+5XE-19737-72856,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/21/2021,Successful,07/27/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,46,5X
+5XD-12841-83935,vsafe-6-month-dose2,Moderna,,,2,183,07/23/2021,Unsuccessful,,08/02/2021,Left Voicemail,,,,,,,,,,,,,26,5X
+5XP-23890-00940,vsafe-3-month-dose2,Moderna,,,2,91,07/24/2021,Unsuccessful,,08/04/2021,Left Voicemail,,,,,,,,,,,,,62,5X
+5XG-33582-86280,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,187,07/27/2021,Unsuccessful,,,,,,,,,,,,,,,,67,5X
+5XV-33220-97242,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/28/2021,Unsuccessful,,08/09/2021,Left Voicemail,,,,,,,,,,,,,37,5X
+5XM-55680-74429,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/04/2021,Unsuccessful,,,,,,,,,,,,,,,,52,5X
+5X5-94955-97049,vsafe-1-6-daily-dose1,Moderna,,,1,2,08/19/2021,Unsuccessful,,08/24/2021,Left Voicemail,,,,,,,,,,,,,41,5X
+5X5-16248-57750,vsafe-3-month-dose2,Moderna,Correct,,2,91,08/22/2021,Successful,12/13/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,52,5X
+5XZ-13642-42771,vsafe-6-month-dose2,Moderna,,,2,184,08/26/2021,Unsuccessful,,09/01/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5XM-84087-15926,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/01/2021,Successful,,09/08/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,72,5X
+5XS-21102-50084,vsafe-6-month-dose2,Moderna,,,2,182,09/02/2021,Unsuccessful,,09/09/2021,Left Voicemail,,,,,,,,,,,,,67,5X
+5XF-26124-72983,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/05/2021,Unsuccessful,,09/24/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XN-92136-53615,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,365,09/09/2022,Successful,09/12/2022,,,,,,,,,,,Completed over the phone,,,,48,5X
+5X5-24238-31523,vsafe-6-month-dose2,Moderna,,,2,185,09/12/2021,Unsuccessful,,09/15/2021,Left Voicemail,,,,,,,,,,,,,50,5X
+5XJ-11935-37330,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/08/2021,Successful,,11/08/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,67,5X
+5XP-23890-00940,vsafe-6-month-dose2,Moderna,,,2,184,10/25/2021,Unsuccessful,,10/27/2021,Left Voicemail,,,,,,,,,,,,,62,5X
+5XW-19267-02173,vsafe-7-day-dose3,Pfizer-BioNTech,,,3,7,10/28/2021,Unsuccessful,,11/02/2021,Left Voicemail,,,,,,,,,,,,,81,5X
+5XM-55680-74429,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,11/05/2021,Unsuccessful,,11/10/2021,Could Not Reach Participant,11/15/2021,Left Voicemail,,,,,,,,,,,52,5X
+5XN-92136-53615,vsafe-35-day-dose4,Pfizer-BioNTech,Correct,,4,35,11/08/2022,Successful,11/09/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,48,5X
+5XW-19267-02173,vsafe-21-day-dose3,Pfizer-BioNTech,,,3,22,11/12/2021,Unsuccessful,,11/14/2021,Left Voicemail,,,,,,,,,,,,,81,5X
+5XM-84087-15926,vsafe-3-month-dose5,Pfizer-BioNTech,Correct,,5,91,12/13/2022,Successful,12/14/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,72,5X
+5XT-22508-60136,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/22/2021,Unsuccessful,,12/23/2021,Could Not Reach Participant,12/29/2021,Could Not Reach Participant,,,,,,,,,,,70,5X
+5XM-84087-15926,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/24/2021,Successful,12/27/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,72,5X
+5XW-66288-98125,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/27/2021,Successful,12/29/2021,12/28/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5XK-26692-11687,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/07/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XK-26692-11687,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/08/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XE-11737-93138,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/08/2022,Successful,01/11/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,30,5X
+5XW-23256-26652,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/12/2022,Unsuccessful,,01/13/2022,Left Voicemail,,,,,,,,,,,,,47,5X
+5XK-26692-11687,vsafe-7-day-dose1,Moderna,,,1,8,01/13/2021,Unsuccessful,,03/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-19916-01463,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/13/2021,Unsuccessful,,03/02/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XS-15559-27905,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,367,01/13/2023,Unsuccessful,,01/16/2023,Left Voicemail,,,,,,,,,,,,,34,5X
+5XE-24884-05765,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,01/17/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XX-88284-36338,vsafe-12-month-dose2,Moderna,Correct,,2,365,01/20/2022,Successful,01/26/2022,01/21/2022,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,51,5X
+5XE-24884-05765,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/29/2021,Unsuccessful,,03/17/2021,Could Not Reach Participant,03/22/2021,Could Not Reach Participant,03/25/2021,Could Not Reach Participant,,,,,,,,,,5X
+5XX-23247-98001,vsafe-3-month-dose3,Moderna,Correct,,3,91,01/29/2022,Successful,04/04/2022,04/01/2022,Left Voicemail,04/04/2022,Could Not Reach Participant,,,,,,,Participant prefers to complete VAERS report online,,,,31,5X
+5XU-32068-40161,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,02/09/2021,Unsuccessful,,07/18/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XC-13717-18951,vsafe-6-month-dose3,Moderna,Correct,,3,182,02/15/2022,Successful,02/18/2022,,,,,,,,,,,Completed over the phone,,,,68,5X
+5X4-11629-73460,vsafe-6-month-dose3,Moderna,Correct,,3,182,02/24/2022,Successful,03/02/2022,03/01/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,77,5X
+5XD-21685-58943,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,02/27/2022,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XS-28936-54521,vsafe-12-month-dose2,Moderna,Correct,,2,365,03/08/2022,Successful,03/11/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,72,5X
+5XQ-22810-11683,vsafe-1-6-daily-dose1,Moderna,Correct,,1,1,03/10/2021,Successful,02/26/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,94,5X
+5XQ-22810-11683,vsafe-1-6-daily-dose1,Moderna,Correct,,1,2,03/11/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,94,5X
+5XQ-22810-11683,vsafe-7-day-dose1,Moderna,Correct,,1,7,03/16/2021,Successful,02/26/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,94,5X
+5XL-15104-31316,vsafe-14-day-dose1,Moderna,,,1,14,03/19/2021,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,63,5X
+5XU-66572-84779,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,03/22/2021,Unsuccessful,,12/23/2021,Left Voicemail,,,,,,,,,,,,,41,5X
+5XT-23642-44271,vsafe-1-6-daily-dose2,Moderna,,,2,6,03/23/2021,Unsuccessful,,03/07/2022,Left Voicemail,,,,,,,,,,,,,55,5X
+5X5-10383-54145,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/23/2022,Unsuccessful,,03/24/2022,Left Voicemail,,,,,,,,,,,,,27,5X
+5XJ-14138-35643,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,03/25/2021,Unsuccessful,,,,,,,,,,,,,,,,62,5X
+5X8-24048-94339,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/25/2022,Successful,03/28/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,5X
+5XJ-14138-35643,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,03/26/2021,Unsuccessful,,01/04/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XU-22226-46389,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/27/2022,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,68,5X
+5XV-13644-39183,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/30/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5X8-22236-76279,vsafe-28-day-dose2,Moderna,,,2,28,03/31/2021,Unsuccessful,,01/29/2022,Left Voicemail,,,,,,,,,,,,,72,5X
+5X5-28379-49474,vsafe-12-month-dose2,Moderna,,,2,365,03/31/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,60,5X
+5XV-26489-67242,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/02/2022,Unsuccessful,,04/04/2022,Left Voicemail,,,,,,,,,,,,,73,5X
+5XE-30256-22729,vsafe-12-month-dose2,Moderna,,,2,365,04/10/2022,Successful,04/11/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,5X
+5XH-52320-06688,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,04/12/2021,Successful,11/07/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,20,5X
+5XQ-22810-11683,vsafe-0-day-dose2,Moderna,Correct,,2,0,04/13/2021,Successful,02/26/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,94,5X
+5XT-32060-07395,vsafe-0-day-dose4,Pfizer-BioNTech,Correct,,4,0,04/14/2022,Successful,04/20/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,77,5X
+5XW-15471-05758,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,04/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XL-16172-49418,vsafe-28-day-single,Janssen/Johnson & Johnson,,,1,30,04/16/2021,Unsuccessful,,04/21/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XP-81682-91226,vsafe-12-month-dose2,Moderna,,,2,365,04/22/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,50,5X
+5XG-17297-95279,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,21,04/22/2022,Successful,04/25/2022,05/10/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,77,5X
+5XL-26310-20430,vsafe-21-day-dose2,Moderna,,,2,21,04/28/2021,Unsuccessful,,04/10/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XT-32060-07395,vsafe-14-day-dose4,Pfizer-BioNTech,,,4,16,04/30/2022,Unsuccessful,,05/04/2022,Left Voicemail,,,,,,,,,,,,,77,5X
+5XG-17297-95279,vsafe-35-day-dose4,Pfizer-BioNTech,Correct,,4,35,05/06/2022,Successful,05/10/2022,05/10/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,77,5X
+5XE-24884-05765,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/07/2021,Unsuccessful,,01/12/2022,Left Voicemail,,,,,,,,,,,,,65,5X
+5XT-32060-07395,vsafe-21-day-dose4,Pfizer-BioNTech,,,4,23,05/07/2022,Unsuccessful,,05/09/2022,Could Not Reach Participant,05/12/2022,Left Voicemail,,,,,,,,,,,77,5X
+5X2-27413-13496,vsafe-3-month-dose2,Moderna,,,2,93,05/12/2021,Unsuccessful,,05/10/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5XV-26489-67242,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,05/14/2021,Unsuccessful,,,,,,,,,,,,,,,,73,5X
+5XZ-12135-17257,vsafe-1-6-daily-dose2,Moderna,,,2,2,05/17/2021,Unsuccessful,,04/16/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XP-21631-55737,vsafe-3-month-dose2,Moderna,,,2,91,05/25/2021,Unsuccessful,,02/15/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5X3-46900-58160,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,1,05/27/2021,Successful,06/06/2022,04/27/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,59,5X
+5XZ-35576-11529,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,05/28/2021,Unsuccessful,,05/13/2022,Left Voicemail,,,,,,,,,,,,,78,5X
+5XE-29317-06921,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/05/2022,Successful,07/06/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,73,5X
+5XP-43021-60064,vsafe-1-6-daily-dose1-dep,Pfizer-BioNTech,,,1,4,07/12/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,12,5X
+5XS-15559-27905,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,07/12/2022,Unsuccessful,,01/16/2023,Left Voicemail,07/13/2022,Left Voicemail,,,,,,,,,,,34,5X
+5XW-15471-05758,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/15/2021,Unsuccessful,,07/22/2021,Left Voicemail,,,,,,,,,,,,,54,5X
+5XY-12670-73920,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/15/2021,Unsuccessful,,07/23/2021,Left Voicemail,,,,,,,,,,,,,42,5X
+5XP-15189-86149,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,93,07/19/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,20,5X
+5X2-16161-53718,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,07/20/2021,Successful,07/22/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,5X
+5XX-12674-22437,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,95,07/23/2021,Unsuccessful,,07/29/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XR-19916-01463,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/23/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,55,5X
+5XA-20481-81203,vsafe-6-month-dose2,Moderna,,,2,183,07/23/2021,Unsuccessful,,08/02/2021,Left Voicemail,,,,,,,,,,,,,51,5X
+5XS-15559-27905,vsafe-6-month-dose2,Moderna,,,2,182,08/02/2021,Unsuccessful,,01/16/2023,Left Voicemail,08/04/2021,Left Voicemail,,,,,,,,,,,34,5X
+5XW-10262-54770,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,08/03/2021,Unsuccessful,,11/20/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5X7-78967-95091,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/06/2021,Successful,11/22/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,58,5X
+5XP-15189-86149,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,08/07/2021,Successful,11/03/2021,11/03/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,20,5X
+5X5-32317-26031,vsafe-6-month-dose2,Moderna,,,2,185,08/14/2021,Unsuccessful,,08/23/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-26067-54338,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/21/2021,Successful,08/30/2021,,,,,,,,,,,Completed over the phone,,,,51,5X
+5X2-16161-53718,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,09/08/2022,Unsuccessful,,09/09/2022,Left Voicemail,,,,,,,,,,,,,53,5X
+5X3-28919-53476,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,1,21,09/15/2021,Unsuccessful,,09/17/2021,Left Voicemail,,,,,,,,,,,,,50,5X
+5XL-41485-36875,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,09/19/2021,Unsuccessful,,09/23/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5XU-22226-46389,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/25/2021,Unsuccessful,,09/29/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5X2-16161-53718,vsafe-21-day-dose3,Pfizer-BioNTech,,,3,21,09/29/2021,Unsuccessful,,09/09/2022,Left Voicemail,10/04/2021,Left Voicemail,,,,,,,,,,,53,5X
+5XV-26489-67242,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/01/2021,Unsuccessful,,10/08/2021,Could Not Reach Participant,10/13/2021,Could Not Reach Participant,,,,,,,,,,,73,5X
+5XA-13403-88134,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,10/06/2021,Unsuccessful,,11/11/2021,Left Voicemail,,,,,,,,,,,,,57,5X
+5X7-23435-65829,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/11/2021,Successful,10/18/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,5X
+5X4-22171-19110,vsafe-6-month-dose2,Moderna,Correct,,2,184,10/16/2021,Successful,10/20/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5XX-12674-22437,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/18/2021,Unsuccessful,,10/19/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XT-32060-07395,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,11/06/2021,Successful,11/09/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,77,5X
+5XN-30629-01479,vsafe-42-day-dose3,Pfizer-BioNTech,,,3,43,11/11/2021,Unsuccessful,,11/14/2021,Left Voicemail,,,,,,,,,,,,,50,5X
+5XG-31533-69185,vsafe-21-day-dose3,Moderna,Correct,,3,21,12/24/2021,Successful,12/27/2021,,,,,,,,,,,Completed over the phone,,,,57,5X
+5XY-31259-41566,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/29/2021,Unsuccessful,,01/05/2022,Left Voicemail,,,,,,,,,,,,,35,5X
+5XS-15559-27905,vsafe-1-6-daily-dose1,Moderna,,,1,1,01/06/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-11737-93138,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/09/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X2-16161-53718,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,16,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X2-16161-53718,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/30/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-25883-54997,vsafe-42-day-dose3,Moderna,Correct,,3,42,01/10/2022,Successful,01/14/2022,01/11/2022,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,5X
+5X7-14583-47897,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,01/13/2022,Unsuccessful,,01/14/2022,Could Not Reach Participant,01/19/2022,Left Voicemail,,,,,,,,,,,32,5X
+5X3-70853-65113,vsafe-14-day-dose1,Moderna,Correct,,1,14,01/14/2021,Successful,07/26/2022,03/09/2021,Left Voicemail,07/25/2022,Left Voicemail,,,,,,,Participant prefers to complete VAERS report online,,,,55,5X
+5X4-27197-51410,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/16/2022,Successful,01/18/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,5X
+5XS-29693-17615,vsafe-3-month-dose3,Moderna,,,3,91,01/19/2022,Unsuccessful,,01/20/2022,Left Voicemail,02/13/2023,Left Voicemail,09/19/2022,Could Not Reach Participant,11/14/2022,Left Voicemail,,,,,,,54,5X
+5XM-42118-45695,vsafe-28-day-dose3,Moderna,Correct,,3,28,01/19/2022,Successful,01/21/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,27,5X
+5XR-47887-78941,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,01/22/2021,Unsuccessful,,05/13/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-33023-83004,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,16,01/25/2021,Unsuccessful,,06/03/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XM-99653-92526,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,01/30/2022,Successful,11/03/2022,02/02/2022,Left Voicemail,10/31/2022,Left Voicemail,,,,,,,Not applicable - Accidental Reporting,,,,62,5X
+5XG-56011-89451,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,01/31/2023,Successful,02/01/2023,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,61,5X
+5XV-37824-89335,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,02/01/2021,Unsuccessful,,06/11/2021,Left Voicemail,09/29/2022,Left Voicemail,,,,,,,,,,,32,5X
+5X5-26065-02843,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/01/2022,Successful,02/08/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,65,5X
+5XN-28883-46030,vsafe-14-day-dose1,Moderna,,,1,14,02/03/2021,Unsuccessful,,06/24/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XX-52478-09845,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/05/2022,Successful,02/10/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,81,5X
+5XX-93712-39522,vsafe-12-month-dose2,Moderna,,,2,365,02/08/2022,Unsuccessful,,02/10/2022,Could Not Reach Participant,02/15/2022,Could Not Reach Participant,,,,,,,,,,,51,5X
+5X5-23306-18205,vsafe-14-day-dose1,Moderna,Correct,,1,15,02/09/2021,Successful,07/17/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XS-29693-17615,vsafe-6-month-dose4,Moderna,,,4,182,02/10/2023,Unsuccessful,,02/13/2023,Left Voicemail,,,,,,,,,,,,,54,5X
+5X8-29560-17255,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/12/2022,Successful,02/16/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,66,5X
+5XA-17588-92851,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/15/2021,Unsuccessful,,08/03/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XY-23057-53333,vsafe-12-month-dose2,Moderna,,,2,365,02/15/2022,Unsuccessful,,02/17/2022,Left Voicemail,,,,,,,,,,,,,36,5X
+5XK-17177-74372,vsafe-12-month-dose2,Moderna,Correct,,3,68,02/15/2022,Successful,02/21/2022,02/21/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,5X
+5XE-16497-01439,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,02/22/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XS-24691-65003,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/24/2022,Successful,02/28/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,73,5X
+5X6-29191-89975,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,369,03/03/2022,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,76,5X
+5XV-30499-90335,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,03/10/2021,Unsuccessful,,10/26/2021,Left Voicemail,,,,,,,,,,,,,29,5X
+5XD-63245-47995,vsafe-6-month-dose5,Moderna,,,5,184,03/12/2023,Unsuccessful,,03/13/2023,Left Voicemail,,,,,,,,,,,,,66,5X
+5XE-16497-01439,vsafe-14-day-dose2,Moderna,,,2,14,03/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X3-53963-76362,vsafe-7-day-dose2,Pfizer-BioNTech,Correct,,2,9,03/17/2021,Successful,12/20/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,29,5X
+5XX-30774-98014,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/17/2022,Unsuccessful,,03/21/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5XV-30499-90335,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,44,03/19/2021,Unsuccessful,,,,,,,,,,,,,,,,29,5X
+5XE-16497-01439,vsafe-21-day-dose2,Moderna,,,2,21,03/22/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XS-58523-37790,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,03/23/2021,Unsuccessful,,03/07/2022,Left Voicemail,,,,,,,,,,,,,40,5X
+5XE-31327-56477,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,03/23/2021,Unsuccessful,,12/09/2021,Left Voicemail,,,,,,,,,,,,,53,5X
+5XL-28271-22196,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,03/24/2021,Unsuccessful,,01/03/2022,Left Voicemail,,,,,,,,,,,,,32,5X
+5XM-22902-28997,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/25/2022,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,79,5X
+5XG-56011-89451,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,03/28/2021,Successful,01/13/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,61,5X
+5XB-99829-31362,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,189,04/04/2022,Unsuccessful,,04/06/2022,Left Voicemail,,,,,,,,,,,,,26,5X
+5X6-57111-93260,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/11/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,37,5X
+5XL-25962-66909,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/11/2022,Successful,04/26/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,55,5X
+5XD-23398-03796,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/16/2021,Unsuccessful,,02/23/2022,Could Not Reach Participant,02/28/2022,Could Not Reach Participant,,,,,,,,,,,56,5X
+5XY-21361-79737,vsafe-3-month-dose2,Moderna,,,2,91,04/19/2021,Unsuccessful,,06/07/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XM-99653-92526,vsafe-6-month-dose5,Pfizer-BioNTech,,,5,187,04/20/2023,Unsuccessful,,04/21/2023,Left Voicemail,,,,,,,,,,,,,62,5X
+5XS-86586-15727,vsafe-12-month-dose2,Moderna,,,2,365,04/27/2022,Unsuccessful,,04/29/2022,Could Not Reach Participant,05/04/2022,Left Voicemail,,,,,,,,,,,57,5X
+5X4-36115-20830,vsafe-6-month-dose3,Moderna,Correct,,3,182,05/04/2022,Successful,05/05/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,38,5X
+5X6-47913-71241,vsafe-35-day-dose3,Moderna,,,3,35,05/05/2022,Unsuccessful,,05/06/2022,Left Voicemail,,,,,,,,,,,,,67,5X
+5XK-20349-30036,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,05/06/2021,Unsuccessful,,05/06/2022,Left Voicemail,,,,,,,,,,,,,72,5X
+5XS-29693-17615,vsafe-21-day-dose2,Moderna,,,2,22,05/19/2021,Unsuccessful,,02/13/2023,Left Voicemail,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,11/14/2022,Left Voicemail,,,,,,,54,5X
+5X3-59760-48275,vsafe-21-day-single,Janssen/Johnson & Johnson,,,1,21,05/20/2021,Unsuccessful,,06/02/2021,Left Voicemail,,,,,,,,,,,,,32,5X
+5XG-14305-23355,vsafe-3-month-dose2,Moderna,,,2,91,05/22/2021,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5X6-57111-93260,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,05/23/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,37,5X
+5XE-16497-01439,vsafe-3-month-dose2,Moderna,,,2,91,05/31/2021,Unsuccessful,,06/17/2021,Left Voicemail,,,,,,,,,,,,,70,5X
+5XS-29693-17615,vsafe-35-day-dose2,Moderna,,,2,35,06/01/2021,Unsuccessful,,02/13/2023,Left Voicemail,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,11/14/2022,Left Voicemail,,,,,,,54,5X
+5XM-99653-92526,vsafe-35-day-dose2,Moderna,Correct,,2,35,06/03/2021,Successful,11/03/2022,10/31/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,62,5X
+5X7-11121-38074,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,06/06/2022,Successful,06/07/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,49,5X
+5XM-99653-92526,vsafe-42-day-dose2,Moderna,Correct,,2,42,06/10/2021,Successful,11/03/2022,06/21/2021,Left Voicemail,10/31/2022,Left Voicemail,,,,,,,Not applicable - Accidental Reporting,,,,62,5X
+5XE-32031-31605,vsafe-3-month-dose2,Moderna,,,2,91,06/12/2021,Unsuccessful,,06/22/2021,Left Voicemail,,,,,,,,,,,,,72,5X
+5XQ-91446-07906,vsafe-1-6-daily-dose4,Pfizer-BioNTech,Correct,,4,3,06/12/2022,Successful,06/13/2022,06/13/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,71,5X
+5XQ-91446-07906,vsafe-1-6-daily-dose4,Pfizer-BioNTech,,,4,5,06/14/2022,Unsuccessful,,06/15/2022,Left Voicemail,12/09/2022,Left Voicemail,,,,,,,,,,,71,5X
+5XC-55298-17429,vsafe-6-month-dose3,Moderna,,,3,182,06/16/2022,Unsuccessful,,06/17/2022,Left Voicemail,,,,,,,,,,,,,71,5X
+5XQ-21004-92506,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/02/2021,Unsuccessful,,07/07/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XD-22551-70012,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,07/06/2021,Unsuccessful,,07/09/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5XQ-13308-16854,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/14/2021,Successful,07/19/2021,07/19/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,31,5X
+5XD-63245-47995,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/22/2021,Successful,10/04/2022,07/28/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5X3-70853-65113,vsafe-3-month-dose4,Moderna,Correct,,4,91,07/23/2022,Successful,07/26/2022,07/25/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,55,5X
+5XQ-16747-53478,vsafe-3-month-dose2,Moderna,,,2,91,07/26/2021,Unsuccessful,,08/03/2021,Left Voicemail,,,,,,,,,,,,,38,5X
+5XV-19044-20906,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/20/2021,Successful,08/27/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,50,5X
+5XV-37824-89335,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,08/22/2021,Unsuccessful,,08/24/2021,Left Voicemail,09/29/2022,Left Voicemail,,,,,,,,,,,32,5X
+5XE-16497-01439,vsafe-6-month-dose2,Moderna,,,2,182,08/30/2021,Unsuccessful,,08/31/2021,Left Voicemail,,,,,,,,,,,,,70,5X
+5X5-33330-96080,vsafe-6-month-dose2,Moderna,Correct,,2,184,09/04/2021,Successful,11/10/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,53,5X
+5XR-10396-52203,vsafe-1-6-daily-dose2,Moderna,,,2,6,09/09/2021,Unsuccessful,,09/13/2021,Left Voicemail,,,,,,,,,,,,,43,5X
+5XF-10991-00451,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,09/16/2021,Unsuccessful,,09/20/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5XS-29693-17615,vsafe-35-day-dose4,Moderna,,,4,35,09/16/2022,Unsuccessful,,02/13/2023,Left Voicemail,09/19/2022,Could Not Reach Participant,09/22/2022,Could Not Reach Participant,11/14/2022,Left Voicemail,,,,,,,54,5X
+5XA-10822-60174,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,09/19/2021,Unsuccessful,,09/22/2021,Left Voicemail,,,,,,,,,,,,,63,5X
+5XD-22336-50029,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,183,09/25/2021,Unsuccessful,,09/28/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XV-37824-89335,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,09/28/2022,Unsuccessful,,09/29/2022,Left Voicemail,,,,,,,,,,,,,32,5X
+5XT-27675-88987,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/03/2021,Unsuccessful,,11/16/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5XD-63245-47995,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,10/03/2022,Successful,10/04/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,66,5X
+5XT-21296-73937,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,184,10/07/2021,Unsuccessful,,10/14/2021,Left Voicemail,10/26/2022,Left Voicemail,,,,,,,,,,,56,5X
+5XZ-25329-01355,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,10/07/2021,Unsuccessful,,12/03/2021,Left Voicemail,,,,,,,,,,,,,21,5X
+5X6-57111-93260,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/10/2021,Successful,10/11/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,37,5X
+5XL-19780-75465,vsafe-6-month-dose1,Janssen/Johnson & Johnson,Correct,,1,182,10/11/2021,Successful,11/12/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,44,5X
+5XS-23117-20334,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,10/25/2021,Unsuccessful,,10/27/2021,Left Voicemail,,,,,,,,,,,,,43,5X
+5XT-21296-73937,vsafe-12-month-dose2,Janssen/Johnson & Johnson,,,2,365,10/25/2022,Unsuccessful,,10/26/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5XM-99653-92526,vsafe-14-day-dose5,Pfizer-BioNTech,Correct,,5,14,10/29/2022,Successful,11/03/2022,10/31/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,62,5X
+5XS-29693-17615,vsafe-3-month-dose4,Moderna,,,4,93,11/13/2022,Unsuccessful,,02/13/2023,Left Voicemail,11/14/2022,Left Voicemail,,,,,,,,,,,54,5X
+5XQ-91446-07906,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,12/08/2022,Unsuccessful,,12/09/2022,Left Voicemail,,,,,,,,,,,,,71,5X
+5XD-63245-47995,vsafe-3-month-dose5,Moderna,,,5,91,12/09/2022,Unsuccessful,,03/13/2023,Left Voicemail,12/12/2022,Left Voicemail,,,,,,,,,,,66,5X
+5XY-21361-79737,vsafe-7-day-dose1,Moderna,,,1,9,01/02/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XB-99829-31362,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-14583-47897,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-14583-47897,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/15/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-14583-47897,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,3,01/16/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-14583-47897,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,12/26/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XB-99829-31362,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,12/31/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XL-22012-78489,vsafe-21-day-dose3,Moderna,,,3,23,01/07/2022,Unsuccessful,,01/10/2022,Left Voicemail,,,,,,,,,,,,,78,5X
+5XL-86537-35162,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,8,01/27/2021,Unsuccessful,,04/19/2021,Could Not Reach Participant,,,,,,,,,,,,,,5X
+5XG-21191-08752,vsafe-12-month-dose2,Moderna,,,2,367,01/29/2022,Unsuccessful,,03/25/2022,Could Not Reach Participant,03/30/2022,Left Voicemail,,,,,,,,,,,49,5X
+5X6-66529-39640,vsafe-12-month-dose2,Moderna,Correct,,2,366,01/30/2022,Successful,02/01/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,28,5X
+5XC-11893-89658,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/10/2022,Successful,02/11/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,5X
+5XL-12496-24000,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/11/2022,Successful,02/14/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,44,5X
+5XR-11201-37856,vsafe-21-day-dose2,Pfizer-BioNTech,Correct,,2,21,02/15/2021,Successful,04/22/2022,08/03/2021,Left Voicemail,10/11/2022,Left Voicemail,,,,,,,Does not wish to fill out VAERS report,,,,64,5X
+5XM-83405-71079,vsafe-6-month-dose3,Moderna,,,3,182,02/19/2022,Unsuccessful,,02/21/2022,Left Voicemail,,,,,,,,,,,,,66,5X
+5XS-18461-77091,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/20/2022,Successful,02/23/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,76,5X
+5XU-16742-87420,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,03/02/2021,Unsuccessful,,01/23/2022,Could Not Reach Participant,01/27/2022,Left Voicemail,,,,,,,,,,,34,5X
+5XT-13200-03521,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,03/04/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XW-31668-09979,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,03/05/2021,Unsuccessful,,10/14/2021,Left Voicemail,,,,,,,,,,,,,18,5X
+5XT-13200-03521,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,03/11/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XN-11928-49589,vsafe-7-day-dose1,Moderna,,,1,7,03/11/2021,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XY-21760-01541,vsafe-42-day-dose1,Moderna,,,1,42,03/16/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XT-13200-03521,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,03/18/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XW-18985-82625,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/19/2021,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,49,5X
+5XV-30566-05854,vsafe-7-day-dose1,Janssen/Johnson & Johnson,,,1,7,03/23/2021,Unsuccessful,,03/25/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XW-65983-44940,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/26/2022,Successful,03/29/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,64,5X
+5X4-25232-18067,vsafe-28-day-dose2,Moderna,,,2,28,03/27/2021,Unsuccessful,,01/23/2022,Left Voicemail,,,,,,,,,,,,,69,5X
+5XP-13908-55370,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/28/2022,Unsuccessful,,03/29/2022,Left Voicemail,,,,,,,,,,,,,44,5X
+5X2-31825-41573,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/30/2022,Successful,03/31/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,76,5X
+5XT-98473-67996,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,03/31/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5XU-18235-91333,vsafe-28-day-dose2,Moderna,,,2,31,04/01/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XL-12223-19740,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,04/02/2022,Unsuccessful,,04/05/2022,Left Voicemail,,,,,,,,,,,,,55,5X
+5XC-12327-24680,vsafe-12-month-dose2,Moderna,Correct,,2,367,04/07/2022,Successful,04/11/2022,07/20/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,34,5X
+5XR-11201-37856,vsafe-12-month-dose4,Pfizer-BioNTech,,,4,365,04/10/2023,Unsuccessful,,04/12/2023,Left Voicemail,,,,,,,,,Reported to VAERS during previous contact from GDIT,,,,64,5X
+5XV-30566-05854,vsafe-28-day-single,Janssen/Johnson & Johnson,,,1,28,04/13/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XR-11201-37856,vsafe-1-6-daily-dose4,Pfizer-BioNTech,Correct,,4,4,04/14/2022,Successful,04/22/2022,10/11/2022,Left Voicemail,,,,,,,,,Completed over the phone,,,,64,5X
+5XR-11201-37856,vsafe-1-6-daily-dose4,Pfizer-BioNTech,Correct,,4,5,04/15/2022,Successful,04/22/2022,04/20/2022,Left Voicemail,04/22/2022,Left Voicemail,10/11/2022,Left Voicemail,,,04/22/2022,10:30AM ET,Completed over the phone,,,,64,5X
+5X8-13272-08206,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,23,04/16/2021,Unsuccessful,,02/28/2022,Left Voicemail,,,,,,,,,,,,,34,5X
+5XE-31815-89520,vsafe-1-6-daily-dose2,Moderna,,,2,5,04/22/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X7-16656-37611,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,04/23/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XT-26031-06995,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,04/26/2021,Unsuccessful,,04/11/2022,Left Voicemail,,,,,,,,,,,,,51,5X
+5XJ-33250-99928,vsafe-1-6-daily-dose2,Moderna,,,2,2,04/26/2021,Unsuccessful,,,,,,,,,,,,,,,,52,5X
+5XF-29168-85786,vsafe-3-month-dose2,Moderna,Correct,,2,91,05/04/2021,Successful,05/04/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,29,5X
+5XY-21760-01541,vsafe-3-month-dose1,Moderna,,,1,93,05/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XL-65047-40075,vsafe-6-month-dose3,Moderna,Correct,,3,182,05/07/2022,Successful,05/10/2022,05/09/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,72,5X
+5XT-31722-12988,vsafe-1-6-daily-dose1,Janssen/Johnson & Johnson,,,1,5,05/08/2021,Unsuccessful,,05/27/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XC-11893-89658,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/12/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,5X
+5XD-14030-75756,vsafe-14-day-dose2,Moderna,Correct,,2,14,05/14/2021,Successful,05/10/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,54,5X
+5XD-29097-05915,vsafe-3-month-dose2,Moderna,,,2,91,05/15/2021,Unsuccessful,,01/20/2022,Left Voicemail,,,,,,,,,,,,,72,5X
+5X2-31825-41573,vsafe-14-day-dose4,Pfizer-BioNTech,Correct,,4,20,05/15/2022,Successful,05/16/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,76,5X
+5XV-21704-95874,vsafe-3-month-dose2,Moderna,,,2,91,05/27/2021,Unsuccessful,,06/02/2021,Could Not Reach Participant,06/07/2021,Could Not Reach Participant,,,,,,,,,,,32,5X
+5XJ-33250-99928,vsafe-35-day-dose2,Moderna,,,2,35,05/29/2021,Unsuccessful,,12/29/2021,Left Voicemail,,,,,,,,,,,,,52,5X
+5X7-20198-07259,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,06/24/2021,Unsuccessful,,07/01/2021,Left Voicemail,,,,,,,,,,,,,41,5X
+5XE-31815-89520,vsafe-3-month-dose2,Moderna,,,2,91,07/17/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,37,5X
+5XC-12327-24680,vsafe-3-month-dose4,Moderna,,,4,91,07/18/2022,Unsuccessful,,07/20/2022,Left Voicemail,,,,,,,,,,,,,34,5X
+5XZ-16690-18816,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/21/2022,Successful,07/22/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,79,5X
+5X6-66529-39640,vsafe-6-month-dose2,Moderna,Correct,,2,182,07/30/2021,Successful,,08/12/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,28,5X
+5XY-21760-01541,vsafe-6-month-dose1,Moderna,,,1,186,08/07/2021,Unsuccessful,,08/12/2021,Left Voicemail,,,,,,,,,,,,,83,5X
+5XG-11475-12650,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,08/21/2021,Unsuccessful,,08/25/2021,Left Voicemail,,,,,,,,,,,,,84,5X
+5XT-13200-03521,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/26/2021,Unsuccessful,,08/27/2021,Left Voicemail,,,,,,,,,,,,,47,5X
+5X6-20664-02862,vsafe-6-month-dose1,Moderna,,,1,182,08/26/2021,Unsuccessful,,09/01/2021,Left Voicemail,,,,,,,,,,,,,54,5X
+5X3-19100-21333,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,09/14/2021,Unsuccessful,,09/16/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5XV-30566-05854,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,09/14/2021,Unsuccessful,,09/15/2021,Left Voicemail,,,,,,,,,,,,,63,5X
+5X8-41284-23865,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,09/20/2021,Unsuccessful,,09/22/2021,Left Voicemail,,,,,,,,,,,,,43,5X
+5XR-11201-37856,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,183,10/10/2022,Successful,10/11/2022,10/11/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5XE-31815-89520,vsafe-6-month-dose2,Moderna,,,2,186,10/20/2021,Unsuccessful,,10/22/2021,Left Voicemail,,,,,,,,,,,,,37,5X
+5X3-29677-67593,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/20/2021,Unsuccessful,,10/22/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5XD-28402-58667,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,10/26/2021,Successful,10/28/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,31,5X
+5XJ-22716-32038,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,28,11/19/2021,Successful,,11/22/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,46,5X
+5XM-83405-71079,vsafe-3-month-dose3,Moderna,,,3,91,11/20/2021,Unsuccessful,,11/30/2021,Left Voicemail,,,,,,,,,,,,,66,5X
+5XJ-22716-32038,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,12/03/2021,Successful,12/09/2021,12/07/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,46,5X
+5XU-39450-92822,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,12/20/2020,Unsuccessful,01/06/2021,12/22/2020,Left Voicemail,12/28/2020,Left Voicemail,12/31/2020,Left Voicemail,,,,,,,,,,5X
+5XK-33083-84588,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,12/23/2020,Unsuccessful,,01/06/2021,Left Voicemail,01/11/2021,Left Voicemail,,,,,,,,,,,,5X
+5XK-33083-84588,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,3,12/26/2020,Unsuccessful,,01/06/2021,Left Voicemail,01/11/2021,Left Voicemail,,,,,,,,,,,,5X
+5XG-11475-12650,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/29/2021,Unsuccessful,,01/03/2022,Left Voicemail,,,,,,,,,,,,,84,5X
+5XP-13908-55370,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/09/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XL-12496-24000,vsafe-0-day-dose1,Moderna,,,1,0,01/14/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X2-21015-02485,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/04/2022,Successful,01/05/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,56,5X
+5XE-31096-45498,vsafe-12-month-dose2,Pfizer-BioNTech,,,3,14,01/09/2022,Unsuccessful,,12/28/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5XE-31096-45498,vsafe-14-day-dose3,Pfizer-BioNTech,,,3,14,01/09/2022,Unsuccessful,,01/11/2022,Left Voicemail,12/28/2022,Left Voicemail,,,,,,,,,,,56,5X
+5X4-34022-36519,vsafe-1-6-daily-dose2,Pfizer-BioNTech,Correct,,2,3,01/15/2021,Successful,03/16/2021,03/11/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XN-19710-07016,vsafe-21-day-dose2-dep,Pfizer-BioNTech,,,2,22,01/17/2022,Unsuccessful,,01/18/2022,Left Voicemail,,,,,,,,,,,,,10,5X
+5XD-15291-69079,vsafe-14-day-dose1,Moderna,,,1,15,01/19/2021,Unsuccessful,,03/25/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XN-17405-76120,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,01/27/2022,Successful,02/11/2022,02/10/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,78,5X
+5XY-24730-76980,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,01/30/2022,Successful,02/02/2022,,,,,,,,,,,Completed over the phone,,,,41,5X
+5XG-20694-57142,vsafe-12-month-dose2,Moderna,,,2,365,02/01/2022,Unsuccessful,,03/24/2022,Left Voicemail,,,,,,,,,,,,,69,5X
+5X3-14861-13030,vsafe-1-6-daily-dose2,Moderna,,,2,5,02/07/2021,Unsuccessful,,07/16/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XW-92666-48800,vsafe-12-month-dose2,Moderna,Correct,,2,365,02/08/2022,Successful,02/09/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,32,5X
+5XY-12746-87903,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,02/14/2022,Successful,12/29/2022,02/17/2022,Left Voicemail,12/28/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,72,5X
+5XE-26639-68519,vsafe-12-month-dose1,Moderna,Correct,,1,365,02/15/2022,Successful,02/17/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,72,5X
+5X3-27940-93711,vsafe-21-day-dose2,Moderna,,,2,21,03/01/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XA-22386-13322,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,03/12/2021,Successful,12/08/2021,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,53,5X
+5XE-18794-00815,vsafe-21-day-dose2,Moderna,Correct,,2,21,03/13/2021,Successful,10/19/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,80,5X
+5XE-56042-57708,vsafe-1-6-daily-dose2,Moderna,Correct,,2,4,03/14/2021,Successful,12/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,71,5X
+5XH-33092-38812,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,03/19/2022,Unsuccessful,,03/28/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5XM-89319-10952,vsafe-1-6-daily-dose2,Moderna,,,2,5,03/23/2021,Unsuccessful,,01/07/2022,Left Voicemail,,,,,,,,,,,,,54,5X
+5XF-88620-79581,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,03/23/2022,Successful,03/24/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,62,5X
+5XG-10008-25909,vsafe-6-month-dose1,Pfizer-BioNTech,Correct,,1,184,03/23/2022,Successful,03/25/2022,03/24/2022,Left Voicemail,,,,,,,,,Reported to VAERS during previous contact from GDIT,,,,70,5X
+5X2-31749-45181,vsafe-14-day-dose1,Moderna,Correct,,1,14,03/25/2021,Successful,01/04/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,44,5X
+5XP-21311-79361,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,03/25/2022,Successful,03/28/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,69,5X
+5XZ-26560-22261,vsafe-42-day-dose2,Moderna,,,2,42,04/01/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XU-20708-86818,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,15,04/02/2021,Unsuccessful,,06/14/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XV-20883-69648,vsafe-42-day-dose2,Moderna,Correct,,2,42,04/03/2021,Successful,06/15/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XF-34824-66157,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,04/06/2022,Successful,04/07/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,73,5X
+5XL-17182-08984,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/07/2021,Successful,05/31/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XN-14041-84638,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/12/2022,Successful,04/14/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,60,5X
+5XM-26138-67029,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/13/2022,Unsuccessful,,04/14/2022,Left Voicemail,,,,,,,,,,,,,29,5X
+5XU-15903-06601,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/14/2021,Successful,04/24/2023,10/19/2021,Could Not Reach Participant,10/26/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5XY-32593-42415,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/15/2021,Unsuccessful,,05/03/2022,Left Voicemail,,,,,,,,,,,,,46,5X
+5XZ-25353-69889,vsafe-14-day-dose4,Pfizer-BioNTech,Correct,,4,17,04/18/2022,Successful,04/28/2022,04/28/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,83,5X
+5XL-14049-62719,vsafe-1-6-daily-dose1,Moderna,,,1,6,04/19/2021,Unsuccessful,,,,,,,,,,,,,,,,55,5X
+5XL-14049-62719,vsafe-7-day-dose1,Moderna,,,1,7,04/20/2021,Unsuccessful,,02/23/2022,Left Voicemail,,,,,,,,,,,,,55,5X
+5XU-15903-06601,vsafe-12-month-dose4,Pfizer-BioNTech,Correct,,4,365,04/23/2023,Successful,04/24/2023,,,,,,,,,,,Not applicable - Accidental Reporting,,,,64,5X
+5X6-14763-32409,vsafe-12-month-dose2,Moderna,,,3,149,04/29/2022,Unsuccessful,,05/03/2022,Left Voicemail,,,,,,,,,,,,,65,5X
+5XH-33092-38812,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,04/30/2021,Unsuccessful,,,,,,,,,,,,,,,,61,5X
+5XU-33582-99660,vsafe-3-month-dose2,Moderna,,,2,91,05/06/2021,Unsuccessful,,05/05/2022,Could Not Reach Participant,,,,,,,05/05/2022,,,,,,58,5X
+5XE-20305-09863,vsafe-21-day-dose1-asz-mod,Moderna,,,1,27,05/12/2021,Unsuccessful,,04/18/2022,Left Voicemail,,,,,,,,,,,,,24,5X
+5X8-26480-09171,vsafe-1-6-daily-dose4,Pfizer-BioNTech,Correct,,4,6,05/18/2022,Successful,05/19/2022,05/19/2022,Left Voicemail,06/17/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,69,5X
+5XT-66667-72690,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,30,05/27/2021,Unsuccessful,,04/27/2022,Could Not Reach Participant,05/04/2022,Left Voicemail,,,,,,,,,,,41,5X
+5X8-26480-09171,vsafe-35-day-dose4,Pfizer-BioNTech,Correct,,4,35,06/16/2022,Successful,06/17/2022,06/17/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,69,5X
+5XK-31069-91245,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,06/29/2021,Unsuccessful,,07/01/2021,Left Voicemail,,,,,,,,,,,,,57,5X
+5XE-31096-45498,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,185,06/29/2022,Unsuccessful,,06/30/2022,Left Voicemail,12/28/2022,Left Voicemail,,,,,,,,,,,56,5X
+5X3-34626-29344,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,37,07/04/2021,Unsuccessful,,01/16/2022,Left Voicemail,07/08/2021,Left Voicemail,,,,,,,,,,,46,5X
+5XB-10192-23386,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,07/07/2022,Successful,07/08/2022,,,,,,,,,,,Completed over the phone,,,,70,5X
+5XV-65791-41006,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/21/2021,Unsuccessful,,08/02/2021,Left Voicemail,,,,,,,,,,,,,69,5X
+5X3-27940-93711,vsafe-6-month-dose2,Moderna,,,2,182,08/09/2021,Unsuccessful,,08/11/2021,Left Voicemail,,,,,,,,,,,,,39,5X
+5X7-25612-79345,vsafe-42-day-single,Janssen/Johnson & Johnson,Correct,,1,42,08/24/2021,Successful,08/30/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,48,5X
+5XG-10008-25909,vsafe-12-month-dose1,Pfizer-BioNTech,Correct,,1,365,09/20/2022,Successful,09/27/2022,09/21/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,70,5X
+5XF-88620-79581,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,188,10/07/2022,Unsuccessful,,10/10/2022,Left Voicemail,,,,,,,,,,,,,62,5X
+5XE-12189-63389,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,4,10/11/2021,Unsuccessful,,,,,,,,,,,,,,,,72,5X
+5XM-26138-67029,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/12/2021,Unsuccessful,,10/13/2021,Could Not Reach Participant,10/19/2021,Left Voicemail,,,,,,,,,,,29,5X
+5XE-12189-63389,vsafe-1-6-daily-dose3,Pfizer-BioNTech,,,3,5,10/12/2021,Unsuccessful,,,,,,,,,,,,,,,,72,5X
+5XE-12189-63389,vsafe-7-day-dose3,Pfizer-BioNTech,,,3,7,10/14/2021,Unsuccessful,,10/29/2021,Left Voicemail,,,,,,,,,,,,,72,5X
+5XZ-26543-86293,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,185,10/18/2021,Unsuccessful,,10/21/2021,Left Voicemail,,,,,,,,,,,,,65,5X
+5XU-15903-06601,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,28,10/18/2021,Successful,04/24/2023,10/19/2021,Could Not Reach Participant,10/22/2021,Could Not Reach Participant,10/26/2022,Left Voicemail,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5XU-15903-06601,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,10/22/2022,Successful,04/24/2023,10/26/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,64,5X
+5XU-15903-06601,vsafe-35-day-dose3,Pfizer-BioNTech,Correct,,3,35,10/25/2021,Successful,04/24/2023,10/26/2021,Could Not Reach Participant,10/26/2022,Left Voicemail,10/29/2021,Could Not Reach Participant,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,64,5X
+5XQ-10849-39847,vsafe-1-6-daily-dose3,Moderna,,,3,5,10/27/2021,Unsuccessful,,10/29/2021,Left Voicemail,,,,,,,,,,,,,51,5X
+5XB-26353-68060,vsafe-42-day-dose3,Moderna,,,3,42,10/28/2021,Unsuccessful,,10/29/2021,Could Not Reach Participant,11/03/2021,Could Not Reach Participant,,,,,,,,,,,72,5X
+5XY-24730-76980,vsafe-12-month-dose3,Pfizer-BioNTech,Correct,,3,365,10/31/2022,Successful,11/01/2022,,,,,,,,,,,Completed over the phone,,,,41,5X
+5XP-21311-79361,vsafe-6-month-dose4,Pfizer-BioNTech,Correct,,4,182,11/09/2022,Successful,11/10/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,69,5X
+5XB-10192-23386,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,28,11/21/2021,Successful,11/30/2021,,,,,,,,,,,Not applicable - Accidental Reporting,,,,70,5X
+5XY-24730-76980,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,42,12/12/2021,Successful,12/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,41,5X
+5XD-25705-06599,vsafe-35-day-dose3,Pfizer-BioNTech,Correct,,3,35,12/16/2021,Successful,12/17/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,47,5X
+5XE-31096-45498,vsafe-12-month-dose3,Pfizer-BioNTech,,,3,365,12/26/2022,Unsuccessful,,12/28/2022,Left Voicemail,,,,,,,,,,,,,56,5X
+5X6-23764-56494,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,91,12/27/2021,Unsuccessful,,12/28/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XY-12746-87903,vsafe-3-month-dose5,Pfizer-BioNTech,Correct,,5,91,12/27/2022,Successful,12/29/2022,12/28/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,72,5X
+5XQ-30296-89063,vsafe-12-month-dose1,Pfizer-BioNTech,Correct,,1,365,12/29/2021,Successful,01/03/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,31,5X
+5XL-30342-98432,vsafe-12-month-dose1,Moderna,,,1,367,12/30/2021,Unsuccessful,,01/06/2022,Left Voicemail,,,,,,,,,,,,,48,5X
+5XL-17182-08984,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/07/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-31096-45498,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/10/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XE-31096-45498,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,2,01/11/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XK-31069-91245,vsafe-14-day-dose1,Pfizer-BioNTech,,,1,14,01/12/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XW-92666-48800,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/13/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XL-17182-08984,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,4,12/21/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XK-31069-91245,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,12/30/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XA-32413-71630,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,01/04/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XA-32413-71630,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,01/06/2021,Unsuccessful,,02/02/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X6-15959-78381,vsafe-14-day-dose1,Moderna,,,1,14,01/26/2021,Unsuccessful,,04/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XN-23860-84089,vsafe-12-month-dose2,Moderna,Correct,,2,365,01/27/2022,Successful,01/28/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,54,5X
+5XT-56702-88050,vsafe-7-day-dose1,Moderna,,,1,7,01/29/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XT-56702-88050,vsafe-14-day-dose1,Moderna,,,1,15,02/06/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XX-27781-94040,vsafe-3-month-dose3,Pfizer-BioNTech,,,3,93,02/07/2022,Unsuccessful,,02/10/2022,Left Voicemail,,,,,,,,,,,,,24,5X
+5XU-94507-78621,vsafe-14-day-dose1,Moderna,,,1,14,02/09/2021,Successful,07/22/2021,07/17/2021,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XN-23860-84089,vsafe-14-day-dose2,Moderna,Correct,,2,14,02/10/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XU-23502-53137,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/12/2022,Successful,02/15/2022,02/15/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,55,5X
+5XC-23592-06665,vsafe-6-month-dose3,Moderna,,,3,182,02/13/2022,Unsuccessful,,02/17/2022,Could Not Reach Participant,,,,,,,,,,,,,71,5X
+5XN-23860-84089,vsafe-21-day-dose2,Moderna,Correct,,2,21,02/17/2021,Successful,07/17/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5XU-20585-88813,vsafe-1-6-daily-dose2,Moderna,,,2,1,02/19/2021,Unsuccessful,,08/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-57633-67076,vsafe-21-day-dose2,Moderna,,,2,21,02/22/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X2-28105-45860,vsafe-12-month-dose2,Moderna,,,2,367,02/24/2022,Unsuccessful,,02/28/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5XR-51163-80094,vsafe-12-month-dose2,Moderna,,,2,365,02/26/2022,Unsuccessful,,03/01/2022,Left Voicemail,,,,,,,,,,,,,41,5X
+5XR-57633-67076,vsafe-28-day-dose2,Moderna,,,2,28,03/01/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X6-32967-32550,vsafe-3-month-dose3,Janssen/Johnson & Johnson,Correct,,3,91,03/07/2022,Successful,06/07/2022,03/09/2022,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,58,5X
+5XP-16005-58916,vsafe-14-day-dose1,Moderna,Correct,,1,14,03/18/2021,Successful,12/20/2021,12/20/2021,Left Voicemail,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,,,37,5X
+5X9-20851-08780,vsafe-6-month-dose5,Moderna,Correct,,5,182,03/26/2023,Successful,03/27/2023,,,,,,,,,03/27/2023,04:30PM ET,Completed over the phone,,,,67,5X
+5X5-59523-83464,vsafe-12-month-dose1,Janssen/Johnson & Johnson,Correct,,1,365,04/01/2022,Successful,04/05/2022,,,,,,,,,,,Reported to VAERS voluntarily prior to GDIT contact,,unknown,,30,5X
+5XN-10454-89758,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,04/03/2022,Successful,04/06/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,43,5X
+5XP-15742-09729,vsafe-21-day-dose1-asz-mod,Moderna,,,1,27,04/05/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XF-10638-14504,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,04/14/2021,Successful,03/22/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,58,5X
+5XZ-21505-50527,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,04/19/2021,Unsuccessful,,02/27/2022,Could Not Reach Participant,03/03/2022,Could Not Reach Participant,,,,,,,,,,,51,5X
+5XU-10275-57662,vsafe-14-day-dose1,Moderna,,,1,14,04/20/2021,Unsuccessful,,,,,,,,,,,,,,,,32,5X
+5X4-19368-39078,vsafe-3-month-dose2,Moderna,,,2,91,04/21/2021,Unsuccessful,,02/28/2022,Left Voicemail,,,,,,,,,,,,,36,5X
+5XV-18491-24536,vsafe-12-month-dose2,Moderna,Correct,,2,365,04/21/2022,Successful,04/22/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,58,5X
+5XU-10275-57662,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,04/27/2021,Unsuccessful,,12/28/2021,Left Voicemail,,,,,,,,,,,,,32,5X
+5XS-30359-14845,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,04/27/2021,Successful,04/07/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,64,5X
+5XY-14987-93917,vsafe-21-day-dose4,Moderna,,,4,21,04/28/2022,Unsuccessful,,04/29/2022,Left Voicemail,12/22/2022,Could Not Reach Participant,,,,,,,,,,,67,5X
+5XR-57633-67076,vsafe-3-month-dose2,Moderna,,,2,91,05/03/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XA-18635-06626,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,93,05/05/2021,Successful,01/12/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,75,5X
+5XZ-30646-67731,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,05/07/2021,Successful,04/21/2022,04/15/2022,Left Voicemail,04/20/2022,Left Voicemail,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,43,5X
+5XB-32374-13367,vsafe-1-6-daily-dose1,Moderna,,,1,4,05/08/2021,Unsuccessful,,04/15/2022,Could Not Reach Participant,04/20/2022,Could Not Reach Participant,,,,,,,,,,,30,5X
+5XW-21420-33560,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,43,05/08/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XF-16108-91156,vsafe-6-month-dose3,Moderna,Correct,,3,184,05/08/2022,Successful,05/10/2022,05/10/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,24,5X
+5XE-27748-24341,vsafe-42-day-dose4,Moderna,Correct,,4,42,05/20/2022,Successful,05/24/2022,05/24/2022,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,79,5X
+5XE-42758-31430,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,183,05/24/2022,Successful,06/01/2022,05/25/2022,Could Not Reach Participant,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,48,5X
+5XR-51163-80094,vsafe-3-month-dose2,Moderna,,,2,91,05/28/2021,Unsuccessful,,,,,,,,,,,,,,,,41,5X
+5X9-20851-08780,vsafe-35-day-dose4,Moderna,Correct,,4,35,06/02/2022,Successful,06/03/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,67,5X
+5XN-97167-19511,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,367,06/03/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,45,5X
+5XU-23502-53137,vsafe-6-month-dose3,Pfizer-BioNTech,,,3,182,06/04/2022,Unsuccessful,,06/06/2022,Left Voicemail,,,,,,,,,,,,,55,5X
+5XG-31470-77377,vsafe-3-month-dose2,Moderna,Correct,,2,91,06/05/2021,Successful,,01/05/2022,Could Not Reach Participant,01/10/2022,Could Not Reach Participant,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,70,5X
+5X6-32967-32550,vsafe-6-month-dose3,Janssen/Johnson & Johnson,Correct,,3,182,06/06/2022,Successful,06/07/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,58,5X
+5X9-20851-08780,vsafe-42-day-dose4,Moderna,Correct,,4,44,06/11/2022,Successful,06/13/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,67,5X
+5X6-32967-32550,vsafe-6-month-dose5,Moderna,,,5,184,06/14/2023,Unsuccessful,,06/15/2023,Could Not Reach Participant,,,,,,,,,,,,,58,5X
+5X2-32442-44231,vsafe-3-month-dose4,Pfizer-BioNTech,Correct,,4,91,06/15/2022,Successful,06/16/2022,06/16/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,5X
+5X3-70996-81755,vsafe-35-day-dose4,Pfizer-BioNTech,Correct,,4,35,06/22/2022,Successful,06/23/2022,06/23/2022,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,64,5X
+5XW-21420-33560,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,06/27/2021,Unsuccessful,,06/30/2021,Left Voicemail,,,,,,,,,,,,,71,5X
+5X5-85289-68143,vsafe-3-month-dose2,Moderna,,,2,91,07/06/2021,Unsuccessful,,07/09/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XJ-14783-10755,vsafe-3-month-dose3,Moderna,,,3,91,07/07/2022,Unsuccessful,,07/08/2022,Left Voicemail,,,,,,,,,,,,,70,5X
+5XP-15742-09729,vsafe-3-month-dose2,Moderna,,,2,93,07/08/2021,Unsuccessful,,07/12/2021,Left Voicemail,,,,,,,,,,,,,51,5X
+5X8-23787-67915,vsafe-3-month-dose5,Pfizer-BioNTech,,,5,91,07/10/2022,Unsuccessful,,07/11/2022,Left Voicemail,10/10/2022,Left Voicemail,,,,,,,,,,,69,5X
+5XG-31470-77377,vsafe-3-month-dose4,Moderna,Correct,,4,93,07/14/2022,Successful,07/15/2022,,,,,,,,,,,Completed over the phone,,,,70,5X
+5XN-25639-00387,vsafe-6-month-dose2,Moderna,Correct,,2,182,07/28/2021,Successful,08/05/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,28,5X
+5XE-42758-31430,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,91,07/31/2021,Successful,,11/21/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,48,5X
+5XR-57633-67076,vsafe-6-month-dose2,Moderna,Correct,,2,185,08/05/2021,Successful,08/13/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,5X
+5XU-23502-53137,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/13/2021,Successful,,08/19/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,55,5X
+5XK-26888-75200,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/22/2021,Unsuccessful,,12/10/2021,Left Voicemail,,,,,,,,,,,,,59,5X
+5XU-22283-95257,vsafe-3-month-dose2,Moderna,Correct,,2,93,08/22/2021,Successful,12/13/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,61,5X
+5XR-51163-80094,vsafe-6-month-dose2,Moderna,,,2,182,08/27/2021,Unsuccessful,,08/31/2021,Left Voicemail,,,,,,,,,,,,,41,5X
+5XA-16108-90731,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,10/01/2021,Unsuccessful,,11/30/2021,Could Not Reach Participant,12/03/2021,Could Not Reach Participant,,,,,,,,,,,55,5X
+5XS-10730-26864,vsafe-6-month-dose2,Moderna,,,2,182,10/06/2021,Unsuccessful,,11/05/2021,Left Voicemail,,,,,,,,,,,,,63,5X
+5XY-10525-92856,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,182,10/07/2021,Unsuccessful,,10/12/2021,Could Not Reach Participant,10/15/2021,Could Not Reach Participant,,,,,,,,,,,42,5X
+5XG-91260-23457,vsafe-14-day-dose3,Pfizer-BioNTech,,,3,14,10/09/2021,Unsuccessful,,10/12/2021,Left Voicemail,,,,,,,,,,,,,69,5X
+5X8-23787-67915,vsafe-6-month-dose5,Pfizer-BioNTech,,,5,182,10/09/2022,Unsuccessful,,10/10/2022,Left Voicemail,,,,,,,,,,,,,69,5X
+5XT-33072-43208,vsafe-21-day-dose3,Pfizer-BioNTech,Correct,,3,23,10/22/2021,Successful,10/27/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5XY-93597-23907,vsafe-6-month-dose2,Moderna,,,2,184,11/01/2021,Unsuccessful,,11/02/2021,Left Voicemail,,,,,,,,,,,,,39,5X
+5X8-85357-35017,vsafe-1-6-daily-dose1-dep,Pfizer-BioNTech,,,1,1,11/07/2021,Unsuccessful,,11/09/2021,Left Voicemail,,,,,,,,,,,,,9,5X
+5X3-70996-81755,vsafe-6-month-dose4,Pfizer-BioNTech,,,4,182,11/16/2022,Unsuccessful,,11/17/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5XU-70074-14427,vsafe-35-day-dose3,Moderna,,,3,35,12/10/2021,Unsuccessful,,12/13/2021,Could Not Reach Participant,12/16/2021,Could Not Reach Participant,,,,,,,,,,,37,5X
+5XU-70074-14427,vsafe-42-day-dose3,Moderna,,,3,42,12/17/2021,Unsuccessful,,12/21/2021,Could Not Reach Participant,12/23/2021,Could Not Reach Participant,,,,,,,,,,,37,5X
+5XY-14987-93917,vsafe-3-month-dose5,Pfizer-BioNTech,,,5,91,12/21/2022,Unsuccessful,,12/22/2022,Could Not Reach Participant,,,,,,,,,,,,,67,5X
+5XR-57633-67076,vsafe-1-6-daily-dose1,Moderna,,,1,2,01/05/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X7-11554-85780,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,3,01/14/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X7-11554-85780,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,4,01/15/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X7-11554-85780,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,5,01/16/2021,Unsuccessful,,03/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XN-15632-00518,vsafe-7-day-dose1,Moderna,,,1,9,01/22/2021,Unsuccessful,,03/31/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XQ-70269-75887,vsafe-12-month-dose2,Moderna,,,2,365,01/23/2022,Unsuccessful,,01/25/2022,Left Voicemail,,,,,,,,,,,,,61,5X
+5X8-27687-52319,vsafe-14-day-dose2,Pfizer-BioNTech,Correct,,2,14,01/26/2021,Successful,04/13/2021,04/12/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,,5X
+5XQ-20405-44136,vsafe-1-6-daily-dose1,Pfizer-BioNTech,Correct,,1,3,01/28/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XX-44178-97146,vsafe-12-month-dose2,Moderna,,,2,366,02/02/2022,Unsuccessful,,02/03/2022,Left Voicemail,04/11/2023,Left Voicemail,,,,,,,,,,,47,5X
+5XP-15717-53254,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,02/05/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X2-23953-11055,vsafe-7-day-dose1,Moderna,,,1,10,02/05/2021,Unsuccessful,,07/02/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XP-15717-53254,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,7,02/06/2021,Unsuccessful,,07/01/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XJ-27149-44062,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,28,02/06/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XJ-11416-05270,vsafe-28-day-dose1,Pfizer-BioNTech,,,1,28,02/09/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XW-22255-00342,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,02/09/2021,Successful,07/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XB-31824-11895,vsafe-12-month-dose2,Moderna,,,2,365,02/10/2022,Unsuccessful,,02/14/2022,Could Not Reach Participant,02/17/2022,Could Not Reach Participant,,,,,,,,,,,39,5X
+5XJ-27149-44062,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,02/13/2021,Unsuccessful,,07/14/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XC-32208-77646,vsafe-12-month-dose2,Pfizer-BioNTech,Correct,,2,365,02/25/2022,Successful,02/28/2022,,,,,,,,,,,Does not wish to fill out VAERS report,,,,46,5X
+5XB-26771-82925,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,02/26/2021,Unsuccessful,,09/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XZ-12390-54873,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,367,02/28/2022,Unsuccessful,,03/01/2022,Could Not Reach Participant,03/04/2022,Could Not Reach Participant,,,,,,,,,,,36,5X
+5XY-34121-28533,vsafe-3-month-dose2-dep,Pfizer-BioNTech,,,2,93,03/04/2022,Unsuccessful,,03/08/2022,Left Voicemail,,,,,,,,,,,,,8,5X
+5X3-19683-81106,vsafe-0-day-dose1,Pfizer-BioNTech,,,1,0,03/06/2021,Unsuccessful,,11/13/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5X7-12530-79664,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,44,03/11/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XJ-11416-05270,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,17,03/11/2021,Unsuccessful,,07/22/2021,Left Voicemail,08/04/2021,Left Voicemail,,,,,,,,,,,,5X
+5X3-29894-22114,vsafe-12-month-dose2,Moderna,Correct,,2,371,03/13/2022,Successful,03/14/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,67,5X
+5XP-10973-93538,vsafe-42-day-dose2,Moderna,,,2,42,03/20/2021,Unsuccessful,,12/30/2021,Left Voicemail,,,,,,,,,,,,,81,5X
+5XQ-20405-44136,vsafe-35-day-dose2,Pfizer-BioNTech,Correct,,2,35,03/23/2021,Successful,,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XZ-45709-92718,vsafe-42-day-dose2,Moderna,,,2,42,03/25/2021,Unsuccessful,,08/06/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XQ-20405-44136,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,03/30/2021,Successful,06/09/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,,5X
+5XC-22468-63876,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,04/03/2021,Unsuccessful,,06/14/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XM-25999-72678,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,43,04/06/2021,Unsuccessful,,03/18/2022,Left Voicemail,,,,,,,,,,,,,66,5X
+5X9-10721-99423,vsafe-7-day-dose1,Pfizer-BioNTech,,,1,9,04/09/2021,Unsuccessful,,10/06/2021,Could Not Reach Participant,10/11/2021,Could Not Reach Participant,,,,,,,,,,,16,5X
+5XX-44178-97146,vsafe-6-month-dose4,Moderna,,,4,182,04/10/2023,Unsuccessful,,04/11/2023,Left Voicemail,,,,,,,,,,,,,47,5X
+5XN-24119-49505,vsafe-1-6-daily-dose1,Moderna,,,1,1,04/14/2021,Unsuccessful,,03/31/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5XM-28463-34417,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/24/2022,Unsuccessful,,04/26/2022,Left Voicemail,,,,,,,,,,,,,49,5X
+5X5-28629-03809,vsafe-12-month-dose2,Moderna,Correct,,2,365,04/30/2022,Successful,05/03/2022,,,,,,,,,,,Completed over the phone,,,,58,5X
+5X7-88284-08441,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,20,05/03/2021,Successful,04/18/2022,04/08/2022,Could Not Reach Participant,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,52,5X
+5XY-77173-04210,vsafe-3-month-dose2,Moderna,,,2,91,05/08/2021,Unsuccessful,,,,,,,,,,,,,,,,49,5X
+5XN-24655-66895,vsafe-7-day-dose2,Moderna,,,2,11,05/18/2021,Unsuccessful,,01/20/2022,Could Not Reach Participant,,,,,,,,,,,,,48,5X
+5XP-22834-16318,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,93,05/28/2021,Unsuccessful,,05/12/2022,Left Voicemail,,,,,,,,,,,,,20,5X
+5XZ-26267-60438,vsafe-3-month-dose1,Moderna,Correct,,2,61,06/12/2021,Successful,06/24/2021,06/22/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,57,5X
+5XV-15501-82893,vsafe-3-month-dose2,Moderna,,,2,92,06/20/2021,Unsuccessful,,06/28/2021,Left Voicemail,,,,,,,,,,,,,76,5X
+5XR-12419-48574,vsafe-6-month-dose2-dep,Pfizer-BioNTech,Correct,,2,182,07/09/2022,Successful,07/11/2022,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,5,5X
+5XD-25899-57946,vsafe-3-month-dose2,Pfizer-BioNTech,,,2,91,07/14/2021,Unsuccessful,,07/23/2021,Left Voicemail,,,,,,,,,,,,,53,5X
+5X4-26613-42911,vsafe-1-6-daily-dose2,Moderna,,,2,6,07/15/2021,Unsuccessful,,07/26/2021,Left Voicemail,,,,,,,,,,,,,33,5X
+5XL-76753-95774,vsafe-6-month-dose2,Moderna,,,2,182,07/26/2021,Unsuccessful,,07/28/2021,Could Not Reach Participant,08/02/2021,Could Not Reach Participant,,,,,,,,,,,33,5X
+5X7-12530-79664,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,07/27/2021,Unsuccessful,,07/30/2021,Left Voicemail,,,,,,,,,,,,,45,5X
+5XX-44178-97146,vsafe-6-month-dose2,Moderna,,,2,182,08/02/2021,Unsuccessful,,04/11/2023,Left Voicemail,08/16/2021,Left Voicemail,,,,,,,,,,,47,5X
+5X8-13013-67067,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,08/07/2021,Unsuccessful,,,,,,,,,,,,,,,,39,5X
+5X8-13013-67067,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,6,08/08/2021,Unsuccessful,,12/01/2021,Left Voicemail,,,,,,,,,,,,,39,5X
+5X5-59204-32823,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,183,08/13/2021,Unsuccessful,,08/18/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X6-25250-94582,vsafe-35-day-dose2-dep,Pfizer-BioNTech,,,2,35,08/23/2021,Unsuccessful,,08/25/2021,Left Voicemail,,,,,,,,,,,,,14,5X
+5XZ-12390-54873,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,08/27/2021,Unsuccessful,,08/31/2021,Left Voicemail,,,,,,,,,,,,,36,5X
+5XE-28682-04756,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,09/01/2021,Successful,09/24/2021,09/24/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,67,5X
+5XH-54438-41664,vsafe-3-month-dose2,Moderna,,,2,93,09/02/2021,Unsuccessful,,09/06/2021,Left Voicemail,,,,,,,,,,,,,24,5X
+5X3-29894-22114,vsafe-6-month-dose2,Moderna,,,2,182,09/05/2021,Unsuccessful,,09/09/2021,Left Voicemail,,,,,,,,,,,,,67,5X
+5XV-21564-36056,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,09/20/2021,Unsuccessful,,09/22/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5X4-10890-47840,vsafe-7-day-dose3,Pfizer-BioNTech,,,3,7,10/01/2021,Unsuccessful,,11/11/2021,Left Voicemail,,,,,,,,,,,,,40,5X
+5XP-15717-53254,vsafe-14-day-dose3,Pfizer-BioNTech,,,3,14,10/15/2021,Unsuccessful,,10/20/2021,Left Voicemail,,,,,,,,,,,,,69,5X
+5XC-22468-63876,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,182,10/18/2021,Unsuccessful,,10/21/2021,Left Voicemail,,,,,,,,,,,,,45,5X
+5X6-18929-49622,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,10/24/2021,Unsuccessful,,10/26/2021,Left Voicemail,,,,,,,,,,,,,61,5X
+5XG-25376-11902,vsafe-6-month-dose2,Moderna,,,2,182,11/02/2021,Unsuccessful,,11/03/2021,Left Voicemail,,,,,,,,,,,,,22,5X
+5XQ-13750-96488,vsafe-14-day-dose1-dep,Pfizer-BioNTech,Correct,,1,14,12/15/2021,Successful,12/16/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,11,5X
+5XY-77173-04210,vsafe-3-month-dose3,Moderna,,,3,91,12/23/2021,Unsuccessful,,12/27/2021,Left Voicemail,,,,,,,,,,,,,49,5X
+5XF-32812-68086,vsafe-3-month-dose3,Pfizer-BioNTech,Correct,,3,91,12/30/2021,Successful,01/10/2022,01/05/2022,Could Not Reach Participant,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,75,5X
+5XZ-45709-92718,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/17/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X4-10890-47840,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,01/18/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XL-76753-95774,vsafe-1-6-daily-dose1,Moderna,,,1,1,12/29/2020,priority 2/3,,,,,,,,,,,,,,,,,5X
+5X5-24128-51683,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,2,01/16/2021,Unsuccessful,,03/15/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XM-10352-33526,vsafe-1-6-daily-dose1,Moderna,,,1,3,01/17/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XM-10352-33526,vsafe-1-6-daily-dose1,Moderna,,,1,4,01/18/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XM-10352-33526,vsafe-1-6-daily-dose1,Moderna,,,1,5,01/19/2021,Unsuccessful,,03/24/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XS-15899-42295,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,01/25/2021,Unsuccessful,,05/27/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XQ-18392-83475,vsafe-7-day-dose1,Pfizer-BioNTech,Correct,,1,7,01/26/2021,Successful,04/09/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XQ-12573-09810,vsafe-21-day-dose2,Pfizer-BioNTech,,,2,21,01/30/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XG-19403-00551,vsafe-3-month-dose3,Moderna,,,3,91,02/01/2022,Unsuccessful,,02/04/2022,Left Voicemail,,,,,,,,,,,,,52,5X
+5XQ-18392-83475,vsafe-14-day-dose1,Pfizer-BioNTech,Correct,,1,14,02/02/2021,Successful,04/09/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XQ-12573-09810,vsafe-28-day-dose2,Pfizer-BioNTech,,,2,29,02/07/2021,Unsuccessful,,06/17/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XR-23654-00649,vsafe-14-day-dose2,Pfizer-BioNTech,,,2,14,02/09/2021,Unsuccessful,,07/19/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XE-31280-40205,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,32,02/13/2022,Successful,02/21/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,41,5X
+5XQ-18392-83475,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,02/15/2022,Successful,02/16/2022,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XR-20381-02948,vsafe-12-month-dose2,Moderna,,,2,365,02/27/2022,Unsuccessful,,03/17/2022,Left Voicemail,,,,,,,,,,,,,25,5X
+5XY-13170-97471,vsafe-14-day-dose2,Moderna,Correct,,2,14,03/05/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,,5X
+5X3-10027-81472,vsafe-1-6-daily-dose2,Moderna,,,2,2,03/14/2021,Unsuccessful,,,,,,,,,,,,,,,,55,5X
+5X8-32564-71368,vsafe-12-month-dose1,Janssen/Johnson & Johnson,,,1,365,03/09/2022,Unsuccessful,,03/14/2022,Left Voicemail,,,,,,,,,,,,,47,5X
+5X3-10027-81472,vsafe-1-6-daily-dose2,Moderna,,,2,1,03/13/2021,Unsuccessful,,,,,,,,,,,,,,,,55,5X
+5X3-10027-81472,vsafe-1-6-daily-dose2,Moderna,,,2,3,03/15/2021,Unsuccessful,,,,,,,,,,,,,,,,55,5X
+5X3-10027-81472,vsafe-1-6-daily-dose2,Moderna,,,2,4,03/16/2021,Unsuccessful,,12/05/2021,Left Voicemail,,,,,,,,,,,,,55,5X
+5XY-23883-40030,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,1,03/22/2021,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,20,5X
+5XD-12865-82833,vsafe-1-6-daily-dose1,Pfizer-BioNTech,,,1,5,03/23/2021,Unsuccessful,,03/04/2022,Left Voicemail,,,,,,,,,,,,,43,5X
+5XQ-18392-83475,vsafe-42-day-dose2,Pfizer-BioNTech,Correct,,2,42,03/23/2021,Successful,10/04/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XG-28676-65303,vsafe-6-month-dose6,Pfizer-BioNTech,Correct,,6,182,03/28/2023,Successful,03/29/2023,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,70,5X
+5XN-67439-00437,vsafe-42-day-dose2,Moderna,,,2,44,03/29/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5X4-25337-34098,vsafe-21-day-dose1-asz-mod,Moderna,,,1,21,03/31/2021,Unsuccessful,,01/23/2022,Left Voicemail,,,,,,,,,,,,,58,5X
+5XK-32545-75333,vsafe-35-day-dose2,Pfizer-BioNTech,,,2,35,04/01/2021,Unsuccessful,,06/08/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XH-27406-65237,vsafe-6-month-dose3,Pfizer-BioNTech,Correct,,3,182,04/02/2022,Successful,04/06/2022,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,68,5X
+5X8-30643-51694,vsafe-12-month-dose2,Pfizer-BioNTech,,,2,365,04/05/2022,Unsuccessful,,04/12/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5XQ-12985-64755,vsafe-7-day-dose2,Pfizer-BioNTech,,,2,7,04/06/2021,Successful,02/03/2022,02/03/2022,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,61,5X
+5XX-13453-72691,vsafe-21-day-dose1-nvx-pfr,Pfizer-BioNTech,,,2,0,04/12/2021,Unsuccessful,,,,,,,,,,,,,,,,,5X
+5XX-13453-72691,vsafe-0-day-dose2,Pfizer-BioNTech,,,2,0,04/12/2021,Unsuccessful,,03/25/2022,Left Voicemail,,,,,,,,,,,,,,5X
+5X3-30436-74424,vsafe-3-month-dose2,Moderna,,,2,91,04/27/2021,Unsuccessful,,06/09/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5X8-99119-95047,vsafe-42-day-dose4,Moderna,Correct,,4,42,05/02/2022,Successful,05/03/2022,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,59,5X
+5XA-55792-98398,vsafe-12-month-dose4,Pfizer-BioNTech,Correct,,4,366,05/08/2023,Successful,05/09/2023,,,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,56,5X
+5XT-78373-26808,vsafe-12-month-dose4,Pfizer-BioNTech,Correct,,4,365,05/09/2023,Successful,05/10/2023,,,,,,,,,,,Completed over the phone,,,,77,5X
+5XQ-18392-83475,vsafe-3-month-dose2,Pfizer-BioNTech,Correct,,2,92,05/12/2021,Successful,10/04/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XQ-18392-83475,vsafe-35-day-dose4,Moderna,,,4,35,05/17/2022,Unsuccessful,,05/18/2022,Left Voicemail,07/13/2022,Left Voicemail,10/14/2022,Left Voicemail,,,,,,,,,81,5X
+5XT-78373-26808,vsafe-21-day-dose4,Pfizer-BioNTech,Correct,,4,23,06/01/2022,Successful,06/02/2022,,,,,,,,,,,Not applicable - Accidental Reporting,,,,77,5X
+5XY-79557-03276,vsafe-3-month-dose1,Pfizer-BioNTech,,,1,91,06/05/2021,Unsuccessful,,11/26/2021,Left Voicemail,,,,,,,,,,,,,73,5X
+5XG-30174-92302,vsafe-14-day-dose2,Moderna,Correct,,2,19,06/06/2021,Successful,09/05/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,24,5X
+5XA-55792-98398,vsafe-42-day-dose2,Moderna,Correct,,2,42,06/07/2021,Successful,05/09/2023,09/05/2021,Left Voicemail,,,,,,,,,Not applicable � Participant does not believe symptoms are related to vaccine and does not wish to fill,,,,56,5X
+5XG-28676-65303,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/02/2021,Successful,07/07/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,70,5X
+5XS-25605-93018,vsafe-3-month-dose4,Pfizer-BioNTech,,,4,91,07/04/2022,Unsuccessful,,07/05/2022,Left Voicemail,,,,,,,,,,,,,64,5X
+5X3-39724-29641,vsafe-1-6-daily-dose1-dep,Pfizer-BioNTech,Correct,,1,3,07/12/2021,Successful,07/15/2021,07/14/2021,Left Voicemail,,,,,,,,,Completed over the phone,,,,17,5X
+5XQ-18392-83475,vsafe-3-month-dose4,Moderna,,,4,91,07/12/2022,Unsuccessful,,07/13/2022,Left Voicemail,10/14/2022,Left Voicemail,,,,,,,,,,,81,5X
+5XT-21045-15147,vsafe-3-month-dose2,Moderna,,,2,91,07/14/2021,Unsuccessful,,07/22/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5XQ-22209-43409,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,07/15/2021,Unsuccessful,,07/22/2021,Left Voicemail,,,,,,,,,,,,,47,5X
+5XK-95869-96845,vsafe-3-month-dose2,Moderna,Correct,,2,91,07/21/2021,Successful,07/28/2021,,,,,,,,,,,,,,,82,5X
+5XZ-11862-27902,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,182,07/23/2021,Unsuccessful,,07/29/2021,Left Voicemail,,,,,,,,,,,,,49,5X
+5XN-24235-06907,vsafe-42-day-dose2,Pfizer-BioNTech,,,2,42,07/24/2021,Unsuccessful,,08/04/2021,Could Not Reach Participant,08/09/2021,Left Voicemail,,,,,,,,,,,63,5X
+5XR-19367-74499,vsafe-6-month-dose3,Moderna,,,3,182,07/29/2022,Unsuccessful,,08/01/2022,Left Voicemail,,,,,,,,,,,,,42,5X
+5XQ-18392-83475,vsafe-6-month-dose2,Pfizer-BioNTech,Correct,,2,182,08/10/2021,Successful,10/04/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XN-67439-00437,vsafe-6-month-dose2,Moderna,,,2,184,08/16/2021,Unsuccessful,,08/19/2021,Left Voicemail,,,,,,,,,,,,,,5X
+5XY-13170-97471,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/20/2021,Successful,08/23/2021,08/23/2021,Could Not Reach Participant,,,,,,,,,Participant prefers to complete VAERS report online,,,,53,5X
+5XF-10697-05207,vsafe-6-month-dose2,Moderna,Correct,,2,182,08/25/2021,Successful,08/31/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,63,5X
+5X4-26980-95023,vsafe-6-month-dose2,Pfizer-BioNTech,,,2,184,08/28/2021,Unsuccessful,,12/14/2021,Left Voicemail,,,,,,,,,,,,,42,5X
+5X3-39724-29641,vsafe-28-day-dose2-dep,Pfizer-BioNTech,,,2,28,09/03/2021,Unsuccessful,,09/08/2021,Left Voicemail,,,,,,,,,,,,,17,5X
+5XD-80912-75266,vsafe-7-day-dose2,Pfizer-BioNTech,Correct,,2,7,09/06/2021,Successful,09/15/2021,09/10/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,60,5X
+5X3-22870-67481,vsafe-6-month-dose1,Janssen/Johnson & Johnson,,,1,187,09/27/2021,Unsuccessful,,09/28/2021,Left Voicemail,,,,,,,,,,,,,53,5X
+5XG-18741-06407,vsafe-6-month-dose2,Moderna,Correct,,2,184,09/27/2021,Successful,09/28/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,35,5X
+5XQ-18392-83475,vsafe-42-day-dose3,Pfizer-BioNTech,Correct,,3,44,09/30/2021,Successful,10/04/2021,07/13/2022,Left Voicemail,,,,,,,,,Not applicable - Accidental Reporting,,,,81,5X
+5XS-21666-49241,vsafe-6-month-dose2,Moderna,,,2,184,10/09/2021,Unsuccessful,,10/15/2021,Left Voicemail,,,,,,,,,,,,,68,5X
+5XQ-18392-83475,vsafe-6-month-dose4,Moderna,,,4,184,10/13/2022,Unsuccessful,,10/14/2022,Left Voicemail,,,,,,,,,,,,,81,5X
+5XT-21045-15147,vsafe-6-month-dose2,Moderna,,,2,185,10/16/2021,Unsuccessful,,10/20/2021,Left Voicemail,,,,,,,,,,,,,56,5X
+5XA-84397-66949,vsafe-6-month-dose1,Pfizer-BioNTech,,,1,184,10/31/2021,Unsuccessful,,11/02/2021,Left Voicemail,,,,,,,,,,,,,63,5X
+5X3-30436-74424,vsafe-14-day-dose3,Moderna,,,3,14,11/05/2021,Successful,11/08/2021,,,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,30,5X
+5XF-16913-43592,vsafe-3-month-dose3,Moderna,Correct,,3,93,11/18/2021,Successful,11/24/2021,11/22/2021,Left Voicemail,,,,,,,,,Not applicable (accidental reporting or does not believe symptoms are related to vaccine),,,,74,5X
+5X3-30436-74424,vsafe-28-day-dose3,Moderna,,,3,28,11/19/2021,Unsuccessful,,11/23/2021,Left Voicemail,,,,,,,,,,,,,30,5X
+5X8-71220-53653,vsafe-35-day-dose3,Moderna,Correct,,3,35,11/30/2021,Successful,12/01/2021,12/01/2021,Left Voicemail,,,,,,,,,Does not wish to fill out VAERS report,,,,67,5X
+5X2-83790-35127,vsafe-21-day-dose3,Pfizer-BioNTech,Correct,,3,21,12/03/2021,Successful,12/07/2021,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,51,5X
+5X2-83790-35127,vsafe-28-day-dose3,Pfizer-BioNTech,Correct,,3,28,12/10/2021,Successful,12/13/2021,,,,,,,,,,,Does not wish to fill out VAERS report,,,,51,5X
+5X3-21026-25638,vsafe-42-day-dose3,Moderna,,,3,42,12/11/2021,Unsuccessful,,12/14/2021,Left Voicemail,,,,,,,,,,,,,58,5X
+5XQ-29120-16286,vsafe-35-day-dose2,Janssen/Johnson & Johnson,Correct,,2,41,12/25/2021,Successful,,,,,,,,,,,,Participant prefers to complete VAERS report online,,,,28,5X
+5XQ-29120-16286,vsafe-42-day-dose2,Janssen/Johnson & Johnson,Correct,,2,42,12/26/2021,Successful,12/27/2021,12/27/2021,Left Voicemail,,,,,,,,,Participant prefers to complete VAERS report online,,,,28,5X
+5X3-30436-74424,vsafe-14-day-dose1,Moderna,,,1,14,01/11/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
+5XQ-22209-43409,vsafe-1-6-daily-dose2,Pfizer-BioNTech,,,2,1,01/13/2021,priority 2/3,,,,,,,,,,,,,,,,,5X
