@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>v-safe timeline</title> <!-- Page title changed here -->
+    <title>v-safe timeline</title>
 
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -12,7 +12,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
-    <!-- Include custom styles for truncated RESPONSE_ID -->
     <style>
         .response-id {
             max-width: 100px;
@@ -54,14 +53,22 @@
 </div>
 
 <script>
+    // Function to decompress gzipped content
+    async function decompressGzip(response) {
+        const arrayBuffer = await response.arrayBuffer();
+        const ds = new DecompressionStream('gzip');
+        const stream = new Response(arrayBuffer).body.pipeThrough(ds);
+        const decompressedResponse = await new Response(stream).text();
+        return decompressedResponse;
+    }
+
     // Get the ID parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id');  // Example: ?id=AB123456
+    const id = urlParams.get('id');
 
     if (id && id.length > 2) {
-        // Extract the first two letters from the ID
         const filePrefix = id.substring(0, 2).toUpperCase();
-        const folderOrder = ['registrants', 'vaccinations', 'checkins', 'sro', 'sd', 'hcvo','callcenter','gdit', 'freetext'];
+        const folderOrder = ['registrants', 'vaccinations', 'checkins', 'sro', 'sd', 'hcvo', 'callcenter', 'gdit', 'freetext'];
         const tableTitles = {
             registrants: 'Registrant',
             vaccinations: 'Vaccinations',
@@ -74,74 +81,83 @@
             freetext: 'Free Text Responses'
         };
 
-        folderOrder.forEach(folder => {
-            const csvUrl = `csv/${folder}/${filePrefix}.csv`;
+        // Process each folder
+        folderOrder.forEach(async folder => {
+            try {
+                const csvUrl = `csv_gz/${folder}/${filePrefix}.csv.gz`;
+                const response = await fetch(csvUrl);
 
-            Papa.parse(csvUrl, {
-                download: true,
-                header: true,
-                complete: function (results) {
-                    console.log(`Parsed data from ${csvUrl}:`, results.data);
-
-                    // Filter rows by the full ID in the REGISTRANT_CODE column
-                    const filteredData = results.data.filter(row => row.REGISTRANT_CODE === id);
-
-                    if (filteredData.length > 0) {
-                        switch (folder) {
-                            case 'checkins':
-                                createCheckinsTable(filteredData, tableTitles[folder], `#${folder}-table`);
-                                break;
-                            case 'vaccinations':
-                                createVaccinationsTable(filteredData, tableTitles[folder], `#${folder}-table`);
-                                break;
-                            case 'sro':
-                            case 'sd':
-                            case 'hcvo':
-                                createNestedSymptomsTable(filteredData, tableTitles[folder], `#${folder}-table`);
-                                break;
-                            case 'freetext':
-                                createFreetextTable(filteredData, tableTitles[folder], `#${folder}-table`);
-                                break;
-                            case 'callcenter':
-                                createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`,'REPORTED_DATE');
-                                break;
-                            case 'gdit':
-                                createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`,'REPORTEDDATE');
-                                break;
-                            default:
-                                createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`,'REGISTERED_DATE');
-                        }
-                    } else {
-                        console.log(`No matching data found in ${csvUrl} for REGISTRANT_CODE ${id}.`);
-                    }
-                },
-                error: function (error) {
-                    console.error(`Error parsing CSV from ${csvUrl}:`, error);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
-            });
+
+                // Decompress the gzipped content
+                const decompressedData = await decompressGzip(response);
+
+                // Parse the CSV data
+                Papa.parse(decompressedData, {
+                    header: true,
+                    complete: function (results) {
+                        console.log(`Parsed data from ${csvUrl}:`, results.data);
+
+                        // Filter rows by the full ID in the REGISTRANT_CODE column
+                        const filteredData = results.data.filter(row => row.REGISTRANT_CODE === id);
+
+                        if (filteredData.length > 0) {
+                            switch (folder) {
+                                case 'checkins':
+                                    createCheckinsTable(filteredData, tableTitles[folder], `#${folder}-table`);
+                                    break;
+                                case 'vaccinations':
+                                    createVaccinationsTable(filteredData, tableTitles[folder], `#${folder}-table`);
+                                    break;
+                                case 'sro':
+                                case 'sd':
+                                case 'hcvo':
+                                    createNestedSymptomsTable(filteredData, tableTitles[folder], `#${folder}-table`);
+                                    break;
+                                case 'freetext':
+                                    createFreetextTable(filteredData, tableTitles[folder], `#${folder}-table`);
+                                    break;
+                                case 'callcenter':
+                                    createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`, 'REPORTED_DATE');
+                                    break;
+                                case 'gdit':
+                                    createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`, 'REPORTEDDATE');
+                                    break;
+                                default:
+                                    createTransposedTable(filteredData, tableTitles[folder], `#${folder}-table`, 'REGISTERED_DATE');
+                            }
+                        } else {
+                            console.log(`No matching data found in ${csvUrl} for REGISTRANT_CODE ${id}.`);
+                        }
+                    },
+                    error: function (error) {
+                        console.error(`Error parsing CSV from ${csvUrl}:`, error);
+                    }
+                });
+            } catch (error) {
+                console.error(`Error processing ${folder}:`, error);
+            }
         });
 
+        // [Rest of the table creation functions remain the same]
         function createTransposedTable(data, title, containerId, sortedField) {
-            // Sort data by the specified field if it exists
             if (data[0].hasOwnProperty(sortedField)) {
                 data.sort((a, b) => new Date(a[sortedField]) - new Date(b[sortedField]));
             }
 
             const fieldKeys = Object.keys(data[0]).filter(key => !['REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key));
 
-            // Create header row with sorted field values
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered"><thead><tr><th>${sortedField}</th>`;
 
-            // Add a column for each record's sorted field value
             data.forEach(record => {
                 tableHtml += `<th>${record[sortedField]}</th>`;
             });
             tableHtml += `</tr></thead><tbody>`;
 
-            // Create rows for each field
             fieldKeys.forEach(field => {
                 tableHtml += `<tr><td>${field}</td>`;
-                // Add values for each record
                 data.forEach(record => {
                     tableHtml += `<td>${record[field]}</td>`;
                 });
@@ -153,24 +169,20 @@
         }
 
         function createCheckinsTable(data, title, containerId) {
-            // Sort data by start date
             data.sort((a, b) => new Date(a.STARTED_ON) - new Date(b.STARTED_ON));
 
-            // Get unique response IDs and field keys
             const responseIds = [...new Set(data.map(row => row.RESPONSE_ID))];
             const fieldKeys = Object.keys(data[0]).filter(key =>
                 !['RESPONSE_ID', 'REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key)
             );
 
-            // Start building the table
             let tableHtml = `
-        <h2>${title}</h2>
-        <table class="table table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th>Field</th>`;
+                <h2>${title}</h2>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Field</th>`;
 
-            // Add response ID headers
             responseIds.forEach(responseId => {
                 tableHtml += `
                     <th class="response-id" title="${responseId}">${responseId.substring(0, 5)}...</th>`;
@@ -181,13 +193,11 @@
             </thead>
             <tbody>`;
 
-            // Add rows for each field
             fieldKeys.forEach(field => {
                 tableHtml += `
                 <tr>
                     <td>${field}</td>`;
 
-                // Add data for each response ID
                 responseIds.forEach(responseId => {
                     const matchingRows = data.filter(row => row.RESPONSE_ID === responseId);
                     const values = matchingRows.map(row => row[field] || '').join(', ');
@@ -203,12 +213,10 @@
             </tbody>
         </table>`;
 
-            // Insert the table into the container
             $(containerId).html(tableHtml);
         }
 
         function createFreetextTable(data, title, containerId) {
-            // Sort data by date if available
             if (data[0].hasOwnProperty('STARTED_ON')) {
                 data.sort((a, b) => new Date(a.STARTED_ON) - new Date(b.STARTED_ON));
             }
@@ -219,14 +227,12 @@
 
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered">`;
 
-            // Create header row
             tableHtml += '<thead><tr>';
             fieldKeys.forEach(field => {
                 tableHtml += `<th>${field}</th>`;
             });
             tableHtml += '</tr></thead><tbody>';
 
-            // Create data rows
             data.forEach(row => {
                 tableHtml += '<tr>';
                 fieldKeys.forEach(field => {
@@ -239,12 +245,10 @@
             $(containerId).html(tableHtml);
         }
 
-
         function createVaccinationsTable(data, title, containerId) {
             data.sort((a, b) => new Date(a.VACCINATION_DATE) - new Date(b.VACCINATION_DATE));
 
             const fieldKeys = Object.keys(data[0]).filter(key => !['REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key));
-            const firstField = fieldKeys[0];
 
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered"><thead><tr><th>VACCINATION DATE</th>`;
 
@@ -268,7 +272,6 @@
         function createNestedSymptomsTable(data, title, containerId) {
             const responseIds = [...new Set(data.map(row => row.RESPONSE_ID))];
             const fieldKeys = Object.keys(data[0]).filter(key => !['RESPONSE_ID', 'REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX', 'PT_NAME', 'LLT_NAME'].includes(key));
-            const firstField = fieldKeys[0];
 
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered"><thead><tr><th>RESPONSE ID</th>`;
 
