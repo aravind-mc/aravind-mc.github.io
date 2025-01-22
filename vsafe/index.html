@@ -153,31 +153,57 @@
         }
 
         function createCheckinsTable(data, title, containerId) {
+            // Sort data by start date
             data.sort((a, b) => new Date(a.STARTED_ON) - new Date(b.STARTED_ON));
 
+            // Get unique response IDs and field keys
             const responseIds = [...new Set(data.map(row => row.RESPONSE_ID))];
-            const fieldKeys = Object.keys(data[0]).filter(key => !['RESPONSE_ID', 'REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key));
+            const fieldKeys = Object.keys(data[0]).filter(key =>
+                !['RESPONSE_ID', 'REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key)
+            );
 
-            // Determine the first field that should be used as the header
-            const sortedField = fieldKeys.find(field => field.toUpperCase().includes('DATE') || field.toUpperCase().includes('ID')) || fieldKeys[0];
+            // Start building the table
+            let tableHtml = `
+        <h2>${title}</h2>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Field</th>`;
 
-            let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered"><thead><tr><th>RESPONSE_ID</th>`;
-
+            // Add response ID headers
             responseIds.forEach(responseId => {
-                tableHtml += `<th class="response-id" title="${responseId}">${responseId.substring(0, 5)}...</th>`;
+                tableHtml += `
+                    <th class="response-id" title="${responseId}">${responseId.substring(0, 5)}...</th>`;
             });
-            tableHtml += `</tr></thead><tbody>`;
 
+            tableHtml += `
+                </tr>
+            </thead>
+            <tbody>`;
+
+            // Add rows for each field
             fieldKeys.forEach(field => {
-                tableHtml += `<tr><td>${field}</td>`;
+                tableHtml += `
+                <tr>
+                    <td>${field}</td>`;
+
+                // Add data for each response ID
                 responseIds.forEach(responseId => {
-                    const matchingRow = data.find(row => row.RESPONSE_ID === responseId);
-                    tableHtml += `<td>${matchingRow ? matchingRow[field] : ''}</td>`;
+                    const matchingRows = data.filter(row => row.RESPONSE_ID === responseId);
+                    const values = matchingRows.map(row => row[field] || '').join(', ');
+                    tableHtml += `
+                    <td>${values}</td>`;
                 });
-                tableHtml += `</tr>`;
+
+                tableHtml += `
+                </tr>`;
             });
 
-            tableHtml += `</tbody></table>`;
+            tableHtml += `
+            </tbody>
+        </table>`;
+
+            // Insert the table into the container
             $(containerId).html(tableHtml);
         }
 
