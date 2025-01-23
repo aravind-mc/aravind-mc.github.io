@@ -314,7 +314,11 @@
                         const textClass = colorClass === 'light' || colorClass === 'warning' ? 'text-dark' : 'text-white';
                         const doseLabel = mostSevereEntry?.type === 'vaccination' ? `D${mostSevereEntry.dose}` : '';
 
-                        let title = currentDate.toLocaleDateString();
+                        let title = currentDate.toLocaleDateString('en-US', {
+                            month: '2-digit',
+                            day: '2-digit',
+                            year: 'numeric'
+                        });
                         if (entriesForDate.length > 0) {
                             title += entriesForDate.map(entry => {
                                 if (entry.type === 'vaccination') {
