@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>v-safe timeline</title>
-
-    <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <!-- Include jQuery and PapaParse -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
     <style>
         .response-id {
             max-width: 100px;
@@ -20,20 +15,16 @@
             text-overflow: ellipsis;
             white-space: nowrap;
         }
-
         .response-id:hover {
             overflow: visible;
             white-space: normal;
         }
-
-        .subtable td, .subtable th {
-            padding: 5px;
-            text-align: left;
-        }
-
         .nested-table {
             width: 100%;
             margin-top: 10px;
+        }
+        .bg-orange {
+            background-color: #fd7e14 !important;
         }
     </style>
 </head>
@@ -46,6 +37,7 @@
     <!-- Table placeholders -->
     <div id="registrants-table"></div>
     <div id="vaccinations-table"></div>
+    <div id="timeline-chart"></div>
     <div id="checkins-table"></div>
     <div id="sro-table"></div>
     <div id="sd-table"></div>
@@ -56,6 +48,12 @@
 </div>
 
 <script>
+
+    let globalData = {
+        vaccinations: null,
+        checkins: null
+    };
+
     // Function to decompress gzipped content
     async function decompressGzip(response) {
         const arrayBuffer = await response.arrayBuffer();
@@ -145,6 +143,8 @@
             }
         });
 
+
+
         // [Rest of the table creation functions remain the same]
         function createTransposedTable(data, title, containerId, sortedField) {
             if (data[0].hasOwnProperty(sortedField)) {
@@ -201,7 +201,161 @@
             $(containerId).html(tableHtml);
         }
 
+        function updateTimelineChart() {
+            if (globalData.vaccinations && globalData.checkins) {
+                const chartHtml = createCheckinChart(globalData.vaccinations, globalData.checkins);
+                $('#timeline-chart').html(chartHtml);
+            }
+        }
+
+        function createCheckinChart(vaccinations, checkins) {
+            if (!vaccinations || !checkins) return '';
+            // Process vaccinations data
+            const vaccinationDates = vaccinations.map(row => ({
+                date: new Date(row.VACCINATION_DATE),
+                dose: row.DOSE_NUMBER,
+                type: 'vaccination'
+            }));
+
+            // Process checkins data
+            const checkinDates = checkins.map(row => ({
+                date: new Date(row.STARTED_ON),
+                healthImpact: row.HEALTH_IMPACT?.toLowerCase() || '',
+                healthcareVisits: row.HEALTHCARE_VISITS?.toLowerCase() || '',
+                type: 'checkin'
+            }));
+
+            // Combine all dates
+            const allDates = [...vaccinationDates, ...checkinDates];
+
+            function getStatusColor(entry) {
+                if (entry.type === 'vaccination') {
+                    return 'primary';
+                }
+
+                let color = 'light';
+                if (entry.healthImpact?.includes('care')) {
+                    color = 'warning';
+                }
+                if (entry.healthcareVisits?.includes('emergency')) {
+                    color = 'orange';
+                }
+                if (entry.healthcareVisits?.includes('hospital')) {
+                    color = 'danger';
+                }
+                return color;
+            }
+
+            const yearGroups = allDates.reduce((groups, entry) => {
+                const year = entry.date.getFullYear();
+                if (!groups[year]) groups[year] = [];
+                groups[year].push(entry);
+                return groups;
+            }, {});
+
+            // Rest of the function remains the same
+            const years = Object.keys(yearGroups).sort();
+            const squareSize = 14;
+            const margin = 1;
+            const totalSquareSize = squareSize + (margin * 2);
+
+            let chartHtml = '<div class="contribution-chart mb-4">';
+
+            years.forEach(year => {
+                const startDate = new Date(year, 0, 1);
+                const months = Array.from({ length: 12 }, (_, i) => {
+                    const monthStart = new Date(year, i, 1);
+                    const nextMonth = new Date(year, i + 1, 0);
+                    return {
+                        name: monthStart.toLocaleString('default', { month: 'short' }),
+                        startWeek: Math.floor((monthStart - startDate) / (7 * 24 * 60 * 60 * 1000)),
+                        weeks: Math.ceil((nextMonth.getDate() - monthStart.getDate() + monthStart.getDay()) / 7)
+                    };
+                });
+
+                const totalWeeks = Math.ceil((new Date(year, 11, 31) - startDate) / (7 * 24 * 60 * 60 * 1000)) + 1;
+
+                chartHtml += `
+            <div class="mb-5">
+                <h5 class="mb-2">${year}</h5>
+                <div class="ms-4">
+                    <div class="d-flex">
+                        ${months.map(month => `
+                            <div style="width: ${month.weeks * totalSquareSize}px;
+                                      margin-left: ${month.startWeek * totalSquareSize}px;
+                                      position: absolute;
+                                      font-size: 11px;"
+                                 class="text-muted">
+                                ${month.name}
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div class="d-flex flex-wrap" style="margin-top: 18px;">`;
+
+                for (let w = 0; w < totalWeeks; w++) {
+                    chartHtml += '<div class="d-flex flex-column">';
+                    for (let d = 0; d < 7; d++) {
+                        const currentDate = new Date(startDate);
+                        currentDate.setDate(currentDate.getDate() + (w * 7 + d));
+
+                        // Find all entries for this date
+                        const entriesForDate = allDates.filter(entry =>
+                            entry.date.toDateString() === currentDate.toDateString()
+                        );
+
+                        // Sort to prioritize the most severe status
+                        const mostSevereEntry = entriesForDate.sort((a, b) => {
+                            if (a.type === 'vaccination' && b.type === 'checkin') return -1;
+                            return 1;
+                        })[0];
+
+                        const colorClass = mostSevereEntry ? getStatusColor(mostSevereEntry) : 'light';
+                        const textClass = colorClass === 'light' || colorClass === 'warning' ? 'text-dark' : 'text-white';
+                        const doseLabel = mostSevereEntry?.type === 'vaccination' ? `D${mostSevereEntry.dose}` : '';
+
+                        let title = currentDate.toLocaleDateString();
+                        if (entriesForDate.length > 0) {
+                            title += entriesForDate.map(entry => {
+                                if (entry.type === 'vaccination') {
+                                    return ` - Vaccination Dose ${entry.dose}`;
+                                }
+                                return ` - ${entry.healthImpact} ${entry.healthcareVisits}`;
+                            }).join('\n');
+                        }
+
+                        chartHtml += `
+                    <div class="contribution-cell bg-${colorClass} border ${textClass}"
+                         style="width: ${squareSize}px; height: ${squareSize}px; margin: ${margin}px; font-size: 9px; font-weight: bold; display: flex; align-items: center; justify-content: center; cursor: default;"
+                         title="${title}">
+                        ${doseLabel}
+                    </div>`;
+                    }
+                    chartHtml += '</div>';
+                }
+
+                chartHtml += `
+                    </div>
+                </div>`;
+            });
+
+            chartHtml += `
+            <div class="d-flex mt-3" style="gap: 1rem;">
+                <div><small class="text-muted">Empty: No data</small></div>
+                <div><small class="text-primary">Blue: Vaccination</small></div>
+                <div><small class="text-warning">Yellow: Care needed</small></div>
+                <div><small style="color: #fd7e14">Orange: Emergency visit</small></div>
+                <div><small class="text-danger">Red: Hospitalization</small></div>
+            </div>
+        </div>`;
+
+            return chartHtml;
+        }
+
         function createCheckinsTable(data, title, containerId) {
+            globalData.checkins = data;
+            updateTimelineChart();
+
             // Extract and group by dose number
             const doseGroups = data.reduce((groups, row) => {
                 const match = row.SURVEY_STATIC_ID?.match(/dose(\d+)/i);
@@ -215,6 +369,7 @@
 
             // Create tab navigation
             let tableHtml = `
+        <p></p>
         <h2>${title}</h2>
         <ul class="nav nav-tabs" role="tablist">`;
 
@@ -307,6 +462,13 @@
         }
 
         function createVaccinationsTable(data, title, containerId) {
+
+            globalData.vaccinations = data;
+            updateTimelineChart();
+
+            let checkinHtml = createCheckinChart(data, window.checksinData);
+            window.checkinHtml = checkinHtml;
+
             data.sort((a, b) => new Date(a.VACCINATION_DATE) - new Date(b.VACCINATION_DATE));
 
             const fieldKeys = Object.keys(data[0]).filter(key => !['REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key));
