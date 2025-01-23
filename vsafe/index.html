@@ -40,7 +40,9 @@
 <body>
 <div class="container mt-5">
     <h1 class="mb-4">v-safe timeline</h1>
-
+    <p></p>
+    <h3 class="mb-4"><b>Registrant Code: </b><span id="spnRegistrantCode"></span></h3>
+    <p></p>
     <!-- Table placeholders -->
     <div id="registrants-table"></div>
     <div id="vaccinations-table"></div>
@@ -66,6 +68,7 @@
     // Get the ID parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
+    $('#spnRegistrantCode').text(id);
 
     if (id && id.length > 2) {
         const filePrefix = id.substring(0, 2).toUpperCase();
