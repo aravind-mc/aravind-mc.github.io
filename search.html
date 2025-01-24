@@ -80,6 +80,10 @@
             <div class="facet-title">Number of Doses</div>
             <div id="dosesFacets"></div>
         </div>
+        <div style="margin-top: 20px;">
+            <div class="facet-title">Most Severe Outcome</div>
+            <div id="msoFacets"></div>
+        </div>
     </div>
 
     <div>
@@ -100,7 +104,8 @@
     // State management
     let currentRefinements = {
         MANU: [],
-        ND: []
+        ND: [],
+        MSO: []
     };
 
     // Function to construct URL
@@ -114,10 +119,11 @@
 
         try {
             const { hits, nbHits, facets } = await index.search(query, {
-                facets: ['MANU', 'ND'],
+                facets: ['MANU', 'ND', 'MSO'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
-                    ...currentRefinements.ND.map(value => `ND:${value}`)
+                    ...currentRefinements.ND.map(value => `ND:${value}`),
+                    ...currentRefinements.MSO.map(value => `MSO:${value}`)
                 ]
             });
 
@@ -128,6 +134,7 @@
             if (facets) {
                 displayFacets('manufacturerFacets', facets.MANU, 'MANU');
                 displayFacets('dosesFacets', facets.ND, 'ND');
+                displayFacets('msoFacets', facets.MSO, 'MSO');
             }
         } catch (error) {
             console.error('Search error:', error);
@@ -145,6 +152,7 @@
                     <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
                     <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
                     <div><strong>Number of Doses:</strong> ${hit.ND}</div>
+                    <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
                 </div>
             `).join('');
     }
