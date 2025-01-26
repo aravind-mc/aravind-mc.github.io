@@ -12,24 +12,39 @@
         }
         .container {
             display: grid;
-            grid-template-columns: 250px 1fr;
+            grid-template-columns: 300px 1fr;
             gap: 20px;
         }
-        .search-box {
+        .search-box, .facet-search {
             width: 100%;
             padding: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
         }
+        .facet-search {
+            width: 50%;
+        }
         .facet-panel {
             padding: 20px;
-            background: #f5f5f5;
+            background: #fff;
             border-radius: 4px;
         }
+        .facet-group {
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            background: #fff;
+        }
         .facet-title {
-            font-weight: bold;
+            font-weight: 500;
             margin-bottom: 10px;
+            padding: 0.75rem;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .facet-content {
+            padding: 1rem;
         }
         .facet-value {
             display: flex;
@@ -72,17 +87,51 @@
 
 <div class="container">
     <div class="facet-panel">
-        <div>
+        <div class="facet-group">
             <div class="facet-title">Manufacturer</div>
-            <div id="manufacturerFacets"></div>
+            <div class="facet-content" id="manufacturerFacets"></div>
         </div>
-        <div style="margin-top: 20px;">
+        
+        <div class="facet-group">
             <div class="facet-title">Number of Doses</div>
-            <div id="dosesFacets"></div>
+            <div class="facet-content" id="dosesFacets"></div>
         </div>
-        <div style="margin-top: 20px;">
+        
+        <div class="facet-group">
             <div class="facet-title">Most Severe Outcome</div>
-            <div id="msoFacets"></div>
+            <div class="facet-content" id="msoFacets"></div>
+        </div>
+        
+        <div class="facet-group">
+            <div class="facet-title">Age Group</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="ageSearch" placeholder="Search age groups...">
+                <div id="ageFacets"></div>
+            </div>
+        </div>
+        
+        <div class="facet-group">
+            <div class="facet-title">Preferred Term</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="ptSearch" placeholder="Search preferred terms...">
+                <div id="ptFacets"></div>
+            </div>
+        </div>
+        
+        <div class="facet-group">
+            <div class="facet-title">Lower Level Term</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="lltSearch" placeholder="Search lower level terms...">
+                <div id="lltFacets"></div>
+            </div>
+        </div>
+        
+        <div class="facet-group">
+            <div class="facet-title">Number of Check-ins</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="numRowsSearch" placeholder="Search number of check-ins...">
+                <div id="numRowsFacets"></div>
+            </div>
         </div>
     </div>
 
@@ -93,7 +142,6 @@
 </div>
 
 <script>
-    // Initialize Algolia client
     const searchClient = algoliasearch(
         'T4IEG517PD',
         '9d30fa88591b049d83a1da246c881f01'
@@ -101,47 +149,60 @@
 
     const index = searchClient.initIndex('output');
 
-    // State management
     let currentRefinements = {
         MANU: [],
         ND: [],
-        MSO: []
+        MSO: [],
+        AGE: [],
+        PT: [],
+        LLT: [],
+        NUM_ROWS: []
     };
 
-    // Function to construct URL
+    let facetSearchValues = {
+        AGE: '',
+        PT: '',
+        LLT: '',
+        NUM_ROWS: ''
+    };
+
     function constructURL(id) {
         return `vsafe/index.html?id=${id}`;
     }
 
-    // Search function
     async function performSearch() {
         const query = document.getElementById('searchBox').value;
 
         try {
             const { hits, nbHits, facets } = await index.search(query, {
-                facets: ['MANU', 'ND', 'MSO'],
+                facets: ['MANU', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.ND.map(value => `ND:${value}`),
-                    ...currentRefinements.MSO.map(value => `MSO:${value}`)
+                    ...currentRefinements.MSO.map(value => `MSO:${value}`),
+                    ...currentRefinements.AGE.map(value => `AGE:${value}`),
+                    ...currentRefinements.PT.map(value => `PT:${value}`),
+                    ...currentRefinements.LLT.map(value => `LLT:${value}`),
+                    ...currentRefinements.NUM_ROWS.map(value => `NUM_ROWS:${value}`)
                 ]
             });
 
-            // Update results
             displayResults(hits, nbHits);
 
-            // Update facets
             if (facets) {
                 displayFacets('manufacturerFacets', facets.MANU, 'MANU');
                 displayFacets('dosesFacets', facets.ND, 'ND');
                 displayFacets('msoFacets', facets.MSO, 'MSO');
+                displayFacets('ageFacets', facets.AGE, 'AGE');
+                displayFacets('ptFacets', facets.PT, 'PT');
+                displayFacets('lltFacets', facets.LLT, 'LLT');
+                displayFacets('numRowsFacets', facets.NUM_ROWS, 'NUM_ROWS');
             }
         } catch (error) {
             console.error('Search error:', error);
         }
     }
 
-    // Display results
     function displayResults(hits, nbHits) {
         const statsDiv = document.getElementById('stats');
         statsDiv.textContent = `${nbHits} results found`;
@@ -153,16 +214,35 @@
                     <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
                     <div><strong>Number of Doses:</strong> ${hit.ND}</div>
                     <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
+                    <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
+                    <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
+                    <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
+                    <div><strong>Number of Check-ins:</strong> ${hit.NUM_ROWS || 'N/A'}</div>
                 </div>
             `).join('');
     }
 
-    // Display facets
     function displayFacets(containerId, facetValues, facetName) {
         const container = document.getElementById(containerId);
         if (!facetValues) return;
 
-        const facetHtml = Object.entries(facetValues).map(([value, count]) => `
+        let entries = Object.entries(facetValues);
+
+        // Filter searchable facets based on search input
+        if (['AGE', 'PT', 'LLT', 'NUM_ROWS'].includes(facetName) && facetSearchValues[facetName]) {
+            const searchTerm = facetSearchValues[facetName].toLowerCase();
+            entries = entries.filter(([value]) =>
+                value.toLowerCase().includes(searchTerm)
+            );
+        }
+
+        // Sort by count (descending)
+        entries.sort(([, a], [, b]) => b - a);
+
+        // Take only top 5 entries
+        entries = entries.slice(0, 5);
+
+        const facetHtml = entries.map(([value, count]) => `
                 <div class="facet-value">
                     <label>
                         <input type="checkbox"
@@ -178,7 +258,6 @@
         container.innerHTML = facetHtml;
     }
 
-    // Toggle refinement
     function toggleRefinement(facetName, value) {
         const index = currentRefinements[facetName].indexOf(value);
         if (index === -1) {
@@ -189,10 +268,19 @@
         performSearch();
     }
 
-    // Set up event listeners
-    document.getElementById('searchBox').addEventListener('input', performSearch);
+    function handleFacetSearch(facetName) {
+        return function(event) {
+            facetSearchValues[facetName] = event.target.value;
+            performSearch();
+        };
+    }
 
-    // Initial search
+    document.getElementById('searchBox').addEventListener('input', performSearch);
+    document.getElementById('ageSearch').addEventListener('input', handleFacetSearch('AGE'));
+    document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
+    document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
+    document.getElementById('numRowsSearch').addEventListener('input', handleFacetSearch('NUM_ROWS'));
+
     performSearch();
 </script>
 </body>
