@@ -101,6 +101,11 @@
         </div>
 
         <div class="facet-group">
+            <div class="facet-title">Relationship</div>
+            <div class="facet-content" id="relationshipFacets"></div>
+        </div>
+
+        <div class="facet-group">
             <div class="facet-title">Manufacturer</div>
             <div class="facet-content" id="manufacturerFacets"></div>
         </div>
@@ -162,7 +167,8 @@
         AGE: [],
         PT: [],
         LLT: [],
-        NUM_ROWS: []
+        NUM_ROWS: [],
+        DEP: []
     };
 
     let facetSearchValues = {
@@ -181,7 +187,7 @@
 
         try {
             const { hits, nbHits, facets } = await index.search(query, {
-                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS', 'DEP'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -190,7 +196,8 @@
                     ...currentRefinements.AGE.map(value => `AGE:${value}`),
                     ...currentRefinements.PT.map(value => `PT:${value}`),
                     ...currentRefinements.LLT.map(value => `LLT:${value}`),
-                    ...currentRefinements.NUM_ROWS.map(value => `NUM_ROWS:${value}`)
+                    ...currentRefinements.NUM_ROWS.map(value => `NUM_ROWS:${value}`),
+                    ...currentRefinements.DEP.map(value => `DEP:${value}`)
                 ]
             });
 
@@ -205,6 +212,7 @@
                 displayFacets('ptFacets', facets.PT, 'PT');
                 displayFacets('lltFacets', facets.LLT, 'LLT');
                 displayFacets('numRowsFacets', facets.NUM_ROWS, 'NUM_ROWS');
+                displayFacets('relationshipFacets', facets.DEP, 'DEP');
             }
         } catch (error) {
             console.error('Search error:', error);
@@ -221,6 +229,7 @@
                     <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
                     <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
                     <div><strong>Sex:</strong> ${hit.SEX || 'N/A'}</div>
+                    <div><strong>Relationship:</strong> ${hit.DEP || 'N/A'}</div>
                     <div><strong>Number of Doses:</strong> ${hit.ND}</div>
                     <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
                     <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
