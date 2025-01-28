@@ -162,8 +162,16 @@
         <div class="facet-group">
             <div class="facet-title">Number of Check-ins</div>
             <div class="facet-content">
-                <input type="text" class="facet-search" id="numRowsSearch" placeholder="Search number of check-ins...">
+                <input type="text" class="facet-search" id="nrSearch" placeholder="Search number of check-ins...">
                 <div id="numRowsFacets"></div>
+            </div>
+        </div>
+
+        <div class="facet-group">
+            <div class="facet-title">Checkin Span</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="csSearch" placeholder="Search checkin span...">
+                <div id="checkinSpanFacets"></div>
             </div>
         </div>
     </div>
@@ -190,17 +198,19 @@
         AGE: [],
         PT: [],
         LLT: [],
-        NUM_ROWS: [],
+        NR: [],
         DEP: [],
-        MDP: []
+        MDP: [],
+        CS: []
     };
 
     let facetSearchValues = {
         AGE: '',
         PT: '',
         LLT: '',
-        NUM_ROWS: '',
-        MDP: ''
+        NR: '',
+        MDP: '',
+        CS: ''
     };
 
     function constructURL(id) {
@@ -212,7 +222,7 @@
 
         try {
             const {hits, nbHits, facets} = await index.search(query, {
-                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS', 'DEP', 'MDP'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'MDP', 'CS'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -221,9 +231,10 @@
                     ...currentRefinements.AGE.map(value => `AGE:${value}`),
                     ...currentRefinements.PT.map(value => `PT:${value}`),
                     ...currentRefinements.LLT.map(value => `LLT:${value}`),
-                    ...currentRefinements.NUM_ROWS.map(value => `NUM_ROWS:${value}`),
+                    ...currentRefinements.NR.map(value => `NR:${value}`),
                     ...currentRefinements.DEP.map(value => `DEP:${value}`),
-                    ...currentRefinements.MDP.map(value => `MDP:${value}`)
+                    ...currentRefinements.MDP.map(value => `MDP:${value}`),
+                    ...currentRefinements.CS.map(value => `CS:${value}`)
                 ]
             });
 
@@ -238,8 +249,9 @@
                 displayFacets('ptFacets', facets.PT, 'PT');
                 displayFacets('mdpFacets', facets.MDP, 'MDP');
                 displayFacets('lltFacets', facets.LLT, 'LLT');
-                displayFacets('numRowsFacets', facets.NUM_ROWS, 'NUM_ROWS');
+                displayFacets('numRowsFacets', facets.NR, 'NR');
                 displayFacets('relationshipFacets', facets.DEP, 'DEP');
+                displayFacets('checkinSpanFacets', facets.CS, 'CS');
             }
         } catch (error) {
             console.error('Search error:', error);
@@ -263,7 +275,8 @@
                     <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
                     <div><strong>Minimum Days to Symptom:</strong> ${hit.MDP || 'N/A'}</div>
                     <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
-                    <div><strong>Number of Check-ins:</strong> ${hit.NUM_ROWS || 'N/A'}</div>
+                    <div><strong>Number of Check-ins:</strong> ${hit.NR || 'N/A'}</div>
+                    <div><strong>Checkin Span:</strong> ${hit.CS || 'N/A'}</div>
                 </div>
             `).join('');
     }
@@ -275,7 +288,7 @@
         let entries = Object.entries(facetValues);
 
         // Filter searchable facets based on search input
-        if (['AGE', 'PT', 'LLT', 'NUM_ROWS', 'MDP'].includes(facetName) && facetSearchValues[facetName]) {
+        if (['AGE', 'PT', 'LLT', 'NR', 'MDP', 'CS'].includes(facetName) && facetSearchValues[facetName]) {
             const searchTerm = facetSearchValues[facetName].toLowerCase();
             entries = entries.filter(([value]) =>
                 value.toLowerCase().includes(searchTerm)
@@ -326,7 +339,8 @@
     document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
     document.getElementById('mdpSearch').addEventListener('input', handleFacetSearch('MDP'));
     document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
-    document.getElementById('numRowsSearch').addEventListener('input', handleFacetSearch('NUM_ROWS'));
+    document.getElementById('nrSearch').addEventListener('input', handleFacetSearch('NR'));
+    document.getElementById('csSearch').addEventListener('input', handleFacetSearch('CS'));
 
     performSearch();
 </script>
