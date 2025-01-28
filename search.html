@@ -88,6 +88,19 @@
 <div class="container">
     <div class="facet-panel">
         <div class="facet-group">
+            <div class="facet-title">Age</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="ageSearch" placeholder="Search age groups...">
+                <div id="ageFacets"></div>
+            </div>
+        </div>
+        
+        <div class="facet-group">
+            <div class="facet-title">Sex</div>
+            <div class="facet-content" id="sexFacets"></div>
+        </div>
+
+        <div class="facet-group">
             <div class="facet-title">Manufacturer</div>
             <div class="facet-content" id="manufacturerFacets"></div>
         </div>
@@ -100,14 +113,6 @@
         <div class="facet-group">
             <div class="facet-title">Most Severe Outcome</div>
             <div class="facet-content" id="msoFacets"></div>
-        </div>
-        
-        <div class="facet-group">
-            <div class="facet-title">Age Group</div>
-            <div class="facet-content">
-                <input type="text" class="facet-search" id="ageSearch" placeholder="Search age groups...">
-                <div id="ageFacets"></div>
-            </div>
         </div>
         
         <div class="facet-group">
@@ -151,6 +156,7 @@
 
     let currentRefinements = {
         MANU: [],
+        SEX: [],
         ND: [],
         MSO: [],
         AGE: [],
@@ -175,9 +181,10 @@
 
         try {
             const { hits, nbHits, facets } = await index.search(query, {
-                facets: ['MANU', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
+                    ...currentRefinements.SEX.map(value => `SEX:${value}`),
                     ...currentRefinements.ND.map(value => `ND:${value}`),
                     ...currentRefinements.MSO.map(value => `MSO:${value}`),
                     ...currentRefinements.AGE.map(value => `AGE:${value}`),
@@ -191,6 +198,7 @@
 
             if (facets) {
                 displayFacets('manufacturerFacets', facets.MANU, 'MANU');
+                displayFacets('sexFacets', facets.SEX, 'SEX');
                 displayFacets('dosesFacets', facets.ND, 'ND');
                 displayFacets('msoFacets', facets.MSO, 'MSO');
                 displayFacets('ageFacets', facets.AGE, 'AGE');
@@ -212,6 +220,7 @@
                 <div class="hit">
                     <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
                     <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
+                    <div><strong>Sex:</strong> ${hit.SEX || 'N/A'}</div>
                     <div><strong>Number of Doses:</strong> ${hit.ND}</div>
                     <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
                     <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>

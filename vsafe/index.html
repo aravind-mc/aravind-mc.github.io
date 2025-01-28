@@ -497,7 +497,14 @@
         }
 
         function createNestedSymptomsTable(data, title, containerId) {
-            const responseIds = [...new Set(data.map(row => row.RESPONSE_ID))];
+            // Get unique response IDs and sort them based on STARTED_ON
+            const responseIds = [...new Set(data.map(row => row.RESPONSE_ID))]
+                .sort((a, b) => {
+                    const dateA = data.find(row => row.RESPONSE_ID === a)?.STARTED_ON || '';
+                    const dateB = data.find(row => row.RESPONSE_ID === b)?.STARTED_ON || '';
+                    return new Date(dateA) - new Date(dateB);
+                });
+
             const fieldKeys = Object.keys(data[0]).filter(key => !['RESPONSE_ID', 'REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX', 'PT_NAME', 'LLT_NAME'].includes(key));
 
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered"><thead><tr><th>RESPONSE ID</th>`;
