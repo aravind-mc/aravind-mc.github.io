@@ -10,11 +10,13 @@
             margin: 0 auto;
             padding: 20px;
         }
+
         .container {
             display: grid;
             grid-template-columns: 300px 1fr;
             gap: 20px;
         }
+
         .search-box, .facet-search {
             width: 100%;
             padding: 10px;
@@ -22,20 +24,24 @@
             border: 1px solid #ddd;
             border-radius: 4px;
         }
+
         .facet-search {
             width: 50%;
         }
+
         .facet-panel {
             padding: 20px;
             background: #fff;
             border-radius: 4px;
         }
+
         .facet-group {
             margin-bottom: 20px;
             border: 1px solid #dee2e6;
             border-radius: 0.25rem;
             background: #fff;
         }
+
         .facet-title {
             font-weight: 500;
             margin-bottom: 10px;
@@ -43,36 +49,44 @@
             background-color: #f8f9fa;
             border-bottom: 1px solid #dee2e6;
         }
+
         .facet-content {
             padding: 1rem;
         }
+
         .facet-value {
             display: flex;
             align-items: center;
             margin: 5px 0;
         }
+
         .facet-count {
             margin-left: auto;
             color: #666;
         }
+
         .results {
             display: grid;
             gap: 15px;
         }
+
         .hit {
             padding: 15px;
             border: 1px solid #ddd;
             border-radius: 4px;
             background: white;
         }
+
         .stats {
             margin-bottom: 15px;
             color: #666;
         }
+
         .hit a {
             color: #0066cc;
             text-decoration: none;
         }
+
         .hit a:hover {
             text-decoration: underline;
         }
@@ -80,7 +94,8 @@
 </head>
 <body>
 <p>
-    <span>Powered by <a target="_blank" href="https://algolia.com"><img src="static/img/algolia_logo.png" alt="Algolia" height="15" style="vertical-align: middle;"></a></span>
+    <span>Powered by <a target="_blank" href="https://algolia.com"><img src="static/img/algolia_logo.png" alt="Algolia"
+                                                                        height="15" style="vertical-align: middle;"></a></span>
 </p>
 <h1>v-safe Search</h1>
 <input type="text" id="searchBox" class="search-box" placeholder="Search v-safe...">
@@ -94,7 +109,7 @@
                 <div id="ageFacets"></div>
             </div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Sex</div>
             <div class="facet-content" id="sexFacets"></div>
@@ -109,17 +124,17 @@
             <div class="facet-title">Manufacturer</div>
             <div class="facet-content" id="manufacturerFacets"></div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Number of Doses</div>
             <div class="facet-content" id="dosesFacets"></div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Most Severe Outcome</div>
             <div class="facet-content" id="msoFacets"></div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Preferred Term</div>
             <div class="facet-content">
@@ -127,7 +142,7 @@
                 <div id="ptFacets"></div>
             </div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Minimum Days to Symptom</div>
             <div class="facet-content">
@@ -135,7 +150,7 @@
                 <div id="mdpFacets"></div>
             </div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Lower Level Term</div>
             <div class="facet-content">
@@ -143,7 +158,7 @@
                 <div id="lltFacets"></div>
             </div>
         </div>
-        
+
         <div class="facet-group">
             <div class="facet-title">Number of Check-ins</div>
             <div class="facet-content">
@@ -196,7 +211,7 @@
         const query = document.getElementById('searchBox').value;
 
         try {
-            const { hits, nbHits, facets } = await index.search(query, {
+            const {hits, nbHits, facets} = await index.search(query, {
                 facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS', 'DEP', 'MDP'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
@@ -260,7 +275,7 @@
         let entries = Object.entries(facetValues);
 
         // Filter searchable facets based on search input
-        if (['AGE', 'PT', 'LLT', 'NUM_ROWS'].includes(facetName) && facetSearchValues[facetName]) {
+        if (['AGE', 'PT', 'LLT', 'NUM_ROWS', 'MDP'].includes(facetName) && facetSearchValues[facetName]) {
             const searchTerm = facetSearchValues[facetName].toLowerCase();
             entries = entries.filter(([value]) =>
                 value.toLowerCase().includes(searchTerm)
@@ -300,7 +315,7 @@
     }
 
     function handleFacetSearch(facetName) {
-        return function(event) {
+        return function (event) {
             facetSearchValues[facetName] = event.target.value;
             performSearch();
         };
