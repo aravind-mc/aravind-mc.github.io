@@ -129,6 +129,14 @@
         </div>
         
         <div class="facet-group">
+            <div class="facet-title">Minimum Days to Symptom</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="mdpSearch" placeholder="Search minimum days...">
+                <div id="mdpFacets"></div>
+            </div>
+        </div>
+        
+        <div class="facet-group">
             <div class="facet-title">Lower Level Term</div>
             <div class="facet-content">
                 <input type="text" class="facet-search" id="lltSearch" placeholder="Search lower level terms...">
@@ -168,14 +176,16 @@
         PT: [],
         LLT: [],
         NUM_ROWS: [],
-        DEP: []
+        DEP: [],
+        MDP: []
     };
 
     let facetSearchValues = {
         AGE: '',
         PT: '',
         LLT: '',
-        NUM_ROWS: ''
+        NUM_ROWS: '',
+        MDP: ''
     };
 
     function constructURL(id) {
@@ -187,7 +197,7 @@
 
         try {
             const { hits, nbHits, facets } = await index.search(query, {
-                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS', 'DEP'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NUM_ROWS', 'DEP', 'MDP'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -197,7 +207,8 @@
                     ...currentRefinements.PT.map(value => `PT:${value}`),
                     ...currentRefinements.LLT.map(value => `LLT:${value}`),
                     ...currentRefinements.NUM_ROWS.map(value => `NUM_ROWS:${value}`),
-                    ...currentRefinements.DEP.map(value => `DEP:${value}`)
+                    ...currentRefinements.DEP.map(value => `DEP:${value}`),
+                    ...currentRefinements.MDP.map(value => `MDP:${value}`)
                 ]
             });
 
@@ -210,6 +221,7 @@
                 displayFacets('msoFacets', facets.MSO, 'MSO');
                 displayFacets('ageFacets', facets.AGE, 'AGE');
                 displayFacets('ptFacets', facets.PT, 'PT');
+                displayFacets('mdpFacets', facets.MDP, 'MDP');
                 displayFacets('lltFacets', facets.LLT, 'LLT');
                 displayFacets('numRowsFacets', facets.NUM_ROWS, 'NUM_ROWS');
                 displayFacets('relationshipFacets', facets.DEP, 'DEP');
@@ -234,6 +246,7 @@
                     <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
                     <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
                     <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
+                    <div><strong>Minimum Days to Symptom:</strong> ${hit.MDP || 'N/A'}</div>
                     <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
                     <div><strong>Number of Check-ins:</strong> ${hit.NUM_ROWS || 'N/A'}</div>
                 </div>
@@ -296,6 +309,7 @@
     document.getElementById('searchBox').addEventListener('input', performSearch);
     document.getElementById('ageSearch').addEventListener('input', handleFacetSearch('AGE'));
     document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
+    document.getElementById('mdpSearch').addEventListener('input', handleFacetSearch('MDP'));
     document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
     document.getElementById('numRowsSearch').addEventListener('input', handleFacetSearch('NUM_ROWS'));
 
