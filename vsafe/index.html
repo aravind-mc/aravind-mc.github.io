@@ -173,13 +173,33 @@
         }
 
         function createFreetextTable(data, title, containerId) {
-            if (data[0].hasOwnProperty('STARTED_ON')) {
-                data.sort((a, b) => new Date(a.STARTED_ON) - new Date(b.STARTED_ON));
-            }
+            data.sort((a, b) => {
+                // Sort by presence of SYSTEMIC_REACTION_OTHER first
+                if ((a.SYSTEMIC_REACTION_OTHER || '').trim() && !(b.SYSTEMIC_REACTION_OTHER || '').trim()) return -1;
+                if (!(a.SYSTEMIC_REACTION_OTHER || '').trim() && (b.SYSTEMIC_REACTION_OTHER || '').trim()) return 1;
 
-            const fieldKeys = Object.keys(data[0]).filter(key =>
-                !['REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key)
-            );
+                // Then sort by presence of SYMPTOMS_DESCRIPTION
+                if ((a.SYMPTOMS_DESCRIPTION || '').trim() && !(b.SYMPTOMS_DESCRIPTION || '').trim()) return -1;
+                if (!(a.SYMPTOMS_DESCRIPTION || '').trim() && (b.SYMPTOMS_DESCRIPTION || '').trim()) return 1;
+
+                // If both have same content status, sort by date
+                return new Date(a.STARTED_ON) - new Date(b.STARTED_ON);
+            });
+
+            // Define the specific order of columns
+            const orderedFields = [
+                'SYSTEMIC_REACTION_OTHER',
+                'SYMPTOMS_DESCRIPTION',
+                'HEALTHCARE_VISITS_OTHER'
+            ];
+
+            // Get remaining fields that aren't in the ordered list
+            const remainingFields = Object.keys(data[0])
+                .filter(key => !['REGISTRANT_CODE', 'REG_CODE_PREFIX', 'REG_PREFIX'].includes(key))
+                .filter(key => !orderedFields.includes(key));
+
+            // Combine ordered and remaining fields
+            const fieldKeys = [...orderedFields, ...remainingFields];
 
             let tableHtml = `<h2>${title}</h2><table class="table table-striped table-bordered">`;
 
