@@ -174,6 +174,11 @@
                 <div id="checkinSpanFacets"></div>
             </div>
         </div>
+
+        <div class="facet-group">
+            <div class="facet-title">Vaccine Enthusiast</div>
+            <div class="facet-content" id="veFactets"></div>
+        </div>
     </div>
 
     <div>
@@ -201,7 +206,8 @@
         NR: [],
         DEP: [],
         MDP: [],
-        CS: []
+        CS: [],
+        VE: []
     };
 
     let facetSearchValues = {
@@ -222,7 +228,7 @@
 
         try {
             const {hits, nbHits, facets} = await index.search(query, {
-                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'MDP', 'CS'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'MDP', 'CS', 'VE'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -234,7 +240,8 @@
                     ...currentRefinements.NR.map(value => `NR:${value}`),
                     ...currentRefinements.DEP.map(value => `DEP:${value}`),
                     ...currentRefinements.MDP.map(value => `MDP:${value}`),
-                    ...currentRefinements.CS.map(value => `CS:${value}`)
+                    ...currentRefinements.CS.map(value => `CS:${value}`),
+                    ...currentRefinements.VE.map(value => `VE:${value}`)
                 ]
             });
 
@@ -252,6 +259,7 @@
                 displayFacets('numRowsFacets', facets.NR, 'NR');
                 displayFacets('relationshipFacets', facets.DEP, 'DEP');
                 displayFacets('checkinSpanFacets', facets.CS, 'CS');
+                displayFacets('veFacets', facets.VE, 'VE');
             }
         } catch (error) {
             console.error('Search error:', error);
@@ -277,6 +285,7 @@
                     <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
                     <div><strong>Number of Check-ins:</strong> ${hit.NR || 'N/A'}</div>
                     <div><strong>Checkin Span:</strong> ${hit.CS || 'N/A'}</div>
+                    <div><strong>Vaccine Enthusiast:</strong> ${hit.VE || 'N/A'}</div>
                 </div>
             `).join('');
     }
