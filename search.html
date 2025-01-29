@@ -75,6 +75,30 @@
             border: 1px solid #ddd;
             border-radius: 4px;
             background: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .hit-details {
+            border-right: 1px solid #ddd;
+            padding-right: 20px;
+        }
+
+        .hit-freetext table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .hit-freetext th, 
+        .hit-freetext td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .hit-freetext th {
+            background-color: #f8f9fa;
         }
 
         .stats {
@@ -144,14 +168,6 @@
         </div>
 
         <div class="facet-group">
-            <div class="facet-title">Minimum Days to Symptom</div>
-            <div class="facet-content">
-                <input type="text" class="facet-search" id="mdpSearch" placeholder="Search minimum days...">
-                <div id="mdpFacets"></div>
-            </div>
-        </div>
-
-        <div class="facet-group">
             <div class="facet-title">Lower Level Term</div>
             <div class="facet-content">
                 <input type="text" class="facet-search" id="lltSearch" placeholder="Search lower level terms...">
@@ -179,6 +195,14 @@
             <div class="facet-title">Vaccine Enthusiast</div>
             <div class="facet-content" id="veFacets"></div>
         </div>
+
+        <div class="facet-group">
+            <div class="facet-title">Missing Freetext Rows</div>
+            <div class="facet-content">
+                <input type="text" class="facet-search" id="mrcSearch" placeholder="Search missing rows...">
+                <div id="mrcFacets"></div>
+            </div>
+        </div>
     </div>
 
     <div>
@@ -205,9 +229,9 @@
         LLT: [],
         NR: [],
         DEP: [],
-        MDP: [],
         CS: [],
-        VE: []
+        VE: [],
+        MRC: []
     };
 
     let facetSearchValues = {
@@ -215,8 +239,8 @@
         PT: '',
         LLT: '',
         NR: '',
-        MDP: '',
-        CS: ''
+        CS: '',
+        MRC: ''
     };
 
     function constructURL(id) {
@@ -228,7 +252,7 @@
 
         try {
             const {hits, nbHits, facets} = await index.search(query, {
-                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'MDP', 'CS', 'VE'],
+                facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'CS', 'VE', 'MRC'],
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -239,9 +263,9 @@
                     ...currentRefinements.LLT.map(value => `LLT:${value}`),
                     ...currentRefinements.NR.map(value => `NR:${value}`),
                     ...currentRefinements.DEP.map(value => `DEP:${value}`),
-                    ...currentRefinements.MDP.map(value => `MDP:${value}`),
                     ...currentRefinements.CS.map(value => `CS:${value}`),
-                    ...currentRefinements.VE.map(value => `VE:${value}`)
+                    ...currentRefinements.VE.map(value => `VE:${value}`),
+                    ...currentRefinements.MRC.map(value => `MRC:${value}`)
                 ]
             });
 
@@ -254,12 +278,12 @@
                 displayFacets('msoFacets', facets.MSO, 'MSO');
                 displayFacets('ageFacets', facets.AGE, 'AGE');
                 displayFacets('ptFacets', facets.PT, 'PT');
-                displayFacets('mdpFacets', facets.MDP, 'MDP');
                 displayFacets('lltFacets', facets.LLT, 'LLT');
                 displayFacets('numRowsFacets', facets.NR, 'NR');
                 displayFacets('relationshipFacets', facets.DEP, 'DEP');
                 displayFacets('checkinSpanFacets', facets.CS, 'CS');
                 displayFacets('veFacets', facets.VE, 'VE');
+                displayFacets('mrcFacets', facets.MRC, 'MRC');
             }
         } catch (error) {
             console.error('Search error:', error);
@@ -271,23 +295,50 @@
         statsDiv.textContent = `${nbHits} results found`;
 
         const hitsDiv = document.getElementById('hits');
-        hitsDiv.innerHTML = hits.map(hit => `
+        hitsDiv.innerHTML = hits.map(hit => {
+            // Process FT field if it exists and is not an empty array
+            const hasFreetextData = Array.isArray(hit.FT) && hit.FT.length > 0;
+            const [sro, sd, hcvo] = hasFreetextData ? hit.FT[0].split('|').map(val => val.trim() || 'N/A') : [];
+            
+            return `
                 <div class="hit">
-                    <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
-                    <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
-                    <div><strong>Sex:</strong> ${hit.SEX || 'N/A'}</div>
-                    <div><strong>Relationship:</strong> ${hit.DEP || 'N/A'}</div>
-                    <div><strong>Number of Doses:</strong> ${hit.ND}</div>
-                    <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
-                    <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
-                    <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
-                    <div><strong>Minimum Days to Symptom:</strong> ${hit.MDP || 'N/A'}</div>
-                    <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
-                    <div><strong>Number of Check-ins:</strong> ${hit.NR || 'N/A'}</div>
-                    <div><strong>Checkin Span:</strong> ${hit.CS || 'N/A'}</div>
-                    <div><strong>Vaccine Enthusiast:</strong> ${hit.VE || 'N/A'}</div>
+                    <div class="hit-details">
+                        <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
+                        <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
+                        <div><strong>Sex:</strong> ${hit.SEX || 'N/A'}</div>
+                        <div><strong>Relationship:</strong> ${hit.DEP || 'N/A'}</div>
+                        <div><strong>Number of Doses:</strong> ${hit.ND}</div>
+                        <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
+                        <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
+                        <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
+                        <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
+                        <div><strong>Number of Check-ins:</strong> ${hit.NR || 'N/A'}</div>
+                        <div><strong>Checkin Span:</strong> ${hit.CS || 'N/A'}</div>
+                        <div><strong>Vaccine Enthusiast:</strong> ${hit.VE || 'N/A'}</div>
+                    </div>
+                    <div class="hit-freetext">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Systemic Reaction Other</th>
+                                    <th>Symptoms Description</th>
+                                    <th>Healthcare Visits Other</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${hasFreetextData ? `
+                                <tr>
+                                    <td>${sro}</td>
+                                    <td>${sd}</td>
+                                    <td>${hcvo}</td>
+                                </tr>
+                                ` : ''}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            `).join('');
+            `;
+        }).join('');
     }
 
     function displayFacets(containerId, facetValues, facetName) {
@@ -297,7 +348,7 @@
         let entries = Object.entries(facetValues);
 
         // Filter searchable facets based on search input
-        if (['AGE', 'PT', 'LLT', 'NR', 'MDP', 'CS'].includes(facetName) && facetSearchValues[facetName]) {
+        if (['AGE', 'PT', 'LLT', 'NR', 'CS', 'MRC'].includes(facetName) && facetSearchValues[facetName]) {
             const searchTerm = facetSearchValues[facetName].toLowerCase();
             entries = entries.filter(([value]) =>
                 value.toLowerCase().includes(searchTerm)
@@ -346,10 +397,10 @@
     document.getElementById('searchBox').addEventListener('input', performSearch);
     document.getElementById('ageSearch').addEventListener('input', handleFacetSearch('AGE'));
     document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
-    document.getElementById('mdpSearch').addEventListener('input', handleFacetSearch('MDP'));
     document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
     document.getElementById('nrSearch').addEventListener('input', handleFacetSearch('NR'));
     document.getElementById('csSearch').addEventListener('input', handleFacetSearch('CS'));
+    document.getElementById('mrcSearch').addEventListener('input', handleFacetSearch('MRC'));
 
     performSearch();
 </script>
