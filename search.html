@@ -298,23 +298,22 @@
         hitsDiv.innerHTML = hits.map(hit => {
             // Process FT field if it exists and is not an empty array
             const hasFreetextData = Array.isArray(hit.FT) && hit.FT.length > 0;
-            const [sro, sd, hcvo] = hasFreetextData ? hit.FT[0].split('|').map(val => val.trim() || 'N/A') : [];
             
             return `
                 <div class="hit">
                     <div class="hit-details">
                         <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
                         <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
-                        <div><strong>Sex:</strong> ${hit.SEX || 'N/A'}</div>
-                        <div><strong>Relationship:</strong> ${hit.DEP || 'N/A'}</div>
+                        <div><strong>Sex:</strong> ${hit.SEX || ''}</div>
+                        <div><strong>Relationship:</strong> ${hit.DEP || ''}</div>
                         <div><strong>Number of Doses:</strong> ${hit.ND}</div>
                         <div><strong>Most Severe Outcome:</strong> ${hit.MSO}</div>
-                        <div><strong>Age Group:</strong> ${hit.AGE || 'N/A'}</div>
-                        <div><strong>Preferred Term:</strong> ${hit.PT || 'N/A'}</div>
-                        <div><strong>Lower Level Term:</strong> ${hit.LLT || 'N/A'}</div>
-                        <div><strong>Number of Check-ins:</strong> ${hit.NR || 'N/A'}</div>
-                        <div><strong>Checkin Span:</strong> ${hit.CS || 'N/A'}</div>
-                        <div><strong>Vaccine Enthusiast:</strong> ${hit.VE || 'N/A'}</div>
+                        <div><strong>Age:</strong> ${hit.AGE || ''}</div>
+                        <div><strong>Preferred Term:</strong> ${hit.PT || ''}</div>
+                        <div><strong>Lower Level Term:</strong> ${hit.LLT || ''}</div>
+                        <div><strong>Number of Check-ins:</strong> ${hit.NR || ''}</div>
+                        <div><strong>Checkin Span:</strong> ${hit.CS || ''}</div>
+                        <div><strong>Vaccine Enthusiast:</strong> ${hit.VE || ''}</div>
                     </div>
                     <div class="hit-freetext">
                         <table>
@@ -326,13 +325,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                ${hasFreetextData ? `
-                                <tr>
-                                    <td>${sro}</td>
-                                    <td>${sd}</td>
-                                    <td>${hcvo}</td>
-                                </tr>
-                                ` : ''}
+                                ${hasFreetextData ? hit.FT.map(ftString => {
+                                    const [sro, sd, hcvo] = ftString.split('|').map(val => val.trim());
+                                    return `
+                                        <tr>
+                                            <td>${sro || ''}</td>
+                                            <td>${sd || ''}</td>
+                                            <td>${hcvo || ''}</td>
+                                        </tr>
+                                    `;
+                                }).join('') : ''}
                             </tbody>
                         </table>
                     </div>
