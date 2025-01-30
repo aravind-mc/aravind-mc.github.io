@@ -152,9 +152,13 @@
         <input type="radio" name="searchScope" value="freetext"> 
         Search only in free text
     </label>
-    <label>
+    <label style="margin-right: 20px;">
         <input type="radio" name="searchScope" value="pt"> 
         Search only in Preferred Terms
+    </label>
+    <label>
+        <input type="radio" name="searchScope" value="llt"> 
+        Search only in Lower Level Terms
     </label>
 </div>
 
@@ -196,7 +200,6 @@
         <div class="facet-group">
             <div class="facet-title">Preferred Term</div>
             <div class="facet-content">
-                <input type="text" class="facet-search" id="ptSearch" placeholder="Search preferred terms...">
                 <div id="ptFacets"></div>
             </div>
         </div>
@@ -204,7 +207,6 @@
         <div class="facet-group">
             <div class="facet-title">Lower Level Term</div>
             <div class="facet-content">
-                <input type="text" class="facet-search" id="lltSearch" placeholder="Search lower level terms...">
                 <div id="lltFacets"></div>
             </div>
         </div>
@@ -271,8 +273,6 @@
 
     let facetSearchValues = {
         AGE: '',
-        PT: '',
-        LLT: '',
         NR: '',
         CS: '',
         MRC: ''
@@ -293,6 +293,7 @@
                 facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'CS', 'VE', 'MRC'],
                 restrictSearchableAttributes: searchScope === 'freetext' ? ['FT'] : 
                                             searchScope === 'pt' ? ['PT'] : 
+                                            searchScope === 'llt' ? ['LLT'] :
                                             undefined,
                 hitsPerPage: 20,
                 page: currentPage,
@@ -410,7 +411,7 @@
         let entries = Object.entries(facetValues);
 
         // Filter searchable facets based on search input
-        if (['AGE', 'PT', 'LLT', 'NR', 'CS', 'MRC'].includes(facetName) && facetSearchValues[facetName]) {
+        if (['AGE', 'NR', 'CS', 'MRC'].includes(facetName) && facetSearchValues[facetName]) {
             const searchTerm = facetSearchValues[facetName].toLowerCase();
             entries = entries.filter(([value]) =>
                 value.toLowerCase().includes(searchTerm)
@@ -496,8 +497,6 @@
         performSearch();
     });
     document.getElementById('ageSearch').addEventListener('input', handleFacetSearch('AGE'));
-    document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
-    document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
     document.getElementById('nrSearch').addEventListener('input', handleFacetSearch('NR'));
     document.getElementById('csSearch').addEventListener('input', handleFacetSearch('CS'));
     document.getElementById('mrcSearch').addEventListener('input', handleFacetSearch('MRC'));
