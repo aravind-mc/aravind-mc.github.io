@@ -75,14 +75,10 @@
             border: 1px solid #ddd;
             border-radius: 4px;
             background: white;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
         }
 
-        .hit-details {
-            border-right: 1px solid #ddd;
-            padding-right: 20px;
+        .hit-freetext {
+            margin-top: 20px;
         }
 
         .hit-freetext table {
@@ -114,6 +110,30 @@
         .hit a:hover {
             text-decoration: underline;
         }
+
+        .pagination {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .pagination button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .pagination button:disabled {
+            background: #f8f9fa;
+            cursor: not-allowed;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background: #f8f9fa;
+        }
     </style>
 </head>
 <body>
@@ -123,6 +143,16 @@
 </p>
 <h1>v-safe Search</h1>
 <input type="text" id="searchBox" class="search-box" placeholder="Search v-safe...">
+<div class="search-scope" style="margin: 10px 0 20px 0;">
+    <label style="margin-right: 20px;">
+        <input type="radio" name="searchScope" value="all" checked> 
+        Search all fields
+    </label>
+    <label>
+        <input type="radio" name="searchScope" value="freetext"> 
+        Search only in free text
+    </label>
+</div>
 
 <div class="container">
     <div class="facet-panel">
@@ -208,6 +238,7 @@
     <div>
         <div id="stats" class="stats"></div>
         <div id="hits" class="results"></div>
+        <div id="pagination" class="pagination"></div>
     </div>
 </div>
 
@@ -243,16 +274,22 @@
         MRC: ''
     };
 
+    let currentPage = 0;
+
     function constructURL(id) {
         return `vsafe/index.html?id=${id}`;
     }
 
     async function performSearch() {
         const query = document.getElementById('searchBox').value;
+        const searchScope = document.querySelector('input[name="searchScope"]:checked').value;
 
         try {
             const {hits, nbHits, facets} = await index.search(query, {
                 facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'CS', 'VE', 'MRC'],
+                restrictSearchableAttributes: searchScope === 'freetext' ? ['FT'] : undefined,
+                hitsPerPage: 20,
+                page: currentPage,
                 facetFilters: [
                     ...currentRefinements.MANU.map(value => `MANU:${value}`),
                     ...currentRefinements.SEX.map(value => `SEX:${value}`),
@@ -270,6 +307,7 @@
             });
 
             displayResults(hits, nbHits);
+            displayPagination(nbHits);
 
             if (facets) {
                 displayFacets('manufacturerFacets', facets.MANU, 'MANU');
@@ -299,9 +337,25 @@
             // Process FT field if it exists and is not an empty array
             const hasFreetextData = Array.isArray(hit.FT) && hit.FT.length > 0;
             
+            // Sort the FT array based on content priority
+            const sortedFT = hasFreetextData ? hit.FT.sort((a, b) => {
+                const [sroA, sdA] = a.split('|').map(val => val.trim());
+                const [sroB, sdB] = b.split('|').map(val => val.trim());
+                
+                // If A has SRO and B doesn't, A comes first
+                if (sroA && !sroB) return -1;
+                // If B has SRO and A doesn't, B comes first
+                if (!sroA && sroB) return 1;
+                // If both have or don't have SRO, check SD
+                if (sdA && !sdB) return -1;
+                if (!sdA && sdB) return 1;
+                // If all conditions are equal, keep original order
+                return 0;
+            }) : [];
+            
             return `
                 <div class="hit">
-                    <div class="hit-details">
+                    <div>
                         <div><strong>Registration Code:</strong> <a href="${constructURL(hit.ID)}" target="_blank">${hit.ID}</a></div>
                         <div><strong>Manufacturer:</strong> ${hit.MANU}</div>
                         <div><strong>Sex:</strong> ${hit.SEX || ''}</div>
@@ -325,7 +379,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                ${hasFreetextData ? hit.FT.map(ftString => {
+                                ${hasFreetextData ? sortedFT.map(ftString => {
                                     const [sro, sd, hcvo] = ftString.split('|').map(val => val.trim());
                                     return `
                                         <tr>
@@ -379,6 +433,39 @@
         container.innerHTML = facetHtml;
     }
 
+    function displayPagination(totalHits) {
+        const totalPages = Math.ceil(totalHits / 20);
+        const paginationDiv = document.getElementById('pagination');
+        
+        if (totalPages <= 1) {
+            paginationDiv.innerHTML = '';
+            return;
+        }
+
+        paginationDiv.innerHTML = `
+            <button onclick="changePage('prev')" ${currentPage === 0 ? 'disabled' : ''}>
+                Previous
+            </button>
+            <button disabled>
+                Page ${currentPage + 1} of ${totalPages}
+            </button>
+            <button onclick="changePage('next')" ${currentPage >= totalPages - 1 ? 'disabled' : ''}>
+                Next
+            </button>
+        `;
+    }
+
+    function changePage(direction) {
+        if (direction === 'prev' && currentPage > 0) {
+            currentPage--;
+        } else if (direction === 'next') {
+            currentPage++;
+        }
+        // Scroll to top of results
+        document.getElementById('searchBox').scrollIntoView({ behavior: 'smooth' });
+        performSearch();
+    }
+
     function toggleRefinement(facetName, value) {
         const index = currentRefinements[facetName].indexOf(value);
         if (index === -1) {
@@ -386,23 +473,35 @@
         } else {
             currentRefinements[facetName].splice(index, 1);
         }
+        currentPage = 0;
         performSearch();
     }
 
     function handleFacetSearch(facetName) {
         return function (event) {
             facetSearchValues[facetName] = event.target.value;
+            currentPage = 0;
             performSearch();
         };
     }
 
-    document.getElementById('searchBox').addEventListener('input', performSearch);
+    document.getElementById('searchBox').addEventListener('input', () => {
+        currentPage = 0;
+        performSearch();
+    });
     document.getElementById('ageSearch').addEventListener('input', handleFacetSearch('AGE'));
     document.getElementById('ptSearch').addEventListener('input', handleFacetSearch('PT'));
     document.getElementById('lltSearch').addEventListener('input', handleFacetSearch('LLT'));
     document.getElementById('nrSearch').addEventListener('input', handleFacetSearch('NR'));
     document.getElementById('csSearch').addEventListener('input', handleFacetSearch('CS'));
     document.getElementById('mrcSearch').addEventListener('input', handleFacetSearch('MRC'));
+
+    document.querySelectorAll('input[name="searchScope"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            currentPage = 0;
+            performSearch();
+        });
+    });
 
     performSearch();
 </script>
