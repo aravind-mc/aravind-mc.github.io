@@ -148,9 +148,13 @@
         <input type="radio" name="searchScope" value="all" checked> 
         Search all fields
     </label>
-    <label>
+    <label style="margin-right: 20px;">
         <input type="radio" name="searchScope" value="freetext"> 
         Search only in free text
+    </label>
+    <label>
+        <input type="radio" name="searchScope" value="pt"> 
+        Search only in Preferred Terms
     </label>
 </div>
 
@@ -287,7 +291,9 @@
         try {
             const {hits, nbHits, facets} = await index.search(query, {
                 facets: ['MANU', 'SEX', 'ND', 'MSO', 'AGE', 'PT', 'LLT', 'NR', 'DEP', 'CS', 'VE', 'MRC'],
-                restrictSearchableAttributes: searchScope === 'freetext' ? ['FT'] : undefined,
+                restrictSearchableAttributes: searchScope === 'freetext' ? ['FT'] : 
+                                            searchScope === 'pt' ? ['PT'] : 
+                                            undefined,
                 hitsPerPage: 20,
                 page: currentPage,
                 facetFilters: [
